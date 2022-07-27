@@ -1,0 +1,167 @@
+\begin{thebibliography}{25}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Auer et~al(2002)Auer, Cesa-Bianchi, and Fischer}]{Auer2002}
+Auer P, Cesa-Bianchi N, Fischer P (2002) Finite-time analysis of the multiarmed
+  bandit problem. Machine Learning 47(2):235--256,
+  \doi{10.1023/A:1013689704352},
+  \urlprefix\url{https://doi.org/10.1023/A:1013689704352}
+
+\bibitem[{Botvinick and Toussaint(2012)}]{PAI}
+Botvinick M, Toussaint M (2012) Planning as inference. Trends in Cognitive
+  Sciences 16(10):485 -- 488, \doi{https://doi.org/10.1016/j.tics.2012.08.006}
+
+\bibitem[{{Browne} et~al(2012){Browne}, {Powley}, {Whitehouse}, {Lucas},
+  {Cowling}, {Rohlfshagen}, {Tavener}, {Perez}, {Samothrakis}, and
+  {Colton}}]{6145622}
+{Browne} CB, {Powley} E, {Whitehouse} D, {Lucas} SM, {Cowling} PI,
+  {Rohlfshagen} P, {Tavener} S, {Perez} D, {Samothrakis} S, {Colton} S (2012) A
+  survey of {Monte Carlo} tree search methods. IEEE Transactions on
+  Computational Intelligence and AI in Games 4(1):1--43
+
+\bibitem[{Champion et~al(2021{\natexlab{a}})Champion, Bowman, and
+  Grze{\'{s}}}]{AITS_PRACTICE}
+Champion T, Bowman H, Grze{\'{s}} M (2021{\natexlab{a}}) Branching time active
+  inference: empirical study. arXiv
+
+\bibitem[{Champion et~al(2021{\natexlab{b}})Champion, Bowman, and
+  Grze{\'{s}}}]{AITS_THEORY}
+Champion T, Bowman H, Grze{\'{s}} M (2021{\natexlab{b}}) Branching time active
+  inference: the theory and its generality. arXiv
+
+\bibitem[{Champion et~al(2021{\natexlab{c}})Champion, Grześ, and
+  Bowman}]{AI_VMP}
+Champion T, Grześ M, Bowman H (2021{\natexlab{c}}) {Realizing Active Inference
+  in Variational Message Passing: The Outcome-Blind Certainty Seeker}. Neural
+  Computation 33(10):2762--2826, \doi{10.1162/neco_a_01422},
+  \urlprefix\url{https://doi.org/10.1162/neco\_a\_01422},
+  \eprint{https://direct.mit.edu/neco/article-pdf/33/10/2762/1963368/neco\_a\_01422.pdf}
+
+\bibitem[{Cullen et~al(2018)Cullen, Davey, Friston, and Moran}]{CULLEN2018809}
+Cullen M, Davey B, Friston KJ, Moran RJ (2018) Active inference in {OpenAI
+  Gym}: A paradigm for computational investigations into psychiatric illness.
+  Biological Psychiatry: Cognitive Neuroscience and Neuroimaging 3(9):809 --
+  818, \doi{https://doi.org/10.1016/j.bpsc.2018.06.010},
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S2451902218301617},
+  computational Methods and Modeling in Psychiatry
+
+\bibitem[{{Da Costa} et~al(2020){Da Costa}, Parr, Sajid, Veselic, Neacsu, and
+  Friston}]{AI_TUTO}
+{Da Costa} L, Parr T, Sajid N, Veselic S, Neacsu V, Friston K (2020) Active
+  inference on discrete state-spaces: A synthesis. Journal of Mathematical
+  Psychology 99:102,447, \doi{https://doi.org/10.1016/j.jmp.2020.102447},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0022249620300857}
+
+\bibitem[{FitzGerald et~al(2015)FitzGerald, Dolan, and Friston}]{dopamine}
+FitzGerald THB, Dolan RJ, Friston K (2015) Dopamine, reward learning, and
+  active inference. Frontiers in Computational Neuroscience 9:136,
+  \doi{10.3389/fncom.2015.00136},
+  \urlprefix\url{https://www.frontiersin.org/article/10.3389/fncom.2015.00136}
+
+\bibitem[{{Forney}(2001)}]{FFG_TUTO}
+{Forney} GD (2001) Codes on graphs: normal realizations. IEEE Transactions on
+  Information Theory 47(2):520--548
+
+\bibitem[{Fountas et~al(2020)Fountas, Sajid, Mediano, and
+  Friston}]{DeepAIwithMCMC}
+Fountas Z, Sajid N, Mediano PAM, Friston K (2020) Deep active inference agents
+  using {Monte-Carlo} methods. arXiv \eprint{2006.04176}
+
+\bibitem[{Fox et~al(2003)Fox, Hightower, Liao, Schulz, and
+  Borriello}]{BAYESIAN_FILTERING}
+Fox V, Hightower J, Liao L, Schulz D, Borriello G (2003) Bayesian filtering for
+  location estimation. IEEE Pervasive Computing 2(3):24--33,
+  \doi{10.1109/MPRV.2003.1228524}
+
+\bibitem[{Friston et~al(2016)Friston, FitzGerald, Rigoli, Schwartenbeck,
+  Doherty, and Pezzulo}]{FRISTON2016862}
+Friston K, FitzGerald T, Rigoli F, Schwartenbeck P, Doherty JO, Pezzulo G
+  (2016) Active inference and learning. Neuroscience \& Biobehavioral Reviews
+  68:862 -- 879, \doi{https://doi.org/10.1016/j.neubiorev.2016.06.022}
+
+\bibitem[{Friston et~al(2017{\natexlab{a}})Friston, FitzGerald, Rigoli,
+  Schwartenbeck, and Pezzulo}]{10.1162/NECO_a_00912}
+Friston K, FitzGerald T, Rigoli F, Schwartenbeck P, Pezzulo G
+  (2017{\natexlab{a}}) {Active Inference: A Process Theory}. Neural Computation
+  29(1):1--49, \doi{10.1162/NECO_a_00912},
+  \urlprefix\url{https://doi.org/10.1162/NECO\_a\_00912},
+  \eprint{https://direct.mit.edu/neco/article-pdf/29/1/1/984132/neco\_a\_00912.pdf}
+
+\bibitem[{Friston et~al(2020)Friston, Costa, Hafner, Hesp, and
+  Parr}]{sophisticated}
+Friston K, Costa LD, Hafner D, Hesp C, Parr T (2020) Sophisticated inference.
+  \eprint{2006.04120}
+
+\bibitem[{Friston et~al(2017{\natexlab{b}})Friston, Parr, and
+  de~Vries}]{believe}
+Friston KJ, Parr T, de~Vries B (2017{\natexlab{b}}) The graphical brain: Belief
+  propagation and active inference. Network Neuroscience 1(4):381--414,
+  \doi{10.1162/NETN\_a\_00018},
+  \urlprefix\url{https://doi.org/10.1162/NETN_a_00018},
+  \eprint{https://doi.org/10.1162/NETN_a_00018}
+
+\bibitem[{Itti and Baldi(2009)}]{bayes_surprise}
+Itti L, Baldi P (2009) Bayesian surprise attracts human attention. Vision
+  Research 49(10):1295 -- 1306,
+  \doi{https://doi.org/10.1016/j.visres.2008.09.007},
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0042698908004380},
+  visual Attention: Psychophysics, electrophysiology and neuroimaging
+
+\bibitem[{Millidge(2019)}]{cart_pole}
+Millidge B (2019) Combining active inference and hierarchical predictive
+  coding: A tutorial introduction and case study. PsyArXiv
+  \doi{10.31234/osf.io/kf6wc},
+  \urlprefix\url{https://doi.org/10.31234/osf.io/kf6wc}
+
+\bibitem[{Pezzato et~al(2020)Pezzato, Hernandez, and Wisse}]{pezzato2020active}
+Pezzato C, Hernandez C, Wisse M (2020) Active inference and behavior trees for
+  reactive action planning and execution in robotics. arXiv \eprint{2011.09756}
+
+\bibitem[{Rafetseder et~al(2013)Rafetseder, Schwitalla, and
+  Perner}]{rafetseder2013counterfactual}
+Rafetseder E, Schwitalla M, Perner J (2013) Counterfactual reasoning: From
+  childhood to adulthood. Journal of experimental child psychology
+  114(3):389--404
+
+\bibitem[{Sancaktar et~al(2020)Sancaktar, van Gerven, and
+  Lanillos}]{sancaktar2020endtoend}
+Sancaktar C, van Gerven M, Lanillos P (2020) End-to-end pixel-based deep active
+  inference for body perception and action. arXiv \eprint{2001.05847}
+
+\bibitem[{Schwartenbeck et~al(2018)Schwartenbeck, Passecker, Hauser,
+  FitzGerald, Kronbichler, and Friston}]{curiosity}
+Schwartenbeck P, Passecker J, Hauser TU, FitzGerald THB, Kronbichler M, Friston
+  K (2018) Computational mechanisms of curiosity and goal-directed exploration.
+  bioRxiv \doi{10.1101/411272},
+  \urlprefix\url{https://www.biorxiv.org/content/early/2018/09/07/411272},
+  \eprint{https://www.biorxiv.org/content/early/2018/09/07/411272.full.pdf}
+
+\bibitem[{Silver et~al(2016)Silver, Huang, Maddison, Guez, Sifre, van~den
+  Driessche, Schrittwieser, Antonoglou, Panneershelvam, Lanctot, Dieleman,
+  Grewe, Nham, Kalchbrenner, Sutskever, Lillicrap, Leach, Kavukcuoglu, Graepel,
+  and Hassabis}]{Go}
+Silver D, Huang A, Maddison CJ, Guez A, Sifre L, van~den Driessche G,
+  Schrittwieser J, Antonoglou I, Panneershelvam V, Lanctot M, Dieleman S, Grewe
+  D, Nham J, Kalchbrenner N, Sutskever I, Lillicrap TP, Leach M, Kavukcuoglu K,
+  Graepel T, Hassabis D (2016) Mastering the game of go with deep neural
+  networks and tree search. Nature 529(7587):484--489,
+  \doi{10.1038/nature16961},
+  \urlprefix\url{https://doi.org/10.1038/nature16961}
+
+\bibitem[{Winn and Bishop(2005)}]{VMP_TUTO}
+Winn J, Bishop C (2005) Variational message passing. Journal of Machine
+  Learning Research 6:661--694
+
+\bibitem[{Çatal et~al(2020)Çatal, Verbelen, Nauta, Boom, and
+  Dhoedt}]{catal2020learning}
+Çatal O, Verbelen T, Nauta J, Boom CD, Dhoedt B (2020) Learning perception and
+  planning with deep active inference. arXiv \eprint{2001.11841}
+
+\end{thebibliography}

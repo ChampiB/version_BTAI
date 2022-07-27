@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+    \PYG{c+c1}{\PYGZsh{} Create the GUI for analysis.}
+    \PYG{n}{gui} \PYG{o}{=} \PYG{n}{GUI}\PYG{p}{(}\PYG{n}{env}\PYG{p}{,} \PYG{n}{agent}\PYG{p}{)}
+    \PYG{n}{gui}\PYG{o}{.}\PYG{n}{loop}\PYG{p}{()}
+\end{Verbatim}

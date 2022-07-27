@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} Create the initial temporal slice.}
+\PYG{n}{ts} \PYG{o}{=} \PYG{n}{ts\PYGZus{}builder}\PYG{o}{.}\PYG{n}{build}\PYG{p}{()}
+\end{Verbatim}

@@ -1,0 +1,113 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\bibstyle{spbasic}
+\citation{AITS_THEORY,AITS_PRACTICE}
+\citation{FRISTON2016862,AI_TUTO,AI_VMP}
+\citation{6145622}
+\citation{VMP_TUTO}
+\citation{FFG_TUTO}
+\citation{BAYESIAN_FILTERING}
+\providecommand \oddpage@label [2]{}
+\citation{FRISTON2016862,AI_TUTO,AI_VMP}
+\citation{PAI}
+\citation{FRISTON2016862}
+\citation{bayes_surprise}
+\citation{curiosity}
+\citation{dopamine}
+\citation{DeepAIwithMCMC}
+\citation{pezzato2020active,sancaktar2020endtoend}
+\citation{catal2020learning}
+\citation{CULLEN2018809}
+\citation{cart_pole}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{2}{section.1}\protected@file@percent }
+\citation{6145622}
+\citation{Auer2002}
+\citation{Go}
+\citation{DeepAIwithMCMC}
+\citation{AITS_THEORY,AITS_PRACTICE}
+\citation{VMP_TUTO}
+\citation{FFG_TUTO}
+\citation{BAYESIAN_FILTERING}
+\citation{believe}
+\citation{AITS_THEORY}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Branching Time Active Inference with Bayesian Filtering ($\text  {BTAI}_{\text  {BF}}$)}{5}{section.2}\protected@file@percent }
+\newlabel{sec:ai_ts}{{2}{5}{}{section.2}{}}
+\citation{6145622}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces  This figure illustrates the expandable generative model used by the BTAI with BF agent. The future is a tree like generative model whose branches correspond to the policies considered by the agent. The branches can be dynamically expanded during planning and the nodes in light gray represent possible expansions of the current generative model.\relax }}{6}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:BTAI_BF}{{1}{6}{This figure illustrates the expandable generative model used by the BTAI with BF agent. The future is a tree like generative model whose branches correspond to the policies considered by the agent. The branches can be dynamically expanded during planning and the nodes in light gray represent possible expansions of the current generative model.\relax }{figure.caption.1}{}}
+\newlabel{eq:initial_beliefs}{{1}{6}{}{equation.2.1}{}}
+\newlabel{eq:UCT}{{2}{7}{}{equation.2.2}{}}
+\citation{10.1162/NECO_a_00912}
+\newlabel{eq:prediction}{{3}{8}{}{equation.2.3}{}}
+\newlabel{eq:efe}{{4}{8}{}{equation.2.4}{}}
+\newlabel{eq:backprop}{{5}{9}{}{equation.2.5}{}}
+\newlabel{eq:backprop_n}{{6}{9}{}{equation.2.6}{}}
+\newlabel{eq:empirical_prior}{{7}{9}{}{equation.2.7}{}}
+\newlabel{eq:new_root_beliefs}{{8}{10}{}{equation.2.8}{}}
+\newlabel{algo:BTAI_BF_cycles}{{1}{11}{}{algocfline.1}{}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces BTAI with BF: action-perception cycles (with relevant equations indicated in round brackets).\relax }}{11}{algocf.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Results}{11}{section.3}\protected@file@percent }
+\newlabel{sec:results}{{3}{11}{}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Deep reward environment}{12}{subsection.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces  This figure illustrates a type of deep reward environment where $S_0$ represents the initial state, $S_b$ represents a bad state, $S_g$ represents a good state, and $S^i_j$ is the $j$-th state of the $i$-th good path. Also, the longest path in the above picture is the first good path whose length $L_1$ is equal to two. Importantly, the longest path corresponds to the only good path that does not turn out to be a trap.\relax }}{13}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:graph_env}{{2}{13}{This figure illustrates a type of deep reward environment where $S_0$ represents the initial state, $S_b$ represents a bad state, $S_g$ represents a good state, and $S^i_j$ is the $j$-th state of the $i$-th good path. Also, the longest path in the above picture is the first good path whose length $L_1$ is equal to two. Importantly, the longest path corresponds to the only good path that does not turn out to be a trap.\relax }{figure.caption.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}BTAI with VMP versus BTAI with BF}{13}{subsection.3.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces This table presents the results of BTAI with BF on various deep reward environments. Recall, that $n$ and $m$ are the number of good and bad paths, respectively. $L_i$ is the length of the $i$-th good path. $P(goal)$ reports the probability of reaching the goal state (i.e., the agent successfully picked the longest path), and $P(bad)$ reports the probability of reaching the bad state (i.e., either by picking a bad action directly of by falling into a trap).\relax }}{14}{table.caption.3}\protected@file@percent }
+\newlabel{tab:1}{{1}{14}{This table presents the results of BTAI with BF on various deep reward environments. Recall, that $n$ and $m$ are the number of good and bad paths, respectively. $L_i$ is the length of the $i$-th good path. $P(goal)$ reports the probability of reaching the goal state (i.e., the agent successfully picked the longest path), and $P(bad)$ reports the probability of reaching the bad state (i.e., either by picking a bad action directly of by falling into a trap).\relax }{table.caption.3}{}}
+\citation{believe}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces This table presents the results of BTAI with VMP on various deep reward environments. Recall, that $n$ and $m$ are the number of good and bad paths, respectively. $L_i$ is the length of the $i$-th good path. $P(goal)$ reports the probability of reaching the goal state (i.e., the agent successfully picked the longest path), and $P(bad)$ reports the probability of reaching the bad state (i.e., either by picking a bad action directly of by falling into a trap).\relax }}{15}{table.caption.4}\protected@file@percent }
+\newlabel{tab:2}{{2}{15}{This table presents the results of BTAI with VMP on various deep reward environments. Recall, that $n$ and $m$ are the number of good and bad paths, respectively. $L_i$ is the length of the $i$-th good path. $P(goal)$ reports the probability of reaching the goal state (i.e., the agent successfully picked the longest path), and $P(bad)$ reports the probability of reaching the bad state (i.e., either by picking a bad action directly of by falling into a trap).\relax }{table.caption.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}{\color {blue}\uwave {Discussion}}}{15}{section.4}\protected@file@percent }
+\newlabel{sec:discussion}{{4}{15}{BTAI with VMP versus BTAI with BF}{section.4}{}}
+\citation{sophisticated}
+\citation{AITS_THEORY,AITS_PRACTICE}
+\citation{BAYESIAN_FILTERING}
+\citation{AI_VMP,VMP_TUTO}
+\citation{AITS_THEORY,AITS_PRACTICE}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion and future works}{17}{section.5}\protected@file@percent }
+\newlabel{sec:conclusion}{{5}{17}{BTAI with VMP versus BTAI with BF}{section.5}{}}
+\citation{rafetseder2013counterfactual}
+\citation{believe}
+\bibdata{references}
+\bibcite{Auer2002}{{1}{2002}{{Auer et~al}}{{Auer, Cesa-Bianchi, and Fischer}}}
+\bibcite{PAI}{{2}{2012}{{Botvinick and Toussaint}}{{}}}
+\bibcite{6145622}{{3}{2012}{{{Browne} et~al}}{{{Browne}, {Powley}, {Whitehouse}, {Lucas}, {Cowling}, {Rohlfshagen}, {Tavener}, {Perez}, {Samothrakis}, and {Colton}}}}
+\bibcite{AITS_PRACTICE}{{4}{2021{a}}{{Champion et~al}}{{Champion, Bowman, and Grze{\'{s}}}}}
+\bibcite{AITS_THEORY}{{5}{2021{b}}{{Champion et~al}}{{Champion, Bowman, and Grze{\'{s}}}}}
+\bibcite{AI_VMP}{{6}{2021{c}}{{Champion et~al}}{{Champion, Grześ, and Bowman}}}
+\bibcite{CULLEN2018809}{{7}{2018}{{Cullen et~al}}{{Cullen, Davey, Friston, and Moran}}}
+\bibcite{AI_TUTO}{{8}{2020}{{{Da Costa} et~al}}{{{Da Costa}, Parr, Sajid, Veselic, Neacsu, and Friston}}}
+\bibcite{dopamine}{{9}{2015}{{FitzGerald et~al}}{{FitzGerald, Dolan, and Friston}}}
+\bibcite{FFG_TUTO}{{10}{2001}{{Forney}}{{}}}
+\bibcite{DeepAIwithMCMC}{{11}{2020}{{Fountas et~al}}{{Fountas, Sajid, Mediano, and Friston}}}
+\bibcite{BAYESIAN_FILTERING}{{12}{2003}{{Fox et~al}}{{Fox, Hightower, Liao, Schulz, and Borriello}}}
+\bibcite{FRISTON2016862}{{13}{2016}{{Friston et~al}}{{Friston, FitzGerald, Rigoli, Schwartenbeck, Doherty, and Pezzulo}}}
+\bibcite{10.1162/NECO_a_00912}{{14}{2017{a}}{{Friston et~al}}{{Friston, FitzGerald, Rigoli, Schwartenbeck, and Pezzulo}}}
+\bibcite{sophisticated}{{15}{2020}{{Friston et~al}}{{Friston, Costa, Hafner, Hesp, and Parr}}}
+\bibcite{believe}{{16}{2017{b}}{{Friston et~al}}{{Friston, Parr, and de~Vries}}}
+\bibcite{bayes_surprise}{{17}{2009}{{Itti and Baldi}}{{}}}
+\bibcite{cart_pole}{{18}{2019}{{Millidge}}{{}}}
+\bibcite{pezzato2020active}{{19}{2020}{{Pezzato et~al}}{{Pezzato, Hernandez, and Wisse}}}
+\bibcite{rafetseder2013counterfactual}{{20}{2013}{{Rafetseder et~al}}{{Rafetseder, Schwitalla, and Perner}}}
+\bibcite{sancaktar2020endtoend}{{21}{2020}{{Sancaktar et~al}}{{Sancaktar, van Gerven, and Lanillos}}}
+\bibcite{curiosity}{{22}{2018}{{Schwartenbeck et~al}}{{Schwartenbeck, Passecker, Hauser, FitzGerald, Kronbichler, and Friston}}}
+\bibcite{Go}{{23}{2016}{{Silver et~al}}{{Silver, Huang, Maddison, Guez, Sifre, van~den Driessche, Schrittwieser, Antonoglou, Panneershelvam, Lanctot, Dieleman, Grewe, Nham, Kalchbrenner, Sutskever, Lillicrap, Leach, Kavukcuoglu, Graepel, and Hassabis}}}
+\bibcite{VMP_TUTO}{{24}{2005}{{Winn and Bishop}}{{}}}
+\bibcite{catal2020learning}{{25}{2020}{{Çatal et~al}}{{Çatal, Verbelen, Nauta, Boom, and Dhoedt}}}

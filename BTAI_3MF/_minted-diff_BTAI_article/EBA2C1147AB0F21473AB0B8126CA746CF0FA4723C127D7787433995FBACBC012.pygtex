@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} Create the parameters of the likelihood mapping for the shape variable.}
+\PYG{n}{a} \PYG{o}{=} \PYG{p}{\PYGZob{}\PYGZcb{}}
+\PYG{n}{a}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}O\PYGZus{}shape\PYGZdq{}}\PYG{p}{]} \PYG{o}{=} \PYG{n}{torch}\PYG{o}{.}\PYG{n}{eye}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{)}
+\end{Verbatim}

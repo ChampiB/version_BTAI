@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} Create the temporal slice builder.}
+\PYG{n}{ts\PYGZus{}builder} \PYG{o}{=} \PYG{n}{TemporalSliceBuilder}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}A\PYGZus{}1\PYGZdq{}}\PYG{p}{,} \PYG{n}{env}\PYG{o}{.}\PYG{n}{n\PYGZus{}actions}\PYG{p}{)}
+\end{Verbatim}

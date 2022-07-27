@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} Define the parameters of the generative model.}
+\PYG{n}{a} \PYG{o}{=} \PYG{n}{env}\PYG{o}{.}\PYG{n}{a}\PYG{p}{()}
+\PYG{n}{b} \PYG{o}{=} \PYG{n}{env}\PYG{o}{.}\PYG{n}{b}\PYG{p}{()}
+\PYG{n}{c} \PYG{o}{=} \PYG{n}{env}\PYG{o}{.}\PYG{n}{c}\PYG{p}{()}
+\PYG{n}{d} \PYG{o}{=} \PYG{n}{env}\PYG{o}{.}\PYG{n}{d}\PYG{p}{(}\PYG{n}{uniform}\PYG{o}{=}\PYG{n+nb+bp}{True}\PYG{p}{)}
+\end{Verbatim}

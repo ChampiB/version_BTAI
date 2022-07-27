@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} Create the parameters of the prior over the latent variable shape.}
+\PYG{n}{d} \PYG{o}{=} \PYG{p}{\PYGZob{}\PYGZcb{}}
+\PYG{n}{d}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}S\PYGZus{}shape\PYGZdq{}}\PYG{p}{]} \PYG{o}{=} \PYG{n}{torch}\PYG{o}{.}\PYG{n}{tensor}\PYG{p}{([}\PYG{l+m+mf}{0.2}\PYG{p}{,} \PYG{l+m+mf}{0.3}\PYG{p}{,} \PYG{l+m+mf}{0.5}\PYG{p}{])}
+\end{Verbatim}

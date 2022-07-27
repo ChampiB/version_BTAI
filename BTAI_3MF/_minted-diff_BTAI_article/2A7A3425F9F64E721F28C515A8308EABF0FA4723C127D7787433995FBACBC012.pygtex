@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} Create the environment.}
+\PYG{n}{env} \PYG{o}{=} \PYG{n}{dSpritesEnv}\PYG{p}{(}\PYG{n}{granularity}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{repeat}\PYG{o}{=}\PYG{l+m+mi}{8}\PYG{p}{)}
+\PYG{n}{env} \PYG{o}{=} \PYG{n}{dSpritesPreProcessingWrapper}\PYG{p}{(}\PYG{n}{env}\PYG{p}{)}
+\end{Verbatim}

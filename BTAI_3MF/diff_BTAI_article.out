@@ -1,0 +1,17 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Theory of BTAI3MF}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Temporal slice}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Generative model}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Belief updates: the inference and prediction \(IP\) algorithm}{section.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Inference step}{subsection.2.3}% 6
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Prediction step}{subsection.2.3}% 7
+\BOOKMARK [2][-]{subsection.2.4}{Expected Free Energy}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.5}{Planning: the MCTS algorithm}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.6}{Action selection}{section.2}% 10
+\BOOKMARK [2][-]{subsection.2.7}{Closing the action-perception cycle}{section.2}% 11
+\BOOKMARK [1][-]{section.3}{Results}{}% 12
+\BOOKMARK [2][-]{subsection.3.1}{dSprites Environment}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.2}{BTAIVMP modeling approach and results}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.3}{BTAIBF modeling approach and results}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.4}{BTAI3MF modeling approach and results}{section.3}% 16
+\BOOKMARK [1][-]{section.4}{Conclusion}{}% 17

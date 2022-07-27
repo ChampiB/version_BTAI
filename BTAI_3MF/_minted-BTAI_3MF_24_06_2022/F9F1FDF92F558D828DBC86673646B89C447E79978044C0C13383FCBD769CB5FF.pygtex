@@ -1,0 +1,16 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} Create the agent.}
+\PYG{n}{agent} \PYG{o}{=} \PYG{n}{BTAI\PYGZus{}3MF}\PYG{p}{(}\PYG{n}{ts}\PYG{p}{,} \PYG{n}{max\PYGZus{}planning\PYGZus{}steps}\PYG{o}{=}\PYG{l+m+mi}{150}\PYG{p}{,} \PYG{n}{exp\PYGZus{}const}\PYG{o}{=}\PYG{l+m+mf}{2.4}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} Implement the action\PYGZhy{}perception cycles.}
+\PYG{n}{n\PYGZus{}trials} \PYG{o}{=} \PYG{l+m+mi}{100}
+\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n}{n\PYGZus{}trials}\PYG{p}{):}
+    \PYG{n}{obs} \PYG{o}{=} \PYG{n}{env}\PYG{o}{.}\PYG{n}{reset}\PYG{p}{()}
+    \PYG{n}{env}\PYG{o}{.}\PYG{n}{render}\PYG{p}{()}
+    \PYG{n}{agent}\PYG{o}{.}\PYG{n}{reset}\PYG{p}{(}\PYG{n}{obs}\PYG{p}{)}
+    \PYG{k}{while} \PYG{o+ow}{not} \PYG{n}{env}\PYG{o}{.}\PYG{n}{done}\PYG{p}{():}
+        \PYG{n}{action} \PYG{o}{=} \PYG{n}{agent}\PYG{o}{.}\PYG{n}{step}\PYG{p}{()}
+        \PYG{n}{obs} \PYG{o}{=} \PYG{n}{env}\PYG{o}{.}\PYG{n}{execute}\PYG{p}{(}\PYG{n}{action}\PYG{p}{)}
+        \PYG{n}{env}\PYG{o}{.}\PYG{n}{render}\PYG{p}{()}
+        \PYG{n}{agent}\PYG{o}{.}\PYG{n}{update}\PYG{p}{(}\PYG{n}{action}\PYG{p}{,} \PYG{n}{obs}\PYG{p}{)}
+\end{Verbatim}

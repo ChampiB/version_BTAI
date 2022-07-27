@@ -1,0 +1,189 @@
+\begin{thebibliography}{31}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Botella et~al(2001)Botella, Suero, and Barriopedro}]{PMID:11766936}
+Botella J, Suero M, Barriopedro M (2001) A model of the formation of illusory
+  conjunctions in the time domain. Journal of experimental psychology Human
+  perception and performance 27(6):1452—1467,
+  \doi{10.1037//0096-1523.27.6.1452},
+  \urlprefix\url{https://doi.org/10.1037//0096-1523.27.6.1452}
+
+\bibitem[{Botvinick and Toussaint(2012)}]{PAI}
+Botvinick M, Toussaint M (2012) Planning as inference. Trends in Cognitive
+  Sciences 16(10):485 -- 488, \doi{https://doi.org/10.1016/j.tics.2012.08.006}
+
+\bibitem[{Bowman and Wyble(2007)}]{bowman2007simultaneous}
+Bowman H, Wyble B (2007) The simultaneous type, serial token model of temporal
+  attention and working memory. Psychological review 114(1):38
+
+\bibitem[{{Browne} et~al(2012){Browne}, {Powley}, {Whitehouse}, {Lucas},
+  {Cowling}, {Rohlfshagen}, {Tavener}, {Perez}, {Samothrakis}, and
+  {Colton}}]{MCTS}
+{Browne} CB, {Powley} E, {Whitehouse} D, {Lucas} SM, {Cowling} PI,
+  {Rohlfshagen} P, {Tavener} S, {Perez} D, {Samothrakis} S, {Colton} S (2012) A
+  survey of monte carlo tree search methods. IEEE Transactions on Computational
+  Intelligence and AI in Games 4(1):1--43
+
+\bibitem[{Champion et~al(2021{\natexlab{a}})Champion, Grze{\'{s}}, and
+  Bowman}]{BTAI_BF}
+Champion T, Grze{\'{s}} M, Bowman H (2021{\natexlab{a}}) {Branching Time Active
+  Inference with Bayesian Filtering}
+
+\bibitem[{Champion et~al(2021{\natexlab{b}})Champion, Grześ, and
+  Bowman}]{AI_VMP}
+Champion T, Grześ M, Bowman H (2021{\natexlab{b}}) {Realizing Active Inference
+  in Variational Message Passing: The Outcome-Blind Certainty Seeker}. Neural
+  Computation 33(10):2762--2826, \doi{10.1162/neco_a_01422},
+  \urlprefix\url{https://doi.org/10.1162/neco\_a\_01422},
+  \eprint{https://direct.mit.edu/neco/article-pdf/33/10/2762/1963368/neco\_a\_01422.pdf}
+
+\bibitem[{Champion et~al(2022{\natexlab{a}})Champion, Bowman, and
+  Grześ}]{AITS_PRACTICE}
+Champion T, Bowman H, Grześ M (2022{\natexlab{a}}) Branching time active
+  inference: Empirical study and complexity class analysis. Neural Networks
+  \doi{https://doi.org/10.1016/j.neunet.2022.05.010},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0893608022001824}
+
+\bibitem[{Champion et~al(2022{\natexlab{b}})Champion, {Da Costa}, Bowman, and
+  Grześ}]{AITS_THEORY}
+Champion T, {Da Costa} L, Bowman H, Grześ M (2022{\natexlab{b}}) Branching
+  time active inference: The theory and its generality. Neural Networks
+  151:295--316, \doi{https://doi.org/10.1016/j.neunet.2022.03.036},
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0893608022001149}
+
+\bibitem[{Costa et~al(2020)Costa, Parr, Sajid, Veselic, Neacsu, and
+  Friston}]{AI_TUTO}
+Costa LD, Parr T, Sajid N, Veselic S, Neacsu V, Friston K (2020) Active
+  inference on discrete state-spaces: a synthesis. \eprint{2001.07203}
+
+\bibitem[{Cullen et~al(2018)Cullen, Davey, Friston, and Moran}]{CULLEN2018809}
+Cullen M, Davey B, Friston KJ, Moran RJ (2018) Active inference in openai gym:
+  A paradigm for computational investigations into psychiatric illness.
+  Biological Psychiatry: Cognitive Neuroscience and Neuroimaging 3(9):809 --
+  818, \doi{https://doi.org/10.1016/j.bpsc.2018.06.010},
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S2451902218301617},
+  computational Methods and Modeling in Psychiatry
+
+\bibitem[{Doersch(2016)}]{VAE}
+Doersch C (2016) Tutorial on variational autoencoders. \eprint{1606.05908}
+
+\bibitem[{FitzGerald et~al(2015)FitzGerald, Dolan, and Friston}]{dopamine}
+FitzGerald THB, Dolan RJ, Friston K (2015) Dopamine, reward learning, and
+  active inference. Frontiers in Computational Neuroscience 9:136,
+  \doi{10.3389/fncom.2015.00136},
+  \urlprefix\url{https://www.frontiersin.org/article/10.3389/fncom.2015.00136}
+
+\bibitem[{Fountas et~al(2020)Fountas, Sajid, Mediano, and
+  Friston}]{DeepAIwithMCMC}
+Fountas Z, Sajid N, Mediano PAM, Friston K (2020) Deep active inference agents
+  using {Monte-Carlo} methods. \eprint{2006.04176}
+
+\bibitem[{Fox et~al(2003)Fox, Hightower, Liao, Schulz, and
+  Borriello}]{BAYESIAN_FILTERING}
+Fox V, Hightower J, Liao L, Schulz D, Borriello G (2003) Bayesian filtering for
+  location estimation. IEEE Pervasive Computing 2(3):24--33,
+  \doi{10.1109/MPRV.2003.1228524}
+
+\bibitem[{Friston et~al(2016)Friston, FitzGerald, Rigoli, Schwartenbeck,
+  Doherty, and Pezzulo}]{FRISTON2016862}
+Friston K, FitzGerald T, Rigoli F, Schwartenbeck P, Doherty JO, Pezzulo G
+  (2016) Active inference and learning. Neuroscience \& Biobehavioral Reviews
+  68:862 -- 879, \doi{https://doi.org/10.1016/j.neubiorev.2016.06.022}
+
+\bibitem[{Friston et~al(2017)Friston, Parr, and de~Vries}]{believe}
+Friston KJ, Parr T, de~Vries B (2017) The graphical brain: Belief propagation
+  and active inference. Network Neuroscience 1(4):381--414,
+  \doi{10.1162/NETN\_a\_00018},
+  \urlprefix\url{https://doi.org/10.1162/NETN_a_00018},
+  \eprint{https://doi.org/10.1162/NETN_a_00018}
+
+\bibitem[{Itti and Baldi(2009)}]{bayes_surprise}
+Itti L, Baldi P (2009) Bayesian surprise attracts human attention. Vision
+  Research 49(10):1295 -- 1306,
+  \doi{https://doi.org/10.1016/j.visres.2008.09.007},
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0042698908004380},
+  visual Attention: Psychophysics, electrophysiology and neuroimaging
+
+\bibitem[{Itti et~al(1998)Itti, Koch, and Niebur}]{730558}
+Itti L, Koch C, Niebur E (1998) A model of saliency-based visual attention for
+  rapid scene analysis. IEEE Transactions on Pattern Analysis and Machine
+  Intelligence 20(11):1254--1259, \doi{10.1109/34.730558}
+
+\bibitem[{Kschischang et~al(2001)Kschischang, Frey, and
+  Loeliger}]{belief_propagation}
+Kschischang FR, Frey BJ, Loeliger HA (2001) Factor graphs and the sum-product
+  algorithm. IEEE Transactions on information theory 47(2):498--519
+
+\bibitem[{Matthey et~al(2017)Matthey, Higgins, Hassabis, and
+  Lerchner}]{dsprites17}
+Matthey L, Higgins I, Hassabis D, Lerchner A (2017) dsprites: Disentanglement
+  testing sprites dataset. https://github.com/deepmind/dsprites-dataset/
+
+\bibitem[{Millidge(2019)}]{cart_pole}
+Millidge B (2019) Combining active inference and hierarchical predictive
+  coding: A tutorial introduction and case study.
+  \urlprefix\url{https://doi.org/10.31234/osf.io/kf6wc}
+
+\bibitem[{O'Reilly and Rudy(2001)}]{o2001conjunctive}
+O'Reilly RC, Rudy JW (2001) Conjunctive representations in learning and memory:
+  principles of cortical and hippocampal function. Psychological review
+  108(2):311
+
+\bibitem[{Pezzato et~al(2020)Pezzato, Hernandez, and Wisse}]{pezzato2020active}
+Pezzato C, Hernandez C, Wisse M (2020) Active inference and behavior trees for
+  reactive action planning and execution in robotics. \eprint{2011.09756}
+
+\bibitem[{Ren and Krogh(2002)}]{STATES_AGGREG}
+Ren Z, Krogh B (2002) State aggregation in {Markov} decision processes. In:
+  Proceedings of the 41st IEEE Conference on Decision and Control, 2002.,
+  vol~4, pp 3819--3824 vol.4, \doi{10.1109/CDC.2002.1184960}
+
+\bibitem[{Sajid et~al(2021)Sajid, Ball, Parr, and
+  Friston}]{10.1162/neco_a_01357}
+Sajid N, Ball PJ, Parr T, Friston KJ (2021) {Active Inference: Demystified and
+  Compared}. Neural Computation 33(3):674--712, \doi{10.1162/neco_a_01357},
+  \urlprefix\url{https://doi.org/10.1162/neco\_a\_01357},
+  \eprint{https://direct.mit.edu/neco/article-pdf/33/3/674/1889396/neco\_a\_01357.pdf}
+
+\bibitem[{Sancaktar et~al(2020)Sancaktar, van Gerven, and
+  Lanillos}]{sancaktar2020endtoend}
+Sancaktar C, van Gerven M, Lanillos P (2020) End-to-end pixel-based deep active
+  inference for body perception and action. \eprint{2001.05847}
+
+\bibitem[{Schwartenbeck et~al(2018)Schwartenbeck, Passecker, Hauser,
+  FitzGerald, Kronbichler, and Friston}]{curiosity}
+Schwartenbeck P, Passecker J, Hauser TU, FitzGerald THB, Kronbichler M, Friston
+  K (2018) Computational mechanisms of curiosity and goal-directed exploration.
+  bioRxiv \doi{10.1101/411272},
+  \urlprefix\url{https://www.biorxiv.org/content/early/2018/09/07/411272},
+  \eprint{https://www.biorxiv.org/content/early/2018/09/07/411272.full.pdf}
+
+\bibitem[{Uhlhaas et~al(2009)Uhlhaas, Pipa, Lima, Melloni, Neuenschwander,
+  Nikoli{\'c}, and Singer}]{uhlhaas2009neural}
+Uhlhaas P, Pipa G, Lima B, Melloni L, Neuenschwander S, Nikoli{\'c} D, Singer W
+  (2009) Neural synchrony in cortical networks: history, concept and current
+  status. Frontiers in integrative neuroscience 3:17
+
+\bibitem[{Winn and Bishop(2005)}]{VMP_TUTO}
+Winn J, Bishop C (2005) Variational message passing. Journal of Machine
+  Learning Research 6:661--694
+
+\bibitem[{Yedidia(2011)}]{BP_and_DC}
+Yedidia JS (2011) Message-passing algorithms for inference and optimization.
+  Journal of Statistical Physics 145(4):860--890,
+  \doi{10.1007/s10955-011-0384-7},
+  \urlprefix\url{https://doi.org/10.1007/s10955-011-0384-7}
+
+\bibitem[{Çatal et~al(2020)Çatal, Verbelen, Nauta, Boom, and
+  Dhoedt}]{catal2020learning}
+Çatal O, Verbelen T, Nauta J, Boom CD, Dhoedt B (2020) Learning perception and
+  planning with deep active inference. \eprint{2001.11841}
+
+\end{thebibliography}

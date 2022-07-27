@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} Add the latent states of the model to the temporal slice.}
+\PYG{n}{ts\PYGZus{}builder}\PYG{o}{.}\PYG{n}{add\PYGZus{}state}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}S\PYGZus{}pos\PYGZus{}x\PYGZdq{}}\PYG{p}{,} \PYG{n}{d}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}S\PYGZus{}pos\PYGZus{}x\PYGZdq{}}\PYG{p}{])} \PYGZbs{}
+    \PYG{o}{.}\PYG{n}{add\PYGZus{}state}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}S\PYGZus{}pos\PYGZus{}y\PYGZdq{}}\PYG{p}{,} \PYG{n}{d}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}S\PYGZus{}pos\PYGZus{}y\PYGZdq{}}\PYG{p}{])} \PYGZbs{}
+    \PYG{o}{.}\PYG{n}{add\PYGZus{}state}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}S\PYGZus{}shape\PYGZdq{}}\PYG{p}{,} \PYG{n}{d}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}S\PYGZus{}shape\PYGZdq{}}\PYG{p}{])} \PYGZbs{}
+    \PYG{o}{.}\PYG{n}{add\PYGZus{}state}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}S\PYGZus{}scale\PYGZdq{}}\PYG{p}{,} \PYG{n}{d}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}S\PYGZus{}scale\PYGZdq{}}\PYG{p}{])} \PYGZbs{}
+    \PYG{o}{.}\PYG{n}{add\PYGZus{}state}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}S\PYGZus{}orientation\PYGZdq{}}\PYG{p}{,} \PYG{n}{d}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}S\PYGZus{}orientation\PYGZdq{}}\PYG{p}{])}
+\end{Verbatim}

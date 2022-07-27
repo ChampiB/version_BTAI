@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} Define the prior preferences of the temporal slice.}
+\PYG{n}{ts\PYGZus{}builder}\PYG{o}{.}\PYG{n}{add\PYGZus{}preference}\PYG{p}{([}\PYG{l+s+s2}{\PYGZdq{}O\PYGZus{}pos\PYGZus{}x\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}O\PYGZus{}pos\PYGZus{}y\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}O\PYGZus{}shape\PYGZdq{}}\PYG{p}{],} \PYG{n}{c}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}O\PYGZus{}shape\PYGZus{}pos\PYGZus{}x\PYGZus{}y\PYGZdq{}}\PYG{p}{])}
+\end{Verbatim}
