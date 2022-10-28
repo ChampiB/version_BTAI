@@ -1,0 +1,321 @@
+\begin{thebibliography}{42}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Bonheme} and {Grzes}(2022)]{Bonheme2022}
+Lisa {Bonheme} and Marek {Grzes}.
+\newblock {How do Variational Autoencoders Learn? Insights from
+  Representational Similarity}.
+\newblock \emph{arXiv e-prints}, art. arXiv:2205.08399, May 2022.
+
+\bibitem[{Browne} et~al.(2012{\natexlab{a}}){Browne}, {Powley}, {Whitehouse},
+  {Lucas}, {Cowling}, {Rohlfshagen}, {Tavener}, {Perez}, {Samothrakis}, and
+  {Colton}]{6145622}
+C.~B. {Browne}, E.~{Powley}, D.~{Whitehouse}, S.~M. {Lucas}, P.~I. {Cowling},
+  P.~{Rohlfshagen}, S.~{Tavener}, D.~{Perez}, S.~{Samothrakis}, and
+  S.~{Colton}.
+\newblock A survey of monte carlo tree search methods.
+\newblock \emph{IEEE Transactions on Computational Intelligence and AI in
+  Games}, 4\penalty0 (1):\penalty0 1--43, 2012{\natexlab{a}}.
+
+\bibitem[{Browne} et~al.(2012{\natexlab{b}}){Browne}, {Powley}, {Whitehouse},
+  {Lucas}, {Cowling}, {Rohlfshagen}, {Tavener}, {Perez}, {Samothrakis}, and
+  {Colton}]{MCTS}
+C.~B. {Browne}, E.~{Powley}, D.~{Whitehouse}, S.~M. {Lucas}, P.~I. {Cowling},
+  P.~{Rohlfshagen}, S.~{Tavener}, D.~{Perez}, S.~{Samothrakis}, and
+  S.~{Colton}.
+\newblock A survey of monte carlo tree search methods.
+\newblock \emph{IEEE Transactions on Computational Intelligence and AI in
+  Games}, 4\penalty0 (1):\penalty0 1--43, 2012{\natexlab{b}}.
+
+\bibitem[{\c{C}}atal et~al.(2020){\c{C}}atal, Wauthier, De~Boom, Verbelen, and
+  Dhoedt]{ccatal2020learning}
+Ozan {\c{C}}atal, Samuel Wauthier, Cedric De~Boom, Tim Verbelen, and Bart
+  Dhoedt.
+\newblock Learning generative state space models for active inference.
+\newblock \emph{Frontiers in Computational Neuroscience}, 14:\penalty0 574372,
+  2020.
+
+\bibitem[Champion et~al.(2021{\natexlab{a}})Champion, Bowman, and
+  Grze{\'{s}}]{AITS_PRACTICE}
+Th{\'{e}}ophile Champion, Howard Bowman, and Marek Grze{\'{s}}.
+\newblock Branching time active inference: empirical study, 2021{\natexlab{a}}.
+
+\bibitem[Champion et~al.(2021{\natexlab{b}})Champion, Bowman, and
+  Grze{\'{s}}]{AITs_tHEORY}
+Th{\'{e}}ophile Champion, Howard Bowman, and Marek Grze{\'{s}}.
+\newblock Branching time active inference: the theory and its generality,
+  2021{\natexlab{b}}.
+
+\bibitem[Champion et~al.(2021{\natexlab{c}})Champion, Grze{\'{s}}, and
+  Bowman]{AI_VMP}
+Th{\'{e}}ophile Champion, Marek Grze{\'{s}}, and Howard Bowman.
+\newblock Realising active inference in variational message passing: the
+  outcome-blind certainty seeker, 2021{\natexlab{c}}.
+
+\bibitem[Champion et~al.(2021{\natexlab{d}})Champion, Grze{\'{s}}, and
+  Bowman]{BTAI_BF}
+Th{\'{e}}ophile Champion, Marek Grze{\'{s}}, and Howard Bowman.
+\newblock {Branching Time Active Inference with Bayesian Filtering},
+  2021{\natexlab{d}}.
+
+\bibitem[Champion et~al.(2022)Champion, Grześ, and Bowman]{BTAI_3MF}
+Théophile Champion, Marek Grześ, and Howard Bowman.
+\newblock Multi-modal and multi-factor branching time active inference, 2022.
+\newblock URL \url{https://arxiv.org/abs/2206.12503}.
+
+\bibitem[Cortes et~al.(2012)Cortes, Mohri, and Rostamizadeh]{Cortes2012}
+Corinna Cortes, Mehryar Mohri, and Afshin Rostamizadeh.
+\newblock {Algorithms for Learning Kernels Based on Centered Alignment}.
+\newblock \emph{J. Mach. Learn. Res.}, 13\penalty0 (1):\penalty0 795–828,
+  March 2012.
+\newblock ISSN 1532-4435.
+
+\bibitem[Costa et~al.(2020{\natexlab{a}})Costa, Parr, Sajid, Veselic, Neacsu,
+  and Friston]{AI_TUTO}
+Lancelot~Da Costa, Thomas Parr, Noor Sajid, Sebastijan Veselic, Victorita
+  Neacsu, and Karl Friston.
+\newblock Active inference on discrete state-spaces: a synthesis,
+  2020{\natexlab{a}}.
+
+\bibitem[Costa et~al.(2020{\natexlab{b}})Costa, Sajid, Parr, Friston, and
+  Smith]{dacosta2020relationship}
+Lancelot~Da Costa, Noor Sajid, Thomas Parr, Karl Friston, and Ryan Smith.
+\newblock The relationship between dynamic programming and active inference:
+  the discrete, finite-horizon case, 2020{\natexlab{b}}.
+
+\bibitem[Cristianini et~al.(2002)Cristianini, Shawe-Taylor, Elisseeff, and
+  Kandola]{Cristianini2002}
+Nello Cristianini, John Shawe-Taylor, Andr{\'{e}} Elisseeff, and Jaz~S Kandola.
+\newblock {On Kernel-Target Alignment}.
+\newblock In T~G Dietterich, S~Becker, and Z~Ghahramani, editors,
+  \emph{Advances in Neural Information Processing Systems}, volume~14, pages
+  367--373. MIT Press, Vancouver, Canada, 2002.
+\newblock URL
+  \url{http://papers.nips.cc/paper/1946-on-kernel-target-alignment.pdf}.
+
+\bibitem[Cullen et~al.(2018)Cullen, Davey, Friston, and Moran]{CULLEN2018809}
+Maell Cullen, Ben Davey, Karl~J. Friston, and Rosalyn~J. Moran.
+\newblock Active inference in openai gym: A paradigm for computational
+  investigations into psychiatric illness.
+\newblock \emph{Biological Psychiatry: Cognitive Neuroscience and
+  Neuroimaging}, 3\penalty0 (9):\penalty0 809 -- 818, 2018.
+\newblock ISSN 2451-9022.
+\newblock \doi{https://doi.org/10.1016/j.bpsc.2018.06.010}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S2451902218301617}.
+\newblock Computational Methods and Modeling in Psychiatry.
+
+\bibitem[Doersch(2016)]{VAE}
+Carl Doersch.
+\newblock Tutorial on variational autoencoders, 2016.
+
+\bibitem[FitzGerald et~al.(2015)FitzGerald, Dolan, and Friston]{dopamine}
+Thomas H.~B. FitzGerald, Raymond~J. Dolan, and Karl Friston.
+\newblock Dopamine, reward learning, and active inference.
+\newblock \emph{Frontiers in Computational Neuroscience}, 9:\penalty0 136,
+  2015.
+\newblock ISSN 1662-5188.
+\newblock \doi{10.3389/fncom.2015.00136}.
+\newblock URL
+  \url{https://www.frontiersin.org/article/10.3389/fncom.2015.00136}.
+
+\bibitem[Fountas et~al.(2020)Fountas, Sajid, Mediano, and
+  Friston]{DeepAIwithMCMC}
+Zafeirios Fountas, Noor Sajid, Pedro A.~M. Mediano, and Karl Friston.
+\newblock Deep active inference agents using {Monte-Carlo} methods, 2020.
+
+\bibitem[Friston et~al.(2016)Friston, FitzGerald, Rigoli, Schwartenbeck,
+  Doherty, and Pezzulo]{FRISTON2016862}
+Karl Friston, Thomas FitzGerald, Francesco Rigoli, Philipp Schwartenbeck,
+  John~O Doherty, and Giovanni Pezzulo.
+\newblock Active inference and learning.
+\newblock \emph{Neuroscience \& Biobehavioral Reviews}, 68:\penalty0 862 --
+  879, 2016.
+\newblock ISSN 0149-7634.
+\newblock \doi{https://doi.org/10.1016/j.neubiorev.2016.06.022}.
+
+\bibitem[Gretton et~al.(2005)Gretton, Bousquet, Smola, and
+  Sch{\"{o}}lkopf]{Gretton2005}
+Arthur Gretton, Olivier Bousquet, Alex Smola, and Bernhard Sch{\"{o}}lkopf.
+\newblock {Measuring Statistical Dependence with Hilbert-Schmidt Norms}.
+\newblock In Sanjay Jain, Hans~Ulrich Simon, and Etsuji Tomita, editors,
+  \emph{Algorithmic Learning Theory}, pages 63--77. Springer Berlin Heidelberg,
+  2005.
+\newblock ISBN 978-3-540-31696-1.
+
+\bibitem[Higgins et~al.(2017)Higgins, Matthey, Pal, Burgess, Glorot, Botvinick,
+  Mohamed, and Lerchner]{beta-VAE}
+Irina Higgins, Lo{\"{\i}}c Matthey, Arka Pal, Christopher Burgess, Xavier
+  Glorot, Matthew Botvinick, Shakir Mohamed, and Alexander Lerchner.
+\newblock beta-{VAE}: Learning basic visual concepts with a constrained
+  variational framework.
+\newblock In \emph{5th International Conference on Learning Representations,
+  {ICLR} 2017, Toulon, France, April 24-26, 2017, Conference Track
+  Proceedings}. OpenReview.net, 2017.
+\newblock URL \url{https://openreview.net/forum?id=Sy2fzU9gl}.
+
+\bibitem[Itti and Baldi(2009)]{bayes_surprise}
+Laurent Itti and Pierre Baldi.
+\newblock Bayesian surprise attracts human attention.
+\newblock \emph{Vision Research}, 49\penalty0 (10):\penalty0 1295 -- 1306,
+  2009.
+\newblock ISSN 0042-6989.
+\newblock \doi{https://doi.org/10.1016/j.visres.2008.09.007}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0042698908004380}.
+\newblock Visual Attention: Psychophysics, electrophysiology and neuroimaging.
+
+\bibitem[Koller and Friedman(2009)]{koller2009probabilistic}
+Daphne Koller and Nir Friedman.
+\newblock \emph{Probabilistic graphical models: principles and techniques}.
+\newblock MIT press, 2009.
+
+\bibitem[Kornblith et~al.(2019)Kornblith, Norouzi, Lee, and
+  Hinton]{Kornblith2019}
+Simon Kornblith, Mohammad Norouzi, Honglak Lee, and Geoffrey Hinton.
+\newblock {Similarity of Neural Network Representations Revisited}.
+\newblock In Kamalika Chaudhuri and Ruslan Salakhutdinov, editors,
+  \emph{Proceedings of the 36th International Conference on Machine Learning},
+  volume~97 of \emph{Proceedings of Machine Learning Research}, pages
+  3519--3529, Long Beach, USA, Jun 2019. PMLR.
+\newblock URL \url{http://proceedings.mlr.press/v97/kornblith19a.html}.
+
+\bibitem[Lample and Chaplot(2016)]{lample2016playing}
+Guillaume Lample and Devendra~Singh Chaplot.
+\newblock Playing fps games with deep reinforcement learning, 2016.
+
+\bibitem[Lanillos et~al.(2020)Lanillos, Cheng, et~al.]{DAI_HR}
+Pablo Lanillos, Gordon Cheng, et~al.
+\newblock Robot self/other distinction: active inference meets neural networks
+  learning in a mirror.
+\newblock \emph{arXiv preprint arXiv:2004.05473}, 2020.
+
+\bibitem[Maheswaranathan et~al.(2019)Maheswaranathan, Williams, Golub, Ganguli,
+  and Sussillo]{Maheswaranathan2019}
+Niru Maheswaranathan, Alex Williams, Matthew Golub, Surya Ganguli, and David
+  Sussillo.
+\newblock Universality and individuality in neural dynamics across large
+  populations of recurrent networks.
+\newblock In H.~Wallach, H.~Larochelle, A.~Beygelzimer, F.~d\textquotesingle
+  Alch\'{e}-Buc, E.~Fox, and R.~Garnett, editors, \emph{Advances in Neural
+  Information Processing Systems}, volume~32. Curran Associates, Inc., 2019.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper/2019/file/5f5d472067f77b5c88f69f1bcfda1e08-Paper.pdf}.
+
+\bibitem[Matthey et~al.(2017)Matthey, Higgins, Hassabis, and
+  Lerchner]{dsprites17}
+Loic Matthey, Irina Higgins, Demis Hassabis, and Alexander Lerchner.
+\newblock dsprites: Disentanglement testing sprites dataset.
+\newblock https://github.com/deepmind/dsprites-dataset/, 2017.
+
+\bibitem[Millidge(2019)]{cart_pole}
+Beren Millidge.
+\newblock Combining active inference and hierarchical predictive coding: A
+  tutorial introduction and case study., 2019.
+\newblock URL \url{https://doi.org/10.31234/osf.io/kf6wc}.
+
+\bibitem[Millidge(2020)]{DeepAI}
+Beren Millidge.
+\newblock Deep active inference as variational policy gradients.
+\newblock \emph{Journal of Mathematical Psychology}, 96:\penalty0 102348, 2020.
+\newblock ISSN 0022-2496.
+\newblock \doi{https://doi.org/10.1016/j.jmp.2020.102348}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0022249620300298}.
+
+\bibitem[Mnih et~al.(2013)Mnih, Kavukcuoglu, Silver, Graves, Antonoglou,
+  Wierstra, and Riedmiller]{DeepRL}
+Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis
+  Antonoglou, Daan Wierstra, and Martin Riedmiller.
+\newblock Playing atari with deep reinforcement learning, 2013.
+
+\bibitem[Oliver et~al.(2019)Oliver, Lanillos, and Cheng]{DAI_HR2}
+Guillermo Oliver, Pablo Lanillos, and Gordon Cheng.
+\newblock Active inference body perception and action for humanoid robots.
+\newblock \emph{arXiv preprint arXiv:1906.03022}, 2019.
+
+\bibitem[Pezzato et~al.(2020)Pezzato, Hernandez, and Wisse]{pezzato2020active}
+Corrado Pezzato, Carlos Hernandez, and Martijn Wisse.
+\newblock Active inference and behavior trees for reactive action planning and
+  execution in robotics, 2020.
+
+\bibitem[Robert and Escoufier(1976)]{Robert1976}
+P.~Robert and Y.~Escoufier.
+\newblock {A Unifying Tool for Linear Multivariate Statistical Methods: The RV-
+  Coefficient}.
+\newblock \emph{Journal of the Royal Statistical Society. Series C (Applied
+  Statistics)}, 25\penalty0 (3):\penalty0 257--265, 1976.
+\newblock ISSN 00359254, 14679876.
+\newblock URL \url{http://www.jstor.org/stable/2347233}.
+
+\bibitem[Rood et~al.(2020)Rood, van Gerven, and Lanillos]{rood2020deep}
+Thomas Rood, Marcel van Gerven, and Pablo Lanillos.
+\newblock A deep active inference model of the rubber-hand illusion.
+\newblock In Tim Verbelen, Pablo Lanillos, Christopher~L. Buckley, and Cedric
+  De~Boom, editors, \emph{Active Inference}, pages 84--91, Cham, 2020. Springer
+  International Publishing.
+\newblock ISBN 978-3-030-64919-7.
+
+\bibitem[Sancaktar et~al.(2020)Sancaktar, van Gerven, and
+  Lanillos]{sancaktar2020endtoend}
+Cansu Sancaktar, Marcel van Gerven, and Pablo Lanillos.
+\newblock End-to-end pixel-based deep active inference for body perception and
+  action, 2020.
+
+\bibitem[Schneider et~al.(2022)Schneider, Belousov, Abdulsamad, and
+  Peters]{schneider2022active}
+Tim Schneider, Boris Belousov, Hany Abdulsamad, and Jan Peters.
+\newblock Active inference for robotic manipulation.
+\newblock \emph{arXiv preprint arXiv:2206.10313}, 2022.
+
+\bibitem[Schwartenbeck et~al.(2018)Schwartenbeck, Passecker, Hauser,
+  FitzGerald, Kronbichler, and Friston]{curiosity}
+Philipp Schwartenbeck, Johannes Passecker, Tobias~U Hauser, Thomas H~B
+  FitzGerald, Martin Kronbichler, and Karl Friston.
+\newblock Computational mechanisms of curiosity and goal-directed exploration.
+\newblock \emph{bioRxiv}, 2018.
+\newblock \doi{10.1101/411272}.
+\newblock URL \url{https://www.biorxiv.org/content/early/2018/09/07/411272}.
+
+\bibitem[Silver et~al.(2016)Silver, Huang, Maddison, Guez, Sifre, van~den
+  Driessche, Schrittwieser, Antonoglou, Panneershelvam, Lanctot, Dieleman,
+  Grewe, Nham, Kalchbrenner, Sutskever, Lillicrap, Leach, Kavukcuoglu, Graepel,
+  and Hassabis]{Go}
+David Silver, Aja Huang, Chris~J. Maddison, Arthur Guez, Laurent Sifre, George
+  van~den Driessche, Julian Schrittwieser, Ioannis Antonoglou, Vedavyas
+  Panneershelvam, Marc Lanctot, Sander Dieleman, Dominik Grewe, John Nham, Nal
+  Kalchbrenner, Ilya Sutskever, Timothy~P. Lillicrap, Madeleine Leach, Koray
+  Kavukcuoglu, Thore Graepel, and Demis Hassabis.
+\newblock Mastering the game of go with deep neural networks and tree search.
+\newblock \emph{Nature}, 529\penalty0 (7587):\penalty0 484--489, 2016.
+\newblock \doi{10.1038/nature16961}.
+\newblock URL \url{https://doi.org/10.1038/nature16961}.
+
+\bibitem[Sutton et~al.(1998)Sutton, Barto, et~al.]{sutton1998}
+Richard~S Sutton, Andrew~G Barto, et~al.
+\newblock \emph{Introduction to reinforcement learning}.
+\newblock MIT press Cambridge, 1998.
+
+\bibitem[Ueltzh\"{o}ffer(2018)]{DAI_Kai}
+Kai Ueltzh\"{o}ffer.
+\newblock Deep active inference.
+\newblock \emph{Biol. Cybern.}, 112\penalty0 (6):\penalty0 547–573, dec 2018.
+\newblock ISSN 0340-1200.
+\newblock \doi{10.1007/s00422-018-0785-7}.
+\newblock URL \url{https://doi.org/10.1007/s00422-018-0785-7}.
+
+\bibitem[van~der Himst and Lanillos(2020)]{DAI_POMDP}
+Otto van~der Himst and Pablo Lanillos.
+\newblock Deep active inference for partially observable mdps.
+\newblock \emph{CoRR}, abs/2009.03622, 2020.
+\newblock URL \url{https://arxiv.org/abs/2009.03622}.
+
+\bibitem[van Hasselt et~al.(2015)van Hasselt, Guez, and Silver]{DDQN}
+Hado van Hasselt, Arthur Guez, and David Silver.
+\newblock Deep reinforcement learning with double {Q}-learning, 2015.
+
+\end{thebibliography}

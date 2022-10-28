@@ -1,0 +1,378 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\bibstyle{plainnat}
+\citation{AI_TUTO,AI_VMP,AITs_tHEORY,AITS_PRACTICE,BTAI_BF}
+\citation{FRISTON2016862,bayes_surprise,curiosity,dopamine}
+\citation{DeepAIwithMCMC,pezzato2020active,sancaktar2020endtoend,ccatal2020learning,CULLEN2018809,cart_pole}
+\providecommand \oddpage@label [2]{}
+\citation{VAE,beta-VAE}
+\citation{sancaktar2020endtoend,ccatal2020learning,DeepAI}
+\citation{6145622,Go}
+\citation{MCTS,Go}
+\citation{DeepAIwithMCMC,AITs_tHEORY,AITS_PRACTICE,BTAI_BF,BTAI_3MF}
+\citation{DeepRL,DDQN,lample2016playing}
+\citation{DeepRL}
+\citation{DeepRL}
+\citation{DeepRL}
+\citation{DeepAIwithMCMC}
+\citation{DeepAI}
+\citation{rood2020deep}
+\citation{sancaktar2020endtoend,DAI_HR,DAI_HR2}
+\citation{DAI_Kai}
+\citation{DAI_POMDP}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{2}{section.1}\protected@file@percent }
+\citation{DeepRL}
+\citation{DeepRL}
+\citation{sutton1998}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Review of existing research}{3}{section.2}\protected@file@percent }
+\newlabel{sec:existing_research}{{2}{3}{}{section.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}$DQN$ agent \citep  {DeepRL}}{3}{subsection.2.1}\protected@file@percent }
+\newlabel{ssec:dqn}{{2.1}{3}{$DQN$ agent \citep {DeepRL}}{subsection.2.1}{}}
+\citation{DeepAIwithMCMC}
+\citation{DeepAIwithMCMC}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces This figure illustrates the DQN agent. Briefly, the image $o_t$ is fed into the Q-network, and the image $o_{t+1}$ is fed into the target network. The Q-network outputs the Q-values for each action at time $t$, and the target network outputs the Q-values for each action at time $t+1$. Then, the reward, the discount factor, and Q-values of each action at time $t+1$ are used to compute the target values $y(o_t,\mathchoice {\mathbin {\vcenter {\hbox {\scalebox {.5}{$\mathsurround \z@ \displaystyle \bullet $}}}}}{\mathbin {\vcenter {\hbox {\scalebox {.5}{$\mathsurround \z@ \textstyle \bullet $}}}}}{\mathbin {\vcenter {\hbox {\scalebox {.5}{$\mathsurround \z@ \scriptstyle \bullet $}}}}}{\mathbin {\vcenter {\hbox {\scalebox {.5}{$\mathsurround \z@ \scriptscriptstyle \bullet $}}}}}\,)$. Finally, the goal is to minimise the MSE between the prediction of the Q-network and the target values by changing the weights of the Q-network.\relax }}{4}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:DQN}{{1}{4}{This figure illustrates the DQN agent. Briefly, the image $o_t$ is fed into the Q-network, and the image $o_{t+1}$ is fed into the target network. The Q-network outputs the Q-values for each action at time $t$, and the target network outputs the Q-values for each action at time $t+1$. Then, the reward, the discount factor, and Q-values of each action at time $t+1$ are used to compute the target values $y(o_t,\bigcdot \,)$. Finally, the goal is to minimise the MSE between the prediction of the Q-network and the target values by changing the weights of the Q-network.\relax }{figure.caption.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}$DAI_{MC}$ agent \citep  {DeepAIwithMCMC}}{4}{subsection.2.2}\protected@file@percent }
+\newlabel{ssection:fountas_paper}{{2.2}{4}{$DAI_{MC}$ agent \citep {DeepAIwithMCMC}}{subsection.2.2}{}}
+\newlabel{eq:initial_prior_actions}{{1}{4}{$DAI_{MC}$ agent \citep {DeepAIwithMCMC}}{equation.2.1}{}}
+\citation{DeepAIwithMCMC}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces This figure illustrates the $DAI_{MC}$ agent, which is composed of an encoder, a decoder, a transition network, and a policy network. The same VAE (encoder and decoder) is repeated in the figure to reflect successive time-points.\relax }}{5}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:DAI_MC_agent}{{2}{5}{This figure illustrates the $DAI_{MC}$ agent, which is composed of an encoder, a decoder, a transition network, and a policy network. The same VAE (encoder and decoder) is repeated in the figure to reflect successive time-points.\relax }{figure.caption.2}{}}
+\newlabel{eq:efe_fountas_defin}{{2}{5}{$DAI_{MC}$ agent \citep {DeepAIwithMCMC}}{equation.2.2}{}}
+\citation{DeepAIwithMCMC}
+\citation{MCTS}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1}The Monte-Carlo tree search}{6}{subsubsection.2.2.1}\protected@file@percent }
+\newlabel{eq:backprop}{{3}{6}{The Monte-Carlo tree search}{equation.2.3}{}}
+\newlabel{eq:backprop_n}{{4}{6}{The Monte-Carlo tree search}{equation.2.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Neural network architectures of the $DAI_{MC}$ agent. Orange blocks correspond to convolutional layers, green blocks correspond to fully connected layers, blue blocks correspond to dropout, and yellow blocks correspond to up-convolutional layers. For the dSprites environment, there are four actions (i.e., \#A = 4), ten states (i.e., \#S = 10), and only one channel (i.e., \#C = 1). For the Animal-AI environment, there are three actions (i.e., \#A = 3), ten states (i.e., \#S = 10), and three channels (i.e., \#C = 3). These are all trained to minimize variational free energy.\relax }}{7}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:fountas_dnn}{{3}{7}{Neural network architectures of the $DAI_{MC}$ agent. Orange blocks correspond to convolutional layers, green blocks correspond to fully connected layers, blue blocks correspond to dropout, and yellow blocks correspond to up-convolutional layers. For the dSprites environment, there are four actions (i.e., \#A = 4), ten states (i.e., \#S = 10), and only one channel (i.e., \#C = 1). For the Animal-AI environment, there are three actions (i.e., \#A = 3), ten states (i.e., \#S = 10), and three channels (i.e., \#C = 3). These are all trained to minimize variational free energy.\relax }{figure.caption.3}{}}
+\citation{DeepAIwithMCMC}
+\citation{DeepAI}
+\citation{koller2009probabilistic}
+\citation{DeepAIwithMCMC}
+\citation{DeepAIwithMCMC}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.2}Derivation of the variational free energy}{8}{subsubsection.2.2.2}\protected@file@percent }
+\newlabel{ssec:derive_vfe_in_fountas}{{2.2.2}{8}{Derivation of the variational free energy}{subsubsection.2.2.2}{}}
+\newlabel{eq:def_vfe_fountas}{{5}{8}{Derivation of the variational free energy}{equation.2.5}{}}
+\citation{DeepAIwithMCMC}
+\citation{DeepAIwithMCMC}
+\citation{DeepAIwithMCMC}
+\citation{DeepAIwithMCMC}
+\citation{DeepAIwithMCMC}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.3}Independence assumptions and the expected free energy}{9}{subsubsection.2.2.3}\protected@file@percent }
+\newlabel{ssection:efe_derivation_assumptions}{{2.2.3}{9}{Independence assumptions and the expected free energy}{subsubsection.2.2.3}{}}
+\newlabel{eq:efe_rearrangedd}{{6}{9}{Independence assumptions and the expected free energy}{equation.2.6}{}}
+\@writefile{toc}{\contentsline {subsubsubsection}{Re-arranging the second term of Equation \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {eq:efe_rearrangedd}\unskip \@@italiccorr )}} according to \citet  {DeepAIwithMCMC}}{9}{equation.2.6}\protected@file@percent }
+\newlabel{eq:switching_point}{{7}{9}{Re-arranging the second term of Equation \eqref {eq:efe_rearrangedd} according to \citet {DeepAIwithMCMC}}{equation.2.7}{}}
+\citation{DeepAIwithMCMC}
+\citation{DeepAIwithMCMC}
+\citation{DeepAIwithMCMC}
+\@writefile{toc}{\contentsline {subsubsubsection}{Alternative derivation of the second term of Equation \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {eq:efe_rearrangedd}\unskip \@@italiccorr )}}}{10}{equation.2.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsubsection}{Re-arranging the third term of Equation \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {eq:efe_rearrangedd}\unskip \@@italiccorr )}} from \citet  {DeepAIwithMCMC}}{10}{equation.2.7}\protected@file@percent }
+\citation{DeepAIwithMCMC}
+\citation{DeepAIwithMCMC}
+\citation{DeepAI}
+\citation{DeepAI}
+\citation{DeepAI}
+\@writefile{toc}{\contentsline {subsubsubsection}{The EFE from \citet  {DeepAIwithMCMC}}{11}{equation.2.7}\protected@file@percent }
+\newlabel{eq:efe_rearranged_fountas}{{8}{11}{The EFE from \citet {DeepAIwithMCMC}}{equation.2.8}{}}
+\@writefile{toc}{\contentsline {subsubsubsection}{Our proposed alternative to the EFE}{11}{equation.2.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}$DAI_{VPG}$ agent \citep  {DeepAI}}{11}{subsection.2.3}\protected@file@percent }
+\newlabel{eq:efe_beren}{{9}{11}{$DAI_{VPG}$ agent \citep {DeepAI}}{equation.2.9}{}}
+\citation{dacosta2020relationship}
+\newlabel{eq:intrisic_values}{{10}{12}{$DAI_{VPG}$ agent \citep {DeepAI}}{equation.2.10}{}}
+\citation{rood2020deep}
+\citation{rood2020deep}
+\citation{rood2020deep}
+\citation{rood2020deep}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Neural networks architecture of the $DAI_{VPG}$ agent. Green blocks correspond to fully connected layers. The first neural network is the transition network that takes as input the observation and action at time step $\tau $, and outputs the mean of a Gaussian distribution over observation at time step $\tau + 1$. The second neural network is the policy network that models the variational posterior over actions. The third neural network is the critic that takes as input an observation and outputs the expected free energy of each action.\relax }}{13}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:beren_dnn}{{4}{13}{Neural networks architecture of the $DAI_{VPG}$ agent. Green blocks correspond to fully connected layers. The first neural network is the transition network that takes as input the observation and action at time step $\tau $, and outputs the mean of a Gaussian distribution over observation at time step $\tau + 1$. The second neural network is the policy network that models the variational posterior over actions. The third neural network is the critic that takes as input an observation and outputs the expected free energy of each action.\relax }{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces This figure illustrates the $DAI_{VPG}$ agent. The only new part is the policy network, which takes as input the hidden state at time $t$ and ouputs the {\color {red}\sout {the }}parameters $\hat  {\pi }$ of the variational posterior over actions. Importantly, the $DAI_{VPG}$ takes actions based on the EFE.\relax }}{13}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:DAI_VPG_agent}{{5}{13}{This figure illustrates the $DAI_{VPG}$ agent. The only new part is the policy network, which takes as input the hidden state at time $t$ and ouputs the \DIFdelbeginFL \DIFdelFL {the }\DIFdelendFL parameters $\hat {\pi }$ of the variational posterior over actions. Importantly, the $DAI_{VPG}$ takes actions based on the EFE.\relax }{figure.caption.5}{}}
+\citation{sancaktar2020endtoend,DAI_HR,DAI_HR2}
+\citation{sancaktar2020endtoend}
+\citation{DAI_HR}
+\citation{DAI_HR2}
+\citation{sancaktar2020endtoend,DAI_HR,DAI_HR2}
+\citation{DAI_Kai}
+\citation{DAI_Kai}
+\citation{DAI_Kai}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}$DAI_{RHI}$ agent \citep  {rood2020deep}}{14}{subsection.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}$DAI_{HR}$ agent \citep  {sancaktar2020endtoend,DAI_HR,DAI_HR2}}{14}{subsection.2.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}$DAI_{FA}$ agent \citep  {DAI_Kai}}{14}{subsection.2.6}\protected@file@percent }
+\newlabel{ssec:dai_approach}{{2.6}{14}{$DAI_{FA}$ agent \citep {DAI_Kai}}{subsection.2.6}{}}
+\citation{DAI_Kai}
+\citation{DAI_POMDP}
+\citation{DAI_POMDP}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Neural networks architecture of the $DAI_{FA}$ agent. Green blocks correspond to fully connected layers. The first neural network is the encoder that takes as input the state at time $t-1$ and the observation at time $t$, and outputs the parameters of a distribution over the state at time $t$. The second neural network is the decoder that takes as input the state at time $\tau $, and outputs the parameters of a distribution over the observation at time $\tau $. The third is the transition network that takes as input the state at time step $\tau - 1$, and outputs the parameters of a distribution over the state at time step $\tau $. The fourth neural network is the policy network that models the prior over actions, i.e., the policy takes as input a state at time $\tau $ and outputs the parameters of a distribution over the actions at time step $\tau $. Finally, THS stands for tangent hyperbolic and softplus, i.e., the tangent hyperbolic activation is over the first half of the neurons and the softplus activation function is over the second half, and LS stands for linear activation function and softplus, i.e., the linear activation is over the first half of the neurons and the softplus activation function is over the second half.\relax }}{16}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:kai_dnn}{{6}{16}{Neural networks architecture of the $DAI_{FA}$ agent. Green blocks correspond to fully connected layers. The first neural network is the encoder that takes as input the state at time $t-1$ and the observation at time $t$, and outputs the parameters of a distribution over the state at time $t$. The second neural network is the decoder that takes as input the state at time $\tau $, and outputs the parameters of a distribution over the observation at time $\tau $. The third is the transition network that takes as input the state at time step $\tau - 1$, and outputs the parameters of a distribution over the state at time step $\tau $. The fourth neural network is the policy network that models the prior over actions, i.e., the policy takes as input a state at time $\tau $ and outputs the parameters of a distribution over the actions at time step $\tau $. Finally, THS stands for tangent hyperbolic and softplus, i.e., the tangent hyperbolic activation is over the first half of the neurons and the softplus activation function is over the second half, and LS stands for linear activation function and softplus, i.e., the linear activation is over the first half of the neurons and the softplus activation function is over the second half.\relax }{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Action-perception cycles (in black) and estimation of the free action objective (in red). Note, $\mathring  {\mu }$, $\mathring  {\sigma }$, $\hat  {\mu }$ and $\hat  {\sigma }$ are used to compute the complexity terms of the variational free energy, while $\mu _o$ and $\sigma _o$ are used to compute the accuracy term of the variational free energy.\relax }}{16}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:kai_fa_estimate}{{7}{16}{Action-perception cycles (in black) and estimation of the free action objective (in red). Note, $\mathring {\mu }$, $\mathring {\sigma }$, $\hat {\mu }$ and $\hat {\sigma }$ are used to compute the complexity terms of the variational free energy, while $\mu _o$ and $\sigma _o$ are used to compute the accuracy term of the variational free energy.\relax }{figure.caption.7}{}}
+\citation{DAI_POMDP}
+\citation{ccatal2020learning}
+\citation{schneider2022active}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.7}$DAI_{POMDP}$ agent \citep  {DAI_POMDP}}{17}{subsection.2.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.8}$DAI_{SSM}$ agent \citep  {DAI_POMDP}}{17}{subsection.2.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.9}Unavailable code}{17}{subsection.2.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.10}Representational similarity with centered kernel alignment}{17}{subsection.2.10}\protected@file@percent }
+\newlabel{ssec:similarity}{{2.10}{17}{Representational similarity with centered kernel alignment}{subsection.2.10}{}}
+\citation{Cortes2012,Cristianini2002}
+\citation{Gretton2005}
+\citation{Kornblith2019}
+\citation{Robert1976}
+\citation{Bonheme2022}
+\citation{Maheswaranathan2019}
+\citation{Maheswaranathan2019}
+\citation{DeepRL}
+\citation{DeepAIwithMCMC}
+\citation{dsprites17}
+\citation{VAE}
+\@writefile{toc}{\contentsline {paragraph}{Limitations of CKA}{18}{subsection.2.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Incrementally building a deep active inference agent}{18}{section.3}\protected@file@percent }
+\newlabel{sec:build_dai}{{3}{18}{Representational similarity with centered kernel alignment}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}dSprites environment}{18}{subsection.3.1}\protected@file@percent }
+\newlabel{ssec:dSprites_env}{{3.1}{18}{dSprites environment}{subsection.3.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces This figure illustrates the dSprites environment, in which the agent must move all squares towards the bottom-left corner of the image and all ellipses and hearts towards the bottom-right corner of the image. The red arrows show the behaviour expected from the agent.\relax }}{19}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:dSprites_env}{{8}{19}{This figure illustrates the dSprites environment, in which the agent must move all squares towards the bottom-left corner of the image and all ellipses and hearts towards the bottom-right corner of the image. The red arrows show the behaviour expected from the agent.\relax }{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Agent-environment interaction}{19}{subsection.3.2}\protected@file@percent }
+\newlabel{ssec:env_agent_iter}{{3.2}{19}{Agent-environment interaction}{subsection.3.2}{}}
+\newlabel{algo:ap_cycles}{{1}{20}{Agent-environment interaction}{algocfline.1}{}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces The interaction between the agent and the environment.\relax }}{20}{algocf.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Variational auto-encoder}{20}{subsection.3.3}\protected@file@percent }
+\newlabel{ssec:VAE}{{3.3}{20}{Variational auto-encoder}{subsection.3.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces This figure illustrates the VAE agent. From left to right, we have the input image $o_t$, the encoder network, the layer of mean $\mu $ and log variance $\qopname  \relax o{ln}\sigma $, the epsilon random variable used for the reparameterisation trick, the latent state $\hat  {s}_t$, the decoder network, and finally, the reconstructed image $\hat  {o}_t$. Note, {\color {blue}\uwave {there are no actions in }}this agent{\color {blue}\uwave {'s generative model. Therefore, the VAE agent }}takes random actions.\relax }}{21}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:VAE}{{9}{21}{This figure illustrates the VAE agent. From left to right, we have the input image $o_t$, the encoder network, the layer of mean $\mu $ and log variance $\ln \sigma $, the epsilon random variable used for the reparameterisation trick, the latent state $\hat {s}_t$, the decoder network, and finally, the reconstructed image $\hat {o}_t$. Note, \DIFaddbeginFL \DIFaddFL {there are no actions in }\DIFaddendFL this agent\DIFaddbeginFL \DIFaddFL {'s generative model. Therefore, the VAE agent }\DIFaddendFL takes random actions.\relax }{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Deep hidden Markov model}{21}{subsection.3.4}\protected@file@percent }
+\newlabel{ssec:HMM}{{3.4}{21}{Deep hidden Markov model}{subsection.3.4}{}}
+\newlabel{eq:vfe_defi}{{11}{21}{Deep hidden Markov model}{equation.3.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces This figure illustrates the HMM agent. On the left and right, one can see two auto-encoders, i.e., one at time step $t$ and one at time step $t+1$. In the middle, the transition network takes as input the state and action at time $t$, i.e., $(\hat  {s}_t, a_t)$, and outputs the mean $\mathring  {\mu }$ and log variance $\qopname  \relax o{ln}\mathring  {\sigma }$ of a Gaussian distribution. By sampling the latent variable $\epsilon $, and using the reparameterisation trick, we get the latent state outputed by the transition network: $\mathring  {s}_{t+1} = \mathring  {\mu } + \mathring  {\sigma } \odot \hat  {\epsilon }$ where $\hat  {\epsilon }$ is sampled from a Gaussian distribution with mean zero and variance one. Importantly, the model seems to be composed of two disconnected parts, however, the variational free energy will have a complexity term between the Gaussian distributions outputed by the transition network and encoder at time $t+1$. Note, this agent takes random actions.\relax }}{22}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:HMM}{{10}{22}{This figure illustrates the HMM agent. On the left and right, one can see two auto-encoders, i.e., one at time step $t$ and one at time step $t+1$. In the middle, the transition network takes as input the state and action at time $t$, i.e., $(\hat {s}_t, a_t)$, and outputs the mean $\mathring {\mu }$ and log variance $\ln \mathring {\sigma }$ of a Gaussian distribution. By sampling the latent variable $\epsilon $, and using the reparameterisation trick, we get the latent state outputed by the transition network: $\mathring {s}_{t+1} = \mathring {\mu } + \mathring {\sigma } \odot \hat {\epsilon }$ where $\hat {\epsilon }$ is sampled from a Gaussian distribution with mean zero and variance one. Importantly, the model seems to be composed of two disconnected parts, however, the variational free energy will have a complexity term between the Gaussian distributions outputed by the transition network and encoder at time $t+1$. Note, this agent takes random actions.\relax }{figure.caption.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Deep critical HMM}{22}{subsection.3.5}\protected@file@percent }
+\newlabel{ssec:CHMM}{{3.5}{22}{Deep critical HMM}{subsection.3.5}{}}
+\citation{Bellman1952}
+\citation{Parr304782}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces {\color {blue}\uwave {This figure illustrates the computation of the critic's loss function when the critic is only maximising reward, i.e., when Equation \ref  {eq:reward_maximisation} is used for the expected free energy. Briefly, the state $s_t$ is fed into the Critic, and the state $s_{t+1}$ is fed into the target network. The critic outputs the G-values for each action at time $t$, and the target network outputs the G-values for each action at time $t+1$. Then, the reward, the discount factor, and G-values of each action at time $t+1$ are used to compute the target values $y(s_t,\mathchoice {\mathbin {\vcenter {\hbox {\scalebox {.5}{$\mathsurround \z@ \displaystyle \bullet $}}}}}{\mathbin {\vcenter {\hbox {\scalebox {.5}{$\mathsurround \z@ \textstyle \bullet $}}}}}{\mathbin {\vcenter {\hbox {\scalebox {.5}{$\mathsurround \z@ \scriptstyle \bullet $}}}}}{\mathbin {\vcenter {\hbox {\scalebox {.5}{$\mathsurround \z@ \scriptscriptstyle \bullet $}}}}}\,)$. Finally, the goal is to minimise the SL1 between the prediction of the critic and the target values by changing the weights of the critic.}}\relax }}{23}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:reward_usage}{{12}{23}{\DIFaddFL {This figure illustrates the computation of the critic's loss function when the critic is only maximising reward, i.e., when Equation \ref {eq:reward_maximisation} is used for the expected free energy. Briefly, the state $s_t$ is fed into the Critic, and the state $s_{t+1}$ is fed into the target network. The critic outputs the G-values for each action at time $t$, and the target network outputs the G-values for each action at time $t+1$. Then, the reward, the discount factor, and G-values of each action at time $t+1$ are used to compute the target values $y(s_t,\bigcdot \,)$. Finally, the goal is to minimise the SL1 between the prediction of the critic and the target values by changing the weights of the critic.}\relax }{figure.caption.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces This figure illustrates the CHMM agent. The only new part is the critic network, which takes as input the hidden state at time $t$ and ouputs the expected free energy of each action $\bm  {G}$. Importantly, the CHMM takes actions based on the EFE.\relax }}{24}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:CHMM}{{11}{24}{This figure illustrates the CHMM agent. The only new part is the critic network, which takes as input the hidden state at time $t$ and ouputs the expected free energy of each action $\bm {G}$. Importantly, the CHMM takes actions based on the EFE.\relax }{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.1}Expected free energy}{24}{subsubsection.3.5.1}\protected@file@percent }
+\newlabel{ssec:efe}{{3.5.1}{24}{Expected free energy}{subsubsection.3.5.1}{}}
+\newlabel{eq:efe_definition}{{12}{24}{Expected free energy}{equation.3.12}{}}
+\citation{DeepAIwithMCMC}
+\citation{dacosta2020relationship}
+\newlabel{eq:efe_practice}{{13}{25}{Expected free energy}{equation.3.13}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.2}A principled estimate of the EFE at time $t + 1$?}{25}{subsubsection.3.5.2}\protected@file@percent }
+\newlabel{eq:vd_or_gm}{{14}{25}{A principled estimate of the EFE at time $t + 1$?}{equation.3.14}{}}
+\newlabel{eq:prior_pref}{{16}{25}{A principled estimate of the EFE at time $t + 1$?}{equation.3.16}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.3}Other definitions of the EFE at time $t + 1$}{26}{subsubsection.3.5.3}\protected@file@percent }
+\newlabel{ssec:efe_other_defe}{{3.5.3}{26}{Other definitions of the EFE at time $t + 1$}{subsubsection.3.5.3}{}}
+\newlabel{eq:reward_maximisation}{{18}{26}{Other definitions of the EFE at time $t + 1$}{equation.3.18}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Deep Active Inference}{26}{subsection.3.6}\protected@file@percent }
+\newlabel{ssec:DAI}{{3.6}{26}{Deep Active Inference}{subsection.3.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces This figure illustrates the DAI agent. The only new part is the policy network, which takes as input the hidden state at time $t$ and ouputs the parameters $\hat  {\pi }$ of the variational posterior over actions. Importantly, the DAI takes actions based on the EFE.\relax }}{27}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:DAI}{{13}{27}{This figure illustrates the DAI agent. The only new part is the policy network, which takes as input the hidden state at time $t$ and ouputs the parameters $\hat {\pi }$ of the variational posterior over actions. Importantly, the DAI takes actions based on the EFE.\relax }{figure.caption.13}{}}
+\newlabel{eq:vfe_defi_dai}{{19}{28}{Deep Active Inference}{equation.3.19}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Results}{28}{section.4}\protected@file@percent }
+\newlabel{sec:results}{{4}{28}{Deep Active Inference}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}DQN agent}{28}{subsection.4.1}\protected@file@percent }
+\newlabel{ssec:dqn_results}{{4.1}{28}{DQN agent}{subsection.4.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces This figure illustrates the cumulated rewards obtained by the DQN agent during the 500K training iterations.\relax }}{29}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:DQN_rewards}{{14}{29}{This figure illustrates the cumulated rewards obtained by the DQN agent during the 500K training iterations.\relax }{figure.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Value\_X labels the X-th layer of the value network, i.e., Value\_1 is the closest to the input and Value\_6 is the output layer. We can see that the first three layers of the DQN learn very similar representations (CKA is close to 1). The representations learned by the fourth layer start to diverge (CKA is lower), and the last two layers learn highly specific representations that are very different from the previous layers (CKA is close to 0), but slightly similar to each other.\relax }}{29}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:cka-dqn}{{15}{29}{Value\_X labels the X-th layer of the value network, i.e., Value\_1 is the closest to the input and Value\_6 is the output layer. We can see that the first three layers of the DQN learn very similar representations (CKA is close to 1). The representations learned by the fourth layer start to diverge (CKA is lower), and the last two layers learn highly specific representations that are very different from the previous layers (CKA is close to 0), but slightly similar to each other.\relax }{figure.caption.15}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}VAE agent}{29}{subsection.4.2}\protected@file@percent }
+\newlabel{ssec:vae_results}{{4.2}{29}{VAE agent}{subsection.4.2}{}}
+\citation{Bonheme2022}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces This figure illustrates the variational free energy of the VAE agent during the 500K iterations of training.\relax }}{30}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:VAE_vfe}{{16}{30}{This figure illustrates the variational free energy of the VAE agent during the 500K iterations of training.\relax }{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces This figure illustrates the reconstructed image produced by the VAE after 500K training iterations. The columns alternate between the input images and the reconstructed images.\relax }}{30}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:VAE_reconstruction}{{17}{30}{This figure illustrates the reconstructed image produced by the VAE after 500K training iterations. The columns alternate between the input images and the reconstructed images.\relax }{figure.caption.17}{}}
+\newlabel{sfig:cka-vae-vae}{{18a}{31}{\relax }{figure.caption.18}{}}
+\newlabel{sub@sfig:cka-vae-vae}{{a}{31}{\relax }{figure.caption.18}{}}
+\newlabel{sfig:cka-vae-dqn}{{18b}{31}{\relax }{figure.caption.18}{}}
+\newlabel{sub@sfig:cka-vae-dqn}{{b}{31}{\relax }{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Encoder\_X is to the X-th layer of the encoder network, i.e., Encoder\_1 is the closest to the input and Encoder\_5 is the one just before the mean and variance layers. Encoder\_mean and Encoder\_variance are the mean and variance layers of the encoder network, respectively. (a) shows the similarity between the representations learned by different layers of the encoder of a VAE. (b) shows the similarity between the representations learned by a DQN and a VAE. Note, both the VAE and DQN take images as input and need to process them to either learn a compact representation and reconstruct the images or predict the cumulated reward, respectively. Thus, both learn to represent edges and combination of edges in their first layers.\relax }}{31}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:cka-vae}{{18}{31}{Encoder\_X is to the X-th layer of the encoder network, i.e., Encoder\_1 is the closest to the input and Encoder\_5 is the one just before the mean and variance layers. Encoder\_mean and Encoder\_variance are the mean and variance layers of the encoder network, respectively. (a) shows the similarity between the representations learned by different layers of the encoder of a VAE. (b) shows the similarity between the representations learned by a DQN and a VAE. Note, both the VAE and DQN take images as input and need to process them to either learn a compact representation and reconstruct the images or predict the cumulated reward, respectively. Thus, both learn to represent edges and combination of edges in their first layers.\relax }{figure.caption.18}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}HMM agent}{31}{subsection.4.3}\protected@file@percent }
+\newlabel{ssec:hmm_results}{{4.3}{31}{HMM agent}{subsection.4.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces This figure illustrates the variational free energy of the HMM agent during the 500K iterations of training.\relax }}{32}{figure.caption.19}\protected@file@percent }
+\newlabel{fig:HMM_vfe}{{19}{32}{This figure illustrates the variational free energy of the HMM agent during the 500K iterations of training.\relax }{figure.caption.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces This figure illustrates the sequences of reconstructed images generated by the HMM after 500K training iterations. The columns alternate between the ground truth images and the reconstructed images. Time passes vertically (from top to bottom), and within each column, the same action is executed repeatedly.\relax }}{32}{figure.caption.20}\protected@file@percent }
+\newlabel{fig:HMM_reconstruction}{{20}{32}{This figure illustrates the sequences of reconstructed images generated by the HMM after 500K training iterations. The columns alternate between the ground truth images and the reconstructed images. Time passes vertically (from top to bottom), and within each column, the same action is executed repeatedly.\relax }{figure.caption.20}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}CHMM agent}{32}{subsection.4.4}\protected@file@percent }
+\newlabel{ssec:chmm_results}{{4.4}{32}{CHMM agent}{subsection.4.4}{}}
+\newlabel{sfig:cka-hmm-hmm}{{21a}{33}{\relax }{figure.caption.21}{}}
+\newlabel{sub@sfig:cka-hmm-hmm}{{a}{33}{\relax }{figure.caption.21}{}}
+\newlabel{sfig:cka-hmm-vae}{{21b}{33}{\relax }{figure.caption.21}{}}
+\newlabel{sub@sfig:cka-hmm-vae}{{b}{33}{\relax }{figure.caption.21}{}}
+\newlabel{sfig:cka-hmm-dqn}{{21c}{33}{\relax }{figure.caption.21}{}}
+\newlabel{sub@sfig:cka-hmm-dqn}{{c}{33}{\relax }{figure.caption.21}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Transition\_X is to the X-th layer of the transition network, i.e., Transition\_1 is the closest to the input and Transition\_2 is the one just before the mean and variance layers. Transition\_mean and Transition\_variance are the mean and variance layers of the transition network, respectively. (a) shows the similarity between the representations learned by different layers of the encoder and transition network of an HMM. (b) shows the similarity between the representations learned by an HMM and a VAE. (c) shows the similarity between the representations learned by a DQN and an HMM.\relax }}{33}{figure.caption.21}\protected@file@percent }
+\newlabel{fig:cka-hmm}{{21}{33}{Transition\_X is to the X-th layer of the transition network, i.e., Transition\_1 is the closest to the input and Transition\_2 is the one just before the mean and variance layers. Transition\_mean and Transition\_variance are the mean and variance layers of the transition network, respectively. (a) shows the similarity between the representations learned by different layers of the encoder and transition network of an HMM. (b) shows the similarity between the representations learned by an HMM and a VAE. (c) shows the similarity between the representations learned by a DQN and an HMM.\relax }{figure.caption.21}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces This figure illustrates the total amount of reward gathered by the CHMM agents (with $\mathring  {\epsilon }$-greedy action selection) during the 500K iterations of training. The only two models that were able to solve the task are the ones maximising reward (without information gain), i.e., the DQN agent in red and the CHMM whose critic network was predicting only reward in gray.\relax }}{34}{figure.caption.22}\protected@file@percent }
+\newlabel{fig:CHMM_rewards_eg}{{22}{34}{This figure illustrates the total amount of reward gathered by the CHMM agents (with $\mathring {\epsilon }$-greedy action selection) during the 500K iterations of training. The only two models that were able to solve the task are the ones maximising reward (without information gain), i.e., the DQN agent in red and the CHMM whose critic network was predicting only reward in gray.\relax }{figure.caption.22}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces This figure illustrates the total amount of reward gathered by the CHMM agents (with softmax sampling) during the 500K iterations of training. The only model that was able to solve the task is the DQN agent in red, and all CHMM agents failed.\relax }}{34}{figure.caption.23}\protected@file@percent }
+\newlabel{fig:CHMM_rewards_s}{{23}{34}{This figure illustrates the total amount of reward gathered by the CHMM agents (with softmax sampling) during the 500K iterations of training. The only model that was able to solve the task is the DQN agent in red, and all CHMM agents failed.\relax }{figure.caption.23}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces This figure illustrates the total amount of reward gathered by the CHMM agents (with best action selection) during the 500K iterations of training. The only two models that were able to solve the task are the ones maximising reward (without information gain), i.e., the DQN agent in red and the CHMM whose critic network was predicting only reward in pink.\relax }}{35}{figure.caption.24}\protected@file@percent }
+\newlabel{fig:CHMM_rewards_b}{{24}{35}{This figure illustrates the total amount of reward gathered by the CHMM agents (with best action selection) during the 500K iterations of training. The only two models that were able to solve the task are the ones maximising reward (without information gain), i.e., the DQN agent in red and the CHMM whose critic network was predicting only reward in pink.\relax }{figure.caption.24}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces This figure illustrates the variational free energy of the CHMM agents during the 500K iterations of training. All the agents were able to minimise their variational free energy, except the one displayed in orange which crashed; this agent was minimising the expected free energy as defined by $G^1$. {\color {red}\sout {The crash }}{\color {blue}\uwave {More precisely, the variational free energy took the value ``Not a Number" (NaN), which }}is visible because of the thick horizontal line between 270K and 500K training iterations{\color {red}\sout {, which corresponds to the variational free energy taking the value ``not a number" (NaN)}}.\relax }}{35}{figure.caption.25}\protected@file@percent }
+\newlabel{fig:CHMM_vfe}{{25}{35}{This figure illustrates the variational free energy of the CHMM agents during the 500K iterations of training. All the agents were able to minimise their variational free energy, except the one displayed in orange which crashed; this agent was minimising the expected free energy as defined by $G^1$. \DIFdelbeginFL \DIFdelFL {The crash }\DIFdelendFL \DIFaddbeginFL \DIFaddFL {More precisely, the variational free energy took the value ``Not a Number" (NaN), which }\DIFaddendFL is visible because of the thick horizontal line between 270K and 500K training iterations\DIFdelbeginFL \DIFdelFL {, which corresponds to the variational free energy taking the value ``not a number" (NaN)}\DIFdelendFL .\relax }{figure.caption.25}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {26}{\ignorespaces This figure illustrates the sequences of reconstructed images generated by a CHMM (maximising reward) after 500K training iterations. The columns alternate between the ground truth images and the reconstructed images. Time passes vertically (from top to bottom), and within each column, the same action is executed repeatedly.\relax }}{36}{figure.caption.26}\protected@file@percent }
+\newlabel{fig:CHMM_reconstruction}{{26}{36}{This figure illustrates the sequences of reconstructed images generated by a CHMM (maximising reward) after 500K training iterations. The columns alternate between the ground truth images and the reconstructed images. Time passes vertically (from top to bottom), and within each column, the same action is executed repeatedly.\relax }{figure.caption.26}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.1}How do CHMMs learn?}{36}{subsubsection.4.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{CHMM with $\mathring  {\epsilon }$-greedy action selection}{36}{subsubsection.4.4.1}\protected@file@percent }
+\newlabel{sfig:cka-dqn-chmm1}{{27a}{37}{\relax }{figure.caption.28}{}}
+\newlabel{sub@sfig:cka-dqn-chmm1}{{a}{37}{\relax }{figure.caption.28}{}}
+\newlabel{sfig:cka-dqn-chmm2}{{27b}{37}{\relax }{figure.caption.28}{}}
+\newlabel{sub@sfig:cka-dqn-chmm2}{{b}{37}{\relax }{figure.caption.28}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {27}{\ignorespaces (a) shows the similarity between the representations learned by a CHMM whose critic maximises the reward (with $\mathring  {\epsilon }$-greedy selection) and a DQN; (b) shows the similarity between the representations learned by a CHMM whose critic minimises the EFE (with $\mathring  {\epsilon }$-greedy selection) and a DQN \relax }}{37}{figure.caption.28}\protected@file@percent }
+\newlabel{fig:cka-dqn-chmm}{{27}{37}{(a) shows the similarity between the representations learned by a CHMM whose critic maximises the reward (with $\mathring {\epsilon }$-greedy selection) and a DQN; (b) shows the similarity between the representations learned by a CHMM whose critic minimises the EFE (with $\mathring {\epsilon }$-greedy selection) and a DQN \relax }{figure.caption.28}{}}
+\newlabel{sfig:cka-chmm-chmm}{{28a}{37}{\relax }{figure.caption.29}{}}
+\newlabel{sub@sfig:cka-chmm-chmm}{{a}{37}{\relax }{figure.caption.29}{}}
+\newlabel{sfig:cka-chmm2-chmm2}{{28b}{37}{\relax }{figure.caption.29}{}}
+\newlabel{sub@sfig:cka-chmm2-chmm2}{{b}{37}{\relax }{figure.caption.29}{}}
+\newlabel{sfig:cka-chmm-chmm2}{{28c}{37}{\relax }{figure.caption.29}{}}
+\newlabel{sub@sfig:cka-chmm-chmm2}{{c}{37}{\relax }{figure.caption.29}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {28}{\ignorespaces (a) shows the similarity between the representations learned by different layers of the encoder, transition and critic networks of a CHMM whose critic maximises the reward (with $\mathring  {\epsilon }$-greedy selection). (b) shows the similarity between the representations learned by different layers of the encoder, transition and critic networks of a CHMM whose critic minimises the EFE (with $\mathring  {\epsilon }$-greedy selection) (c) shows the similarity between the representations learned by two CHMMs, one whose critic optimises EFE and the other optimises reward (both with $\mathring  {\epsilon }$-greedy selection). \relax }}{37}{figure.caption.29}\protected@file@percent }
+\newlabel{fig:cka-chmm}{{28}{37}{(a) shows the similarity between the representations learned by different layers of the encoder, transition and critic networks of a CHMM whose critic maximises the reward (with $\mathring {\epsilon }$-greedy selection). (b) shows the similarity between the representations learned by different layers of the encoder, transition and critic networks of a CHMM whose critic minimises the EFE (with $\mathring {\epsilon }$-greedy selection) (c) shows the similarity between the representations learned by two CHMMs, one whose critic optimises EFE and the other optimises reward (both with $\mathring {\epsilon }$-greedy selection). \relax }{figure.caption.29}{}}
+\@writefile{toc}{\contentsline {paragraph}{CHMM with best action selection}{37}{figure.caption.29}\protected@file@percent }
+\newlabel{sfig:cka-chmm-chmm-ba}{{29a}{38}{\relax }{figure.caption.30}{}}
+\newlabel{sub@sfig:cka-chmm-chmm-ba}{{a}{38}{\relax }{figure.caption.30}{}}
+\newlabel{sfig:cka-chmm2-chmm2-ba}{{29b}{38}{\relax }{figure.caption.30}{}}
+\newlabel{sub@sfig:cka-chmm2-chmm2-ba}{{b}{38}{\relax }{figure.caption.30}{}}
+\newlabel{sfig:cka-chmm-chmm2-ba}{{29c}{38}{\relax }{figure.caption.30}{}}
+\newlabel{sub@sfig:cka-chmm-chmm2-ba}{{c}{38}{\relax }{figure.caption.30}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {29}{\ignorespaces (a) shows the similarity between the representations learned by different layers of the encoder, transition and critic networks of a CHMM whose critic maximises the reward (with best action selection). (b) shows the similarity between the representations learned by different layers of the encoder, transition and critic networks of a CHMM whose critic minimises the EFE (with best action selection) (c) shows the similarity between the representations learned by two CHMMs, one whose critic optimises EFE and the other that optimises reward (both with best action selection). \relax }}{38}{figure.caption.30}\protected@file@percent }
+\newlabel{fig:cka-chmm-ba}{{29}{38}{(a) shows the similarity between the representations learned by different layers of the encoder, transition and critic networks of a CHMM whose critic maximises the reward (with best action selection). (b) shows the similarity between the representations learned by different layers of the encoder, transition and critic networks of a CHMM whose critic minimises the EFE (with best action selection) (c) shows the similarity between the representations learned by two CHMMs, one whose critic optimises EFE and the other that optimises reward (both with best action selection). \relax }{figure.caption.30}{}}
+\newlabel{sfig:cka-trans-chmm-ba}{{30a}{38}{\relax }{figure.caption.31}{}}
+\newlabel{sub@sfig:cka-trans-chmm-ba}{{a}{38}{\relax }{figure.caption.31}{}}
+\newlabel{sfig:cka-trans-chmm-ba}{{30b}{38}{\relax }{figure.caption.31}{}}
+\newlabel{sub@sfig:cka-trans-chmm-ba}{{b}{38}{\relax }{figure.caption.31}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {30}{\ignorespaces (a) shows one latent dimension of the variance layer of the transition network for the CHMM maximising the reward. (b) shows one latent dimension of the variance layer of the transition network for the CHMM minimising the EFE. Both figures are typical of the distributions of variance activations in the two models. Note, only the action down has low variance for the CHMM minimising the EFE. This suggests that the CHMM minimising the EFE always picks the action down, and does not gather enough data for the other actions. \relax }}{38}{figure.caption.31}\protected@file@percent }
+\newlabel{fig:cka-chmm-trans-ba}{{30}{38}{(a) shows one latent dimension of the variance layer of the transition network for the CHMM maximising the reward. (b) shows one latent dimension of the variance layer of the transition network for the CHMM minimising the EFE. Both figures are typical of the distributions of variance activations in the two models. Note, only the action down has low variance for the CHMM minimising the EFE. This suggests that the CHMM minimising the EFE always picks the action down, and does not gather enough data for the other actions. \relax }{figure.caption.31}{}}
+\@writefile{toc}{\contentsline {paragraph}{CHMM with softmax action selection}{38}{figure.caption.31}\protected@file@percent }
+\newlabel{sfig:cka-chmm-chmm-sm}{{31a}{39}{\relax }{figure.caption.32}{}}
+\newlabel{sub@sfig:cka-chmm-chmm-sm}{{a}{39}{\relax }{figure.caption.32}{}}
+\newlabel{sfig:cka-chmm2-chmm2-sm}{{31b}{39}{\relax }{figure.caption.32}{}}
+\newlabel{sub@sfig:cka-chmm2-chmm2-sm}{{b}{39}{\relax }{figure.caption.32}{}}
+\newlabel{sfig:cka-chmm-chmm2-sm}{{31c}{39}{\relax }{figure.caption.32}{}}
+\newlabel{sub@sfig:cka-chmm-chmm2-sm}{{c}{39}{\relax }{figure.caption.32}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {31}{\ignorespaces (a) shows the similarity between the representations learned by different layers of the encoder, transition and critic networks of a CHMM whose critic maximises the reward (with softmax action selection). (b) shows the similarity between the representations learned by different layers of the encoder, transition and critic networks of a CHMM whose critic minimises the EFE (with softmax action selection). (c) shows the similarity between the representations learned by two CHMMs, one whose critic optimises EFE and the other that optimises reward (both with softmax action selection).\relax }}{39}{figure.caption.32}\protected@file@percent }
+\newlabel{fig:cka-chmm-sm}{{31}{39}{(a) shows the similarity between the representations learned by different layers of the encoder, transition and critic networks of a CHMM whose critic maximises the reward (with softmax action selection). (b) shows the similarity between the representations learned by different layers of the encoder, transition and critic networks of a CHMM whose critic minimises the EFE (with softmax action selection). (c) shows the similarity between the representations learned by two CHMMs, one whose critic optimises EFE and the other that optimises reward (both with softmax action selection).\relax }{figure.caption.32}{}}
+\newlabel{sfig:cka-trans-chmm-sa}{{32a}{39}{\relax }{figure.caption.33}{}}
+\newlabel{sub@sfig:cka-trans-chmm-sa}{{a}{39}{\relax }{figure.caption.33}{}}
+\newlabel{sfig:cka-trans-chmm2-sa}{{32b}{39}{\relax }{figure.caption.33}{}}
+\newlabel{sub@sfig:cka-trans-chmm2-sa}{{b}{39}{\relax }{figure.caption.33}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {32}{\ignorespaces (a) shows one latent dimension of the variance layer of the transition network for the CHMM maximising the reward. (b) shows one latent dimension of the variance layer of the transition network for the CHMM minimising the EFE. Both figures are representative of the distributions of variance activations in the two models. Note, only the action down has low variance for the CHMM minimising the EFE. This suggests that the CHMM minimising the EFE always pick the action down, and does not gather enough data for the other actions. \relax }}{39}{figure.caption.33}\protected@file@percent }
+\newlabel{fig:cka-chmm-trans-sa}{{32}{39}{(a) shows one latent dimension of the variance layer of the transition network for the CHMM maximising the reward. (b) shows one latent dimension of the variance layer of the transition network for the CHMM minimising the EFE. Both figures are representative of the distributions of variance activations in the two models. Note, only the action down has low variance for the CHMM minimising the EFE. This suggests that the CHMM minimising the EFE always pick the action down, and does not gather enough data for the other actions. \relax }{figure.caption.33}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.2}Degenerate behaviour with the expected free energy?}{40}{subsubsection.4.4.2}\protected@file@percent }
+\newlabel{fig:action_picked_efe}{{33a}{40}{\relax }{figure.caption.34}{}}
+\newlabel{sub@fig:action_picked_efe}{{a}{40}{\relax }{figure.caption.34}{}}
+\newlabel{fig:entropy_action_efe}{{33b}{40}{\relax }{figure.caption.34}{}}
+\newlabel{sub@fig:entropy_action_efe}{{b}{40}{\relax }{figure.caption.34}{}}
+\newlabel{fig:action_picked_reward}{{33c}{40}{\relax }{figure.caption.34}{}}
+\newlabel{sub@fig:action_picked_reward}{{c}{40}{\relax }{figure.caption.34}{}}
+\newlabel{fig:entropy_action_reward}{{33d}{40}{\relax }{figure.caption.34}{}}
+\newlabel{sub@fig:entropy_action_reward}{{d}{40}{\relax }{figure.caption.34}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {33}{\ignorespaces {\color {blue}\uwave {(a) shows the action taken for each planning iteration when the CHMM is minimising expected free energy. (b) shows the entropy of the prior over actions when the CHMM is minimising the EFE. (c) shows the action taken for each planning iteration when the CHMM is maximising reward. (d) shows the entropy of the prior over actions when the CHMM is maximising reward. }}\relax }}{40}{figure.caption.34}\protected@file@percent }
+\newlabel{fig:actions_from_critic}{{33}{40}{\DIFaddFL {(a) shows the action taken for each planning iteration when the CHMM is minimising expected free energy. (b) shows the entropy of the prior over actions when the CHMM is minimising the EFE. (c) shows the action taken for each planning iteration when the CHMM is maximising reward. (d) shows the entropy of the prior over actions when the CHMM is maximising reward. }\relax }{figure.caption.34}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {34}{\ignorespaces {\color {blue}\uwave {This figure illustrates the total reward aggregated by CHMM agents during the 500K iterations of training. All the agents start by only maximising reward, and after 200K training iterations, X\% of the information gain is added to the objective function. Note, even adding 1\% of the information gain is enough to drastically reduce the total reward aggregated by the agent. The differences in trajectories before 200K are arbitrary, arising from differences in random initializations.}}\relax }}{41}{figure.caption.35}\protected@file@percent }
+\newlabel{fig:IG_progressive}{{34}{41}{\DIFaddFL {This figure illustrates the total reward aggregated by CHMM agents during the 500K iterations of training. All the agents start by only maximising reward, and after 200K training iterations, X\% of the information gain is added to the objective function. Note, even adding 1\% of the information gain is enough to drastically reduce the total reward aggregated by the agent. The differences in trajectories before 200K are arbitrary, arising from differences in random initializations.}\relax }{figure.caption.35}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}DAI agent}{41}{subsection.4.5}\protected@file@percent }
+\newlabel{ssec:dai_results}{{4.5}{41}{DAI agent}{subsection.4.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {35}{\ignorespaces This figure illustrates the sequences of reconstructed images generated by the DAI after 500K training iterations. The columns alternate between the ground truth images and the reconstructed images. Time passes vertically (from top to bottom), and within each column, the same action is executed repeatedly.\relax }}{42}{figure.caption.36}\protected@file@percent }
+\newlabel{fig:DAI_reconstruction}{{35}{42}{This figure illustrates the sequences of reconstructed images generated by the DAI after 500K training iterations. The columns alternate between the ground truth images and the reconstructed images. Time passes vertically (from top to bottom), and within each column, the same action is executed repeatedly.\relax }{figure.caption.36}{}}
+\citation{DeepAIwithMCMC}
+\citation{DeepAI}
+\citation{rood2020deep}
+\citation{sancaktar2020endtoend}
+\citation{DAI_Kai}
+\citation{DAI_POMDP}
+\citation{ccatal2020learning}
+\citation{schneider2022active}
+\@writefile{lof}{\contentsline {figure}{\numberline {36}{\ignorespaces This figure illustrates the total amount of reward gathered by a DAI agent during the 500K iterations of training. This agent was maximising rewards while sampling actions from a softmax function of the policy network output. Put simply, the DAI agent does not solve the task and performs at the level of a random agent.\relax }}{43}{figure.caption.38}\protected@file@percent }
+\newlabel{fig:DAI_rewards}{{36}{43}{This figure illustrates the total amount of reward gathered by a DAI agent during the 500K iterations of training. This agent was maximising rewards while sampling actions from a softmax function of the policy network output. Put simply, the DAI agent does not solve the task and performs at the level of a random agent.\relax }{figure.caption.38}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {37}{\ignorespaces This figure illustrates the variational free energy of the DAI agent during the 500K iterations of training. This agent was maximising reward while sampling actions from a softmax function of the policy network output. The agent was able to minimise its variational free energy.\relax }}{43}{figure.caption.39}\protected@file@percent }
+\newlabel{fig:DAI_vfe}{{37}{43}{This figure illustrates the variational free energy of the DAI agent during the 500K iterations of training. This agent was maximising reward while sampling actions from a softmax function of the policy network output. The agent was able to minimise its variational free energy.\relax }{figure.caption.39}{}}
+\citation{schneider2022active}
+\citation{DeepAIwithMCMC,DeepAI,rood2020deep,sancaktar2020endtoend,DAI_Kai,DAI_POMDP,ccatal2020learning}
+\newlabel{sfig:cka-dqn-chmm}{{38a}{44}{\relax }{figure.caption.40}{}}
+\newlabel{sub@sfig:cka-dqn-chmm}{{a}{44}{\relax }{figure.caption.40}{}}
+\newlabel{sfig:cka-dqn-dai}{{38b}{44}{\relax }{figure.caption.40}{}}
+\newlabel{sub@sfig:cka-dqn-dai}{{b}{44}{\relax }{figure.caption.40}{}}
+\newlabel{sfig:cka-chmm-dai}{{38c}{44}{\relax }{figure.caption.40}{}}
+\newlabel{sub@sfig:cka-chmm-dai}{{c}{44}{\relax }{figure.caption.40}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {38}{\ignorespaces (a) shows the similarity between the representations learned by a DQN and a CHMM maximising the reward and using softmax action selection. (b) shows the similarity between the representations learned by a DQN and a DAI maximising the reward and using softmax action selection. (c) shows the similarity between the representations learned by a CHMM and a DAI. Both maximise the reward and use softmax action selection. \relax }}{44}{figure.caption.40}\protected@file@percent }
+\newlabel{fig:cka-dai}{{38}{44}{(a) shows the similarity between the representations learned by a DQN and a CHMM maximising the reward and using softmax action selection. (b) shows the similarity between the representations learned by a DQN and a DAI maximising the reward and using softmax action selection. (c) shows the similarity between the representations learned by a CHMM and a DAI. Both maximise the reward and use softmax action selection. \relax }{figure.caption.40}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{44}{section.5}\protected@file@percent }
+\newlabel{sec:conclusion}{{5}{44}{DAI agent}{section.5}{}}
+\bibdata{references}
+\bibcite{Bonheme2022}{{1}{2022}{{{Bonheme} and {Grzes}}}{{}}}
+\bibcite{6145622}{{2}{2012{a}}{{{Browne} et~al.}}{{{Browne}, {Powley}, {Whitehouse}, {Lucas}, {Cowling}, {Rohlfshagen}, {Tavener}, {Perez}, {Samothrakis}, and {Colton}}}}
+\bibcite{MCTS}{{3}{2012{b}}{{{Browne} et~al.}}{{{Browne}, {Powley}, {Whitehouse}, {Lucas}, {Cowling}, {Rohlfshagen}, {Tavener}, {Perez}, {Samothrakis}, and {Colton}}}}
+\bibcite{ccatal2020learning}{{4}{2020}{{{\c {C}}atal et~al.}}{{{\c {C}}atal, Wauthier, De~Boom, Verbelen, and Dhoedt}}}
+\bibcite{AITS_PRACTICE}{{5}{2021{a}}{{Champion et~al.}}{{Champion, Bowman, and Grze{\'{s}}}}}
+\bibcite{AITs_tHEORY}{{6}{2021{b}}{{Champion et~al.}}{{Champion, Bowman, and Grze{\'{s}}}}}
+\bibcite{AI_VMP}{{7}{2021{c}}{{Champion et~al.}}{{Champion, Grze{\'{s}}, and Bowman}}}
+\bibcite{BTAI_BF}{{8}{2021{d}}{{Champion et~al.}}{{Champion, Grze{\'{s}}, and Bowman}}}
+\bibcite{BTAI_3MF}{{9}{2022}{{Champion et~al.}}{{Champion, Grześ, and Bowman}}}
+\bibcite{Cortes2012}{{10}{2012}{{Cortes et~al.}}{{Cortes, Mohri, and Rostamizadeh}}}
+\bibcite{AI_TUTO}{{11}{2020{a}}{{Costa et~al.}}{{Costa, Parr, Sajid, Veselic, Neacsu, and Friston}}}
+\bibcite{dacosta2020relationship}{{12}{2020{b}}{{Costa et~al.}}{{Costa, Sajid, Parr, Friston, and Smith}}}
+\bibcite{Cristianini2002}{{13}{2002}{{Cristianini et~al.}}{{Cristianini, Shawe-Taylor, Elisseeff, and Kandola}}}
+\bibcite{CULLEN2018809}{{14}{2018}{{Cullen et~al.}}{{Cullen, Davey, Friston, and Moran}}}
+\bibcite{VAE}{{15}{2016}{{Doersch}}{{}}}
+\bibcite{dopamine}{{16}{2015}{{FitzGerald et~al.}}{{FitzGerald, Dolan, and Friston}}}
+\bibcite{DeepAIwithMCMC}{{17}{2020}{{Fountas et~al.}}{{Fountas, Sajid, Mediano, and Friston}}}
+\bibcite{FRISTON2016862}{{18}{2016}{{Friston et~al.}}{{Friston, FitzGerald, Rigoli, Schwartenbeck, Doherty, and Pezzulo}}}
+\bibcite{Gretton2005}{{19}{2005}{{Gretton et~al.}}{{Gretton, Bousquet, Smola, and Sch{\"{o}}lkopf}}}
+\bibcite{beta-VAE}{{20}{2017}{{Higgins et~al.}}{{Higgins, Matthey, Pal, Burgess, Glorot, Botvinick, Mohamed, and Lerchner}}}
+\bibcite{bayes_surprise}{{21}{2009}{{Itti and Baldi}}{{}}}
+\bibcite{koller2009probabilistic}{{22}{2009}{{Koller and Friedman}}{{}}}
+\bibcite{Kornblith2019}{{23}{2019}{{Kornblith et~al.}}{{Kornblith, Norouzi, Lee, and Hinton}}}
+\bibcite{lample2016playing}{{24}{2016}{{Lample and Chaplot}}{{}}}
+\bibcite{DAI_HR}{{25}{2020}{{Lanillos et~al.}}{{Lanillos, Cheng, et~al.}}}
+\bibcite{Maheswaranathan2019}{{26}{2019}{{Maheswaranathan et~al.}}{{Maheswaranathan, Williams, Golub, Ganguli, and Sussillo}}}
+\bibcite{dsprites17}{{27}{2017}{{Matthey et~al.}}{{Matthey, Higgins, Hassabis, and Lerchner}}}
+\bibcite{cart_pole}{{28}{2019}{{Millidge}}{{}}}
+\bibcite{DeepAI}{{29}{2020}{{Millidge}}{{}}}
+\bibcite{DeepRL}{{30}{2013}{{Mnih et~al.}}{{Mnih, Kavukcuoglu, Silver, Graves, Antonoglou, Wierstra, and Riedmiller}}}
+\bibcite{DAI_HR2}{{31}{2019}{{Oliver et~al.}}{{Oliver, Lanillos, and Cheng}}}
+\bibcite{pezzato2020active}{{32}{2020}{{Pezzato et~al.}}{{Pezzato, Hernandez, and Wisse}}}
+\bibcite{Robert1976}{{33}{1976}{{Robert and Escoufier}}{{}}}
+\bibcite{rood2020deep}{{34}{2020}{{Rood et~al.}}{{Rood, van Gerven, and Lanillos}}}
+\bibcite{sancaktar2020endtoend}{{35}{2020}{{Sancaktar et~al.}}{{Sancaktar, van Gerven, and Lanillos}}}
+\bibcite{schneider2022active}{{36}{2022}{{Schneider et~al.}}{{Schneider, Belousov, Abdulsamad, and Peters}}}
+\bibcite{curiosity}{{37}{2018}{{Schwartenbeck et~al.}}{{Schwartenbeck, Passecker, Hauser, FitzGerald, Kronbichler, and Friston}}}
+\bibcite{Go}{{38}{2016}{{Silver et~al.}}{{Silver, Huang, Maddison, Guez, Sifre, van~den Driessche, Schrittwieser, Antonoglou, Panneershelvam, Lanctot, Dieleman, Grewe, Nham, Kalchbrenner, Sutskever, Lillicrap, Leach, Kavukcuoglu, Graepel, and Hassabis}}}
+\bibcite{sutton1998}{{39}{1998}{{Sutton et~al.}}{{Sutton, Barto, et~al.}}}
+\bibcite{DAI_Kai}{{40}{2018}{{Ueltzh\"{o}ffer}}{{}}}
+\bibcite{DAI_POMDP}{{41}{2020}{{van~der Himst and Lanillos}}{{}}}
+\bibcite{DDQN}{{42}{2015}{{van Hasselt et~al.}}{{van Hasselt, Guez, and Silver}}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Notation of Sections \ref  {sec:existing_research} and \ref  {sec:build_dai}.\relax }}{49}{table.caption.43}\protected@file@percent }
+\newlabel{tab:notation}{{1}{49}{Notation of Sections \ref {sec:existing_research} and \ref {sec:build_dai}.\relax }{table.caption.43}{}}
+\citation{DeepAIwithMCMC}
+\citation{DeepAIwithMCMC}
+\citation{DeepAIwithMCMC}
+\@writefile{lof}{\contentsline {figure}{\numberline {39}{\ignorespaces This figure illustrates the computation of $\mathbb  {E}_{\tilde  {Q}}[\qopname  \relax o{ln}\tilde  {P}(o_\tau |\pi )]$ in {\color {blue}\uwave {(the code of) }}\citet  {DeepAIwithMCMC}. The environment at time $t$ provides the agent with an image $o_t$ and a reward $r_t$ randomly sampled from the interval $[-1;1]$. Then, action $\hat  {a}_t$ is performed in the environment and the agent observes an image $o_{t+1}$ and a reward $r_{t+1}$, where $r_{t+1}$ is computed according to the function presented in the center of the image. Next, the reward at time $t$ and $t+1$ are encoded in the images received at time $t$ and $t+1$, respectively, c.f., Figure \ref  {fig:encoding_rewards_in_image} for details about the encoding. The encoded image at time $t+1$ (i.e., $o^r_{t+1}$) is then fed into the encoder, the re-parameterisation trick is then used to sample a state from the variational posterior. This states is fed into the decoder which tries to reconstruct the image inputed into the encoder. Once $\hat  {o}^r_{t+1}$ has been computed, the weights of the encoder and decoder are learned using back-propagation. On the other hand, the encoded image at time $t$ (i.e., $o^r_t$) is used to compute $\mathbb  {E}_{\tilde  {Q}}[\qopname  \relax o{ln}\tilde  {P}(o_\tau |\pi )]$. More precisely, the $o^r_t$ is fed into the encoder, and a state is sampled from the variational posterior $Q_{\phi _s}(s_t)$. This state is then fed as input into the transition network along with the action prescribed by $\pi $ at time $t$, i.e., $a_t$. A state at time $t+1$ can then be sampled from the distribution predicted by the transition network. This state is then inputed into the decoder, which outputs $\mathring  {o}^r_{t+1}$. Next, a matrix (i.e., $\mathring  {r}_{t+1}$) encoding the maximum reward that the agent can gather is used as a parameter of a Bernoulli distribution to compute the logarithm of the probability (i.e., $\bm  {L}$) of the first three rows of $\hat  {o}^r_{t+1}$, i.e., $R(\mathring  {o}^r_{t+1})$. The mean of $\bm  {L}$ is then computed and is multiplied by ten to get $\mathbb  {E}_{\tilde  {Q}}[\qopname  \relax o{ln}\tilde  {P}(o_\tau |\pi )]$.\relax }}{52}{figure.caption.45}\protected@file@percent }
+\newlabel{fig:computation_of_extrinsic_value}{{39}{52}{This figure illustrates the computation of $\mathbb {E}_{\tilde {Q}}[\ln \tilde {P}(o_\tau |\pi )]$ in \DIFaddbeginFL \DIFaddFL {(the code of) }\DIFaddendFL \citet {DeepAIwithMCMC}. The environment at time $t$ provides the agent with an image $o_t$ and a reward $r_t$ randomly sampled from the interval $[-1;1]$. Then, action $\hat {a}_t$ is performed in the environment and the agent observes an image $o_{t+1}$ and a reward $r_{t+1}$, where $r_{t+1}$ is computed according to the function presented in the center of the image. Next, the reward at time $t$ and $t+1$ are encoded in the images received at time $t$ and $t+1$, respectively, c.f., Figure \ref {fig:encoding_rewards_in_image} for details about the encoding. The encoded image at time $t+1$ (i.e., $o^r_{t+1}$) is then fed into the encoder, the re-parameterisation trick is then used to sample a state from the variational posterior. This states is fed into the decoder which tries to reconstruct the image inputed into the encoder. Once $\hat {o}^r_{t+1}$ has been computed, the weights of the encoder and decoder are learned using back-propagation. On the other hand, the encoded image at time $t$ (i.e., $o^r_t$) is used to compute $\mathbb {E}_{\tilde {Q}}[\ln \tilde {P}(o_\tau |\pi )]$. More precisely, the $o^r_t$ is fed into the encoder, and a state is sampled from the variational posterior $Q_{\phi _s}(s_t)$. This state is then fed as input into the transition network along with the action prescribed by $\pi $ at time $t$, i.e., $a_t$. A state at time $t+1$ can then be sampled from the distribution predicted by the transition network. This state is then inputed into the decoder, which outputs $\mathring {o}^r_{t+1}$. Next, a matrix (i.e., $\mathring {r}_{t+1}$) encoding the maximum reward that the agent can gather is used as a parameter of a Bernoulli distribution to compute the logarithm of the probability (i.e., $\bm {L}$) of the first three rows of $\hat {o}^r_{t+1}$, i.e., $R(\mathring {o}^r_{t+1})$. The mean of $\bm {L}$ is then computed and is multiplied by ten to get $\mathbb {E}_{\tilde {Q}}[\ln \tilde {P}(o_\tau |\pi )]$.\relax }{figure.caption.45}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {40}{\ignorespaces This figure illustrates how the reward $r_\tau \in [-1, 1]$ is encoded in image $o_\tau $. On the left, the plus and minus signs shows where the reward will be encoded in the image if the reward is positive or negative, respectively. In the middle, a positive reward is being encoded on the left side of the image. On the right, a negative reward is being encoded on the right of the image.\relax }}{53}{figure.caption.46}\protected@file@percent }
+\newlabel{fig:encoding_rewards_in_image}{{40}{53}{This figure illustrates how the reward $r_\tau \in [-1, 1]$ is encoded in image $o_\tau $. On the left, the plus and minus signs shows where the reward will be encoded in the image if the reward is positive or negative, respectively. In the middle, a positive reward is being encoded on the left side of the image. On the right, a negative reward is being encoded on the right of the image.\relax }{figure.caption.46}{}}
+\gdef \@abspage@last{53}
