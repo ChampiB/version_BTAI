@@ -3,44 +3,46 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: diff_Challenges.aux
 The style file: plainnat.bst
 Database file #1: references.bib
-You've used 42 entries,
+Warning--can't use both volume and number fields in Rezende2014
+You've used 45 entries,
             2773 wiz_defined-function locations,
-            872 strings with 14104 characters,
-and the built_in function-call counts, 22252 in all, are:
-= -- 1861
-> -- 1746
-< -- 18
-+ -- 587
-- -- 540
-* -- 1969
-:= -- 3518
-add.period$ -- 152
-call.type$ -- 42
-change.case$ -- 296
-chr.to.int$ -- 37
-cite$ -- 84
-duplicate$ -- 842
-empty$ -- 1558
-format.name$ -- 594
-if$ -- 4591
-int.to.chr$ -- 6
+            903 strings with 14926 characters,
+and the built_in function-call counts, 23386 in all, are:
+= -- 1989
+> -- 1743
+< -- 24
++ -- 585
+- -- 536
+* -- 2034
+:= -- 3673
+add.period$ -- 166
+call.type$ -- 45
+change.case$ -- 303
+chr.to.int$ -- 41
+cite$ -- 91
+duplicate$ -- 919
+empty$ -- 1685
+format.name$ -- 597
+if$ -- 4854
+int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 28
-newline$ -- 238
-num.names$ -- 178
-pop$ -- 619
+missing$ -- 31
+newline$ -- 257
+num.names$ -- 192
+pop$ -- 633
 preamble$ -- 1
-purify$ -- 256
+purify$ -- 260
 quote$ -- 0
-skip$ -- 732
+skip$ -- 786
 stack$ -- 0
-substring$ -- 464
-swap$ -- 96
-text.length$ -- 8
+substring$ -- 523
+swap$ -- 113
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 452
-warning$ -- 0
-while$ -- 157
+type$ -- 485
+warning$ -- 1
+while$ -- 171
 width$ -- 0
-write$ -- 581
+write$ -- 631
+(There was 1 warning)

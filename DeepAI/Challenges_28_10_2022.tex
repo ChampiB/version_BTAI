@@ -1,7 +1,4 @@
 \documentclass[twoside,11pt]{article}
-%DIF LATEXDIFF DIFFERENCE FILE
-%DIF DEL Challenges_01_10_2022.tex   Fri Oct 28 17:15:02 2022
-%DIF ADD Challenges_28_10_2022.tex   Fri Oct 28 17:41:25 2022
 
 % Any additional packages needed should be included after jmlr2e.
 % Note that jmlr2e.sty includes epsfig, amssymb, natbib and graphicx,
@@ -113,11 +110,7 @@
 		\draw[fill=green!20!white] (A) -- coordinate[pos=.6] (AB) (B)--(C)
          --coordinate[pos=.45] (CD) (D)
          --coordinate[pos=.55] (DA) cycle;
-%DIF 113c113
-%DIF < 	    \node at (2.75, -10) {$Encoder$};
-%DIF -------
-	    \node at (2.75, -10) {Encoder}; %DIF > 
-%DIF -------
+	    \node at (2.75, -10) {Encoder};
 
 		\draw[fill=red!20!white] (4.5,-11) rectangle (5.5,-10.1);
 	    \node at (5, -10.5) {#3};
@@ -133,11 +126,7 @@
 		\draw[fill=green!20!white] (A) -- coordinate[pos=.6] (AB) (B)--(C)
          --coordinate[pos=.45] (CD) (D)
          --coordinate[pos=.55] (DA) cycle;
-%DIF 129c129
-%DIF < 	    \node at (8.75, -10) {$Decoder$};
-%DIF -------
-	    \node at (8.75, -10) {Decoder}; %DIF > 
-%DIF -------
+	    \node at (8.75, -10) {Decoder};
 
 		\draw[fill=gray!20!white] (6,-11) rectangle (7,-9);
 	    \node at (6.5,-10) {#4};
@@ -172,11 +161,7 @@
 		\draw[fill=orange!20!white] (A) -- coordinate[pos=.6] (AB) (B)--(C)
          --coordinate[pos=.45] (CD) (D)
          --coordinate[pos=.55] (DA) cycle;
-%DIF 164c164
-%DIF < 	    \node at (14.75, 5.5) {$Transition$};
-%DIF -------
-	    \node at (14.75, 5.5) {Transition}; %DIF > 
-%DIF -------
+	    \node at (14.75, 5.5) {Transition};
 
 		\draw[fill=red!20!white] (16.5,4.5) rectangle (17.5,5.4);
 	    \node at (17, 5) {$\ln \mathring{\sigma}$};
@@ -214,11 +199,7 @@
 		\draw[fill=green!20!white] (A) -- coordinate[pos=.6] (AB) (B)--(C)
          --coordinate[pos=.45] (CD) (D)
          --coordinate[pos=.55] (DA) cycle;
-%DIF 202c202
-%DIF < 	    \node at (1.75, -10) {$Encoder$};
-%DIF -------
-	    \node at (1.75, -10) {Encoder}; %DIF > 
-%DIF -------
+	    \node at (1.75, -10) {Encoder};
 
 		\draw[fill=red!20!white] (3.5,-11) rectangle (4.5,-10.1);
 	    \node at (4, -10.5) {#3};
@@ -234,11 +215,7 @@
 		\draw[fill=green!20!white] (A) -- coordinate[pos=.6] (AB) (B)--(C)
          --coordinate[pos=.45] (CD) (D)
          --coordinate[pos=.55] (DA) cycle;
-%DIF 218c218
-%DIF < 	    \node at (9.25, -3) {$Decoder$};
-%DIF -------
-	    \node at (9.25, -3) {Decoder}; %DIF > 
-%DIF -------
+	    \node at (9.25, -3) {Decoder};
 
 		\draw[fill=gray!20!white] (5,-11) rectangle (6,-9);
 	    \node at (5.5,-10) {#4};
@@ -267,11 +244,7 @@
 		\draw[fill=orange!20!white] (A) -- coordinate[pos=.6] (AB) (B)--(C)
          --coordinate[pos=.45] (CD) (D)
          --coordinate[pos=.55] (DA) cycle;
-%DIF 247c247
-%DIF < 	    \node at (6.5, -6.75) {$Transition$};
-%DIF -------
-	    \node at (6.5, -6.75) {Transition}; %DIF > 
-%DIF -------
+	    \node at (6.5, -6.75) {Transition};
 		
 		\draw[-latex] (5.95,-5.5) -- (5.95,-5);
 		\draw[-latex] (7.05,-5.5) -- (7.05,-5);
@@ -347,54 +320,12 @@
 %ps2eps "\image.ps"}}
 %\tikzexternalize
 
-%DIF 323-324c323
-%DIF < \jmlrheading{1}{2020}{1-48}{4/00}{10/00}{meila00a}{Théophile Champion and Marek Grze\'s and Howard Bowman}
-%DIF < %TODO
-%DIF -------
-\jmlrheading{1}{2020}{1-48}{4/00}{10/00}{meila00a}{Théophile Champion and Marek Grze\'s and Lisa Bonheme and Howard Bowman} %DIF > 
-%DIF -------
+\jmlrheading{1}{2020}{1-48}{4/00}{10/00}{meila00a}{Théophile Champion and Marek Grze\'s and Lisa Bonheme and Howard Bowman}
 
 % Short headings should be running head and authors last names
 
 \ShortHeadings{Deconstructing deep active inference.}{Champion et al.}
 \firstpageno{1}
-%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
-%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
-\RequirePackage[normalem]{ulem} %DIF PREAMBLE
-\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
-\providecommand{\DIFadd}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
-\providecommand{\DIFdel}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
-%DIF SAFE PREAMBLE %DIF PREAMBLE
-\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
-\providecommand{\DIFaddend}{} %DIF PREAMBLE
-\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
-\providecommand{\DIFdelend}{} %DIF PREAMBLE
-\providecommand{\DIFmodbegin}{} %DIF PREAMBLE
-\providecommand{\DIFmodend}{} %DIF PREAMBLE
-%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
-\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
-\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
-\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
-\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
-\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
-\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
-%DIF LISTINGS PREAMBLE %DIF PREAMBLE
-\RequirePackage{listings} %DIF PREAMBLE
-\RequirePackage{color} %DIF PREAMBLE
-\lstdefinelanguage{DIFcode}{ %DIF PREAMBLE
-%DIF DIFCODE_UNDERLINE %DIF PREAMBLE
-  moredelim=[il][\color{red}\sout]{\%DIF\ <\ }, %DIF PREAMBLE
-  moredelim=[il][\color{blue}\uwave]{\%DIF\ >\ } %DIF PREAMBLE
-} %DIF PREAMBLE
-\lstdefinestyle{DIFverbatimstyle}{ %DIF PREAMBLE
-	language=DIFcode, %DIF PREAMBLE
-	basicstyle=\ttfamily, %DIF PREAMBLE
-	columns=fullflexible, %DIF PREAMBLE
-	keepspaces=true %DIF PREAMBLE
-} %DIF PREAMBLE
-\lstnewenvironment{DIFverbatim}{\lstset{style=DIFverbatimstyle}}{} %DIF PREAMBLE
-\lstnewenvironment{DIFverbatim*}{\lstset{style=DIFverbatimstyle,showspaces=true}}{} %DIF PREAMBLE
-%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
 
 \begin{document}
 
@@ -420,13 +351,13 @@
        University College London, Wellcome Centre for Human Neuroimaging\\
        London WC1N 3AR, United Kingdom
        }
-
+       
 \editor{\textbf{TO BE FILLED}} %TODO
 
 \maketitle
 
 \begin{abstract}% <- trailing '%' for backward compatibility of .sty file
-Active inference is a theory of perception, learning and decision making, which can be applied to neuroscience, robotics, psychology, and machine learning. Recently, intensive reasearch has been taking place to scale up this framework using Monte-Carlo tree search and deep learning. The end-goal of this activity is to solve more complicated tasks using deep active inference. First, we review the existing literature, then, we progresively build a deep active inference agent as follows: (i) implement a variational auto-encoder (VAE), (ii) implement a deep hidden Markov model (HMM), (iii) implement a deep critical hidden Markov model (CHMM), and (iv) implement a complete deep active inference agent (DAI). For the CHMM and DAI \DIFdelbegin \DIFdel{agent}\DIFdelend \DIFaddbegin \DIFadd{agents}\DIFaddend , we have experimented with five definitions of the expected free energy and three different action selection strategies. According to our experiments, the models able to solve the dSprites environment are the ones that maximise rewards. Finally, we compare the similarity of the representation learned by the layers of various models (e.g., deep Q-network, CHMM, DAI\DIFdelbegin \DIFdel{, etc...}\DIFdelend ) using centered kernel alignment. Importantly, the CHMM maximising reward and the CHMM minimising expected free energy learn very similar representations except for the last layer of the critic network (reflecting the difference in learning objective), and the variance layers of the transition and encoder networks. While performing further inspection of those (variance) layers, we found that the transition network of the reward maximising CHMM is a lot more certain than the transition network of the CHMM minimising expected free energy. More precisely, the CHMM minimising expected free energy is only confident about the world transition when performing action down. This suggests that the CHMM minimising expected free energy always picks the action down, and does not gather enough data for the other actions. In contrast, the CHMM maximising reward, keeps on selecting the actions left and right, enabling it to successfully solve the task. The only difference between those two CHMMs is the epistemic value, which aims to \DIFdelbegin \DIFdel{makes }\DIFdelend \DIFaddbegin \DIFadd{make }\DIFaddend the outputs of the transition and encoder networks as close as possible. Thus, the CHMM minimising expected free energy repeatedly picks a single action (down), and becomes an expert at predicting the future when selecting this action. This effectively makes the KL divergence between the output of the transition and encoder networks small. Additionally, when selecting the action down the average reward is zero, while for all the other actions, the expected reward will be negative. Therefore, if the CHMM has to stick to a single action to keep the KL divergence small, then the action down is the most rewarding. Thus, the appropriate formulation of the epistemic value in deep active inference remains an open question.
+Active inference is a theory of perception, learning and decision making, which can be applied to neuroscience, robotics, psychology, and machine learning. Recently, intensive reasearch has been taking place to scale up this framework using Monte-Carlo tree search and deep learning. The end-goal of this activity is to solve more complicated tasks using deep active inference. First, we review the existing literature, then, we progresively build a deep active inference agent as follows: (i) implement a variational auto-encoder (VAE), (ii) implement a deep hidden Markov model (HMM), (iii) implement a deep critical hidden Markov model (CHMM), and (iv) implement a complete deep active inference agent (DAI). For the CHMM and DAI agents, we have experimented with five definitions of the expected free energy and three different action selection strategies. According to our experiments, the models able to solve the dSprites environment are the ones that maximise rewards. Finally, we compare the similarity of the representation learned by the layers of various models (e.g., deep Q-network, CHMM, DAI) using centered kernel alignment. Importantly, the CHMM maximising reward and the CHMM minimising expected free energy learn very similar representations except for the last layer of the critic network (reflecting the difference in learning objective), and the variance layers of the transition and encoder networks. While performing further inspection of those (variance) layers, we found that the transition network of the reward maximising CHMM is a lot more certain than the transition network of the CHMM minimising expected free energy. More precisely, the CHMM minimising expected free energy is only confident about the world transition when performing action down. This suggests that the CHMM minimising expected free energy always picks the action down, and does not gather enough data for the other actions. In contrast, the CHMM maximising reward, keeps on selecting the actions left and right, enabling it to successfully solve the task. The only difference between those two CHMMs is the epistemic value, which aims to make the outputs of the transition and encoder networks as close as possible. Thus, the CHMM minimising expected free energy repeatedly picks a single action (down), and becomes an expert at predicting the future when selecting this action. This effectively makes the KL divergence between the output of the transition and encoder networks small. Additionally, when selecting the action down the average reward is zero, while for all the other actions, the expected reward will be negative. Therefore, if the CHMM has to stick to a single action to keep the KL divergence small, then the action down is the most rewarding. Thus, the appropriate formulation of the epistemic value in deep active inference remains an open question.
 \end{abstract}
 
 \begin{keywords}
@@ -439,20 +370,12 @@ Active inference is a unified framework for perception, learning, and planning t
 AITS_PRACTICE,BTAI_BF}. This framework has successfully explained a wide range of brain phenomena  \citep{FRISTON2016862,bayes_surprise,curiosity,dopamine}, and has been applied to a large number of tasks in robotics and artificial intelligence \citep{DeepAIwithMCMC,pezzato2020active,
 sancaktar2020endtoend,ccatal2020learning,CULLEN2018809,cart_pole}.
 
-A promising area of research revolves around scaling up this theoretical framework to tackle increasingly complex tasks. Research towards this goal is generally driven from recent advances in machine learning. For example, variational auto-encoders \DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
-\citep{VAE,beta-VAE} }\hspace{0pt}%DIFAUXCMD
-}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
-\citep{VAE,beta-VAE,Kingma2013,Rezende2014} }\hspace{0pt}%DIFAUXCMD
-}\DIFaddend have been key to the integration of deep neural networks within active inference \citep{sancaktar2020endtoend,ccatal2020learning,DeepAI}, and the Monte Carlo tree search algorithm \DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
-\citep{6145622,Go} }\hspace{0pt}%DIFAUXCMD
-}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
-\citep{MCTS,Go} }\hspace{0pt}%DIFAUXCMD
-}\DIFaddend has been used to improve planning efficency \citep{DeepAIwithMCMC,AITs_tHEORY,
+A promising area of research revolves around scaling up this theoretical framework to tackle increasingly complex tasks. Research towards this goal is generally driven from recent advances in machine learning. For example, variational auto-encoders \citep{VAE,beta-VAE,Kingma2013,Rezende2014} have been key to the integration of deep neural networks within active inference \citep{sancaktar2020endtoend,ccatal2020learning,DeepAI}, and the Monte Carlo tree search algorithm \citep{MCTS,Go} has been used to improve planning efficency \citep{DeepAIwithMCMC,AITs_tHEORY,
 AITS_PRACTICE,BTAI_BF,BTAI_3MF}.
 
 Another closely related field is reinforcement learning \citep{DeepRL,DDQN,lample2016playing}, which addresses the same kind of tasks, where an agent must interact with its environment. A known challenge in this field is the correlation between the consecutive samples, which violates the standard i.i.d. assumption on which most of machine learning relies. To break this correlation, researchers proposed to store past experiences of the agent inside a replay buffer \citep{DeepRL}. Experiences can then be re-sampled randomly from the buffer to train the Q-network, which is used to approximate Q-values. The Q-network is trained to minimize the mean squared error between its output and a target value, which is defined as:
 $$y(o_t,a_t) = \mathbb{E}_{o_{t+1} \sim E(o_t,a_t)}\Big[ r_t + \gamma \max_{a_{t+1} \in \mathcal{A}} \mathcal{Q}_{\theta_a}(o_{t+1}, a_{t+1})\Big],$$
-where \DIFaddbegin \DIFadd{$t$ is the present time step, }\DIFaddend $\mathcal{A}$ is the set of available actions, $y(o_t,a_t)$ is the target Q-value to be predicted, $\mathbb{E}$ is the expectation w.r.t the observations received from the environment, $r_t$ is the reward obtained by the agent when performing action $a_t$ in state\footnote{Note, we are using the notation $o_\tau$ for the (observable) state \DIFaddbegin \DIFadd{at (an arbitrary) time step $\tau$}\DIFaddend , instead of the more standard notation $s_\tau$. This is because we reserve the notation $s_\tau$ for the (unobserved) states that arise in the context of active inference.} $o_t$, $o_{t+1}$ is the state reached when performing action $a_t$ in state $o_t$, $E$ is the environment emulator from which $o_{t+1}$ is sampled, $\gamma$ is the discount factor that discounts future rewards, and $\mathcal{Q}_{\theta_a}(o_{t+1}, a_{t+1})$ is the output of the Q-network, i.e., the estimated Q-value of performing action $a_{t+1}$ in state $o_{t+1}$.
+where $t$ is the present time step, $\mathcal{A}$ is the set of available actions, $y(o_t,a_t)$ is the target Q-value to be predicted, $\mathbb{E}$ is the expectation w.r.t the observations received from the environment, $r_t$ is the reward obtained by the agent when performing action $a_t$ in state\footnote{Note, we are using the notation $o_\tau$ for the (observable) state at (an arbitrary) time step $\tau$, instead of the more standard notation $s_\tau$. This is because we reserve the notation $s_\tau$ for the (unobserved) states that arise in the context of active inference.} $o_t$, $o_{t+1}$ is the state reached when performing action $a_t$ in state $o_t$, $E$ is the environment emulator from which $o_{t+1}$ is sampled, $\gamma$ is the discount factor that discounts future rewards, and $\mathcal{Q}_{\theta_a}(o_{t+1}, a_{t+1})$ is the output of the Q-network, i.e., the estimated Q-value of performing action $a_{t+1}$ in state $o_{t+1}$.
 
 Unfortunatly, using the above target to train the Q-network can make the training unstable. Generally, the problem is addressed by introducing a target network $\hat{\mathcal{Q}}_{\hat{\theta}_a}(o_{t+1}, a_{t+1})$, which is simply a copy of the Q-network. The weights of the target network are then synchronized with the weights of the Q-network every $K$ (learning) iterations \citep{DeepRL}. The new target is obtained by replacing the Q-network by the target network, i.e.,
 $$y(o_t,a_t) = \mathbb{E}_{o_{t+1} \sim E(o_t,a_t)}\Big[ r_t + \gamma \max_{a_{t+1} \in \mathcal{A}} \hat{\mathcal{Q}}_{\hat{\theta}_a}(o_{t+1}, a_{t+1})\Big].$$
@@ -532,39 +455,11 @@ $$y(o_t,a_t) = \mathbb{E}_{o_{t+1} \sim E(o_t,a_t)}\Big[ r_t + \gamma \max_{a_{t
    \label{fig:DQN}
 \end{figure}
 
-\subsection{$DAI_{MC}$ agent \citep{DeepAIwithMCMC}} \DIFaddbegin \label{ssection:fountas_paper}
-\DIFaddend 
+\subsection{$DAI_{MC}$ agent \citep{DeepAIwithMCMC}} \label{ssection:fountas_paper}
 
 \begin{figure}[h]
 	\begin{center}
-	\DIFdelbeginFL %DIFDELCMD < \begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}]
-%DIFDELCMD < 		\coordinate (A) at (13.5,8);
-%DIFDELCMD < 		\coordinate (B) at (16,9);
-%DIFDELCMD < 		\coordinate (C) at (16,11);
-%DIFDELCMD < 		\coordinate (D) at (13.5,12);
-%DIFDELCMD < 		\draw[fill=purple!20!white] (A) -- coordinate[pos=.6] (AB) (B)--(C)
-%DIFDELCMD <          --coordinate[pos=.45] (CD) (D)
-%DIFDELCMD <          --coordinate[pos=.55] (DA) cycle;
-%DIFDELCMD < 	    \node at (14.75, 10) {$Policy$};
-%DIFDELCMD < 
-
-%DIFDELCMD < 		\draw[-latex] (11,6.5) -- (12.8,6.5) -- (12.8,10) -- (13.5,10);
-%DIFDELCMD < 		\draw[-latex] (16, 10) -- (16.5, 10);
-%DIFDELCMD < 		
-
-%DIFDELCMD < 		\draw[fill=gray!20!white] (16.5,9) rectangle (17.5,11);
-%DIFDELCMD < 	    \node at (17, 10) {$\hat{\pi}$};
-%DIFDELCMD < 
-
-%DIFDELCMD < 		\draw (16.6, 3.5) -- (16.6, 4) -- (17.75, 4) -- (17.75, 5.5);
-%DIFDELCMD < 	    \node at (16.5, 3) {\Large $\omega_t = \frac{a}{1 + \exp(-\frac{b - D_t}{c})} + d$};
-%DIFDELCMD < 		\node at (16.5, 2) {\Large $D_t = \kl{Q_{\phi_a}(a_t|s_t)}{P(a_t)}$};
-%DIFDELCMD < 
-
-%DIFDELCMD < 		\pic{hmm};
-%DIFDELCMD <     \end{tikzpicture}
-%DIFDELCMD < 	%%%
-\DIFdelendFL \DIFaddbeginFL \begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}]
+	\begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}]
 		\coordinate (A) at (13.5,8);
 		\coordinate (B) at (16,9);
 		\coordinate (C) at (16,11);
@@ -576,7 +471,7 @@ $$y(o_t,a_t) = \mathbb{E}_{o_{t+1} \sim E(o_t,a_t)}\Big[ r_t + \gamma \max_{a_{t
 
 		\draw[-latex] (11,6.5) -- (12.8,6.5) -- (12.8,10) -- (13.5,10);
 		\draw[-latex] (16, 10) -- (16.5, 10);
-
+		
 		\draw[fill=gray!20!white] (16.5,9) rectangle (17.5,11);
 	    \node at (17, 10) {$\hat{\pi}$};
 
@@ -587,7 +482,7 @@ $$y(o_t,a_t) = \mathbb{E}_{o_{t+1} \sim E(o_t,a_t)}\Big[ r_t + \gamma \max_{a_{t
 
 		\pic{hmm};
     \end{tikzpicture}
-	\DIFaddendFL \end{center}
+	\end{center}
   \caption{This figure illustrates the $DAI_{MC}$ agent, which is composed of an encoder, a decoder, a transition network, and a policy network. The same VAE (encoder and decoder) is repeated in the figure to reflect successive time-points.}
   \label{fig:DAI_MC_agent}
 \end{figure}
@@ -610,13 +505,11 @@ where $\sigma[\,\bigcdot\,]$ is the softmax function, and $G(\pi)$ is the expect
 \begin{align}
 G(\pi) = \sum_{\tau = t}^T G_{\tau}(\pi) = \sum_{\tau = t}^T \mathbb{E}_{\tilde{Q}}\Big[ \ln Q(s_\tau, \theta|\pi) - \ln \tilde{P}(o_\tau, s_\tau,\theta|\pi) \Big],\label{eq:efe_fountas_defin}
 \end{align}
-where $\tilde{Q} = Q(o_\tau, s_\tau, \theta|\pi) = Q(\theta|\pi)Q(s_\tau|\theta,\pi)Q(o_\tau|s_\tau,\theta,\pi)$ and $\tilde{P}(o_\tau,s_\tau,\theta|\pi) = P(o_\tau|\pi)P(s_\tau|o_\tau,\pi)P(\theta|s_\tau,o_\tau,\pi)$. However, \DIFdelbegin \DIFdel{this is not the form of the expected free energy that is computed in the \mbox{%DIFAUXCMD
-\citet{DeepAIwithMCMC} }\hspace{0pt}%DIFAUXCMD
-approach. We will shortly present derivations that lead to the terms that are computed. Up to now, we left the definition of }\DIFdelend \DIFaddbegin \DIFadd{Equation \ref{eq:efe_fountas_defin} needs to be re-arranged to be computed in practice}\footnote{\DIFadd{By ``in practice", we mean ``in the code" or equivalently ``when implementing the approach".}}\DIFadd{, and Section \ref{ssection:efe_derivation_assumptions} will present this derivation. Finally, as shown in Figure \ref{fig:DAI_MC_agent}, }\DIFaddend the top-down attention parameter \DIFdelbegin \DIFdel{undefined. Formally, this parameter }\DIFdelend is computed as follows:
+where $\tilde{Q} = Q(o_\tau, s_\tau, \theta|\pi) = Q(\theta|\pi)Q(s_\tau|\theta,\pi)Q(o_\tau|s_\tau,\theta,\pi)$ and $\tilde{P}(o_\tau,s_\tau,\theta|\pi) = P(o_\tau|\pi)P(s_\tau|o_\tau,\pi)P(\theta|s_\tau,o_\tau,\pi)$. However, Equation \ref{eq:efe_fountas_defin} needs to be re-arranged to be computed in practice\footnote{By ``in practice", we mean ``in the code" or equivalently ``when implementing the approach".}, and Section \ref{ssection:efe_derivation_assumptions} will present this derivation. Finally, as shown in Figure \ref{fig:DAI_MC_agent}, the top-down attention parameter is computed as follows:
 \begin{align*}
 \omega_t = \frac{a}{1 + \exp(-\frac{b - D_t}{c})} + d,
 \end{align*}
-where $D_t = \kl{Q_{\phi_a}(a_t|s_t)}{P(a_t)}$, and $\{a, b, c, d\}$ are fixed hyperparameters. Intuitively, $\omega_t$ is high when the posterior over actions (from the policy network) is close to the prior over actions (from the expected free energy), and low when the posterior is far away from the prior. This, in turn, means that extra uncertainty is introduced into the transition mapping (see paragraph before Equation \ref{eq:initial_prior_actions}) when posterior over actions and prior over actions are very different. Finally, note that the number of terms required to compute the prior over actions (defined in \DIFaddbegin \DIFadd{Equation }\DIFaddend \ref{eq:initial_prior_actions}) grows exponentially with the time horizon of planning. Because this is intractable in practice, \citet{DeepAIwithMCMC} implemented a Monte-Carlo tree search (MCTS) algorithm to evaluate the expected free energy of each action (see below). Finally, action selection is performed by sampling from the following distribution:
+where $D_t = \kl{Q_{\phi_a}(a_t|s_t)}{P(a_t)}$, and $\{a, b, c, d\}$ are fixed hyperparameters. Intuitively, $\omega_t$ is high when the posterior over actions (from the policy network) is close to the prior over actions (from the expected free energy), and low when the posterior is far away from the prior. This, in turn, means that extra uncertainty is introduced into the transition mapping (see paragraph before Equation \ref{eq:initial_prior_actions}) when posterior over actions and prior over actions are very different. Finally, note that the number of terms required to compute the prior over actions (defined in Equation \ref{eq:initial_prior_actions}) grows exponentially with the time horizon of planning. Because this is intractable in practice, \citet{DeepAIwithMCMC} implemented a Monte-Carlo tree search (MCTS) algorithm to evaluate the expected free energy of each action (see below). Finally, action selection is performed by sampling from the following distribution:
 \begin{align*}
 \tilde{P}(a_t) = \frac{N(\hat{s}_t, a_t)}{\sum_{\hat{a}_t}N(\hat{s}_t, \hat{a}_t)},
 \end{align*}
@@ -698,7 +591,7 @@ where $\hat{s}_t$ is the current state of the environment, and $N(s_t, a_t)$ is 
 		\draw[-latex] (2.6,2) -- (2.6,1.75);
 		\draw[-latex] (2.6,0.75) -- (2.6,0.5);
 		\draw[-latex] (2.6,-0.5) -- (2.6,-0.75);
-
+		
 		% policy
 		\node (Q_a) at (7,8) {$\bm{Q_{\phi_a}(a_\tau|s_\tau)}$};
 		\node at (7,7) {\textbf{input:} \#S};
@@ -717,13 +610,13 @@ where $\hat{s}_t$ is the current state of the environment, and $N(s_t, a_t)$ is 
 
 \subsubsection{The Monte-Carlo tree search}
 
-In this section, we describe the planning algorithm used by $DAI_{MC}$\DIFaddbegin \DIFadd{, i.e., Monte-Carlo tree search (MCTS). MCTS is used to enhance the planning ability of the agent by allowing it to look into the future}\DIFaddend . At the beginning of an action-perception cycle, the agent is provided with an image $o_t$. This image can be feed into the encoder to get the mean vector $\mu$ of the posterior over the latent states, i.e., $Q_{\phi_s}(s_t) = \mathcal{N}(s_t;\mu, \sigma)$. Since $\mu$ is the mean of the Gaussian posterior, it can be interpreted as the maximum a posteriori (MAP) estimate of the latent states at time step $t$. This MAP estimate will constitute the root node of the Monte-Carlo tree search (MCTS).
+In this section, we describe the planning algorithm used by $DAI_{MC}$, i.e., Monte-Carlo tree search (MCTS). MCTS is used to enhance the planning ability of the agent by allowing it to look into the future. At the beginning of an action-perception cycle, the agent is provided with an image $o_t$. This image can be feed into the encoder to get the mean vector $\mu$ of the posterior over the latent states, i.e., $Q_{\phi_s}(s_t) = \mathcal{N}(s_t;\mu, \sigma)$. Since $\mu$ is the mean of the Gaussian posterior, it can be interpreted as the maximum a posteriori (MAP) estimate of the latent states at time step $t$. This MAP estimate will constitute the root node of the Monte-Carlo tree search (MCTS).
 
-The first step of the MCTS is to use the \DIFdelbegin \DIFdel{UCT }\DIFdelend \DIFaddbegin \DIFadd{Upper Confidence bounds for Trees (UCT) }\DIFaddend criterion to determine which node in the tree should be expanded. Let the tree's root $\hat{s}_t$ be called the current node, which is denoted $\hat{s}_\tau$. If the current node has no children (i.e., no previously selected actions from the current node), then it is selected for expansion. Alternatively, the child with the highest UCT criterion becomes the new current node and the process is iterated until we reach a leaf node (i.e. a node from which no action has previously been selected). The UCT criterion \citep{MCTS} of the child of $\hat{s}_\tau$ corresponding to action $\hat{a}_\tau$ is given by:
+The first step of the MCTS is to use the Upper Confidence bounds for Trees (UCT) criterion to determine which node in the tree should be expanded. Let the tree's root $\hat{s}_t$ be called the current node, which is denoted $\hat{s}_\tau$. If the current node has no children (i.e., no previously selected actions from the current node), then it is selected for expansion. Alternatively, the child with the highest UCT criterion becomes the new current node and the process is iterated until we reach a leaf node (i.e. a node from which no action has previously been selected). The UCT criterion \citep{MCTS} of the child of $\hat{s}_\tau$ corresponding to action $\hat{a}_\tau$ is given by:
 \begin{align*}
 UCT(\hat{s}_\tau,\hat{a}_\tau) = - \bar{G}(\hat{s}_\tau,\hat{a}_\tau) + C_{explore} \cdot \frac{Q_{\phi_a}(a_\tau=\hat{a}_\tau|s_\tau=\hat{s}_\tau)}{1 + N(\hat{s}_\tau,\hat{a}_\tau)},
 \end{align*}
-where $\bar{G}(\hat{s}_\tau,\hat{a}_\tau)$ is the average expected free energy of taking action $\hat{a}_\tau$ in state $\hat{s}_\tau$, $C_{explore}$ is the exploration constant that modulates the amount of exploration at the tree level, $N(\hat{s}_\tau,\hat{a}_\tau)$ is the number of times action $\hat{a}_\tau$ was visited in state $\hat{s}_\tau$, and $Q_{\phi_a}(a_\tau=\hat{a}_\tau|s_\tau=\hat{s}_\tau)$ is the posterior probability of action $\hat{a}_\tau$ in state $\hat{s}_\tau$ \DIFaddbegin \DIFadd{as predicted by the policy network}\DIFaddend .
+where $\bar{G}(\hat{s}_\tau,\hat{a}_\tau)$ is the average expected free energy of taking action $\hat{a}_\tau$ in state $\hat{s}_\tau$, $C_{explore}$ is the exploration constant that modulates the amount of exploration at the tree level, $N(\hat{s}_\tau,\hat{a}_\tau)$ is the number of times action $\hat{a}_\tau$ was visited in state $\hat{s}_\tau$, and $Q_{\phi_a}(a_\tau=\hat{a}_\tau|s_\tau=\hat{s}_\tau)$ is the posterior probability of action $\hat{a}_\tau$ in state $\hat{s}_\tau$ as predicted by the policy network.
 
 Let $\mathring{s}_\tau$ be the (leaf) node selected by the above selection procedure. The MCTS then expands one of the children of $\mathring{s}_\tau$. The expansion uses the transition network to compute the mean $\mathring{\mu}$ of $P_{\theta_s}(s_{\tau+1}|s_\tau=\mathring{s}_\tau, a_\tau=\mathring{a}_\tau)$, which is viewed as a MAP estimate of the states at time $\tau+1$. Then, we need to estimate the cost of (virtually) taking action $\mathring{a}_\tau$. By definition, the cost is the expected free energy given by \eqref{eq:efe_fountas_defin}, and Monte-Carlo rollouts can be run to improve its estimation. The final step of the planning iteration is to back-propagate the cost of the newly expanded (virtual) action toward the root of the tree. Formally, we write the update as follows:
 \begin{align}\label{eq:backprop}
@@ -731,9 +624,8 @@ Let $\mathring{s}_\tau$ be the (leaf) node selected by the above selection proce
 \end{align}
 where $\mathring{s}_\tau$ is the node that was selected for expansion, $\bm{G}_{s}$ is the expected free energy of $s$, and $\mathbb{A}_{\mathring{s}_\tau}$ is the set of all ancestors of $\mathring{s}_\tau$ in the tree. During the back propagation, we also update the number of visits as follows:
 \begin{align}\label{eq:backprop_n}
-\forall s \in \mathbb{A}_{\mathring{s}_\tau} \cup \{\mathring{s}_\tau \}, \quad \bm{N}_{s} \leftarrow \bm{N}_{s} + \DIFdelbegin \DIFdel{1,
-}\DIFdelend \DIFaddbegin \DIFadd{1.
-}\DIFaddend \end{align}
+\forall s \in \mathbb{A}_{\mathring{s}_\tau} \cup \{\mathring{s}_\tau \}, \quad \bm{N}_{s} \leftarrow \bm{N}_{s} + 1.
+\end{align}
 If we let $\bm{G}^{aggr}_s$ be the aggregated cost of an arbitrary node $s$ obtained by applying Equation \ref{eq:backprop} after each expansion, then we are now able to express $\bar{\bm{G}}_s$ formally as:
 $$\bar{\bm{G}}_s = \frac{\bm{G}^{aggr}_s}{\bm{N}_s}.$$
 Importantly, if the node $s$ corresponds to the state reached from state $\hat{s}_\tau$ by performing action $\hat{a}_\tau$, then $\bar{G}(\hat{s}_\tau, \hat{a}_\tau) = \bar{\bm{G}}_s$ and $N(\hat{s}_\tau, \hat{a}_\tau) = \bm{N}_s$. The planning procedure described above ends when the maximum number of planning iterations is reached, or when a clear winner has been identified, i.e., if $\max_{a_t} P(a_t)-\frac{1}{\#A}>T_{dec}$ where $\#A$ is the number of possible actions, and $T_{dec}$ is a (threshold) hyperparameter.
@@ -750,7 +642,7 @@ Q_\phi^*(s_t,a_t) &= \argmin_{Q_\phi(s_t,a_t)} \kl{Q_\phi(s_t,a_t)}{P(s_t,a_t|o_
 &= \argmin_{Q_\phi(s_t,a_t)} \kl{Q_\phi(s_t,a_t)}{P(s_t,a_t,o_t,s_{t-1},a_{t-1})} + \underbrace{\ln P(o_t,s_{t-1},a_{t-1})}_{\text{Constant w.r.t }Q_\phi(s_t,a_t)}\\
 &= \argmin_{Q_\phi(s_t,a_t)} \kl{Q_\phi(s_t,a_t)}{P(s_t,a_t,o_t,s_{t-1},a_{t-1})}.
 \end{align*}
-Using the d-separation criteria \citep{koller2009probabilistic}, it \DIFdelbegin \DIFdel{is straightforward to show }\DIFdelend \DIFaddbegin \DIFadd{can be shown }\DIFaddend that:
+Using the d-separation criteria \citep{koller2009probabilistic}, it can be shown that:
 $$P(s_t,a_t,o_t,s_{t-1},a_{t-1}) = P_{\theta_o}(o_t|s_t)P(a_t)P_{\theta_s}(s_t|s_{t-1},a_{t-1})Q_{\phi}(s_{t-1}, a_{t-1}),$$
 where $Q_\phi(s_{t-1}, a_{t-1})$ is the variational posterior obtained through the inference process at the previous time step. In the above equation, $Q_\phi(s_{t-1}, a_{t-1})$ was used to replace $P(s_{t-1}, a_{t-1})$, i.e., $Q_\phi(s_{t-1}, a_{t-1})$ was used as an empirical prior. Additionally, since $Q_\phi(s_{t-1}, a_{t-1})$ is a constant w.r.t $Q_\phi(s_t,a_t)$, the above minimization problem reduces to:
 \begin{align}
@@ -758,16 +650,11 @@ Q^*_{\phi}(s_t,a_t)\quad &= \,\, \argmin_{\quad Q_{\phi}(s_t,a_t) \,\,\,\,\,\, \
 &= \argmin_{Q_{\phi_a}(a_t|s_t)Q_{\phi_s}(s_t)}\, \mathbb{E}_{Q_{\phi_s}(s_t)}\Big[ \kl{Q_{\phi_a}(a_t|s_t)}{P(a_t)} \Big] + \kl{Q_{\phi_s}(s_t)}{P_{\theta_s}(s_t|s_{t-1},a_{t-1})}\nonumber\\
 &\hspace{8.9cm}- \mathbb{E}_{Q_{\phi_s}(s_t)}\Big[\ln P_{\theta_o}(o_t|s_t)\Big].\nonumber
 \end{align}
-By comparing \DIFaddbegin \DIFadd{the VFE in }\DIFaddend \eqref{eq:def_vfe_fountas} and \DIFaddbegin \DIFadd{the EFE in }\DIFaddend \eqref{eq:efe_fountas_defin} \DIFaddbegin \DIFadd{both from \mbox{%DIFAUXCMD
-\citet{DeepAIwithMCMC}}\hspace{0pt}%DIFAUXCMD
-}\DIFaddend , one can see an inconsistency. Namely, the parameters are seen as latent variables in the EFE definition, c.f., $\theta$ in \eqref{eq:efe_fountas_defin}, but they are regarded as parameters of neural \DIFdelbegin \DIFdel{netowrks }\DIFdelend \DIFaddbegin \DIFadd{networks }\DIFaddend in the VFE, c.f., $\theta_s$ and $\theta_o$ in \ref{eq:def_vfe_fountas}. This \DIFaddbegin \DIFadd{is important because $\theta$ cannot be both a parameter (i.e, real, vector, or matrix) and a random variable, and if $\theta$ is a random variable one must define its probability density, i.e., $P(\theta)$. Additionally, this inconsistency }\DIFaddend raises the question of whether the EFE is really the expectation of the VFE. To sum up, the $DAI_{MC}$ agent is equipped with four deep neural networks modelling $Q_{\phi_a}(a_t|s_t)$, $Q_{\phi_s}(s_t)$, $P_{\theta_s}(s_t|s_{t-1},a_{t-1})$, and $P_{\theta_o}(o_t|s_t)$. The weights of those networks are optimised using back-propagation to minimise the VFE given by \eqref{eq:def_vfe_fountas}. Note, \eqref{eq:def_vfe_fountas} decomposes into two KL-divergence terms that can be computed analytically, and the expectations can be approximated using a Monte-Carlo estimate. Also, because $P_{\theta_o}(o_t|s_t)$ is modelled as a product of Bernoulli distributions, the logarithm of $P_{\theta_o}(o_t|s_t)$ reduces to the binary cross entropy.
+By comparing the VFE in \eqref{eq:def_vfe_fountas} and the EFE in \eqref{eq:efe_fountas_defin} both from \citet{DeepAIwithMCMC}, one can see an inconsistency. Namely, the parameters are seen as latent variables in the EFE definition, c.f., $\theta$ in \eqref{eq:efe_fountas_defin}, but they are regarded as parameters of neural networks in the VFE, c.f., $\theta_s$ and $\theta_o$ in \ref{eq:def_vfe_fountas}. This is important because $\theta$ cannot be both a parameter (i.e, real, vector, or matrix) and a random variable, and if $\theta$ is a random variable one must define its probability density, i.e., $P(\theta)$. Additionally, this inconsistency raises the question of whether the EFE is really the expectation of the VFE. To sum up, the $DAI_{MC}$ agent is equipped with four deep neural networks modelling $Q_{\phi_a}(a_t|s_t)$, $Q_{\phi_s}(s_t)$, $P_{\theta_s}(s_t|s_{t-1},a_{t-1})$, and $P_{\theta_o}(o_t|s_t)$. The weights of those networks are optimised using back-propagation to minimise the VFE given by \eqref{eq:def_vfe_fountas}. Note, \eqref{eq:def_vfe_fountas} decomposes into two KL-divergence terms that can be computed analytically, and the expectations can be approximated using a Monte-Carlo estimate. Also, because $P_{\theta_o}(o_t|s_t)$ is modelled as a product of Bernoulli distributions, the logarithm of $P_{\theta_o}(o_t|s_t)$ reduces to the binary cross entropy.
 
-\subsubsection{Independence assumptions and the expected free energy} \DIFaddbegin \label{ssection:efe_derivation_assumptions}
-\DIFaddend 
+\subsubsection{Independence assumptions and the expected free energy} \label{ssection:efe_derivation_assumptions}
 
-The EFE as stated in \DIFaddbegin \DIFadd{Equation }\DIFaddend \eqref{eq:efe_fountas_defin} needs to be re-arranged because it cannot be easily evaluated. \DIFdelbegin \DIFdel{First, using }\DIFdelend \DIFaddbegin \DIFadd{We therefore present the derivation proposed by \mbox{%DIFAUXCMD
-\citet{DeepAIwithMCMC}}\hspace{0pt}%DIFAUXCMD
-. Then, we highlight two independence assumptions, i.e., $s_\tau \indep \theta \,\,|\,\, \pi$ and $s_\tau \indep \theta \,\,| \,\,\pi, o_\tau$, used without proof. Finally, we propose an alternative derivation that does not require those two assumptions and produces a simpler result. Using }\DIFaddend the product rule of probability, one can see that $Q(s_\tau, \theta|\pi) = Q(\theta|s_\tau,\pi)Q(s_\tau|\pi)$ and $\tilde{P}(o_\tau,s_\tau,\theta|\pi) = P(o_\tau|\pi)P(s_\tau|o_\tau,\pi)P(\theta|s_\tau,o_\tau,\pi)$. Using those two factorisations, the EFE given in \eqref{eq:efe_fountas_defin}, i.e.,
+The EFE as stated in Equation \eqref{eq:efe_fountas_defin} needs to be re-arranged because it cannot be easily evaluated. We therefore present the derivation proposed by \citet{DeepAIwithMCMC}. Then, we highlight two independence assumptions, i.e., $s_\tau \indep \theta \,\,|\,\, \pi$ and $s_\tau \indep \theta \,\,| \,\,\pi, o_\tau$, used without proof. Finally, we propose an alternative derivation that does not require those two assumptions and produces a simpler result. Using the product rule of probability, one can see that $Q(s_\tau, \theta|\pi) = Q(\theta|s_\tau,\pi)Q(s_\tau|\pi)$ and $\tilde{P}(o_\tau,s_\tau,\theta|\pi) = P(o_\tau|\pi)P(s_\tau|o_\tau,\pi)P(\theta|s_\tau,o_\tau,\pi)$. Using those two factorisations, the EFE given in \eqref{eq:efe_fountas_defin}, i.e.,
 \begin{align*}
 G_{\tau}(\pi) = \mathbb{E}_{\tilde{Q}}\Big[ \ln Q(s_\tau, \theta|\pi) - \ln \tilde{P}(o_\tau, s_\tau,\theta|\pi) \Big],
 \end{align*}
@@ -780,11 +667,7 @@ G_{\tau}(\pi) = &- \mathbb{E}_{\tilde{Q}}\Big[ \ln \tilde{P}(o_\tau|\pi)\Big]\no
 Note, the above derivation follows the work of \citet{DeepAIwithMCMC}.
 
 \subsubsubsection{Re-arranging the second term of Equation \eqref{eq:efe_rearrangedd} according to \citet{DeepAIwithMCMC}}
-\DIFdelbegin \DIFdel{In the supplementary material of \mbox{%DIFAUXCMD
-\citep{DeepAIwithMCMC}}\hspace{0pt}%DIFAUXCMD
-}\DIFdelend \DIFaddbegin \DIFadd{First}\DIFaddend , the second term of Equation \eqref{eq:efe_rearrangedd} is \DIFdelbegin \DIFdel{re-aranged }\DIFdelend \DIFaddbegin \DIFadd{re-arranged into entropy terms for which an analytical solution exists. In the supplementary material of \mbox{%DIFAUXCMD
-\citep{DeepAIwithMCMC}}\hspace{0pt}%DIFAUXCMD
-, the derivation goes }\DIFaddend as follows:
+First, the second term of Equation \eqref{eq:efe_rearrangedd} is re-arranged into entropy terms for which an analytical solution exists. In the supplementary material of \citep{DeepAIwithMCMC}, the derivation goes as follows:
 \begin{align}
 \mathbb{E}_{\tilde{Q}}\Big[ \ln Q(s_\tau|\pi) - \ln \tilde{P}(s_\tau|o_\tau, \pi) \Big] &\delequal \mathbb{E}_{\tilde{Q}}\Big[ \ln Q(s_\tau|\pi) - \ln Q(s_\tau|o_\tau, \pi) \Big]\label{eq:switching_point}\\
 &= \mathbb{E}_{Q(\theta|\pi)Q(s_\tau|\theta,\pi)Q(o_\tau|s_\tau,\theta,\pi)}\Big[ \ln Q(s_\tau|\pi) - \ln Q(s_\tau|o_\tau, \pi) \Big]\nonumber\\
@@ -798,7 +681,7 @@ where in the first line a distribution was renamed, i.e., $\tilde{P}(s_\tau|o_\t
 However, the above equation assumes that $s_\tau \indep \theta\,\, | \,\,\pi$ and $s_\tau \indep \theta \,\,| \,\,\pi, o_\tau$. In other words, some of the conditioning on $\theta$ has been dropped, i.e.,
 \begin{align*}
 \mathbb{E}_{Q(\theta|\pi)}\Big[ &\mathbb{E}_{Q(s_\tau|\theta,\pi)}[\ln Q(s_\tau|\pi)] - \mathbb{E}_{Q(o_\tau|\theta,\pi)Q(s_\tau,|o_\tau,\theta,\pi)}[\ln Q(s_\tau|o_\tau, \pi)] \Big] \tag{last expression of derivation \ref{eq:switching_point}}\\
-&\neq \mathbb{E}_{Q(\theta|\pi)}\Big[ \mathbb{E}_{Q(s_\tau|\pi)}[\ln Q(s_\tau|\pi)] - \mathbb{E}\DIFdelbegin \DIFdel{_{Q(o_\tau|\theta,\pi)Q(s_\tau,|o_\tau,\pi)}[\ln Q(s_\tau|o_\tau, \pi)] }\DIFdelend \DIFaddbegin \DIFadd{_{Q(o_\tau|\theta,\pi)Q(s_\tau|o_\tau,\pi)}[\ln Q(s_\tau|o_\tau, \pi)] }\DIFaddend \Big] \\
+&\neq \mathbb{E}_{Q(\theta|\pi)}\Big[ \mathbb{E}_{Q(s_\tau|\pi)}[\ln Q(s_\tau|\pi)] - \mathbb{E}_{Q(o_\tau|\theta,\pi)Q(s_\tau|o_\tau,\pi)}[\ln Q(s_\tau|o_\tau, \pi)] \Big] \\
 &= \mathbb{E}_{Q(\theta|\pi)}\Big[ \mathbb{E}_{Q(o_\tau|\theta,\pi)}\big[H[Q(s_\tau|o_\tau, \pi)]\big] - H[Q(s_\tau|\pi)] \Big].
 \end{align*}
 Whether this conditioning can be dropped or not depends on the factorisation of the distribution. In other words, the two assumptions (i.e., $s_\tau \indep \theta \,\,|\,\, \pi$ and $s_\tau \indep \theta \,\,| \,\,\pi, o_\tau$) would have to be checked using the d-separation criterion. However, this is difficult to do, since as mentioned previously, the parameters $\theta$ are latent variables in \eqref{eq:efe_fountas_defin} but are regarded as parameters in \eqref{eq:def_vfe_fountas}, which makes the graphical model unclear. Instead of attempting to prove that $s_\tau \indep \theta \,\,|\,\, \pi$ and $s_\tau \indep \theta \,\,| \,\,\pi, o_\tau$, we propose an alternative derivation that does not require such independence assumptions. 
@@ -812,12 +695,11 @@ Restarting from the second term of Equation \eqref{eq:efe_rearrangedd}, we can  
 &= \mathbb{E}_{Q(s_\tau|\pi)}\Big[ \ln Q(s_\tau|\pi)\Big] - \mathbb{E}_{Q(o_\tau|\pi)Q(s_\tau|o_\tau,\pi)}\Big[ \ln Q(s_\tau|o_\tau, \pi) \Big]\\
 &= \mathbb{E}_{Q(o_\tau|\pi)}\Big[ H[Q(s_\tau|o_\tau, \pi)] \Big] - H[Q(s_\tau|\pi)],
 \end{align*}
-where in the first line a distribution was renamed, i.e., $\tilde{P}(s_\tau|o_\tau, \pi) \delequal Q(s_\tau|o_\tau, \pi)$, two different factorizations of $\tilde{Q}$ are used going from \DIFdelbegin \DIFdel{first to }\DIFdelend \DIFaddbegin \DIFadd{the first to the }\DIFaddend second line, the linearity of expectations was used between the first and second line, and the expectation w.r.t $\theta$ was dropped (between \DIFdelbegin \DIFdel{line }\DIFdelend \DIFaddbegin \DIFadd{lines }\DIFaddend two and three) because the expectation of a constant is the constant itself. Importantly, the above derivation does not make any assumption of independence, and leads to a simpler result. \DIFaddbegin \DIFadd{This alternative derivation is beneficial as it produces a stronger derivation because it makes less (unjustified) assumptions. The simpler result produced by this derivation also has a practical implication. Indeed, the expectation w.r.t. $Q(\theta|\pi)$ disapears and the expectation w.r.t. $Q(o_\tau|\theta,\pi)$ is now w.r.t. $Q(o_\tau|\pi)$. Those two changes sugguest that a different implementation of this term is required.
-}\DIFaddend 
+where in the first line a distribution was renamed, i.e., $\tilde{P}(s_\tau|o_\tau, \pi) \delequal Q(s_\tau|o_\tau, \pi)$, two different factorizations of $\tilde{Q}$ are used going from the first to the second line, the linearity of expectations was used between the first and second line, and the expectation w.r.t $\theta$ was dropped (between lines two and three) because the expectation of a constant is the constant itself. Importantly, the above derivation does not make any assumption of independence, and leads to a simpler result. This alternative derivation is beneficial as it produces a stronger derivation because it makes less (unjustified) assumptions. The simpler result produced by this derivation also has a practical implication. Indeed, the expectation w.r.t. $Q(\theta|\pi)$ disapears and the expectation w.r.t. $Q(o_\tau|\theta,\pi)$ is now w.r.t. $Q(o_\tau|\pi)$. Those two changes sugguest that a different implementation of this term is required.
 
 \subsubsubsection{Re-arranging the third term of Equation \eqref{eq:efe_rearrangedd} from \citet{DeepAIwithMCMC}}
 
-\DIFdelbegin \DIFdel{We now, }\DIFdelend \DIFaddbegin \DIFadd{For completeness, we now }\DIFaddend focus on the third term of \eqref{eq:efe_rearrangedd}, which can be re-arranged as follows:
+For completeness, we now focus on the third term of \eqref{eq:efe_rearrangedd}, which can be re-arranged as follows:
 \begin{align*}
 \mathbb{E}_{\tilde{Q}}\Big[ \ln Q(\theta|s_\tau, \pi) - \ln \tilde{P}(\theta|s_\tau,o_\tau,\pi) \Big] &\delequal \mathbb{E}_{\tilde{Q}}\Big[ \ln Q(\theta|s_\tau, \pi) - \ln Q(\theta|s_\tau,o_\tau,\pi) \Big] \\
 &= \mathbb{E}_{\tilde{Q}}\Big[ \ln Q(o_\tau|s_\tau, \pi) - \ln Q(o_\tau|s_\tau,\theta,\pi) \Big],
@@ -838,10 +720,7 @@ where because $\ln Q(o_\tau|s_\tau, \pi)$ is a constant w.r.t $\theta$, we have 
 \begin{align*}
 \mathbb{E}_{Q(o_\tau,\theta,s_\tau|\pi)}[ \ln Q(o_\tau|s_\tau, \pi)] = \mathbb{E}_{Q(o_\tau,s_\tau|\pi)}[ \ln Q(o_\tau|s_\tau, \pi)].
 \end{align*}
-\DIFaddbegin \DIFadd{To sum up, this derivation provides an expression based on the following two entropy terms: $H[ Q(o_\tau|s_\tau, \pi) ]$ and $H[Q(o_\tau|s_\tau,\theta,\pi)]$, which \mbox{%DIFAUXCMD
-\citet{DeepAIwithMCMC} }\hspace{0pt}%DIFAUXCMD
-claim can be estimated (c.f. Apprndix B for more details). Note that our proposed alternative to the EFE (see below) uses this derivation for the third term of Equation }\eqref{eq:efe_rearrangedd}\DIFadd{.
-}\DIFaddend 
+To sum up, this derivation provides an expression based on the following two entropy terms: $H[ Q(o_\tau|s_\tau, \pi) ]$ and $H[Q(o_\tau|s_\tau,\theta,\pi)]$, which \citet{DeepAIwithMCMC} claim can be estimated (c.f. Apprndix B for more details). Note that our proposed alternative to the EFE (see below) uses this derivation for the third term of Equation \eqref{eq:efe_rearrangedd}.
 
 \subsubsubsection{The EFE from \citet{DeepAIwithMCMC}}
 
@@ -851,11 +730,8 @@ G_{\tau}(\pi) = &- \mathbb{E}_{\tilde{Q}}\Big[ \ln \tilde{P}(o_\tau|\pi)\Big]\no
 &+ \mathbb{E}_{Q(\theta|\pi)}\Big[ \mathbb{E}_{Q(o_\tau|\theta,\pi)}\big[H[Q(s_\tau|o_\tau, \pi)]\big] - H[Q(s_\tau|\pi)] \Big]\nonumber\\
 &+ \mathbb{E}_{Q(\theta|\pi)Q(s_\tau|\theta,\pi)}\Big[H[Q(o_\tau|s_\tau,\theta,\pi)] \Big] - \mathbb{E}_{Q(s_\tau|\pi)}\Big[ H\big[ Q(o_\tau|s_\tau, \pi) \big] \Big].\label{eq:efe_rearranged_fountas}
 \end{align}
-\DIFdelbegin \DIFdel{The way this expression is evaluated in practice is described }\DIFdelend \DIFaddbegin 
 
-\noindent \DIFadd{Note, in Section \ref{ssection:fountas_paper}, we focused on presenting the approach of \mbox{%DIFAUXCMD
-\citet{DeepAIwithMCMC} }\hspace{0pt}%DIFAUXCMD
---- as presented in their paper --- in the most consistent manner posible. More details about the implementation of Equation \ref{eq:efe_rearranged_fountas} is presented }\DIFaddend in Appendix B, along with some discrepancies between the paper and the code.
+\noindent Note, in Section \ref{ssection:fountas_paper}, we focused on presenting the approach of \citet{DeepAIwithMCMC} --- as presented in their paper --- in the most consistent manner posible. More details about the implementation of Equation \ref{eq:efe_rearranged_fountas} is presented in Appendix B, along with some discrepancies between the paper and the code.
 
 \subsubsubsection{Our proposed alternative to the EFE}
 
@@ -866,13 +742,11 @@ G_{\tau}(\pi) = &- \mathbb{E}_{\tilde{Q}}\Big[ \ln \tilde{P}(o_\tau|\pi)\Big]\\
 &+ \mathbb{E}_{Q(\theta|\pi)Q(s_\tau|\theta,\pi)}\Big[H[Q(o_\tau|s_\tau,\theta,\pi)] \Big] - \mathbb{E}_{Q(s_\tau|\pi)}\Big[ H\big[ Q(o_\tau|s_\tau, \pi) \big] \Big].
 \end{align*}
 
-\DIFdelbegin \DIFdel{Despite what we have seen so far, and the discrepancies described }\DIFdelend \DIFaddbegin \noindent \DIFadd{As explained in Section \ref{ssection:efe_derivation_assumptions}, it is not clear how to prove the two independence assumptions (i.e., $s_\tau \indep \theta \,\,|\,\, \pi$ and $s_\tau \indep \theta \,\,| \,\,\pi, o_\tau$) used by \mbox{%DIFAUXCMD
-\citet{DeepAIwithMCMC} }\hspace{0pt}%DIFAUXCMD
-in their derivation of the expected free energy. Additionally, as presented }\DIFaddend in Appendix B, \DIFaddbegin \DIFadd{we were able to identify discrepancies between the paper and the code. Despite those two points, }\DIFaddend $DAI_{MC}$ does solve the dSprites environment.
+\noindent As explained in Section \ref{ssection:efe_derivation_assumptions}, it is not clear how to prove the two independence assumptions (i.e., $s_\tau \indep \theta \,\,|\,\, \pi$ and $s_\tau \indep \theta \,\,| \,\,\pi, o_\tau$) used by \citet{DeepAIwithMCMC} in their derivation of the expected free energy. Additionally, as presented in Appendix B, we were able to identify discrepancies between the paper and the code. Despite those two points, $DAI_{MC}$ does solve the dSprites environment.
 
 \subsection{$DAI_{VPG}$ agent \citep{DeepAI}}
 
-In this section, we explain and discuss the approach of \citet{DeepAI}. The code is available at the following URL: \url{https://github.com/BerenMillidge/DeepActiveInference}. Note \DIFaddbegin \DIFadd{that}\DIFaddend , though the mathematics in the paper are based on the formalism of \DIFaddbegin \DIFadd{a }\DIFaddend partially observable Markov decision process (POMDP), the code does not implement an encoder/decoder architecture, which means that the code implements a fully observable decision process, i.e., MDP. Additionally, the $DAI_{VPG}$ is composed of three neural networks illustrated in Figures \ref{fig:beren_dnn} and \ref{fig:DAI_VPG_agent}. The first is the transition network that predicts the future observations based on the current observations and action, i.e., $\mathring{o}_{\tau+1} = \mathcal{T}_{\theta_o}(o_\tau, a_\tau)$. The second is the policy network that models the variational distribution over actions $Q_{\phi_a}(a_\tau|o_\tau)$. The third is the critic network that predicts the expected free energy of each action given the current observation. Moreover, \citet{DeepAI} defines the prior over actions as follows:
+In this section, we explain and discuss the approach of \citet{DeepAI}. The code is available at the following URL: \url{https://github.com/BerenMillidge/DeepActiveInference}. Note that, though the mathematics in the paper are based on the formalism of a partially observable Markov decision process (POMDP), the code does not implement an encoder/decoder architecture, which means that the code implements a fully observable decision process, i.e., MDP. Additionally, the $DAI_{VPG}$ is composed of three neural networks illustrated in Figures \ref{fig:beren_dnn} and \ref{fig:DAI_VPG_agent}. The first is the transition network that predicts the future observations based on the current observations and action, i.e., $\mathring{o}_{\tau+1} = \mathcal{T}_{\theta_o}(o_\tau, a_\tau)$. The second is the policy network that models the variational distribution over actions $Q_{\phi_a}(a_\tau|o_\tau)$. The third is the critic network that predicts the expected free energy of each action given the current observation. Moreover, \citet{DeepAI} defines the prior over actions as follows:
 \begin{align*}
 P(a_\tau|o_\tau) = \sigma[-\zeta G(o_\tau, a_\tau)],
 \end{align*}
@@ -880,7 +754,7 @@ where $\zeta$ is the precision of the prior over actions, $\sigma[\,\bigcdot\,]$
 \begin{align}
 G(s_\tau, a_\tau) = - r_\tau + \underbrace{\kl{Q(s_\tau)}{Q(s_\tau|o_\tau)}}_{\text{intrinsic value}} + \, \hat{\mathcal{G}}_{\hat{\theta}_a}(a_{\tau+1},s_{\tau+1}),\label{eq:efe_beren}
 \end{align}
-where $r_\tau$ is the reward gathered by the agent at time step $\tau$, and $\hat{\mathcal{G}}_{\hat{\theta}_a}(a_{\tau+1},s_{\tau+1})$ is the target network (i.e., a copy of the critic network whose weights are synchronised every $K$ iterations of learning). Now, remember that in the implementation, there is no encoder $Q(s_\tau)$ and no decoder $P(o_\tau|s_\tau)$. In other words, there are no hidden states $s_\tau$, raising some uncertainty about how the intrinsic value is computed. The code available on Github\footnote{We are referring to the version of the code that was available on \DIFaddbegin \DIFadd{github on }\DIFaddend the 6th of June 2022.} at the following URL: \url{https://github.com/BerenMillidge/DeepActiveInference}, in the file \url{active_inference_with_Tmodel.jl} (see line 51) suggests that the following equation is used:
+where $r_\tau$ is the reward gathered by the agent at time step $\tau$, and $\hat{\mathcal{G}}_{\hat{\theta}_a}(a_{\tau+1},s_{\tau+1})$ is the target network (i.e., a copy of the critic network whose weights are synchronised every $K$ iterations of learning). Now, remember that in the implementation, there is no encoder $Q(s_\tau)$ and no decoder $P(o_\tau|s_\tau)$. In other words, there are no hidden states $s_\tau$, raising some uncertainty about how the intrinsic value is computed. The code available on Github\footnote{We are referring to the version of the code that was available on github on the 6th of June 2022.} at the following URL: \url{https://github.com/BerenMillidge/DeepActiveInference}, in the file \url{active_inference_with_Tmodel.jl} (see line 51) suggests that the following equation is used:
 \begin{align}
 \text{intrinsic value} = \sum_{i} \Big[ o_{\tau+1}[i] - \mathring{o}_{\tau+1}[i] \Big]^2, \label{eq:intrisic_values}
 \end{align}
@@ -892,7 +766,7 @@ where $P(o_{\tau+1}|o_\tau, a_\tau) = \mathcal{N}(o_{\tau+1};\mathring{o}_{\tau+
 \begin{align*}
 G(a_{t:T-1},o_t) \approx \sum_{\tau = t+1}^T \kl{P(o_\tau|a_{t:T-1}, o_t)}{P(o_\tau)},
 \end{align*}
-where $P(o_\tau)$ are the prior preferences of the agent (related to rewards in reinforcement learning), and $P(o_\tau |a_{t:T-1}, o_t)$ is the transition mapping. Importantly, this definition for the expected free energy does not \DIFdelbegin \DIFdel{decomposes }\DIFdelend \DIFaddbegin \DIFadd{decompose }\DIFaddend into extrinsic and intrinsic terms as in \eqref{eq:efe_beren}. Thus, (as it stands) the implementation of the $DAI_{VPG}$ agent is a mixture between the POMDP and MDP setting, where the generative model corresponds to a MDP, and the expected free energy is adapted from the POMDP setting.
+where $P(o_\tau)$ are the prior preferences of the agent (related to rewards in reinforcement learning), and $P(o_\tau |a_{t:T-1}, o_t)$ is the transition mapping. Importantly, this definition for the expected free energy does not decompose into extrinsic and intrinsic terms as in \eqref{eq:efe_beren}. Thus, (as it stands) the implementation of the $DAI_{VPG}$ agent is a mixture between the POMDP and MDP setting, where the generative model corresponds to a MDP, and the expected free energy is adapted from the POMDP setting.
 
 We conclude this section by dicussing the training procedure of the transition, policy and critic networks. As explained in the paper, the transition network is trained to minimise the variational free enery. Additionally, because of the Gaussian assumptions (with identity covariance matrices) mentioned above, the KL-divergence reduces to the mean square error (MSE). Thus, the transition network is updated to minimise the MSE between the observations made by the agent at time $\tau + 1$, and the observations ($\mathring{o}_{\tau+1}$) predicted by the transition network, i.e., 
 \begin{align*}
@@ -902,7 +776,7 @@ where $\mathring{o}_{\tau+1} = \mathcal{T}_{\theta_o}(o_\tau, a_\tau)$. The poli
 \begin{align*}
 \phi_a^* = \argmin_{\phi_a} \kl{Q_{\phi_a}(a_\tau|o_\tau)}{P(a_\tau|o_\tau)},
 \end{align*}
-which minimises the variational free energy. Finally, the critic is trained by minimising the MSE between the target EFE as defined in \eqref{eq:efe_beren} and the ouput of the critic \DIFaddbegin \DIFadd{$\mathcal{G}_{\theta_a}(o_\tau, \bigcdot\,)$}\DIFaddend :
+which minimises the variational free energy. Finally, the critic is trained by minimising the MSE between the target EFE as defined in \eqref{eq:efe_beren} and the ouput of the critic $\mathcal{G}_{\theta_a}(o_\tau, \bigcdot\,)$:
 \begin{align*}
 \theta_a^* = \argmin_{\theta_a} \text{MSE}\Big[G(o_\tau, \bigcdot\,), \mathcal{G}_{\theta_a}(o_\tau, \bigcdot\,)\Big].
 \end{align*}
@@ -914,7 +788,7 @@ $DAI_{VPG}$ is able to solve the CartPole environment.
 		% encoder and decoder
 		\node[text width=4cm, align=center] at (-5.7,5.5) {There is no encoder $\bm{Q(s_\tau)}$, and no decoder $\bm{P(o_\tau|s_\tau)}$.};
 		\draw (-7.7,4.5) rectangle (-3.7,6.5);
-
+		
 		% transition
 		\node at (0,8) {$\mathcal{T}_{\theta_o}(o_\tau, a_\tau)$};
 		\node at (0,7) {\textbf{input:} \#O + \#A};
@@ -943,72 +817,7 @@ $DAI_{VPG}$ is able to solve the CartPole environment.
 
 \begin{figure}[H]
 	\begin{center}
-	\DIFdelbeginFL %DIFDELCMD < \begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}]
-%DIFDELCMD < 		\coordinate (A) at (13.5,12.5);
-%DIFDELCMD < 		\coordinate (B) at (16,13.5);
-%DIFDELCMD < 		\coordinate (C) at (16,15.5);
-%DIFDELCMD < 		\coordinate (D) at (13.5,16.5);
-%DIFDELCMD < 		\draw[fill=purple!20!white] (A) -- coordinate[pos=.6] (AB) (B)--(C)
-%DIFDELCMD <          --coordinate[pos=.45] (CD) (D)
-%DIFDELCMD <          --coordinate[pos=.55] (DA) cycle;
-%DIFDELCMD < 	    \node at (14.75, 14.5) {$Policy$};
-%DIFDELCMD < 		\draw[-latex] (12.8,6.5) -- (12.8,14.5) -- (13.5,14.5);
-%DIFDELCMD < 		\draw[-latex] (16, 14.5) -- (16.5, 14.5);
-%DIFDELCMD < 		\draw[fill=gray!20!white] (16.5,13.5) rectangle (17.5,15.5);
-%DIFDELCMD < 	    \node at (17, 14.5) {$\hat{\pi}$};
-%DIFDELCMD < 
-
-%DIFDELCMD < 		\coordinate (A) at (13.5,8);
-%DIFDELCMD < 		\coordinate (B) at (16,9);
-%DIFDELCMD < 		\coordinate (C) at (16,11);
-%DIFDELCMD < 		\coordinate (D) at (13.5,12);
-%DIFDELCMD < 		\draw[fill=yellow!20!white] (A) -- coordinate[pos=.6] (AB) (B)--(C)
-%DIFDELCMD <          --coordinate[pos=.45] (CD) (D)
-%DIFDELCMD <          --coordinate[pos=.55] (DA) cycle;
-%DIFDELCMD < 	    \node at (14.75, 10) {$Critic$};
-%DIFDELCMD < 
-
-%DIFDELCMD < 		\draw[-latex] (12.8,6.5) -- (12.8,10) -- (13.5,10);
-%DIFDELCMD < 		\draw[-latex] (16, 10) -- (16.5, 10);
-%DIFDELCMD < 		
-
-%DIFDELCMD < 		\draw[fill=gray!20!white] (16.5,9) rectangle (17.5,11);
-%DIFDELCMD < 	    \node at (17, 10) {$\bm{G}$};
-%DIFDELCMD < 
-
-%DIFDELCMD < 		\draw[fill=gray!20!white] (11,9) rectangle (12,11);
-%DIFDELCMD < 	    \node at (11.5, 10) {$o_t$};
-%DIFDELCMD < 
-
-%DIFDELCMD < 		\draw[fill=blue!20!white] (11,3.5) rectangle (12,5.5);
-%DIFDELCMD < 	    \node at (11.5, 4.5) {$a_t$};
-%DIFDELCMD < 
-
-%DIFDELCMD < 		\coordinate (A) at (13.5,3.5);
-%DIFDELCMD < 		\coordinate (B) at (16,4.5);
-%DIFDELCMD < 		\coordinate (C) at (16,6.5);
-%DIFDELCMD < 		\coordinate (D) at (13.5,7.5);
-%DIFDELCMD < 		\draw[fill=orange!20!white] (A) -- coordinate[pos=.6] (AB) (B)--(C)
-%DIFDELCMD <          --coordinate[pos=.45] (CD) (D)
-%DIFDELCMD <          --coordinate[pos=.55] (DA) cycle;
-%DIFDELCMD < 	    \node at (14.75, 5.5) {$Transition$};
-%DIFDELCMD < 
-
-%DIFDELCMD < 		\draw[fill=gray!20!white] (16.5,4.5) rectangle (17.5,6.5);
-%DIFDELCMD < 	    \node at (17, 5.5) {$\mathring{o}_{t+1}$};
-%DIFDELCMD < 
-
-%DIFDELCMD < 		\draw[-latex] (12,4.5) -- (13.5,4.5);
-%DIFDELCMD < 		\draw[-latex] (12,10) -- (13.5,10);
-%DIFDELCMD < 		\draw[-latex] (12.8,6.5) -- (13.5,6.5);
-%DIFDELCMD < 
-
-%DIFDELCMD < 		\draw[-latex] (16,5.5) -- (16.5,5.5);
-%DIFDELCMD < 
-
-%DIFDELCMD <     \end{tikzpicture}
-%DIFDELCMD < 	%%%
-\DIFdelendFL \DIFaddbeginFL \begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}]
+	\begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}]
 		\coordinate (A) at (13.5,12.5);
 		\coordinate (B) at (16,13.5);
 		\coordinate (C) at (16,15.5);
@@ -1033,7 +842,7 @@ $DAI_{VPG}$ is able to solve the CartPole environment.
 
 		\draw[-latex] (12.8,6.5) -- (12.8,10) -- (13.5,10);
 		\draw[-latex] (16, 10) -- (16.5, 10);
-
+		
 		\draw[fill=gray!20!white] (16.5,9) rectangle (17.5,11);
 	    \node at (17, 10) {$\bm{G}$};
 
@@ -1063,32 +872,32 @@ $DAI_{VPG}$ is able to solve the CartPole environment.
 		\draw[-latex] (16,5.5) -- (16.5,5.5);
 
     \end{tikzpicture}
-	\DIFaddendFL \end{center}
-  \caption{This figure illustrates the $DAI_{VPG}$ agent. The only new part is the policy network, which takes as input the hidden state at time $t$ and ouputs the \DIFdelbeginFL \DIFdelFL{the }\DIFdelendFL parameters $\hat{\pi}$ of the variational posterior over actions. Importantly, the $DAI_{VPG}$ takes actions based on the EFE.}
+	\end{center}
+  \caption{This figure illustrates the $DAI_{VPG}$ agent. The only new part is the policy network, which takes as input the hidden state at time $t$ and ouputs the parameters $\hat{\pi}$ of the variational posterior over actions. Importantly, the $DAI_{VPG}$ takes actions based on the EFE.}
    \label{fig:DAI_VPG_agent}
 \end{figure}
 
 \subsection{$DAI_{RHI}$ agent \citep{rood2020deep}}
 
-In this section, we \DIFdelbegin \DIFdel{quickly }\DIFdelend explain and discuss the approach of \citet{rood2020deep}. Put simply, this paper proposes a variational auto-encoder (VAE), which is able to account for results that were observed in the context of the rubber-hand illusion (RHI) experiment. In the experiment in \citet{rood2020deep}\DIFaddbegin \DIFadd{, }\DIFaddend an agent (i.e., either a human or a computer) is able to move an arm in a 3D space. However, the agent does not observe the real position of the arm, instead, the agent sees an artificial hand placed in a different location. This can be implemented using virtual reality (for humans) or within a simulator (for computers). Since, \citet{rood2020deep} restricted themself to the context of a VAE, this approach cannot be considered as a complete implementation of deep active inference. More precisely, the transition and critic (or policy) networks are missing.
+In this section, we explain and discuss the approach of \citet{rood2020deep}. Put simply, this paper proposes a variational auto-encoder (VAE), which is able to account for results that were observed in the context of the rubber-hand illusion (RHI) experiment. In the experiment in \citet{rood2020deep}, an agent (i.e., either a human or a computer) is able to move an arm in a 3D space. However, the agent does not observe the real position of the arm, instead, the agent sees an artificial hand placed in a different location. This can be implemented using virtual reality (for humans) or within a simulator (for computers). Since, \citet{rood2020deep} restricted themself to the context of a VAE, this approach cannot be considered as a complete implementation of deep active inference. More precisely, the transition and critic (or policy) networks are missing.
 
 \subsection{$DAI_{HR}$ agent \citep{sancaktar2020endtoend,DAI_HR,DAI_HR2}}
 
-In this section, we \DIFdelbegin \DIFdel{quickly }\DIFdelend explain and discuss the following approaches: \citet{sancaktar2020endtoend}, \citet{DAI_HR}, and \citet{DAI_HR2}. Briefly, those papers propose a free energy minimisation scheme based on a single decoder network, which is used to control Nao, TIAGo, and iCub robots, respectively. Since, \citet{sancaktar2020endtoend,DAI_HR,DAI_HR2} restricted themself to the context of a single decoder, this approach can not be considered as a complete implementation of deep active inference. More precisely, the encoder, transition and critic (or policy) networks are missing.
+In this section, we explain and discuss the following approaches: \citet{sancaktar2020endtoend}, \citet{DAI_HR}, and \citet{DAI_HR2}. Briefly, those papers propose a free energy minimisation scheme based on a single decoder network, which is used to control Nao, TIAGo, and iCub robots, respectively. Since, \citet{sancaktar2020endtoend,DAI_HR,DAI_HR2} restricted themself to the context of a single decoder, this approach can not be considered as a complete implementation of deep active inference. More precisely, the encoder, transition and critic (or policy) networks are missing.
 
 \subsection{$DAI_{FA}$ agent \citep{DAI_Kai}} \label{ssec:dai_approach}
 
-In this section, we review the approach proposed by \citet{DAI_Kai}. The original code of this paper is available on GitHub at the following URL: \url{https://github.com/kaiu85/deepAI_paper}. This approach is composed of four deep neural networks. The encoder $\mathcal{E}_{\phi_s}$ models the approximate posterior over states $Q_{\phi_s}(s_t|s_{t-1}, o_t)$ as a Gaussian distribution, i.e., $Q_{\phi_s}(s_t|s_{t-1}, o_t) = \mathcal{N}(s_t;\mu, \sigma)$ where $\mu, \sigma = \mathcal{E}_{\phi_s}(s_{t-1}, o_t)$. The decoder $\mathcal{D}_{\theta_o}$ models the likelihood mapping $P_{\theta_o}(o_\tau|s_\tau)$ as a Gaussian distribution, i.e., $P_{\theta_o}(o_\tau|s_\tau) = \mathcal{N}(o_\tau;\mu_o, \sigma_o)$ where $\mu_o, \sigma_o = \mathcal{D}_{\theta_o}(s_\tau)$. The transition network $\mathcal{T}_{\theta_s}$ models the transition mapping $P_{\theta_s}(s_\tau|s_{\tau-1})$ as a Gaussian distribution, i.e., $P_{\theta_s}(s_\tau|s_{\tau-1}) = \mathcal{N}(s_\tau;\mathring{\mu}, \mathring{\sigma})$ where $\mathring{\mu}, \mathring{\sigma} = \mathcal{T}_{\theta_s}(s_{\tau-1})$. Note \DIFaddbegin \DIFadd{that}\DIFaddend , the transition network is only conditioned on the previous state\DIFdelbegin \DIFdel{, this }\DIFdelend \DIFaddbegin \DIFadd{. This }\DIFaddend is because the action is contained in the observations predicted by the decoder. \DIFdelbegin \DIFdel{Thus, the latent space has to (implicitly) encode the action for the decoder to successfully predict them. Finally, the policy network $\mathcal{P}_{\theta_a}$ models the prior over actions $P_{\theta_a}(a_\tau|s_\tau)$ as a Gaussian distribution, i.e., $P_{\theta_a}(a_\tau|s_\tau) = \mathcal{N}(a_\tau;\mu_a, \sigma_a)$ where $\mu_a, \sigma_a = \mathcal{P}_{\theta_a}(s_\tau)$. Figure \ref{fig:kai_dnn} illustrates the architectures of those deep neural networks. Importantly}\DIFdelend \DIFaddbegin \DIFadd{More precisely}\DIFaddend , the experiments were run in the MountainCar environment, which means that the agent is observing the x position of the car $o_\tau^x$. Additionally, according to the idea of proprioception, the agent observes its own action, i.e., $o^a_{\tau-1} = a_{\tau-1}$ where $a_{\tau-1}$ is the action performed by the agent at time $\tau-1$. In what follows, we let $o_\tau = (o^x_\tau, o^a_{\tau-1})$ be the concatenation of the x position of the car and the action taken by the agent. \DIFaddbegin \DIFadd{Importantly, because $o_\tau$ contains $o^a_{\tau-1}$, the latent space has to (implicitly) encode the action for the decoder to successfully predict the observations. Finally, the policy network $\mathcal{P}_{\theta_a}$ models the prior over actions $P_{\theta_a}(a_\tau|s_\tau)$ as a Gaussian distribution, i.e., $P_{\theta_a}(a_\tau|s_\tau) = \mathcal{N}(a_\tau;\mu_a, \sigma_a)$ where $\mu_a, \sigma_a = \mathcal{P}_{\theta_a}(s_\tau)$. Figure \ref{fig:kai_dnn} illustrates the architectures of those deep neural networks. }\DIFaddend Then, \citet{DAI_Kai} defines the free action objective as the cumulated variational free energy over time:
+In this section, we review the approach proposed by \citet{DAI_Kai}. The original code of this paper is available on GitHub at the following URL: \url{https://github.com/kaiu85/deepAI_paper}. This approach is composed of four deep neural networks. The encoder $\mathcal{E}_{\phi_s}$ models the approximate posterior over states $Q_{\phi_s}(s_t|s_{t-1}, o_t)$ as a Gaussian distribution, i.e., $Q_{\phi_s}(s_t|s_{t-1}, o_t) = \mathcal{N}(s_t;\mu, \sigma)$ where $\mu, \sigma = \mathcal{E}_{\phi_s}(s_{t-1}, o_t)$. The decoder $\mathcal{D}_{\theta_o}$ models the likelihood mapping $P_{\theta_o}(o_\tau|s_\tau)$ as a Gaussian distribution, i.e., $P_{\theta_o}(o_\tau|s_\tau) = \mathcal{N}(o_\tau;\mu_o, \sigma_o)$ where $\mu_o, \sigma_o = \mathcal{D}_{\theta_o}(s_\tau)$. The transition network $\mathcal{T}_{\theta_s}$ models the transition mapping $P_{\theta_s}(s_\tau|s_{\tau-1})$ as a Gaussian distribution, i.e., $P_{\theta_s}(s_\tau|s_{\tau-1}) = \mathcal{N}(s_\tau;\mathring{\mu}, \mathring{\sigma})$ where $\mathring{\mu}, \mathring{\sigma} = \mathcal{T}_{\theta_s}(s_{\tau-1})$. Note that, the transition network is only conditioned on the previous state. This is because the action is contained in the observations predicted by the decoder. More precisely, the experiments were run in the MountainCar environment, which means that the agent is observing the x position of the car $o_\tau^x$. Additionally, according to the idea of proprioception, the agent observes its own action, i.e., $o^a_{\tau-1} = a_{\tau-1}$ where $a_{\tau-1}$ is the action performed by the agent at time $\tau-1$. In what follows, we let $o_\tau = (o^x_\tau, o^a_{\tau-1})$ be the concatenation of the x position of the car and the action taken by the agent. Importantly, because $o_\tau$ contains $o^a_{\tau-1}$, the latent space has to (implicitly) encode the action for the decoder to successfully predict the observations. Finally, the policy network $\mathcal{P}_{\theta_a}$ models the prior over actions $P_{\theta_a}(a_\tau|s_\tau)$ as a Gaussian distribution, i.e., $P_{\theta_a}(a_\tau|s_\tau) = \mathcal{N}(a_\tau;\mu_a, \sigma_a)$ where $\mu_a, \sigma_a = \mathcal{P}_{\theta_a}(s_\tau)$. Figure \ref{fig:kai_dnn} illustrates the architectures of those deep neural networks. Then, \citet{DAI_Kai} defines the free action objective as the cumulated variational free energy over time:
 \begin{align*}
 FA(o_{1:T}, \phi, \theta) = \sum_{\tau = 1}^T \Bigg[\underbrace{\overbrace{- \mathbb{E}_{Q_{\phi_s}(s_\tau|s_{\tau-1}, o_\tau)}\Big[\ln P_{\theta_o}(o_\tau|s_\tau)\Big]}^{\text{accuracy}} + \overbrace{\kl{Q_{\phi_s}(s_\tau|s_{\tau-1}, o_\tau)}{P_{\theta_s}(s_\tau|s_{\tau-1})}}^{\text{complexity}} }_{\text{VFE}_\tau}\Bigg],
 \end{align*}
-where $s_0 = (0, ..., 0)$ is a vector \DIFdelbegin \DIFdel{full }\DIFdelend of zeros representing the initial hidden state, $T$ is the time horizon, $P_{\theta_o}(o_\tau|s_\tau)$, $Q_{\phi_s}(s_\tau|s_{\tau-1}, o_t)$, $P_{\theta_s}(s_\tau|s_{\tau-1})$ are modeled using Gaussian distributions whose parameters are predicted by the decoder, encoder and transition network, respectively. Figure \ref{fig:kai_fa_estimate} illustrates the computation of the free action objective, and the action-perception cycle of the agent. The first action-perception cycle is initiated when the intital hidden state $s_0$ is being fed into the policy network, which outputs the parameters of a Gaussian distribution over actions. Then, an action $\hat{a}_0$ is sampled from this Gaussian, and executed in the environment leading to a new observation $o_1^x$. Next, the action $\hat{a}_0$ is \DIFdelbegin \DIFdel{concatenate }\DIFdelend \DIFaddbegin \DIFadd{concatenated }\DIFaddend with $o_1^x$ to form $o_1$. The observation $o_1$ and the state $s_0$ are then fed into the encoder that outputs the parameters of a Gaussian distribution over $\hat{s}_1$. Lastly, a state is sampled from this Gaussian distribution and is used as input to the next action-perception cycle. This process continues until reaching the time horizon.
+where $s_0 = (0, ..., 0)$ is a vector of zeros representing the initial hidden state, $T$ is the time horizon, $P_{\theta_o}(o_\tau|s_\tau)$, $Q_{\phi_s}(s_\tau|s_{\tau-1}, o_t)$, $P_{\theta_s}(s_\tau|s_{\tau-1})$ are modeled using Gaussian distributions whose parameters are predicted by the decoder, encoder and transition network, respectively. Figure \ref{fig:kai_fa_estimate} illustrates the computation of the free action objective, and the action-perception cycle of the agent. The first action-perception cycle is initiated when the intital hidden state $s_0$ is being fed into the policy network, which outputs the parameters of a Gaussian distribution over actions. Then, an action $\hat{a}_0$ is sampled from this Gaussian, and executed in the environment leading to a new observation $o_1^x$. Next, the action $\hat{a}_0$ is concatenated with $o_1^x$ to form $o_1$. The observation $o_1$ and the state $s_0$ are then fed into the encoder that outputs the parameters of a Gaussian distribution over $\hat{s}_1$. Lastly, a state is sampled from this Gaussian distribution and is used as input to the next action-perception cycle. This process continues until reaching the time horizon.
 
 Within each action-perception cycle, the variational free energy of this time step is computed. To compute $\text{VFE}_\tau$, the state $s_\tau$  is fed into both the tansition network and the encoder. Both networks output the parameters of a Gaussian distribution over $s_{\tau+1}$. A state is sampled from the distribution predicted by the encoder, and is used as input to the decoder that outputs the parameters of a Gaussian distribution over $o_{\tau + 1}$. Finally, the parameters of the Gaussian distribution over $o_{\tau + 1}$ is used to compute the accuracy term, and the parameters of the two Gaussian distributions over $s_{\tau+1}$ are used to compute the complexity term.
 
 We now focus on the prior preferences of the agent. Usually, prior preferences are part of the expected free energy. However, \citet{DAI_Kai} takes a different approach. Recall, the latent variable $s_\tau$ is modeled using a multivariate Gaussian. The $DAI_{FA}$ agent reserves the first dimension of the latent space to the encoding of the prior preferences. Specifically, the transition network predicts the mean vector and the diagonal of the covariance matrix (i.e., another vector) of a multivariate Gaussian over latent states. The first element in the mean vector is clamped to the target x position, and the first element of the variance vector is set to a relatively small value. This effectively propels the agent towards the target location. Additionally, the encoder predicts another set of mean and variance vectors. The first element of the mean vector predicted by the encoder is clamped to the current x position observed by the agent, and the first element of the variance vector is set to a relatively small value. Note, clamping the value of the first element of the mean and variance vectors predicted by the transition is uncontentious, i.e., this is simply how the generative model is defined. However, clamping the value of the first element of the mean and variance vectors predicted by the encoder may be debated. Specifically, the encoder is supposed to predict the variational distribution, which is an approximation of the true posterior. However, clamping the value of the first element of the mean and variance vectors predicted by the encoder is likely to push the variational posterior further from the true posterior.
 
-There are a number of important aspects of the $DAI_{FA}$ agent. First, there is no expected free energy, instead the agent is trained to \DIFdelbegin \DIFdel{minimised }\DIFdelend \DIFaddbegin \DIFadd{minimise }\DIFaddend the cumulated variational free energy over time. Second, this approach unrolls the partially observable Markov decision process over time. In other words, the code builds a huge computational graph containing the encoder, decoder, transition and policy networks for each action-perception cycle. Therefore, the approach is computationally intensive and can become intractable for a large time horizon. Third, the $DAI_{FA}$ requires the modeller to encode the prior preferences within the distributions predicted by the encoder and transition network. This can limit the applicability of the approach. Indeed, as previously explained, one can encode the prior preferences of the agent for the MountainCar problem within the first dimension of the latent space. 
+There are a number of important aspects of the $DAI_{FA}$ agent. First, there is no expected free energy, instead the agent is trained to minimise the cumulated variational free energy over time. Second, this approach unrolls the partially observable Markov decision process over time. In other words, the code builds a huge computational graph containing the encoder, decoder, transition and policy networks for each action-perception cycle. Therefore, the approach is computationally intensive and can become intractable for a large time horizon. Third, the $DAI_{FA}$ requires the modeller to encode the prior preferences within the distributions predicted by the encoder and transition network. This can limit the applicability of the approach. Indeed, as previously explained, one can encode the prior preferences of the agent for the MountainCar problem within the first dimension of the latent space. 
 
 However, manually encoding the prior preferences in the latent space has two major drawbacks. First, the model needs to be modified from one environment to the next. This is because for each environment, the prior preferences of the agent will be different. Second, for some environments, it is unclear how the prior preferences may be defined. For example, when playing PacMan, the agent needs to eat all the dots, while simultaneously avoiding the ghosts. How can this be encoded in the model's latent space? This is particularly challenging because the only observation made by the agent is an image of the game, i.e., the agent does not directly have access to the positions of PacMan and the ghosts. 
 
@@ -1234,21 +1043,13 @@ where $\lVert{\cdot}\rVert_F$ is the Frobenius norm, which is defined as:
 where $a \in \mathbb{R}^{k\times l}$ is an arbitrary $k \times l$ matrix, and $a^T$ is the transpose of $a$.
 
 \paragraph{Limitations of CKA}
-While CKA leads to accurate results in practice, it can be overly sensitive to differences in neural architectures \DIFdelbegin \DIFdel{~\mbox{%DIFAUXCMD
-\citet{Maheswaranathan2019}}\hspace{0pt}%DIFAUXCMD
-}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
-\citep{Maheswaranathan2019}}\hspace{0pt}%DIFAUXCMD
-}\DIFaddend , and can thus underestimate the similarity between activations coming from layers of different type (e.g., convolutional and deconvolutional). Thus, we will only discuss the variation of similarity when analysing such cases.
+While CKA leads to accurate results in practice, it can be overly sensitive to differences in neural architectures \citep{Maheswaranathan2019}, and can thus underestimate the similarity between activations coming from layers of different type (e.g., convolutional and deconvolutional). Thus, we will only discuss the variation of similarity when analysing such cases.
 For example, we will not compare $CKA(a, b)$ and $CKA(a, c)$ if $a$ and $b$ are convolutional layers but
 $c$ is linear. We will, however, compare $CKA(a, c)$ and $CKA(b, c)$.
 
 \section{Incrementally building a deep active inference agent} \label{sec:build_dai}
 
-All of the deep active inference models we have presented make important contributions, illustrating a range of possible implementations. However, we do not feel that any of these approaches is a complete and definitive realisation of deep active inference. We have highlighted limitations of these published approaches throughout our presentation. Accordingly, in the remainder of this paper, we step back to first principles and ``\DIFdelbegin \DIFdel{build-up}\DIFdelend \DIFaddbegin \DIFadd{build up}\DIFaddend " an agent component-by-component to determine which parts of a ``natural" deep active inference framework underlie its capacity to solve or fail to solve inference problems. Additionally, throughout this component-by-component investigation, we compare the different variants of deep active inference that result with a standard (\DIFdelbegin \DIFdel{well attested}\DIFdelend \DIFaddbegin \DIFadd{well-attested}\DIFaddend ) approach: a deep Q-network \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
-\citep{DeepRL}}\hspace{0pt}%DIFAUXCMD
-}\DIFaddend . Thus, in this section, we progresively build a deep active inference agent. Section \ref{ssec:dSprites_env} presents the dSprites environment in which all our simulations will be run. \DIFaddbegin \DIFadd{This environment was picked to test whether an active inference agent is able to solve the dSprites environment as previously claimed in the literature \mbox{%DIFAUXCMD
-\citep{DeepAIwithMCMC}}\hspace{0pt}%DIFAUXCMD
-. }\DIFaddend Section \ref{ssec:env_agent_iter} describes how the agents introduced later in this paper interact with the environment. Then, Section \ref{ssec:VAE} introduces a variational auto-encoder (VAE) agent, Section \ref{ssec:HMM} discusses a deep hidden Markov model (HMM) agent, Section \ref{ssec:CHMM} presents a deep critical HMM (CHMM) agent, and finally, Section \ref{ssec:DAI} introduces a complete deep active inference agent. Note, the notation used throughout this section are summarised in Appendix A.
+All of the deep active inference models we have presented make important contributions, illustrating a range of possible implementations. However, we do not feel that any of these approaches is a complete and definitive realisation of deep active inference. We have highlighted limitations of these published approaches throughout our presentation. Accordingly, in the remainder of this paper, we step back to first principles and ``build up" an agent component-by-component to determine which parts of a ``natural" deep active inference framework underlie its capacity to solve or fail to solve inference problems. Additionally, throughout this component-by-component investigation, we compare the different variants of deep active inference that result with a standard (well-attested) approach: a deep Q-network \citep{DeepRL}. Thus, in this section, we progresively build a deep active inference agent. Section \ref{ssec:dSprites_env} presents the dSprites environment in which all our simulations will be run. This environment was picked to test whether an active inference agent is able to solve the dSprites environment as previously claimed in the literature \citep{DeepAIwithMCMC}. Section \ref{ssec:env_agent_iter} describes how the agents introduced later in this paper interact with the environment. Then, Section \ref{ssec:VAE} introduces a variational auto-encoder (VAE) agent, Section \ref{ssec:HMM} discusses a deep hidden Markov model (HMM) agent, Section \ref{ssec:CHMM} presents a deep critical HMM (CHMM) agent, and finally, Section \ref{ssec:DAI} introduces a complete deep active inference agent. Note, the notation used throughout this section are summarised in Appendix A.
 
 \subsection{dSprites environment} \label{ssec:dSprites_env}
 
@@ -1264,7 +1065,7 @@ The dSprites environment is based on the dSprites dataset \citep{dsprites17}, in
 
 \subsection{Agent-environment interaction} \label{ssec:env_agent_iter}
 
-In this section, we present how all the agents introduced in the next sections interact with the environment. Each agent was trained for $N = 500K$ iterations. At the begining of a trial, the environment is reset to a random state and the agent receives an observation\DIFaddbegin \footnote{\DIFadd{Each observation contains a sequence of three images, i.e., the image corresponding to the current state of the environment, and the two images gathered during the previous two time steps.}} \DIFaddend $o_t$. Using $o_t$, the agent selects an action $a_t$, which is then executed in the environment. This leads the agent to receive a new obervation $o_{t+1}$, a reward $r_{t+1}$ and a boolean $done$ describing whether the trial is over or not. Then, the new experience ($o_t$, $a_t$, $o_{t+1}$, $r_{t+1}$, $done$) is added to the replay buffer, from which a batch is sampled to train the various neural networks of the agent. Finally, if the trial has ended, then the environment is reset to a random state leading to a new observation $o_t$, otherwise $o_{t+1}$ becomes the new $o_t$ closing the action-perception cycle. Algorithm \ref{algo:ap_cycles} summarises the agent-environment interaction.
+In this section, we present how all the agents introduced in the next sections interact with the environment. Each agent was trained for $N = 500K$ iterations. At the begining of a trial, the environment is reset to a random state and the agent receives an observation\footnote{Each observation contains a sequence of three images, i.e., the image corresponding to the current state of the environment, and the two images gathered during the previous two time steps.} $o_t$. Using $o_t$, the agent selects an action $a_t$, which is then executed in the environment. This leads the agent to receive a new obervation $o_{t+1}$, a reward $r_{t+1}$ and a boolean $done$ describing whether the trial is over or not. Then, the new experience ($o_t$, $a_t$, $o_{t+1}$, $r_{t+1}$, $done$) is added to the replay buffer, from which a batch is sampled to train the various neural networks of the agent. Finally, if the trial has ended, then the environment is reset to a random state leading to a new observation $o_t$, otherwise $o_{t+1}$ becomes the new $o_t$ closing the action-perception cycle. Algorithm \ref{algo:ap_cycles} summarises the agent-environment interaction.
 
 \begin{algorithm}[H]
 \label{algo:ap_cycles}
@@ -1307,7 +1108,7 @@ where $P(s_t) = \mathcal{N}(s_t; 0, I)$ is an isotropic (multivariate) Gaussian 
 $$\bm{F} = \kl{Q_{\phi_s}(s_t)}{P(s_t)} - \mathbb{E}_{Q_{\phi_s}(s_t)}[\ln P_{\theta_o}(o_t|s_t)],$$
 where the KL-divergence between two Gaussian distributions can be computed using an analytical solution, and the expectation of the logarithm of $P_{\theta_o}(o_t|s_t)$ is approximated by a Monte-Carlo estimate using a single sample $\hat{s}_t \sim Q_{\phi_s}(s_t)$. The sample $\hat{s}_t$ is obtained using the reparameterisation trick as follows: $\hat{s}_t = \mu + \sigma \odot \hat{\epsilon}$, where $\odot$ is an element-wise product between two vectors, and $\hat{\epsilon} \sim \mathcal{N}(\epsilon;0,I)$.
 
-To sum up, this agent takes random actions, and stores its experiences in a \DIFdelbegin \DIFdel{queue }\DIFdelend \DIFaddbegin \DIFadd{replay buffer }\DIFaddend (c.f. Section \ref{ssec:env_agent_iter}). Then, batches of experiences ($o_t$, $a_t$, $o_{t+1}$, $r_{t+1}$, $done$) are sampled from the \DIFdelbegin \DIFdel{queue}\DIFdelend \DIFaddbegin \DIFadd{replay buffer}\DIFaddend . The observations at time step $t$ are then fed into the encoder, which outputs the mean and log variance of a Gaussian distribution $Q_{\phi_s}(s_t) = \mathcal{N}(s_t;\mu, \sigma)$. A latent state is sampled from $Q_{\phi_s}(s_t)$ using the re-parameterisation trick, and is then provided as input to the decoder which outputs the parameters of Bernoulli distributions $\hat{o}_t$. The KL-divergence between $Q_{\phi_s}(s_t)$ and $P(s_t)$ is computed analytically, and the logarithm of $P_{\theta_o}(o_t|s_t)$ reduces to the binary cross entropy (BCE) because $P_{\theta_o}(o_t|s_t)$ is a product of Bernoulli distributions. Next, the VFE is obtained by subtracting the BCE from the KL-divergence, and back-propagation is used to update the weights of the encoder and decoder networks. Figure \ref{fig:VAE} illustrates the VAE agent presented in this section. Note, this agent takes random actions.
+To sum up, this agent takes random actions, and stores its experiences in a replay buffer (c.f. Section \ref{ssec:env_agent_iter}). Then, batches of experiences ($o_t$, $a_t$, $o_{t+1}$, $r_{t+1}$, $done$) are sampled from the replay buffer. The observations at time step $t$ are then fed into the encoder, which outputs the mean and log variance of a Gaussian distribution $Q_{\phi_s}(s_t) = \mathcal{N}(s_t;\mu, \sigma)$. A latent state is sampled from $Q_{\phi_s}(s_t)$ using the re-parameterisation trick, and is then provided as input to the decoder which outputs the parameters of Bernoulli distributions $\hat{o}_t$. The KL-divergence between $Q_{\phi_s}(s_t)$ and $P(s_t)$ is computed analytically, and the logarithm of $P_{\theta_o}(o_t|s_t)$ reduces to the binary cross entropy (BCE) because $P_{\theta_o}(o_t|s_t)$ is a product of Bernoulli distributions. Next, the VFE is obtained by subtracting the BCE from the KL-divergence, and back-propagation is used to update the weights of the encoder and decoder networks. Figure \ref{fig:VAE} illustrates the VAE agent presented in this section. Note, this agent takes random actions.
 
 \begin{figure}[h]
 	\begin{center}
@@ -1316,7 +1117,7 @@ To sum up, this agent takes random actions, and stores its experiences in a \DIF
     \end{tikzpicture}
 
 	\end{center}
-  \caption{This figure illustrates the VAE agent. From left to right, we have the input image $o_t$, the encoder network, the layer of mean $\mu$ and log variance $\ln \sigma$, the epsilon random variable used for the reparameterisation trick, the latent state $\hat{s}_t$, the decoder network, and finally, the reconstructed image $\hat{o}_t$. Note, \DIFaddbeginFL \DIFaddFL{there are no actions in }\DIFaddendFL this agent\DIFaddbeginFL \DIFaddFL{'s generative model. Therefore, the VAE agent }\DIFaddendFL takes random actions.}
+  \caption{This figure illustrates the VAE agent. From left to right, we have the input image $o_t$, the encoder network, the layer of mean $\mu$ and log variance $\ln \sigma$, the epsilon random variable used for the reparameterisation trick, the latent state $\hat{s}_t$, the decoder network, and finally, the reconstructed image $\hat{o}_t$. Note, there are no actions in this agent's generative model. Therefore, the VAE agent takes random actions.}
    \label{fig:VAE}
 \end{figure}
 
@@ -1331,7 +1132,7 @@ Using a derivation almost identical to the one presented in Section \ref{ssec:de
 Q^*_{\phi_s}(s_t)\,\, &= \argmin_{\quad Q_{\phi_s}(s_t) \quad }\underbrace{\kl{Q_{\phi_s}(s_t)}{P_{\theta_o}(o_t|s_t)P_{\theta_s}(s_t|s_{t-1},a_{t-1})}}_{\text{variational free energy}}\label{eq:vfe_defi}\\
 &= \argmin_{\quad Q_{\phi_s}(s_t)\quad } \kl{Q_{\phi_s}(s_t)}{P_{\theta_s}(s_t|s_{t-1},a_{t-1})} - \mathbb{E}_{Q_{\phi_s}(s_t)}[P_{\theta_o}(o_t|s_t)].\nonumber
 \end{align}
-The VFE \DIFaddbegin \DIFadd{of Equation \ref{eq:vfe_defi} }\DIFaddend can be computed in a similar way to the VAE agent. Put simply, this agent takes random actions, and stores its experiences in a \DIFdelbegin \DIFdel{queue }\DIFdelend \DIFaddbegin \DIFadd{replay buffer }\DIFaddend (c.f. Section \ref{ssec:env_agent_iter}). Then, batches of experiences ($o_{t-1}$, $a_{t-1}$, $o_t$, $r_t$, $done$) are sampled from the \DIFdelbegin \DIFdel{queue}\DIFdelend \DIFaddbegin \DIFadd{replay buffer}\DIFaddend . The observations at time step $t - 1$ are feed into the encoder, which outputs the mean and log variance of a Gaussian distribution $Q_{\phi_s}(s_{t-1}) = \mathcal{N}(s_{t-1};\mu, \sigma)$. A latent state is sampled from $Q_{\phi_s}(s_{t-1})$ using the re-parameterisation trick, and is then provided as input to the transition network along with action $a_{t-1}$. The transition network outputs the parameters of the Gaussian distributions $P_{\theta_s}(s_t|s_{t-1},a_{t-1}) = \mathcal{N}(s_t;\mathring{\mu}, \mathring{\sigma})$. Additionally, the observations at time step $t$ can be fed into the encoder to get the parameters of $Q_{\phi_s}(s_t) = \mathcal{N}(s_t;\hat{\mu}, \hat{\sigma})$. Sampling from $Q_{\phi_s}(s_t)$ using the reparameterisation trick gives a state $\hat{s}_t$ that when given as input to the decoder produces the parameters of a product of Bernoulli distributions $\hat{o}_{t+1}$. The KL-divergence between $Q_{\phi_s}(s_t)$ and $P_{\theta_s}(s_t|s_{t-1},a_{t-1})$ is computed analytically, and the logarithm of $P_{\theta_o}(o_t|s_t)$ reduces to the \DIFdelbegin \DIFdel{BCE }\DIFdelend \DIFaddbegin \DIFadd{binary cross entropy (BCE) }\DIFaddend because $P_{\theta_o}(o_t|s_t)$ is a product of Bernoulli distributions. Next, the VFE is obtained by subtracting the BCE from the KL-divergence, and back-propagation is used to update the weights of the encoder, decoder and transition networks. Figure \ref{fig:HMM} illustrates the HMM agent. 
+The VFE of Equation \ref{eq:vfe_defi} can be computed in a similar way to the VAE agent. Put simply, this agent takes random actions, and stores its experiences in a replay buffer (c.f. Section \ref{ssec:env_agent_iter}). Then, batches of experiences ($o_{t-1}$, $a_{t-1}$, $o_t$, $r_t$, $done$) are sampled from the replay buffer. The observations at time step $t - 1$ are feed into the encoder, which outputs the mean and log variance of a Gaussian distribution $Q_{\phi_s}(s_{t-1}) = \mathcal{N}(s_{t-1};\mu, \sigma)$. A latent state is sampled from $Q_{\phi_s}(s_{t-1})$ using the re-parameterisation trick, and is then provided as input to the transition network along with action $a_{t-1}$. The transition network outputs the parameters of the Gaussian distributions $P_{\theta_s}(s_t|s_{t-1},a_{t-1}) = \mathcal{N}(s_t;\mathring{\mu}, \mathring{\sigma})$. Additionally, the observations at time step $t$ can be fed into the encoder to get the parameters of $Q_{\phi_s}(s_t) = \mathcal{N}(s_t;\hat{\mu}, \hat{\sigma})$. Sampling from $Q_{\phi_s}(s_t)$ using the reparameterisation trick gives a state $\hat{s}_t$ that when given as input to the decoder produces the parameters of a product of Bernoulli distributions $\hat{o}_{t+1}$. The KL-divergence between $Q_{\phi_s}(s_t)$ and $P_{\theta_s}(s_t|s_{t-1},a_{t-1})$ is computed analytically, and the logarithm of $P_{\theta_o}(o_t|s_t)$ reduces to the binary cross entropy (BCE) because $P_{\theta_o}(o_t|s_t)$ is a product of Bernoulli distributions. Next, the VFE is obtained by subtracting the BCE from the KL-divergence, and back-propagation is used to update the weights of the encoder, decoder and transition networks. Figure \ref{fig:HMM} illustrates the HMM agent. 
 
 \begin{figure}[h]
 	\begin{center}
@@ -1345,44 +1146,20 @@ The VFE \DIFaddbegin \DIFadd{of Equation \ref{eq:vfe_defi} }\DIFaddend can be co
 
 \subsection{Deep critical HMM} \label{ssec:CHMM}
 
-In this section, we present our third agent that incorporates a critic network to the deep HMM presented in the previous section. The resulting model is called a deep CHMM and is illustrated in Figure \ref{fig:CHMM}. The CHMM is equipped with an encoder $\mathcal{E}_{\phi_s}$ modelling $Q_{\phi_s}(s_\tau)$, a decoder $\mathcal{D}_{\theta_o}$  modelling $P_{\theta_o}(o_\tau|s_\tau)$, a transition network $\mathcal{T}_{\theta_s}$ modelling $P_{\theta_s}(s_t|s_{t-1},a_{t-1})$, and a critic network $\mathcal{G}_{\theta_a}$ that predicts the expected free energy (see below) of each action. The critic is then used to define the prior over actions as: $P_{\theta_a}(a_t|s_t) = \sigma[-\zeta \mathcal{G}_{\theta_a}(s_t,\bigcdot\,)]$, where $\zeta$ is the precision of the prior over actions, and $\mathcal{G}_{\theta_a}(s_t,\bigcdot\,)$ is the EFE of taking each action in state $s_t$ as predicted by the critic. The encoder, decoder and transition networks are all trained in the same way as before to minimise the VFE. The critic however is trained to minimise the smooth L1 norm between its output $\mathcal{G}_{\theta_a}(s_t,\bigcdot\,)$ and the target G-values $y(\,\bigcdot\,)$, i.e., the critic minimises $\text{SL1}[\mathcal{G}_{\theta_a}(s_t,\bigcdot\,), y(\,\bigcdot\,)]$. Note, the SL1 was picked because it is less sensitive to outliers than the MSE, and \DIFaddbegin \DIFadd{is defined as:
-}$$\DIFadd{SL1}[\DIFadd{x, y}]\DIFadd{= \begin{cases}
+In this section, we present our third agent that incorporates a critic network to the deep HMM presented in the previous section. The resulting model is called a deep CHMM and is illustrated in Figure \ref{fig:CHMM}. The CHMM is equipped with an encoder $\mathcal{E}_{\phi_s}$ modelling $Q_{\phi_s}(s_\tau)$, a decoder $\mathcal{D}_{\theta_o}$  modelling $P_{\theta_o}(o_\tau|s_\tau)$, a transition network $\mathcal{T}_{\theta_s}$ modelling $P_{\theta_s}(s_t|s_{t-1},a_{t-1})$, and a critic network $\mathcal{G}_{\theta_a}$ that predicts the expected free energy (see below) of each action. The critic is then used to define the prior over actions as: $P_{\theta_a}(a_t|s_t) = \sigma[-\zeta \mathcal{G}_{\theta_a}(s_t,\bigcdot\,)]$, where $\zeta$ is the precision of the prior over actions, and $\mathcal{G}_{\theta_a}(s_t,\bigcdot\,)$ is the EFE of taking each action in state $s_t$ as predicted by the critic. The encoder, decoder and transition networks are all trained in the same way as before to minimise the VFE. The critic however is trained to minimise the smooth L1 norm between its output $\mathcal{G}_{\theta_a}(s_t,\bigcdot\,)$ and the target G-values $y(\,\bigcdot\,)$, i.e., the critic minimises $\text{SL1}[\mathcal{G}_{\theta_a}(s_t,\bigcdot\,), y(\,\bigcdot\,)]$. Note, the SL1 was picked because it is less sensitive to outliers than the MSE, and is defined as:
+$$SL1[x, y]= \begin{cases}
       0.5 \times \frac{(x - y)^2}{\beta} & \text{if }\lvert x-y \rvert < \beta\\
       \lvert x-y \rvert - 0.5 \times \beta & \text{otherwise}
-\end{cases}.}$$
-\DIFadd{Addtionally, }\DIFaddend the target G-values are defined as:
+\end{cases}.$$
+Addtionally, the target G-values are defined as:
 $$y(a_t) = G_{t+1}(a_t) + \gamma \mathbb{E}_{Q_{\phi_s}(s_{t+1})}\Big[ \max_{a_{t+1} \in \mathcal{A}} \hat{\mathcal{G}}_{\hat{\theta}_a}(s_{t+1}, a_{t+1})\Big],$$
-where $Q_{\phi_s}(s_{t+1})$ can be computed by feeding the image $o_{t+1}$ sampled from the \DIFdelbegin \DIFdel{queue }\DIFdelend \DIFaddbegin \DIFadd{replay buffer }\DIFaddend as input to the encoder, $G_{t+1}(a_t)$ is the expected free energy at time $t+1$ after taking action $a_t$ (see below), and $\gamma$ is a discount factor. \DIFaddbegin \DIFadd{Note, the above Equation is an application on Bellman's equation \mbox{%DIFAUXCMD
-\citep{Bellman1952} }\hspace{0pt}%DIFAUXCMD
-to the expected free energy. }\DIFaddend Also, as for the DQN agent, we improved the training stability by implementing a target network $\hat{\mathcal{G}}_{\hat{\theta}_a}$, which is structurally identical to the critic and whose weights are synchronised with the weights of the critic every $K$ (learning) iterations. The last question to answer before focusing on the subject of the EFE is: how does the CHMM select the action to be performed in the environment?
+where $Q_{\phi_s}(s_{t+1})$ can be computed by feeding the image $o_{t+1}$ sampled from the replay buffer as input to the encoder, $G_{t+1}(a_t)$ is the expected free energy at time $t+1$ after taking action $a_t$ (see below), and $\gamma$ is a discount factor. Note, the above Equation is an application on Bellman's equation \citep{Bellman1952} to the expected free energy. Also, as for the DQN agent, we improved the training stability by implementing a target network $\hat{\mathcal{G}}_{\hat{\theta}_a}$, which is structurally identical to the critic and whose weights are synchronised with the weights of the critic every $K$ (learning) iterations. The last question to answer before focusing on the subject of the EFE is: how does the CHMM select the action to be performed in the environment?
 
 There are at least four possibilities: (i) select a random action, (ii) select the action that maximises EFE according to the critic, i.e., $a_t^* = \argmax_{a_t} \mathcal{G}_{\theta_a}(s_t,a_t)$, (iii) sample an action from a softmax function of the output of the critic, i.e., $a_t^* \sim \sigma[\mathcal{G}_{\theta_a}(s_t,\bigcdot\,)]$ where $\sigma[\,\bigcdot\,]$ is a softmax function, and (iv) use the $\mathring{\epsilon}$-greedy algorithm with exponential decay, i.e., select a random action with probabilty $\mathring{\epsilon}$ or select the best action with probability $1 - \mathring{\epsilon}$ where $\mathring{\epsilon}$ starts with a high value and decays exponentially fast.
 
 \begin{figure}[h]
 	\begin{center}
-	\DIFdelbeginFL %DIFDELCMD < \begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}]
-%DIFDELCMD < 		\coordinate (A) at (13.5,8);
-%DIFDELCMD < 		\coordinate (B) at (16,9);
-%DIFDELCMD < 		\coordinate (C) at (16,11);
-%DIFDELCMD < 		\coordinate (D) at (13.5,12);
-%DIFDELCMD < 		\draw[fill=yellow!20!white] (A) -- coordinate[pos=.6] (AB) (B)--(C)
-%DIFDELCMD <          --coordinate[pos=.45] (CD) (D)
-%DIFDELCMD <          --coordinate[pos=.55] (DA) cycle;
-%DIFDELCMD < 	    \node at (14.75, 10) {$Critic$};
-%DIFDELCMD < 
-
-%DIFDELCMD < 		\draw[-latex] (11,6.5) -- (12.8,6.5) -- (12.8,10) -- (13.5,10);
-%DIFDELCMD < 		\draw[-latex] (16, 10) -- (16.5, 10);
-%DIFDELCMD < 		
-
-%DIFDELCMD < 		\draw[fill=gray!20!white] (16.5,9) rectangle (17.5,11);
-%DIFDELCMD < 	    \node at (17, 10) {$\bm{G}$};
-%DIFDELCMD < 
-
-%DIFDELCMD < 		\pic{hmm};
-%DIFDELCMD <     \end{tikzpicture}
-%DIFDELCMD < 	%%%
-\DIFdelendFL \DIFaddbeginFL \begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}]
+	\begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}]
 		\coordinate (A) at (13.5,8);
 		\coordinate (B) at (16,9);
 		\coordinate (C) at (16,11);
@@ -1394,18 +1171,18 @@ There are at least four possibilities: (i) select a random action, (ii) select t
 
 		\draw[-latex] (11,6.5) -- (12.8,6.5) -- (12.8,10) -- (13.5,10);
 		\draw[-latex] (16, 10) -- (16.5, 10);
-
+		
 		\draw[fill=gray!20!white] (16.5,9) rectangle (17.5,11);
 	    \node at (17, 10) {$\bm{G}$};
 
 		\pic{hmm};
     \end{tikzpicture}
-	\DIFaddendFL \end{center}
+	\end{center}
   \caption{This figure illustrates the CHMM agent. The only new part is the critic network, which takes as input the hidden state at time $t$ and ouputs the expected free energy of each action $\bm{G}$. Importantly, the CHMM takes actions based on the EFE.}
    \label{fig:CHMM}
 \end{figure}
 
-\DIFaddbegin \begin{figure}[H]
+\begin{figure}[H]
 	\begin{center}
 	\begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}, scale=1]
 		% critic network
@@ -1467,17 +1244,17 @@ There are at least four possibilities: (i) select a random action, (ii) select t
     \end{tikzpicture}
 
 	\end{center}
-  \caption{\DIFaddFL{This figure illustrates the computation of the critic's loss function when the critic is only maximising reward, i.e., when Equation \ref{eq:reward_maximisation} is used for the expected free energy. Briefly, the state $s_t$ is fed into the Critic, and the state $s_{t+1}$ is fed into the target network. The critic outputs the G-values for each action at time $t$, and the target network outputs the G-values for each action at time $t+1$. Then, the reward, the discount factor, and G-values of each action at time $t+1$ are used to compute the target values $y(s_t,\bigcdot\,)$. Finally, the goal is to minimise the SL1 between the prediction of the critic and the target values by changing the weights of the critic.}}
+  \caption{This figure illustrates the computation of the critic's loss function when the critic is only maximising reward, i.e., when Equation \ref{eq:reward_maximisation} is used for the expected free energy. Briefly, the state $s_t$ is fed into the Critic, and the state $s_{t+1}$ is fed into the target network. The critic outputs the G-values for each action at time $t$, and the target network outputs the G-values for each action at time $t+1$. Then, the reward, the discount factor, and G-values of each action at time $t+1$ are used to compute the target values $y(s_t,\bigcdot\,)$. Finally, the goal is to minimise the SL1 between the prediction of the critic and the target values by changing the weights of the critic.}
      \label{fig:reward_usage}
 \end{figure}
 
-\DIFaddend \subsubsection{Expected free energy} \label{ssec:efe}
+\subsubsection{Expected free energy} \label{ssec:efe}
 
 In this section, we discuss the definition of the expected free energy (EFE) before investigating various ways to implement it in the context of deep active inference. Recently \citep{Parr304782}, the expected free energy was defined as:
 \begin{align}
 G(\pi) = \sum_{\tau = t+1}^T G_\tau(\pi) = \sum_{\tau = t+1}^T \mathbb{E}_{P(o_\tau|s_\tau)Q(s_\tau | \pi)}\big[\ln Q(s_\tau | \pi) - \ln P(o_\tau, s_\tau)\big],\label{eq:efe_definition}
 \end{align}
-where $P(o_\tau|s_\tau)$ is the likelihood mapping, $Q(s_\tau | \pi)$ is the variational distribution, and \DIFdelbegin \DIFdel{literally }\DIFdelend \DIFaddbegin \DIFadd{in the literature }\DIFaddend $P(o_\tau, s_\tau)$ is \DIFaddbegin \DIFadd{called }\DIFaddend the generative model but is better understood as a target distribution encoding the prior preferences of the agent. Indeed, assuming the standard generative model of active inference (i.e., a partially observable Markov decision process), the hidden states $s_\tau$ should depend on $s_{\tau-1}$ and $a_{\tau-1}$. \DIFdelbegin \DIFdel{This point is important because it impacts the question of whether $P(o_\tau, s_\tau)$ is indeed the generative model, and therefore whether the expected free energy is the expectation of the variational free energy. }\DIFdelend \DIFaddbegin \textbf{\DIFadd{This point is important because it impacts the question of whether $P(o_\tau, s_\tau)$ is indeed the generative model, and therefore whether --- as the name sugguest --- the expected free energy is the expectation of the variational free energy. More importantly, according to the free energy principle, an active inference agent is supposed to minimise its (variational) free energy. However, if no relationship can be established between the expected and variational free energy, then one cannot claim that an agent minimising expected free energy also minimises its variational free energy, i.e., one cannot claim that an active inference agent behave according to the free energy principle.}} \DIFaddend Additionally, we need to re-arrange the definition of the EFE stated in \eqref{eq:efe_definition} to allow rewards to be incorporated:
+where $P(o_\tau|s_\tau)$ is the likelihood mapping, $Q(s_\tau | \pi)$ is the variational distribution, and in the literature $P(o_\tau, s_\tau)$ is called the generative model but is better understood as a target distribution encoding the prior preferences of the agent. Indeed, assuming the standard generative model of active inference (i.e., a partially observable Markov decision process), the hidden states $s_\tau$ should depend on $s_{\tau-1}$ and $a_{\tau-1}$. \textbf{This point is important because it impacts the question of whether $P(o_\tau, s_\tau)$ is indeed the generative model, and therefore whether --- as the name sugguest --- the expected free energy is the expectation of the variational free energy. More importantly, according to the free energy principle, an active inference agent is supposed to minimise its (variational) free energy. However, if no relationship can be established between the expected and variational free energy, then one cannot claim that an agent minimising expected free energy also minimises its variational free energy, i.e., one cannot claim that an active inference agent behave according to the free energy principle.} Additionally, we need to re-arrange the definition of the EFE stated in \eqref{eq:efe_definition} to allow rewards to be incorporated:
 \begin{align}
 G_\tau(\pi) &= \mathbb{E}_{P(o_\tau|s_\tau)Q(s_\tau | \pi)}\big[\ln Q(s_\tau | \pi) - \ln P(o_\tau, s_\tau)\big]\nonumber\\
 &= \mathbb{E}_{P(o_\tau|s_\tau)Q(s_\tau | \pi)}\big[\ln Q(s_\tau | \pi) - \ln P(s_\tau|o_\tau)- \ln P(o_\tau)\big]\nonumber\\
@@ -1491,14 +1268,12 @@ Now, the question is how to estimate \eqref{eq:efe_practice}, and we focus on th
 \begin{align}
 Q(s_{t+1} | a_t) = \mathbb{E}_{Q_{\phi_s}(s_t)}\big[P_{\theta_s}(s_{t+1}|s_t, a_t)\big] \approx \frac{1}{N} \sum_{i = 1}^N P_{\theta_s}(s_{t+1}|s_t = \hat{s}_t^i, a_t), \label{eq:vd_or_gm}
 \end{align}
-where $\hat{s}_t^i \sim Q_{\phi_s}(s_t)$. Importantly, for the expected free energy to be the expectation of the variational free energy\DIFaddbegin \DIFadd{, }\DIFaddend $Q(s_{t+1} | a_t)$ should be a factor of the variational distribution. However, \eqref{eq:vd_or_gm} is estimated using a factor of the generative model $P_{\theta_s}(s_{t+1}|s_t = \hat{s}_t^i, a_t)$. This is a conceptual issue, associated with current deep active inference approaches \DIFaddbegin \DIFadd{such as \mbox{%DIFAUXCMD
-\citet{DeepAIwithMCMC}}\hspace{0pt}%DIFAUXCMD
-}\DIFaddend .
+where $\hat{s}_t^i \sim Q_{\phi_s}(s_t)$. Importantly, for the expected free energy to be the expectation of the variational free energy, $Q(s_{t+1} | a_t)$ should be a factor of the variational distribution. However, \eqref{eq:vd_or_gm} is estimated using a factor of the generative model $P_{\theta_s}(s_{t+1}|s_t = \hat{s}_t^i, a_t)$. This is a conceptual issue, associated with current deep active inference approaches such as \citet{DeepAIwithMCMC}.
 In what follows, we use $N=1$ leading to a simplified version of the estimate:
 \begin{align}
 Q(s_{t+1} | a_t) \approx P_{\theta_s}(s_{t+1}|s_t = \hat{s}_t, a_t).
 \end{align}
-Note, in the above equation\DIFaddbegin \DIFadd{, }\DIFaddend $\hat{s}_t^i$ is denoted $\hat{s}_t$ because there is only one sample, i.e., $N=1$. At this point, we have an estimate for $Q(s_{t+1} | a_t)$ and $Q_{\phi_s}(s_t)$ is the variational distribution. The only missing piece is an estimate of the extrinsic value. In the tabular version of active inference, the preferences of the agent can be related to the rewards from the reinforcement learning literature. In this paper, we follow \citep{dacosta2020relationship} and define the prior preferences as:
+Note, in the above equation, $\hat{s}_t^i$ is denoted $\hat{s}_t$ because there is only one sample, i.e., $N=1$. At this point, we have an estimate for $Q(s_{t+1} | a_t)$ and $Q_{\phi_s}(s_t)$ is the variational distribution. The only missing piece is an estimate of the extrinsic value. In the tabular version of active inference, the preferences of the agent can be related to the rewards from the reinforcement learning literature. In this paper, we follow \citep{dacosta2020relationship} and define the prior preferences as:
 \begin{align*}
 P(o_\tau) = \frac{\exp(\psi r_\tau[o_\tau])}{\sum_{o_\tau} \exp(\psi r_\tau[o_\tau])},
 \end{align*}
@@ -1507,7 +1282,7 @@ where $\psi$ is the precision of the prior preferences, and $r_\tau[o_\tau]$ is 
 \ln P(o_\tau) &= \psi r_\tau[o_\tau] - \ln \sum_{o_\tau} \exp(\psi r_\tau[o_\tau])\nonumber\\
 &= \psi r_\tau[o_\tau] + C, \label{eq:prior_pref}
 \end{align}
-where we used \DIFaddbegin \DIFadd{the fact }\DIFaddend that the summation over all $o_\tau$ is a normalisation term, i.e., a constant. Using \eqref{eq:prior_pref}, we can now create an estimate of the extrinsic value as follows:
+where we used the fact that the summation over all $o_\tau$ is a normalisation term, i.e., a constant. Using \eqref{eq:prior_pref}, we can now create an estimate of the extrinsic value as follows:
 \begin{align*}
 \mathbb{E}_{P_{\theta_o}(o_\tau|s_\tau)Q(s_\tau | a_t)}\big[\ln P(o_\tau)\big] \approx \frac{1}{M} \sum_{i = 1}^M \ln P(o_\tau = \hat{o}_\tau) = \frac{1}{M} \sum_{i = 1}^M \psi r_\tau[o_\tau] + C,
 \end{align*}
@@ -1520,8 +1295,7 @@ where we simplied the notation by denoting $r_\tau[o_\tau]$ as $r_\tau$. To conc
 G_{t+1}(a_t) &\approx \kl{Q(s_{t+1} | a_t)}{Q_{\phi_s}(s_{t+1})} - \mathbb{E}_{P_{\theta_o}(o_{t+1}|s_{t+1})Q(s_{t+1} | a_t)}\big[\ln P(o_{t+1})\big]\nonumber\\
 &\approx \kl{P_{\theta_s}(s_{t+1}|s_t = \hat{s}_t, a_t)}{Q_{\phi_s}(s_{t+1})} - \psi r_{t+1},
 \end{align}
-where $\hat{s}_t \sim Q_{\phi_s}(s_t)$, $P_{\theta_s}(s_{t+1}|s_t, a_t)$ is known from the generative model, $Q_{\phi_s}(s_{t+1})$ is known from the variational distribution, the KL-divergence can be estimated using an analytical solution, $\psi$ is a hyperparameter modulating the precision of the prior preferences, and $r_{t+1}$ is the reward obtained at time step $t+1$. \DIFaddbegin \DIFadd{As shown in Figure \ref{fig:reward_usage}, the reward at time step $t+1$ is used to compute the target values that must be predicted by the critic network.
-}\DIFaddend 
+where $\hat{s}_t \sim Q_{\phi_s}(s_t)$, $P_{\theta_s}(s_{t+1}|s_t, a_t)$ is known from the generative model, $Q_{\phi_s}(s_{t+1})$ is known from the variational distribution, the KL-divergence can be estimated using an analytical solution, $\psi$ is a hyperparameter modulating the precision of the prior preferences, and $r_{t+1}$ is the reward obtained at time step $t+1$. As shown in Figure \ref{fig:reward_usage}, the reward at time step $t+1$ is used to compute the target values that must be predicted by the critic network.
 
 \subsubsection{Other definitions of the EFE at time $t + 1$} \label{ssec:efe_other_defe}
 
@@ -1532,12 +1306,9 @@ G^2_{t+1}(a_t) &= H[P_{\theta_s}(s_{t+1}|s_t =\hat{s}_t, a_t)] - H[Q_{\phi_s}(s_
 G^3_{t+1}(a_t) &= \kl{Q_{\phi_s}(s_{t+1})}{P_{\theta_s}(s_{t+1}|s_t = \hat{s}_t, a_t)} - \psi r_{t+1},
 \end{align*}
 where all the entropy terms and the KL-divergence were computed analytically. Also, we experimented with simply predicting the (negative) expected future reward as follows:
-\DIFdelbegin \begin{align*}
-\DIFdel{G^4_{t+1}(a_t) }&\DIFdel{= - \psi r_{t+1},
-}\end{align*}%DIFAUXCMD
-\DIFdelend \DIFaddbegin \begin{align}
-\DIFadd{G^4_{t+1}(a_t) }&\DIFadd{= - \psi r_{t+1},\label{eq:reward_maximisation}
-}\end{align}\DIFaddend 
+\begin{align}
+G^4_{t+1}(a_t) &= - \psi r_{t+1},\label{eq:reward_maximisation}
+\end{align}
 which is effectively making the job of the critic identical to the job of the Q-network in the DQN agent (c.f. Section \ref{ssec:dqn} for details). More precisely, they are identical, except for the fact that the Q-network is taking observations as input, while the critic takes hidden states. 
 
 \subsection{Deep Active Inference} \label{ssec:DAI}
@@ -1549,43 +1320,7 @@ P_{\theta}(o_{o:T}, s_{o:T}, a_{o:T-1}) = P(s_0)\prod_{\tau = 0}^T P_{\theta_o}(
 
 \begin{figure}[H]
 	\begin{center}
-	\DIFdelbeginFL %DIFDELCMD < \begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}]
-%DIFDELCMD < 		\coordinate (A) at (13.5,12.5);
-%DIFDELCMD < 		\coordinate (B) at (16,13.5);
-%DIFDELCMD < 		\coordinate (C) at (16,15.5);
-%DIFDELCMD < 		\coordinate (D) at (13.5,16.5);
-%DIFDELCMD < 		\draw[fill=purple!20!white] (A) -- coordinate[pos=.6] (AB) (B)--(C)
-%DIFDELCMD <          --coordinate[pos=.45] (CD) (D)
-%DIFDELCMD <          --coordinate[pos=.55] (DA) cycle;
-%DIFDELCMD < 	    \node at (14.75, 14.5) {$Policy$};
-%DIFDELCMD < 		\draw[-latex] (11,6.5) -- (12.8,6.5) -- (12.8,14.5) -- (13.5,14.5);
-%DIFDELCMD < 		\draw[-latex] (16, 14.5) -- (16.5, 14.5);
-%DIFDELCMD < 		\draw[fill=gray!20!white] (16.5,13.5) rectangle (17.5,15.5);
-%DIFDELCMD < 	    \node at (17, 14.5) {$\hat{\pi}$};
-%DIFDELCMD < 
-
-%DIFDELCMD < 		\coordinate (A) at (13.5,8);
-%DIFDELCMD < 		\coordinate (B) at (16,9);
-%DIFDELCMD < 		\coordinate (C) at (16,11);
-%DIFDELCMD < 		\coordinate (D) at (13.5,12);
-%DIFDELCMD < 		\draw[fill=yellow!20!white] (A) -- coordinate[pos=.6] (AB) (B)--(C)
-%DIFDELCMD <          --coordinate[pos=.45] (CD) (D)
-%DIFDELCMD <          --coordinate[pos=.55] (DA) cycle;
-%DIFDELCMD < 	    \node at (14.75, 10) {$Critic$};
-%DIFDELCMD < 
-
-%DIFDELCMD < 		\draw[-latex] (11,6.5) -- (12.8,6.5) -- (12.8,10) -- (13.5,10);
-%DIFDELCMD < 		\draw[-latex] (16, 10) -- (16.5, 10);
-%DIFDELCMD < 		
-
-%DIFDELCMD < 		\draw[fill=gray!20!white] (16.5,9) rectangle (17.5,11);
-%DIFDELCMD < 	    \node at (17, 10) {$\bm{G}$};
-%DIFDELCMD < 
-
-%DIFDELCMD < 		\pic{hmm};
-%DIFDELCMD <     \end{tikzpicture}
-%DIFDELCMD < 	%%%
-\DIFdelendFL \DIFaddbeginFL \begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}]
+	\begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}]
 		\coordinate (A) at (13.5,12.5);
 		\coordinate (B) at (16,13.5);
 		\coordinate (C) at (16,15.5);
@@ -1611,18 +1346,18 @@ P_{\theta}(o_{o:T}, s_{o:T}, a_{o:T-1}) = P(s_0)\prod_{\tau = 0}^T P_{\theta_o}(
 
 		\draw[-latex] (11,6.5) -- (12.8,6.5) -- (12.8,10) -- (13.5,10);
 		\draw[-latex] (16, 10) -- (16.5, 10);
-
+		
 		\draw[fill=gray!20!white] (16.5,9) rectangle (17.5,11);
 	    \node at (17, 10) {$\bm{G}$};
 
 		\pic{hmm};
     \end{tikzpicture}
-	\DIFaddendFL \end{center}
+	\end{center}
   \caption{This figure illustrates the DAI agent. The only new part is the policy network, which takes as input the hidden state at time $t$ and ouputs the parameters $\hat{\pi}$ of the variational posterior over actions. Importantly, the DAI takes actions based on the EFE.}
    \label{fig:DAI}
 \end{figure}
 
-\DIFaddbegin \noindent \DIFaddend where $P(s_0) = \mathcal{N}(s_0;\mu_0,\sigma_0)$ is a Gaussian prior over initial hidden states. Let $t$ be the present time step. The DAI agent maintains posterior beliefs over the present states $s_t$ and action $a_t$. The variational posterior over states $Q_{\phi_s}(s_t)$ is a Gaussian distribution modelled by the encoder $\mathcal{E}_{\phi_s}$, i.e., $Q_{\phi_s}(s_t) = \mathcal{N}(s_t;\mu, \sigma)$ where $\mu, \ln\sigma = \mathcal{E}_{\phi_s}(o_t)$. The variational posterior over actions $Q_{\phi_a}(a_t|s_t)$ is a categorical distribution modelled by the policy network $\mathcal{P}_{\phi_a}$, i.e., $Q_{\phi_a}(a_t|s_t) = \text{Cat}(a_t;\hat{\pi})$ where $\hat{\pi} = \mathcal{P}_{\phi_a}(s_t)$. The full variational distribution is therefore defined as:
+\noindent where $P(s_0) = \mathcal{N}(s_0;\mu_0,\sigma_0)$ is a Gaussian prior over initial hidden states. Let $t$ be the present time step. The DAI agent maintains posterior beliefs over the present states $s_t$ and action $a_t$. The variational posterior over states $Q_{\phi_s}(s_t)$ is a Gaussian distribution modelled by the encoder $\mathcal{E}_{\phi_s}$, i.e., $Q_{\phi_s}(s_t) = \mathcal{N}(s_t;\mu, \sigma)$ where $\mu, \ln\sigma = \mathcal{E}_{\phi_s}(o_t)$. The variational posterior over actions $Q_{\phi_a}(a_t|s_t)$ is a categorical distribution modelled by the policy network $\mathcal{P}_{\phi_a}$, i.e., $Q_{\phi_a}(a_t|s_t) = \text{Cat}(a_t;\hat{\pi})$ where $\hat{\pi} = \mathcal{P}_{\phi_a}(s_t)$. The full variational distribution is therefore defined as:
 \begin{align*}
 Q_{\phi}(a_t,s_t) = Q_{\phi_a}(a_t|s_t)Q_{\phi_s}(s_t).
 \end{align*}
@@ -1633,9 +1368,9 @@ Q^*_{\phi}(s_t, a_t) &= \argmin_{Q_{\phi}(s_t, a_t)}\underbrace{\kl{Q_{\phi}(s_t
 &\quad\qquad\qquad - \mathbb{E}_{Q_{\phi_s}(s_t)}[\ln P_{\theta_o}(o_t|s_t)].\nonumber
 \end{align}
 
-The VFE is therefore a function of $s_{t-1}$, $a_{t-1}$, and $o_t$. Both $a_{t-1}$, and $o_t$ can be obtained from the replay buffer, and $s_{t-1}$ can be sampled from the variational distribution predicted by the encoder network when observation $o_{t-1}$ is provided as input. Also, the KL-divergences can be computed analytically, the expectations w.r.t $Q_{\phi_s}(s_t)$ can be approximated using a Monte-Carlo estimate, and the logarithm of the likelihood mapping reduces to the \DIFdelbegin \DIFdel{BCE }\DIFdelend \DIFaddbegin \DIFadd{binary cross entropy }\DIFaddend because $P_{\theta_o}(o_t|s_t)$ is a product of Bernoulli distributions. Thus, all the VFE terms can be estimated, and the encoder, decoder, transition and policy networks can be trained to minimise the VFE using gradient descent. The critic's weights are optimised as in Section \ref{ssec:CHMM} using gradient descent to minimise the smooth L1 norm between the critic's output $\mathcal{G}_{\theta_a}(s_t,\bigcdot\,)$ and the target G-values $y(\,\bigcdot\,)$, i.e., $\text{ SL1}[\mathcal{G}_{\theta_a}(s_t,\bigcdot\,), y(\,\bigcdot\,)],$ where the target G-values are defined as:
+The VFE is therefore a function of $s_{t-1}$, $a_{t-1}$, and $o_t$. Both $a_{t-1}$, and $o_t$ can be obtained from the replay buffer, and $s_{t-1}$ can be sampled from the variational distribution predicted by the encoder network when observation $o_{t-1}$ is provided as input. Also, the KL-divergences can be computed analytically, the expectations w.r.t $Q_{\phi_s}(s_t)$ can be approximated using a Monte-Carlo estimate, and the logarithm of the likelihood mapping reduces to the binary cross entropy because $P_{\theta_o}(o_t|s_t)$ is a product of Bernoulli distributions. Thus, all the VFE terms can be estimated, and the encoder, decoder, transition and policy networks can be trained to minimise the VFE using gradient descent. The critic's weights are optimised as in Section \ref{ssec:CHMM} using gradient descent to minimise the smooth L1 norm between the critic's output $\mathcal{G}_{\theta_a}(s_t,\bigcdot\,)$ and the target G-values $y(\,\bigcdot\,)$, i.e., $\text{ SL1}[\mathcal{G}_{\theta_a}(s_t,\bigcdot\,), y(\,\bigcdot\,)],$ where the target G-values are defined as:
 $$y(a_t) = G_{t+1}(a_t) + \gamma \mathbb{E}_{Q_{\phi_s}(s_{t+1})}\Big[ \max_{a_{t+1} \in \mathcal{A}} \hat{\mathcal{G}}_{\hat{\theta}_a}(s_{t+1}, a_{t+1})\Big],$$
-where $Q_{\phi_s}(s_{t+1})$ can be computed by feeding the image $o_{t+1}$ sampled from the \DIFdelbegin \DIFdel{queue }\DIFdelend \DIFaddbegin \DIFadd{replay buffer }\DIFaddend as input to the encoder, $\gamma$ is a discount factor, and $G_{t+1}(a_t)$ is the expected free energy received at time $t+1$ after taking action $a_t$, i.e.,
+where $Q_{\phi_s}(s_{t+1})$ can be computed by feeding the image $o_{t+1}$ sampled from the replay buffer as input to the encoder, $\gamma$ is a discount factor, and $G_{t+1}(a_t)$ is the expected free energy received at time $t+1$ after taking action $a_t$, i.e.,
 \begin{align}
 G_{t+1}(a_t) &\approx \kl{P_{\theta_s}(s_{t+1}|s_t = \hat{s}_t, a_t)}{Q_{\phi_s}(s_{t+1})} - \psi r_{t+1},
 \end{align}
@@ -1643,7 +1378,7 @@ where $\hat{s}_t \sim Q_{\phi_s}(s_t)$, $\psi$ is a hyperparamter modulating the
 
 \section{Results} \label{sec:results}
 
-In this section, we discuss the results obtained by the DQN agent and each model presented in Section \DIFdelbegin \DIFdel{\ref{sec:existing_research} }\DIFdelend \DIFaddbegin \DIFadd{\ref{sec:build_dai} }\DIFaddend at solving the dSprites problem. The code that can be used to reproduce all the experiements can be found on GitHub at the following URL: \url{https://github.com/ChampiB/Challenges_Deep_Active_Inference}. Section \ref{ssec:dqn_results} presents the results obtained by the DQN agent. Section \ref{ssec:vae_results} presents the VFE obtained by the VAE agent, and shows the reconstructed images produced by the VAE. Section \ref{ssec:hmm_results} shows the VFE of the HMM agent as well as the generated sequences of images. Section \ref{ssec:chmm_results} illustrates the VFE obtained by the CHMM as well as the reward obtained by this model when using different action selection schemes and different definitions for the EFE. Finally, Section \ref{ssec:dai_results} dicusses the VFE obtained by the DAI agent, as well as the rewards obtained by this model. Note, each time CKA is used in the following sections, we sampled 5K data examples, and we used them to compute all the CKA scores. 
+In this section, we discuss the results obtained by the DQN agent and each model presented in Section \ref{sec:build_dai} at solving the dSprites problem. The code that can be used to reproduce all the experiements can be found on GitHub at the following URL: \url{https://github.com/ChampiB/Challenges_Deep_Active_Inference}. Section \ref{ssec:dqn_results} presents the results obtained by the DQN agent. Section \ref{ssec:vae_results} presents the VFE obtained by the VAE agent, and shows the reconstructed images produced by the VAE. Section \ref{ssec:hmm_results} shows the VFE of the HMM agent as well as the generated sequences of images. Section \ref{ssec:chmm_results} illustrates the VFE obtained by the CHMM as well as the reward obtained by this model when using different action selection schemes and different definitions for the EFE. Finally, Section \ref{ssec:dai_results} dicusses the VFE obtained by the DAI agent, as well as the rewards obtained by this model. Note, each time CKA is used in the following sections, we sampled 5K data examples, and we used them to compute all the CKA scores. 
 
 
 %TODO Section \ref{ssec:fixing_fountas} looks at what happens when fixing some of the inconsistencies between the code and the paper.
@@ -1702,7 +1437,7 @@ In this section, we report the results obtained from the DQN agent. As shown in 
 
 In this section, we report the results obtained by the VAE agent. As shown in Figure \ref{fig:VAE_vfe}, the VFE decreases as training progresses. Also, at the end of the 500K training iterations, the VAE is able to properly reconstruct the  images, c.f., Figure \ref{fig:VAE_reconstruction}. Additionally, since the VAE takes random actions in the environment, the agent was unable to solve the task and accumulated a total amount of reward of around -7K. Those results suggest our implementation is correct, and gives us a baseline for the amount of rewards obtained under random play in the dSprites environment.
 
-To observe the representations learned by VAEs, we compute the CKA scores between the activations of the different layers of the encoder. We can see in Figure~\ref{sfig:cka-vae-vae} that the representations are strongly similar between all layers, with the exception of the mean and variance representations at the output end (last two layers), similarly to what was observed in~\citet{Bonheme2022}\DIFaddbegin \DIFadd{, and is therefore expected}\DIFaddend . As illustrated in Figure~\ref{sfig:cka-vae-dqn}, these representations are generally similar to those learned by the DQN in early layers but the representations of the last two layers strongly differ, reflecting the difference of learning objectives between the VAE and DQN.
+To observe the representations learned by VAEs, we compute the CKA scores between the activations of the different layers of the encoder. We can see in Figure~\ref{sfig:cka-vae-vae} that the representations are strongly similar between all layers, with the exception of the mean and variance representations at the output end (last two layers), similarly to what was observed in~\citet{Bonheme2022}, and is therefore expected. As illustrated in Figure~\ref{sfig:cka-vae-dqn}, these representations are generally similar to those learned by the DQN in early layers but the representations of the last two layers strongly differ, reflecting the difference of learning objectives between the VAE and DQN.
 
 \begin{figure}[H]
 	\begin{center}
@@ -1721,22 +1456,14 @@ To observe the representations learned by VAEs, we compute the CKA scores betwee
 \definecolor{Green}{RGB}{60, 128, 56}
 \begin{figure}[H]
 	\begin{center}
-	\DIFdelbeginFL %DIFDELCMD < \begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}, scale=0.75]
-%DIFDELCMD < 	    \node at (0, 0) {\includegraphics[scale=0.5]{vae_reconstruction.png}};
-%DIFDELCMD < 	    \node[gray!60!black] at (9, 0) {Ground truth:};
-%DIFDELCMD < 	    \node[gray!60!black] at (9, 0.5) {Reconstruction:};
-%DIFDELCMD < 		\draw[fill=Green] (11, 0.2) rectangle (12, -0.2);
-%DIFDELCMD < 		\draw[fill=Red] (11, 0.7) rectangle (12, 0.3);
-%DIFDELCMD < 	\end{tikzpicture}
-%DIFDELCMD < 	%%%
-\DIFdelendFL \DIFaddbeginFL \begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}, scale=0.75]
+	\begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}, scale=0.75]
 	    \node at (0, 0) {\includegraphics[scale=0.5]{vae_reconstruction.png}};
 	    \node[gray!60!black] at (9, 0) {Ground Truth (GT):};
 	    \node[gray!60!black] at (9.1, 0.5) {Reconstruction (R):};
 		\draw[fill=Green] (11.5, 0.2) rectangle (12.5, -0.2);
 		\draw[fill=Red] (11.5, 0.7) rectangle (12.5, 0.3);
 	\end{tikzpicture}
-	\DIFaddendFL \end{center}
+	\end{center}
    \caption{This figure illustrates the reconstructed image produced by the VAE after 500K training iterations. The columns alternate between the input images and the reconstructed images.}
    \label{fig:VAE_reconstruction}
 \end{figure}
@@ -1763,7 +1490,7 @@ To observe the representations learned by VAEs, we compute the CKA scores betwee
 
 In this section, we report the results obtained by the HMM agent. As shown in Figure \ref{fig:HMM_vfe}, the VFE decreases as training progresses. By comparing Figure \ref{fig:VAE_vfe} and \ref{fig:HMM_vfe}, one can see that the HMM has a lower VFE than the VAE. This is because the agent has more flexibility regarding the prior, i.e., the log-likelihood is the same between the two models but the complexity term is smaller for the HMM than for the VAE. Also, at the end of the 500K training iterations, the HMM is able to properly generate sequences of images, c.f., Figure \ref{fig:HMM_reconstruction}. Additionally, since the HMM takes random actions in the environment, the agent was unable to solve the task and accumulated a total amount of reward of around -7K. These results suggest that our implementation is correct, and comfirm our baseline for the amount of rewards obtained under random play in the dSprites environment.
 
-Similarly to VAEs, we are interested in observing the representations learned by the encoder of the HMM, \DIFdelbegin \DIFdel{but }\DIFdelend \DIFaddbegin \DIFadd{and }\DIFaddend also by its transition network. The representations learned by the encoder of the HMM follow the same trend as those learned by VAEs with an even more marked dissimilarity between the log variance of the HMM and the other representations learned by this model, as illustrated in Figures~\ref{sfig:cka-hmm-hmm} and~\ref{sfig:cka-hmm-vae}. We can further observe in Figure~\ref{sfig:cka-hmm-hmm} that the transition network learns representations similar to the mean representation (Encoder\_mean of HMM) in its first three layers, while the representations learned by the last layer (Transition\_variance) are not similar to any other representations learned by the transition or encoder networks. We can also see in Figure~\ref{sfig:cka-hmm-vae} that the mean and variance representations (Encoder\_mean and Encoder\_variance) learned by HMMs are different from those learned by VAEs, possibly indicating that the transition network influences these two representations. Similarly to VAEs, one can observe in Figure~\ref{sfig:cka-hmm-dqn}, that the representations learned by the variance layers of the encoder and transition networks (Encoder\_variance and Transition\_variance) are very different to the representation learned by the DQN. In contrast, the first four layers of the encoder (Encoder\_1 to Encoder\_4) are similar to the representation learned by the first layers of the DQN (Value\_1 to Value\_4), but are very different from the last two layers (Value\_5 and Value\_6).
+Similarly to VAEs, we are interested in observing the representations learned by the encoder of the HMM, and also by its transition network. The representations learned by the encoder of the HMM follow the same trend as those learned by VAEs with an even more marked dissimilarity between the log variance of the HMM and the other representations learned by this model, as illustrated in Figures~\ref{sfig:cka-hmm-hmm} and~\ref{sfig:cka-hmm-vae}. We can further observe in Figure~\ref{sfig:cka-hmm-hmm} that the transition network learns representations similar to the mean representation (Encoder\_mean of HMM) in its first three layers, while the representations learned by the last layer (Transition\_variance) are not similar to any other representations learned by the transition or encoder networks. We can also see in Figure~\ref{sfig:cka-hmm-vae} that the mean and variance representations (Encoder\_mean and Encoder\_variance) learned by HMMs are different from those learned by VAEs, possibly indicating that the transition network influences these two representations. Similarly to VAEs, one can observe in Figure~\ref{sfig:cka-hmm-dqn}, that the representations learned by the variance layers of the encoder and transition networks (Encoder\_variance and Transition\_variance) are very different to the representation learned by the DQN. In contrast, the first four layers of the encoder (Encoder\_1 to Encoder\_4) are similar to the representation learned by the first layers of the DQN (Value\_1 to Value\_4), but are very different from the last two layers (Value\_5 and Value\_6).
 
 \begin{figure}[H]
 	\begin{center}
@@ -1782,22 +1509,14 @@ Similarly to VAEs, we are interested in observing the representations learned by
 \definecolor{Green}{RGB}{60, 128, 56}
 \begin{figure}[H]
 	\begin{center}
-	\DIFdelbeginFL %DIFDELCMD < \begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}, scale=0.75]
-%DIFDELCMD < 	    \node at (0, 0) {\includegraphics[scale=0.3]{hmm_reconstruction.png}};
-%DIFDELCMD < 	    \node[gray!60!black] at (9, 0) {Ground truth:};
-%DIFDELCMD < 	    \node[gray!60!black] at (9, 0.5) {Reconstruction:};
-%DIFDELCMD < 		\draw[fill=Green] (11, 0.2) rectangle (12, -0.2);
-%DIFDELCMD < 		\draw[fill=Red] (11, 0.3) rectangle (12, 0.7);
-%DIFDELCMD < 	\end{tikzpicture}
-%DIFDELCMD < 	%%%
-\DIFdelendFL \DIFaddbeginFL \begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}, scale=0.75]
+	\begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}, scale=0.75]
 	    \node at (0, 0) {\includegraphics[scale=0.3]{hmm_reconstruction.png}};
 	    \node[gray!60!black] at (9, 0) {Ground Truth (GT):};
 	    \node[gray!60!black] at (9.1, 0.5) {Reconstruction (R):};
 		\draw[fill=Green] (11.5, 0.2) rectangle (12.5, -0.2);
 		\draw[fill=Red] (11.5, 0.3) rectangle (12.5, 0.7);
 	\end{tikzpicture}
-	\DIFaddendFL \end{center}
+	\end{center}
    \caption{This figure illustrates the sequences of reconstructed images generated by the HMM after 500K training iterations. The columns alternate between the ground truth images and the reconstructed images. Time passes vertically (from top to bottom), and within each column, the same action is executed repeatedly.}
    \label{fig:HMM_reconstruction}
 \end{figure}
@@ -1828,11 +1547,11 @@ Similarly to VAEs, we are interested in observing the representations learned by
 
 \subsection{CHMM agent} \label{ssec:chmm_results}
 
-In this section, we report the results obtained by the CHMM agent, when using different action selection strategies and different definitions of the expected free energy. Figure \ref{fig:CHMM_rewards_eg} presents the cumulated rewards obtained by the CHMM agents using an $\mathring{\epsilon}$-greedy algorithm for action selection, as well as the total rewards obtained by the DQN agent. The critic network of the CHMM agents were trained to predict the five definitions of the expected free energy proposed in Section \ref{ssec:CHMM}. Note, the DQN agent performs better that any of the CHMM agents, and the only agent that solves the task is the CHMM \DIFdelbegin \DIFdel{only maximising reward }\DIFdelend \DIFaddbegin \DIFadd{maximising reward only}\DIFaddend , i.e., without any information gain. Figure \ref{fig:CHMM_rewards_s} presents the same experiement as Figure \ref{fig:CHMM_rewards_eg} except that the CHMM agents were using softmax sampling for action selection. In this setting, none of the CHMM agents were able to solve the task. Finally, Figure \ref{fig:CHMM_rewards_b} presents yet again the same experiements but this time the CHMM agents were selecting the best action according to the critic. In this setting, only the CHMM maximising reward was able to solve the task. Also, by comparing Figures \ref{fig:CHMM_rewards_eg} and \ref{fig:CHMM_rewards_b}, it becomes clear that the CHMM using an $\mathring{\epsilon}$-greedy algorithm performs better than the CHMM selecting the best action according to the critic. Put simply, the latter suffers from a lack of exploration that slows down its learning. 
+In this section, we report the results obtained by the CHMM agent, when using different action selection strategies and different definitions of the expected free energy. Figure \ref{fig:CHMM_rewards_eg} presents the cumulated rewards obtained by the CHMM agents using an $\mathring{\epsilon}$-greedy algorithm for action selection, as well as the total rewards obtained by the DQN agent. The critic network of the CHMM agents were trained to predict the five definitions of the expected free energy proposed in Section \ref{ssec:CHMM}. Note, the DQN agent performs better that any of the CHMM agents, and the only agent that solves the task is the CHMM maximising reward only, i.e., without any information gain. Figure \ref{fig:CHMM_rewards_s} presents the same experiement as Figure \ref{fig:CHMM_rewards_eg} except that the CHMM agents were using softmax sampling for action selection. In this setting, none of the CHMM agents were able to solve the task. Finally, Figure \ref{fig:CHMM_rewards_b} presents yet again the same experiements but this time the CHMM agents were selecting the best action according to the critic. In this setting, only the CHMM maximising reward was able to solve the task. Also, by comparing Figures \ref{fig:CHMM_rewards_eg} and \ref{fig:CHMM_rewards_b}, it becomes clear that the CHMM using an $\mathring{\epsilon}$-greedy algorithm performs better than the CHMM selecting the best action according to the critic. Put simply, the latter suffers from a lack of exploration that slows down its learning. 
 
-Additionally, Figure \ref{fig:CHMM_vfe} represents the variational free energy of the CHMM agent using the $\mathring{\epsilon}$-greedy algorithm. All the agents were able to minimise their variational free energy, except the one displayed in orange \DIFdelbegin \DIFdel{which crashed}\DIFdelend \DIFaddbegin \DIFadd{whose VFE suddenly became equal to NaN (i.e., Not a Number)}\DIFaddend ; this agent was minimising the expected free energy as defined by $G^1$. Note, $G^1$ is neither the reward nor the ``principled" expected free energy, $G^1$ is one of definitions that we experimented with to explore alternative definitions. Also, the variational free energy of the CHMM agents using softmax sampling and best action selection are not presented, because their results are very similar to the results shown in Figure \ref{fig:CHMM_vfe}.
+Additionally, Figure \ref{fig:CHMM_vfe} represents the variational free energy of the CHMM agent using the $\mathring{\epsilon}$-greedy algorithm. All the agents were able to minimise their variational free energy, except the one displayed in orange whose VFE suddenly became equal to NaN (i.e., Not a Number); this agent was minimising the expected free energy as defined by $G^1$. Note, $G^1$ is neither the reward nor the ``principled" expected free energy, $G^1$ is one of definitions that we experimented with to explore alternative definitions. Also, the variational free energy of the CHMM agents using softmax sampling and best action selection are not presented, because their results are very similar to the results shown in Figure \ref{fig:CHMM_vfe}.
 
-Finally, Figure \ref{fig:CHMM_reconstruction} shows examples of predicted trajectories after a CHMM (maximising reward) was trained. By comparing with Figure \ref{fig:HMM_reconstruction}, we see that the CHMM does not understand the dynamics of the environment as well as the HMM agent. This sugguests a conflict between the two goals of the agent, i.e., maximising reward\DIFaddbegin \footnote{ \DIFadd{As shown in Figure \ref{fig:reward_usage}, the reward is used to compute the target values that must be predicted by the critic network.}} \DIFaddend (or expected free energy) and learning a model of the world. More precisely, Figure \ref{fig:HMM_reconstruction} shows that an HMM agent taking random actions is able to gather a large diversity of training examples and learns the dynamic of the environment beautifully, but does not solve the task. In contrast, the CHMM maximising reward solves the task but learns a poor model of the environment, c.f., Figure \ref{fig:CHMM_reconstruction}.
+Finally, Figure \ref{fig:CHMM_reconstruction} shows examples of predicted trajectories after a CHMM (maximising reward) was trained. By comparing with Figure \ref{fig:HMM_reconstruction}, we see that the CHMM does not understand the dynamics of the environment as well as the HMM agent. This sugguests a conflict between the two goals of the agent, i.e., maximising reward\footnote{ As shown in Figure \ref{fig:reward_usage}, the reward is used to compute the target values that must be predicted by the critic network.} (or expected free energy) and learning a model of the world. More precisely, Figure \ref{fig:HMM_reconstruction} shows that an HMM agent taking random actions is able to gather a large diversity of training examples and learns the dynamic of the environment beautifully, but does not solve the task. In contrast, the CHMM maximising reward solves the task but learns a poor model of the environment, c.f., Figure \ref{fig:CHMM_reconstruction}.
 
 {
 \definecolor{RedCHMM}{RGB}{229, 0, 8}
@@ -1903,7 +1622,7 @@ Finally, Figure \ref{fig:CHMM_reconstruction} shows examples of predicted trajec
 	    \node[black, rotate=90] at (-9.3, 0) {VFE};
 	\end{tikzpicture}
 	\end{center}
-   \caption{This figure illustrates the variational free energy of the CHMM agents during the 500K iterations of training. All the agents were able to minimise their variational free energy, except the one displayed in orange which crashed; this agent was minimising the expected free energy as defined by $G^1$. \DIFdelbeginFL \DIFdelFL{The crash }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{More precisely, the variational free energy took the value ``Not a Number" (NaN), which }\DIFaddendFL is visible because of the thick horizontal line between 270K and 500K training iterations\DIFdelbeginFL \DIFdelFL{, which corresponds to the variational free energy taking the value ``not a number" (NaN)}\DIFdelendFL .}
+   \caption{This figure illustrates the variational free energy of the CHMM agents during the 500K iterations of training. All the agents were able to minimise their variational free energy, except the one displayed in orange which crashed; this agent was minimising the expected free energy as defined by $G^1$. More precisely, the variational free energy took the value ``Not a Number" (NaN), which is visible because of the thick horizontal line between 270K and 500K training iterations.}
    \label{fig:CHMM_vfe}
 \end{figure}
 }
@@ -1915,22 +1634,14 @@ Finally, Figure \ref{fig:CHMM_reconstruction} shows examples of predicted trajec
 \definecolor{Green}{RGB}{60, 128, 56}
 \begin{figure}[H]
 	\begin{center}
-	\DIFdelbeginFL %DIFDELCMD < \begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}, scale=0.75]
-%DIFDELCMD < 	    \node at (0, 0) {\includegraphics[scale=0.3]{chmm_reconstruction}};
-%DIFDELCMD < 	    \node[gray!60!black] at (6, 0) {Ground truth:};
-%DIFDELCMD < 	    \node[gray!60!black] at (6, 0.5) {Reconstruction:};
-%DIFDELCMD < 		\draw[fill=Green] (8, 0.2) rectangle (9, -0.2);
-%DIFDELCMD < 		\draw[fill=Red] (8, 0.3) rectangle (9, 0.7);
-%DIFDELCMD < 	\end{tikzpicture}
-%DIFDELCMD < 	%%%
-\DIFdelendFL \DIFaddbeginFL \begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}, scale=0.75]
+	\begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}, scale=0.75]
 	    \node at (-0.5, 0) {\includegraphics[scale=0.3]{chmm_reconstruction}};
 	    \node[gray!60!black] at (6, 0) {Ground Truth (GT):};
 	    \node[gray!60!black] at (6.1, 0.5) {Reconstruction (R):};
 		\draw[fill=Green] (8.5, 0.2) rectangle (9.5, -0.2);
 		\draw[fill=Red] (8.5, 0.3) rectangle (9.5, 0.7);
 	\end{tikzpicture}
-	\DIFaddendFL \end{center}
+	\end{center}
 \end{figure}
 }
 	\end{center}
@@ -2081,18 +1792,15 @@ As illustrated in Figure~\ref{fig:CHMM_rewards_s}, none of the CHMMs with softma
 
 Up to now, we saw that the CHMM minimising expected free energy (EFE) was not able to solve the task. Also, we discovered that the transition network is uncertain for the actions: up, left, and right, which suggests that the CHMM minimising EFE always takes action down. Figure \ref{fig:actions_from_critic} corroborates this story. Indeed, Figure \ref{fig:action_picked_efe} shows that the agent minimising EFE almost exclusively picked action down, and Figure \ref{fig:entropy_action_efe} shows that the entropy of the prior over actions very quickly converges to zero.
 
-In contrast, the CHMM maximising reward, keeps on selecting the actions right and left, which enables it to drag the shape towards the appropriate corner (see Figure \ref{fig:action_picked_reward}). Also, as shown in Figure \ref{fig:entropy_action_reward}, the entropy of the prior over actions remained a lot higher than zero. \DIFdelbegin %DIFDELCMD < 
+In contrast, the CHMM maximising reward, keeps on selecting the actions right and left, which enables it to drag the shape towards the appropriate corner (see Figure \ref{fig:action_picked_reward}). Also, as shown in Figure \ref{fig:entropy_action_reward}, the entropy of the prior over actions remained a lot higher than zero. Note, the only difference between the CHMM minimising EFE and the one maximising reward is the information gain, which is defined as the KL divergence between the output of the transition and encoder networks. Since the EFE is minimised, the output of those two networks need to be as close as possible to each other.
 
-%DIFDELCMD < %%%
-\DIFdelend Note, the only difference between the CHMM minimising EFE and the one maximising reward is the information gain, which is defined as the KL divergence between the output of the transition and encoder networks. Since the EFE is minimised, the output of those two networks need to be as \DIFdelbegin \DIFdel{closed }\DIFdelend \DIFaddbegin \DIFadd{close }\DIFaddend as possible to each other.
-
-\DIFaddbegin \begin{figure}[H]
+\begin{figure}[H]
     \centering
     \begin{subfigure}{.4\textwidth}
         \centering
         \includegraphics[draft=false,width=\linewidth]{ActionPicked_efe_3}
         \caption{}\label{fig:action_picked_efe}
-    \end{subfigure}%DIF > 
+    \end{subfigure}%
     \begin{subfigure}{.4\textwidth}
         \centering
         \includegraphics[draft=false,width=\linewidth]{EntropyPriorActions_efe_3}
@@ -2102,136 +1810,28 @@ In contrast, the CHMM maximising reward, keeps on selecting the actions right an
         \centering
         \includegraphics[draft=false,width=\linewidth]{ActionPicked_reward}
         \caption{}\label{fig:action_picked_reward}
-    \end{subfigure}%DIF > 
+    \end{subfigure}%
     \begin{subfigure}{.4\textwidth}
         \centering
         \includegraphics[draft=false,width=\linewidth]{EntropyPriorActions_reward}
         \caption{}\label{fig:entropy_action_reward}
     \end{subfigure}
 
-    \caption{\DIFaddFL{(a) shows the action taken for each planning iteration when the CHMM is minimising expected free energy.
+    \caption{(a) shows the action taken for each planning iteration when the CHMM is minimising expected free energy.
              (b) shows the entropy of the prior over actions when the CHMM is minimising the EFE.
              (c) shows the action taken for each planning iteration when the CHMM is maximising reward.
              (d) shows the entropy of the prior over actions when the CHMM is maximising reward.
-    }}
+    }
     \label{fig:actions_from_critic}
 \end{figure}
 
-\DIFaddend This suggests that the CHMM minimising EFE is picking a single action (down), and becomes an expert at predicting the future when selecting this action. This effectively makes the KL divergence between the output of the transition and encoder networks small. Additionally, when selecting the action down, the average reward is zero, because (in the dSprites dataset) there are as many shapes on the left of the image as on the right, and when crossing the bottom line, the agent receives a reward which is linearly increasing (or decreasing) as a corner is approached and is zero at the center of the image. For all the other actions, the expected reward will be negative because after 50 action-perception cycles without crossing the bottom line, the trial is interrupted and the agent receive a reward of -1. Thus, if the CHMM has to stick to a single action to keep the KL divergence  small, then the best action it can choose is down, i.e., action down has the highest expected reward.
+This suggests that the CHMM minimising EFE is picking a single action (down), and becomes an expert at predicting the future when selecting this action. This effectively makes the KL divergence between the output of the transition and encoder networks small. Additionally, when selecting the action down, the average reward is zero, because (in the dSprites dataset) there are as many shapes on the left of the image as on the right, and when crossing the bottom line, the agent receives a reward which is linearly increasing (or decreasing) as a corner is approached and is zero at the center of the image. For all the other actions, the expected reward will be negative because after 50 action-perception cycles without crossing the bottom line, the trial is interrupted and the agent receive a reward of -1. Thus, if the CHMM has to stick to a single action to keep the KL divergence  small, then the best action it can choose is down, i.e., action down has the highest expected reward.
 
-\DIFdelbegin %DIFDELCMD < \begin{figure}[H]
-%DIFDELCMD <     \centering
-%DIFDELCMD <     \begin{subfigure}{.4\textwidth}
-%DIFDELCMD <         \centering
-%DIFDELCMD <         \includegraphics[draft=false,width=\linewidth]{ActionPicked_efe_3}
-%DIFDELCMD <         %%%
-%DIFDELCMD < \caption{%
-{%DIFAUXCMD
-}%DIFAUXCMD
-%DIFDELCMD < \label{fig:action_picked_efe}
-%DIFDELCMD <     \end{subfigure}%%%
-%DIF < 
-    %DIFDELCMD < \begin{subfigure}{.4\textwidth}
-%DIFDELCMD <         \centering
-%DIFDELCMD <         \includegraphics[draft=false,width=\linewidth]{EntropyPriorActions_efe_3}
-%DIFDELCMD <         %%%
-%DIFDELCMD < \caption{%
-{%DIFAUXCMD
-}%DIFAUXCMD
-%DIFDELCMD < \label{fig:entropy_action_efe}
-%DIFDELCMD <     \end{subfigure}
-%DIFDELCMD <     \begin{subfigure}{.4\textwidth}
-%DIFDELCMD <         \centering
-%DIFDELCMD <         \includegraphics[draft=false,width=\linewidth]{ActionPicked_reward}
-%DIFDELCMD <         %%%
-%DIFDELCMD < \caption{%
-{%DIFAUXCMD
-}%DIFAUXCMD
-%DIFDELCMD < \label{fig:action_picked_reward}
-%DIFDELCMD <     \end{subfigure}%%%
-%DIF < 
-    %DIFDELCMD < \begin{subfigure}{.4\textwidth}
-%DIFDELCMD <         \centering
-%DIFDELCMD <         \includegraphics[draft=false,width=\linewidth]{EntropyPriorActions_reward}
-%DIFDELCMD <         %%%
-%DIFDELCMD < \caption{%
-{%DIFAUXCMD
-}%DIFAUXCMD
-%DIFDELCMD < \label{fig:entropy_action_reward}
-%DIFDELCMD <     \end{subfigure}
-%DIFDELCMD < 
+Also, Figure \ref{fig:IG_progressive} shows the impact of adding X\% of the information gain into the objective function, i.e., the agent starts by only maximising reward (c.f. Equation \ref{eq:reward_maximisation}), and after 200K training iterations minimises reward plus X\% of the information gain. One can see that adding even 1\% of the information gain already dramatically decreases the amount of reward gathered.
 
-%DIFDELCMD <     %%%
-%DIFDELCMD < \caption{%
-{%DIFAUXCMD
-\DIFdelFL{(a) shows the action taken for each planning iteration when the CHMM is minimising expected free energy.
-             (b) shows the entropy of the prior over actions when the CHMM is minimising the EFE.
-             (c) shows the action taken for each planning iteration when the CHMM is maximising reward.
-             (d) shows the entropy of the prior over actions when the CHMM is maximising reward.
-    }}
-    %DIFAUXCMD
-%DIFDELCMD < \label{fig:actions_from_critic}
-%DIFDELCMD < \end{figure}
-%DIFDELCMD < 
+To conclude, the same information gain that is intended to give an EFE minimising agent its exploration behaviour, also prevents the agent from solving the dSprites environment. This is because the agent is reduced to picking a single action, leading to a suboptimal policy.
 
-%DIFDELCMD < %%%
-\DIFdelend Also, Figure \ref{fig:IG_progressive} shows the impact of adding X\% of the information gain into the objective function, i.e., the agent starts by only maximising reward \DIFaddbegin \DIFadd{(c.f. Equation \ref{eq:reward_maximisation})}\DIFaddend , and after 200K training iterations minimises reward plus X\% of the information gain. One can see that adding even 1\% of the information gain already dramatically decreases the amount of reward gathered.
-
-\DIFdelbegin %DIFDELCMD < {
-%DIFDELCMD < \definecolor{LightBlueCHMM}{RGB}{51, 187, 238}
-%DIFDELCMD < \definecolor{GreenCHMM}{RGB}{0, 153, 136}
-%DIFDELCMD < \definecolor{GrayCHMM}{RGB}{187,187,187}
-%DIFDELCMD < \definecolor{OrangeCHMM}{RGB}{255, 112, 67}
-%DIFDELCMD < \definecolor{PinkCHMM}{RGB}{238, 51, 119}
-%DIFDELCMD < \definecolor{DarkBlueCHMM}{RGB}{0, 119, 187}
-%DIFDELCMD < \begin{figure}[H]
-%DIFDELCMD < 	\begin{center}
-%DIFDELCMD < 	\begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}, scale=1]
-%DIFDELCMD < 	    \node at (-2, 0) {\includegraphics[draft=false,width=0.5\linewidth]{IG_progressive}};
-%DIFDELCMD < 
-
-%DIFDELCMD < 	    \node[black] at (4.675, -1) {CHMM[0\%]:};
-%DIFDELCMD < 		\draw[fill=DarkBlueCHMM] (6, -0.8) rectangle (7, -1.2);
-%DIFDELCMD < 
-
-%DIFDELCMD < 	    \node[black] at (4.675, -0.5) {CHMM[1\%]:};
-%DIFDELCMD < 		\draw[fill=GrayCHMM] (6, -0.7) rectangle (7, -0.3);
-%DIFDELCMD < 
-
-%DIFDELCMD < 	    \node[black] at (4.675, 0) {CHMM[5\%]:};
-%DIFDELCMD < 		\draw[fill=OrangeCHMM] (6, -0.2) rectangle (7, 0.2);
-%DIFDELCMD < 
-
-%DIFDELCMD < 	    \node[black] at (4.585, 0.5) {CHMM[15\%]:};
-%DIFDELCMD < 		\draw[fill=GreenCHMM] (6, 0.3) rectangle (7, 0.7);
-%DIFDELCMD < 
-
-%DIFDELCMD < 	    \node[black] at (4.585, 1) {CHMM[25\%]:};
-%DIFDELCMD < 		\draw[fill=PinkCHMM] (6, 0.8) rectangle (7, 1.2);
-%DIFDELCMD < 
-
-%DIFDELCMD < 	    \node[black] at (4.585, 1.5) {CHMM[50\%]:};
-%DIFDELCMD < 		\draw[fill=LightBlueCHMM] (6, 1.3) rectangle (7, 1.7);
-%DIFDELCMD < 
-
-%DIFDELCMD < 	    \node[black] at (-2.8, -3.5) {Training iterations};
-%DIFDELCMD < 	    \node[black, rotate=90] at (-7.3, 0) {Total Reward};
-%DIFDELCMD < 	\end{tikzpicture}
-%DIFDELCMD < 	\end{center}
-%DIFDELCMD <    %%%
-%DIFDELCMD < \caption{%
-{%DIFAUXCMD
-\DIFdelFL{This figure illustrates the total reward aggregated by CHMM agents during the 500K iterations of training. All the agents start by only maximising reward, and after 200K training iterations, X\% of the information gain is added to the objective function. Note, even adding 1\% of the information gain is enough to drastically reduce the total reward aggregated by the agent. The differences in trajectories before 200K are arbitrary, arising from differences in random initializations.}}
-   %DIFAUXCMD
-%DIFDELCMD < \label{fig:IG_progressive}
-%DIFDELCMD < \end{figure}
-%DIFDELCMD < }
-%DIFDELCMD < 
-
-%DIFDELCMD < %%%
-\DIFdelend To conclude, the same information gain that is intended to give an EFE minimising agent its exploration behaviour, also prevents the agent from solving the dSprites environment. This is because the agent is reduced to picking a single action, leading to a suboptimal policy.
-
-\DIFaddbegin {
+{
 \definecolor{LightBlueCHMM}{RGB}{51, 187, 238}
 \definecolor{GreenCHMM}{RGB}{0, 153, 136}
 \definecolor{GrayCHMM}{RGB}{187,187,187}
@@ -2265,14 +1865,14 @@ In contrast, the CHMM maximising reward, keeps on selecting the actions right an
 	    \node[black, rotate=90] at (-7.3, 0) {Total Reward};
 	\end{tikzpicture}
 	\end{center}
-   \caption{\DIFaddFL{This figure illustrates the total reward aggregated by CHMM agents during the 500K iterations of training. All the agents start by only maximising reward, and after 200K training iterations, X\% of the information gain is added to the objective function. Note, even adding 1\% of the information gain is enough to drastically reduce the total reward aggregated by the agent. The differences in trajectories before 200K are arbitrary, arising from differences in random initializations.}}
+   \caption{This figure illustrates the total reward aggregated by CHMM agents during the 500K iterations of training. All the agents start by only maximising reward, and after 200K training iterations, X\% of the information gain is added to the objective function. Note, even adding 1\% of the information gain is enough to drastically reduce the total reward aggregated by the agent. The differences in trajectories before 200K are arbitrary, arising from differences in random initializations.}
    \label{fig:IG_progressive}
 \end{figure}
 }
 
-\DIFaddend \subsection{DAI agent} \label{ssec:dai_results}
+\subsection{DAI agent} \label{ssec:dai_results}
 
-In this section, we report the results obtained by the DAI agent, when using different action selection strategies and different definitions of the expected free energy. First, most of the fifteen DAI agents crashed because of numerical instability\DIFaddbegin \DIFadd{, i.e., the VFE suddenly became ``Not a Number"}\DIFaddend . The only DAI agent that survived (i.e., did not crash) was maximising rewards while performing softmax sampling for action selection. Figure \ref{fig:DAI_vfe} shows that the DAI agent successfully minimises its variational free energy, but as shown in Figure \ref{fig:DAI_rewards}, the DAI agent does not solve the task and performs as well as a random agent. Finally, Figure \ref{fig:DAI_reconstruction} shows sequences of images produced by the DAI agent after 500K training iterations. Note, while the agent does not solve that task, it understands the dynamics of the environment pretty well. However, the agent struggles with images representing hearts.
+In this section, we report the results obtained by the DAI agent, when using different action selection strategies and different definitions of the expected free energy. First, most of the fifteen DAI agents crashed because of numerical instability, i.e., the VFE suddenly became ``Not a Number". The only DAI agent that survived (i.e., did not crash) was maximising rewards while performing softmax sampling for action selection. Figure \ref{fig:DAI_vfe} shows that the DAI agent successfully minimises its variational free energy, but as shown in Figure \ref{fig:DAI_rewards}, the DAI agent does not solve the task and performs as well as a random agent. Finally, Figure \ref{fig:DAI_reconstruction} shows sequences of images produced by the DAI agent after 500K training iterations. Note, while the agent does not solve that task, it understands the dynamics of the environment pretty well. However, the agent struggles with images representing hearts.
 
 By comparing Figures \ref{fig:HMM_reconstruction}, \ref{fig:CHMM_reconstruction} and \ref{fig:DAI_reconstruction}, we see that the DAI agent with softmax sampling has a better reconstruction than the CHMM agent with the $\mathring{\epsilon}$-greedy algorithm (which is presented in Figure \ref{fig:CHMM_reconstruction}). In contrast, the DAI agent does not reconstruct the sequences of images as well as the HMM agent performing random actions (which is presented in Figure \ref{fig:HMM_reconstruction}).
 
@@ -2285,22 +1885,14 @@ As previously mentioned, the only DAI that did not crash during training used so
 \definecolor{Green}{RGB}{60, 128, 56}
 \begin{figure}[H]
 	\begin{center}
-	\DIFdelbeginFL %DIFDELCMD < \begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}, scale=0.75]
-%DIFDELCMD < 	    \node at (0, 0) {\includegraphics[scale=0.22]{DAI_reconstruction.png}};
-%DIFDELCMD < 	    \node[gray!60!black] at (8, 0) {Ground truth:};
-%DIFDELCMD < 	    \node[gray!60!black] at (8, 0.5) {Reconstruction:};
-%DIFDELCMD < 		\draw[fill=Green] (10, 0.2) rectangle (11, -0.2);
-%DIFDELCMD < 		\draw[fill=Red] (10, 0.3) rectangle (11, 0.7);
-%DIFDELCMD < 	\end{tikzpicture}
-%DIFDELCMD < 	%%%
-\DIFdelendFL \DIFaddbeginFL \begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}, scale=0.75]
+	\begin{tikzpicture}[square/.style={regular polygon,regular polygon sides=4}, scale=0.75]
 	    \node at (-0.5, 0) {\includegraphics[scale=0.22]{DAI_reconstruction.png}};
 	    \node[gray!60!black] at (8, 0) {Ground Truth (GT):};
 	    \node[gray!60!black] at (8.1, 0.5) {Reconstruction (R):};
 		\draw[fill=Green] (10.5, 0.2) rectangle (11.5, -0.2);
 		\draw[fill=Red] (10.5, 0.3) rectangle (11.5, 0.7);
 	\end{tikzpicture}
-	\DIFaddendFL \end{center}
+	\end{center}
 \end{figure}
 }
 	\end{center}
@@ -2366,9 +1958,7 @@ As previously mentioned, the only DAI that did not crash during training used so
 
 In this paper, we challenged the common assumption that deep active inference is a solved problem, by highlighting the challenges that need to be resolved for the field to move forward. We reviewed eight approaches implementing deep active inference: (a) $DAI_{MC}$ by \citet{DeepAIwithMCMC}, (b) $DAI_{VPG}$ by \citet{DeepAI}, (c) $DAI_{RHI}$ by \citet{rood2020deep}, (d) $DAI_{HR}$ by \citet{sancaktar2020endtoend}, (e) $DAI_{FA}$ by \citet{DAI_Kai}, (f) $DAI_{POMDP}$ by \citet{DAI_POMDP}, (g) $DAI_{SSM}$ by \citet{ccatal2020learning}, and (h) the approach by \citet{schneider2022active} for which the code was not available online.
 
-Overall, those approaches brought interesting ideas such as: using deep neural networks to predict the parameters of the distributions of interest, using Monte-Carlo tree search for planning in active inference, and using a bootstrap estimate of the expected free energy to train a critic network. Yet, we struggled to replicate some of the results claimed\DIFaddbegin \DIFadd{, e.g. training $DAI_{MC}$ on the animal AI environment, and getting access to the code of \mbox{%DIFAUXCMD
-\citet{schneider2022active} }\hspace{0pt}%DIFAUXCMD
-was not possible}\DIFaddend . Ideally, future research should draw inspiration from the open science framework, by making the code that produced the claimed results open source. Also, the definition of the expected free energy varied between papers. This suggests that additional research is required to clarify the definition and justification of the expected free energy both in tabular and deep active inference. To sum up, recent research on deep active inference \citep{DeepAIwithMCMC,DeepAI,rood2020deep,sancaktar2020endtoend,DAI_Kai,DAI_POMDP,ccatal2020learning} has made an important first step towards a complete deep active inference agent, but a number of details still need to be honed\DIFaddbegin \DIFadd{, e.g., the definition and derivation of the expected free energy, the correctness of the implemention, and reproducibilty of research. For more details, the reader is referred to the subsections of Section \ref{sec:existing_research} corresponding to the approaches just mentioned}\DIFaddend .
+Overall, those approaches brought interesting ideas such as: using deep neural networks to predict the parameters of the distributions of interest, using Monte-Carlo tree search for planning in active inference, and using a bootstrap estimate of the expected free energy to train a critic network. Yet, we struggled to replicate some of the results claimed, e.g. training $DAI_{MC}$ on the animal AI environment, and getting access to the code of \citet{schneider2022active} was not possible. Ideally, future research should draw inspiration from the open science framework, by making the code that produced the claimed results open source. Also, the definition of the expected free energy varied between papers. This suggests that additional research is required to clarify the definition and justification of the expected free energy both in tabular and deep active inference. To sum up, recent research on deep active inference \citep{DeepAIwithMCMC,DeepAI,rood2020deep,sancaktar2020endtoend,DAI_Kai,DAI_POMDP,ccatal2020learning} has made an important first step towards a complete deep active inference agent, but a number of details still need to be honed, e.g., the definition and derivation of the expected free energy, the correctness of the implemention, and reproducibilty of research. For more details, the reader is referred to the subsections of Section \ref{sec:existing_research} corresponding to the approaches just mentioned.
 
 After reviewing existing research, we tried to progressively implement a deep active inference agent. First, we produced a variational auto-encoder agent that takes random actions. This agent was able to learn a useful (latent) representation of the task. However, since the agent takes random actions, it was unable to solve the task. Then, we added the transition network to create the hidden Markov model (HMM) agent, which also takes random actions. The agent was able to learn a good represenation of the task and of its dynamics, but was not able to solve the task.
 
@@ -2395,7 +1985,7 @@ The same observations about the variance layers also applies to CHMMs using soft
 
 Lastly, the representational similarity between the DAI (maximising reward using softmax sampling) and DQN is very close to the representational similarity between a DQN with a CHMM (maximising reward using softmax sampling). Also, the DAI's policy and critic network learn similar representations, which indicates that the policy network is learning correctly. Thus, the fact that the DAI (maximising reward using softmax sampling) fails in the dSprites environment is likely due to the softmax action selection and not to the representation learned by the model.
 
-To conclude, the field of deep active inference has benefited from a large variety of ideas from the reinforcement and deep learning literature. In the future, it would be valuable to provide an approach that satisfies the following five desirata: (i) the approach is complete, i.e., it is composed of an encoder, a decoder, a transition network, a policy network and (optionally) a critic network, (ii) the mathematics underlying the approach is \DIFdelbegin \DIFdel{principled and errorless }\DIFdelend \DIFaddbegin \DIFadd{errorless and consistent with the free energy principle}\DIFaddend , (iii) the implementation \DIFdelbegin \DIFdel{is correct, and }\DIFdelend consistent with the mathematics, (iv) the code is publicly available so that the correctness of the implementation can be verified and the results reproduced, and (v) the approach is able to solve tasks with a large input space, e.g. image-based tasks. We believe that such an approach will benefit the field of deep active inference by providing a strong and reproducible baseline against which future research could benchmark.
+To conclude, the field of deep active inference has benefited from a large variety of ideas from the reinforcement and deep learning literature. In the future, it would be valuable to provide an approach that satisfies the following five desirata: (i) the approach is complete, i.e., it is composed of an encoder, a decoder, a transition network, a policy network and (optionally) a critic network, (ii) the mathematics underlying the approach is errorless and consistent with the free energy principle, (iii) the implementation consistent with the mathematics, (iv) the code is publicly available so that the correctness of the implementation can be verified and the results reproduced, and (v) the approach is able to solve tasks with a large input space, e.g. image-based tasks. We believe that such an approach will benefit the field of deep active inference by providing a strong and reproducible baseline against which future research could benchmark.
 
 % Acknowledgements should go at the end, before appendices and references
 \acks{TO BE FILLED}
@@ -2520,7 +2110,7 @@ Also, the paper states that MCTS is perfomed to compute the prior over policies 
 \end{align*}
 However, the code selects an entire sequence of actions $\pi = (\mathring{a}_t, \mathring{a}_{t+1}, ..., \mathring{a}_{t+n})$ recursively from the root node in the tree. At each step in the recursion, the node with the highest number of visits $\mathring{a}_\tau$ is selected. Then, actions cancelling each other are removed from the sequence, e.g., if $a_\tau = LEFT$ and $a_{\tau+1} = RIGHT$ then both actions are removed from the sequence. This procedure generates a new sequence of actions $\pi'$ of equal or smaller length. Finally, the entire sequence of actions $\pi'$  is performed in the environment. This avoids the repetition of the planning process for each action-perception cycle (saving computational time), however, this also requires domain knowledge (to remove actions that cancel each other out).
 
-Additionally, in the paper, experiments are run \DIFdelbegin \DIFdel{in }\DIFdelend \DIFaddbegin \DIFadd{on }\DIFaddend both the dSprites environment and the animal AI environment. However, the code does not allow the replication of the results on the animal AI environment, i.e., the code handling the animal AI environment has been removed. In addition, the evaluation of the expected free energy is non trivial (see below) and the details are not discussed in the paper. Before explaining how the terms of the EFE are computed, we introduce notation that allows us to express those computational steps concisely. For example, we note: 
+Additionally, in the paper, experiments are run on both the dSprites environment and the animal AI environment. However, the code does not allow the replication of the results on the animal AI environment, i.e., the code handling the animal AI environment has been removed. In addition, the evaluation of the expected free energy is non trivial (see below) and the details are not discussed in the paper. Before explaining how the terms of the EFE are computed, we introduce notation that allows us to express those computational steps concisely. For example, we note: 
 $$o^r_t \overset{i}{\rightarrow} \text{Encoder} \overset{s}{\rightarrow} \text{Transition} \overset{m}{\rightarrow} \mathring{s}^r_{t+1},$$
 meaning that $o^r_t$ is used as \textit{input} ($\overset{i}{\rightarrow}$) for the encoder, then a state is \textit{sampled} ($\overset{s}{\rightarrow}$) from the distribution predicted by the encoder and used as input for the transition network, finally, the \textit{mean} ($\overset{m}{\rightarrow}$) of the distribution predicted by the transition network is used as a maximum aposteriori estimate of $\mathring{s}^r_{t+1}$. Note, the transition network takes two inputs (i.e., a state and an action), when using our concise notation we implicitly assume that the actions prescribed by the policy\footnote{$\pi$ is the policy for which the expected free energy is being computed.} $\pi$ are provided as input to the transition network. Also, for each time step $\tau$, the reward $r_\tau$ collected by the agent is encoded in the pixels of the image $o_\tau$ as explained in Figure \ref{fig:encoding_rewards_in_image}, leading to a new image $o_\tau^r$. As illustrated on the right of Figure \ref{fig:computation_of_extrinsic_value}, the encoder/decoder networks are trained to predict the resulting images $o_\tau^r$. The computation of the first term in equation \eqref{eq:efe_rearranged_fountas} is illustrated on the left of Figure \ref{fig:computation_of_extrinsic_value}. Concisely, we have:
 $$o_t^r \overset{i}{\rightarrow} \text{Encoder} \overset{s}{\rightarrow} \text{Transition} \overset{s}{\rightarrow} \text{Decoder} \overset{m}{\rightarrow} \mathring{o}_{t+1}^r.$$
@@ -2572,7 +2162,7 @@ where the red minus should be a plus.
 		\draw[very thick] (12.5,-2.7) -- (13,-2.7) -- (13,-15.65) -- (12.5,-15.65);
 		\draw[very thick] (13,-9.175) -- (13.5,-9.175);
 		\node[anchor=west,text width=3cm,align=center] at (13.3,-9.175) {The variational auto-encoder at time $t+1$ is used to train the encoder and decoder networks.};
-
+		
 		\pic[rotate=-90, xshift=4cm,yshift=9.2cm, scale=0.9]{fountas=$o_t^r$/$\mu$/$\ln \sigma$/$\hat{s}_t^r$/$\mathring{o}_{t+1}^r$};
 
 		\draw (1.5,-13.9) rectangle (3.5,-14.9);
@@ -2597,7 +2187,7 @@ where the red minus should be a plus.
 		\node[anchor=west] at (4,-7) {$r_{t+1} = \frac{\text{agent.x} - 15.5}{16}$};
     \end{tikzpicture}
 	\end{center}
-  \caption{This figure illustrates the computation of $\mathbb{E}_{\tilde{Q}}[\ln \tilde{P}(o_\tau|\pi)]$ in \DIFaddbeginFL \DIFaddFL{(the code of) }\DIFaddendFL \citet{DeepAIwithMCMC}. The environment at time $t$ provides the agent with an image $o_t$ and a reward $r_t$ randomly sampled from the interval $[-1;1]$. Then, action $\hat{a}_t$ is performed in the environment and the agent observes an image $o_{t+1}$ and a reward $r_{t+1}$, where $r_{t+1}$ is computed according to the function presented in the center of the image. Next, the reward at time $t$ and $t+1$ are encoded in the images received at time $t$ and $t+1$, respectively, c.f., Figure \ref{fig:encoding_rewards_in_image} for details about the encoding. The encoded image at time $t+1$ (i.e., $o^r_{t+1}$) is then fed into the encoder, the re-parameterisation trick is then used to sample a state from the variational posterior. This states is fed into the decoder which tries to reconstruct the image inputed into the encoder. Once $\hat{o}^r_{t+1}$ has been computed, the weights of the encoder and decoder are learned using back-propagation. On the other hand, the encoded image at time $t$ (i.e., $o^r_t$) is used to compute $\mathbb{E}_{\tilde{Q}}[\ln \tilde{P}(o_\tau|\pi)]$. More precisely, the $o^r_t$ is fed into the encoder, and a state is sampled from the variational posterior $Q_{\phi_s}(s_t)$. This state is then fed as input into the transition network along with the action prescribed by $\pi$ at time $t$, i.e., $a_t$. A state at time $t+1$ can then be sampled from the distribution predicted by the transition network. This state is then inputed into the decoder, which outputs $\mathring{o}^r_{t+1}$. Next, a matrix (i.e., $\mathring{r}_{t+1}$) encoding the maximum reward that the agent can gather is used as a parameter of a Bernoulli distribution to compute the logarithm of the probability (i.e., $\bm{L}$) of the first three rows of $\hat{o}^r_{t+1}$, i.e., $R(\mathring{o}^r_{t+1})$. The mean of $\bm{L}$ is then computed and is multiplied by ten to get $\mathbb{E}_{\tilde{Q}}[\ln \tilde{P}(o_\tau|\pi)]$.}
+  \caption{This figure illustrates the computation of $\mathbb{E}_{\tilde{Q}}[\ln \tilde{P}(o_\tau|\pi)]$ in (the code of) \citet{DeepAIwithMCMC}. The environment at time $t$ provides the agent with an image $o_t$ and a reward $r_t$ randomly sampled from the interval $[-1;1]$. Then, action $\hat{a}_t$ is performed in the environment and the agent observes an image $o_{t+1}$ and a reward $r_{t+1}$, where $r_{t+1}$ is computed according to the function presented in the center of the image. Next, the reward at time $t$ and $t+1$ are encoded in the images received at time $t$ and $t+1$, respectively, c.f., Figure \ref{fig:encoding_rewards_in_image} for details about the encoding. The encoded image at time $t+1$ (i.e., $o^r_{t+1}$) is then fed into the encoder, the re-parameterisation trick is then used to sample a state from the variational posterior. This states is fed into the decoder which tries to reconstruct the image inputed into the encoder. Once $\hat{o}^r_{t+1}$ has been computed, the weights of the encoder and decoder are learned using back-propagation. On the other hand, the encoded image at time $t$ (i.e., $o^r_t$) is used to compute $\mathbb{E}_{\tilde{Q}}[\ln \tilde{P}(o_\tau|\pi)]$. More precisely, the $o^r_t$ is fed into the encoder, and a state is sampled from the variational posterior $Q_{\phi_s}(s_t)$. This state is then fed as input into the transition network along with the action prescribed by $\pi$ at time $t$, i.e., $a_t$. A state at time $t+1$ can then be sampled from the distribution predicted by the transition network. This state is then inputed into the decoder, which outputs $\mathring{o}^r_{t+1}$. Next, a matrix (i.e., $\mathring{r}_{t+1}$) encoding the maximum reward that the agent can gather is used as a parameter of a Bernoulli distribution to compute the logarithm of the probability (i.e., $\bm{L}$) of the first three rows of $\hat{o}^r_{t+1}$, i.e., $R(\mathring{o}^r_{t+1})$. The mean of $\bm{L}$ is then computed and is multiplied by ten to get $\mathbb{E}_{\tilde{Q}}[\ln \tilde{P}(o_\tau|\pi)]$.}
    \label{fig:computation_of_extrinsic_value}
 \end{figure}
 
