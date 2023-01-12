@@ -1,9 +1,15 @@
-\begin{thebibliography}{42}
+\begin{thebibliography}{45}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bellman(1952)]{Bellman1952}
+Richard Bellman.
+\newblock On the theory of dynamic programming.
+\newblock \emph{Proc Natl Acad Sci U S A}, 38\penalty0 (8):\penalty0 716--719,
+  August 1952.
 
 \bibitem[{Bonheme} and {Grzes}(2022)]{Bonheme2022}
 Lisa {Bonheme} and Marek {Grzes}.
@@ -11,25 +17,15 @@ Lisa {Bonheme} and Marek {Grzes}.
   Representational Similarity}.
 \newblock \emph{arXiv e-prints}, art. arXiv:2205.08399, May 2022.
 
-\bibitem[{Browne} et~al.(2012{\natexlab{a}}){Browne}, {Powley}, {Whitehouse},
-  {Lucas}, {Cowling}, {Rohlfshagen}, {Tavener}, {Perez}, {Samothrakis}, and
-  {Colton}]{6145622}
-C.~B. {Browne}, E.~{Powley}, D.~{Whitehouse}, S.~M. {Lucas}, P.~I. {Cowling},
-  P.~{Rohlfshagen}, S.~{Tavener}, D.~{Perez}, S.~{Samothrakis}, and
-  S.~{Colton}.
-\newblock A survey of monte carlo tree search methods.
-\newblock \emph{IEEE Transactions on Computational Intelligence and AI in
-  Games}, 4\penalty0 (1):\penalty0 1--43, 2012{\natexlab{a}}.
-
-\bibitem[{Browne} et~al.(2012{\natexlab{b}}){Browne}, {Powley}, {Whitehouse},
-  {Lucas}, {Cowling}, {Rohlfshagen}, {Tavener}, {Perez}, {Samothrakis}, and
+\bibitem[{Browne} et~al.(2012){Browne}, {Powley}, {Whitehouse}, {Lucas},
+  {Cowling}, {Rohlfshagen}, {Tavener}, {Perez}, {Samothrakis}, and
   {Colton}]{MCTS}
 C.~B. {Browne}, E.~{Powley}, D.~{Whitehouse}, S.~M. {Lucas}, P.~I. {Cowling},
   P.~{Rohlfshagen}, S.~{Tavener}, D.~{Perez}, S.~{Samothrakis}, and
   S.~{Colton}.
 \newblock A survey of monte carlo tree search methods.
 \newblock \emph{IEEE Transactions on Computational Intelligence and AI in
-  Games}, 4\penalty0 (1):\penalty0 1--43, 2012{\natexlab{b}}.
+  Games}, 4\penalty0 (1):\penalty0 1--43, 2012.
 
 \bibitem[{\c{C}}atal et~al.(2020){\c{C}}atal, Wauthier, De~Boom, Verbelen, and
   Dhoedt]{ccatal2020learning}
@@ -169,6 +165,13 @@ Laurent Itti and Pierre Baldi.
   \url{http://www.sciencedirect.com/science/article/pii/S0042698908004380}.
 \newblock Visual Attention: Psychophysics, electrophysiology and neuroimaging.
 
+\bibitem[Kingma and Welling(2014)]{Kingma2013}
+Diederik~P. Kingma and Max Welling.
+\newblock {Auto-Encoding Variational Bayes}.
+\newblock In \emph{International Conference on Learning Representations},
+  volume~2, Banff, Canada, 2014.
+\newblock URL \url{http://arxiv.org/abs/1312.6114}.
+
 \bibitem[Koller and Friedman(2009)]{koller2009probabilistic}
 Daphne Koller and Nir Friedman.
 \newblock \emph{Probabilistic graphical models: principles and techniques}.
@@ -238,10 +241,28 @@ Guillermo Oliver, Pablo Lanillos, and Gordon Cheng.
 \newblock Active inference body perception and action for humanoid robots.
 \newblock \emph{arXiv preprint arXiv:1906.03022}, 2019.
 
+\bibitem[Parr and Friston(2018)]{Parr304782}
+Thomas Parr and Karl~J Friston.
+\newblock Generalised free energy and active inference: can the future cause
+  the past?
+\newblock \emph{bioRxiv}, 2018.
+\newblock \doi{10.1101/304782}.
+\newblock URL \url{https://www.biorxiv.org/content/early/2018/04/23/304782}.
+
 \bibitem[Pezzato et~al.(2020)Pezzato, Hernandez, and Wisse]{pezzato2020active}
 Corrado Pezzato, Carlos Hernandez, and Martijn Wisse.
 \newblock Active inference and behavior trees for reactive action planning and
   execution in robotics, 2020.
+
+\bibitem[Rezende et~al.(2014)Rezende, Mohamed, and Wierstra]{Rezende2014}
+Danilo~Jimenez Rezende, Shakir Mohamed, and Daan Wierstra.
+\newblock {Stochastic Backpropagation and Approximate Inference in Deep
+  Generative Models}.
+\newblock In Eric~P Xing and Tony Jebara, editors, \emph{Proceedings of the
+  31st International Conference on Machine Learning}, volume~32 of
+  \emph{Proceedings of Machine Learning Research}, pages 1278--1286, Bejing,
+  China, 2014. PMLR.
+\newblock URL \url{http://proceedings.mlr.press/v32/rezende14.html}.
 
 \bibitem[Robert and Escoufier(1976)]{Robert1976}
 P.~Robert and Y.~Escoufier.

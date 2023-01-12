@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.10.28)  28 OCT 2022 17:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.10.28)  1 DEC 2022 20:35
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**diff_Challenges.tex
-(./diff_Challenges.tex
+**Challenges_30_08_2022.tex
+(./Challenges_30_08_2022.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -842,11 +842,11 @@ Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
-runsystem(uname -s > "diff_Challenges.w18")...executed.
+runsystem(uname -s > "Challenges_30_08_2022.w18")...executed.
 
 
-(./diff_Challenges.w18)
-runsystem(rm -- "diff_Challenges.w18")...executed.
+(./Challenges_30_08_2022.w18)
+runsystem(rm -- "Challenges_30_08_2022.w18")...executed.
 
 )
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
@@ -872,7 +872,7 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \@float@every@listing=\toks38
 \c@listing=\count350
 )
-runsystem(mkdir -p _minted-diff_Challenges)...executed.
+runsystem(mkdir -p _minted-Challenges_30_08_2022)...executed.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
@@ -1114,89 +1114,45 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 Package: xfp 2022-01-12 L3 Floating point unit
 )
 \c@subsubsubsection=\count369
+runsystem(which pygmentize && touch Challenges_30_08_2022.aex)...executed.
 
-(/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box110
-\UL@hyphenbox=\box111
-\UL@skip=\skip94
-\UL@hook=\toks45
-\UL@height=\dimen318
-\UL@pe=\count370
-\UL@pixel=\dimen319
-\ULC@box=\box112
-Package: ulem 2019/11/18
-\ULdepth=\dimen320
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count371
-\lst@gtempboxa=\box113
-\lst@token=\toks46
-\lst@length=\count372
-\lst@currlwidth=\dimen321
-\lst@column=\count373
-\lst@pos=\count374
-\lst@lostspace=\dimen322
-\lst@width=\dimen323
-\lst@newlines=\count375
-\lst@lineno=\count376
-\lst@maxwidth=\dimen324
-
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count377
-\lst@skipnumbers=\count378
-\lst@framebox=\box114
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2020/03/24 1.8d listings configuration
-))
-Package: listings 2020/03/24 1.8d (Carsten Heinz)
-runsystem(which pygmentize && touch diff_Challenges.aex)...executed.
-
-runsystem(rm diff_Challenges.aex)...executed.
+runsystem(rm Challenges_30_08_2022.aex)...executed.
 
 
-(./diff_Challenges.aux
+No file Challenges_30_08_2022.aux.
+\openout1 = `Challenges_30_08_2022.aux'.
 
-LaTeX Warning: Label `sfig:cka-trans-chmm-ba' multiply defined.
-
-
-LaTeX Warning: Label `sub@sfig:cka-trans-chmm-ba' multiply defined.
-
-)
-\openout1 = `diff_Challenges.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 399.
-LaTeX Font Info:    ... okay on input line 399.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 399.
-LaTeX Font Info:    ... okay on input line 399.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 399.
-LaTeX Font Info:    ... okay on input line 399.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 399.
-LaTeX Font Info:    ... okay on input line 399.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 399.
-LaTeX Font Info:    ... okay on input line 399.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 399.
-LaTeX Font Info:    ... okay on input line 399.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 399.
-LaTeX Font Info:    ... okay on input line 399.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 399.
-LaTeX Font Info:    ... okay on input line 399.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 399.
-LaTeX Font Info:    ... okay on input line 399.
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count379
-\scratchdimen=\dimen325
-\scratchbox=\box115
-\nofMPsegments=\count380
-\nofMParguments=\count381
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count382
-\MPscratchDim=\dimen326
-\MPnumerator=\count383
-\makeMPintoPDFobject=\count384
-\everyMPtoPDFconversion=\toks48
+\scratchcounter=\count370
+\scratchdimen=\dimen318
+\scratchbox=\box110
+\nofMPsegments=\count371
+\nofMParguments=\count372
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count373
+\MPscratchDim=\dimen319
+\MPnumerator=\count374
+\makeMPintoPDFobject=\count375
+\everyMPtoPDFconversion=\toks46
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1206,7 +1162,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 399.
+Package hyperref Info: Link coloring OFF on input line 331.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1217,26 +1173,23 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count385
+\c@section@level=\count376
 )
-LaTeX Info: Redefining \ref on input line 399.
-LaTeX Info: Redefining \pageref on input line 399.
-LaTeX Info: Redefining \nameref on input line 399.
-
-(./diff_Challenges.out) (./diff_Challenges.out)
+LaTeX Info: Redefining \ref on input line 331.
+LaTeX Info: Redefining \pageref on input line 331.
+LaTeX Info: Redefining \nameref on input line 331.
 \@outlinefile=\write6
-\openout6 = `diff_Challenges.out'.
+\openout6 = `Challenges_30_08_2022.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
-Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 399.
+ on input line 331.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1272,833 +1225,1622 @@ your preamble.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-)
-\c@lstlisting=\count386
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 441
+LaTeX Font Info:    Trying to load font information for U+msa on input line 370
 .
-
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 441
+LaTeX Font Info:    Trying to load font information for U+msb on input line 370
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 4
-41.
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 3
+70.
 
-(/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd) [1{/var/lib/texmf/
-fonts/map/pdftex/updmap/pdftex.map}
+(/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
 
-Package natbib Warning: Citation `6145622' on page 2 undefined on input line 44
+Package natbib Warning: Citation `AI_TUTO' on page 2 undefined on input line 37
+5.
+
+
+Package natbib Warning: Citation `AI_VMP' on page 2 undefined on input line 375
+.
+
+
+Package natbib Warning: Citation `AITs_tHEORY' on page 2 undefined on input lin
+e 375.
+
+
+Package natbib Warning: Citation `AITS_PRACTICE' on page 2 undefined on input l
+ine 375.
+
+
+Package natbib Warning: Citation `BTAI_BF' on page 2 undefined on input line 37
+5.
+
+
+Package natbib Warning: Citation `FRISTON2016862' on page 2 undefined on input 
+line 375.
+
+
+Package natbib Warning: Citation `bayes_surprise' on page 2 undefined on input 
+line 375.
+
+
+Package natbib Warning: Citation `curiosity' on page 2 undefined on input line 
+375.
+
+
+Package natbib Warning: Citation `dopamine' on page 2 undefined on input line 3
+75.
+
+
+Package natbib Warning: Citation `DeepAIwithMCMC' on page 2 undefined on input 
+line 376.
+
+
+Package natbib Warning: Citation `pezzato2020active' on page 2 undefined on inp
+ut line 376.
+
+
+Package natbib Warning: Citation `sancaktar2020endtoend' on page 2 undefined on
+ input line 376.
+
+
+Package natbib Warning: Citation `ccatal2020learning' on page 2 undefined on in
+put line 376.
+
+
+Package natbib Warning: Citation `CULLEN2018809' on page 2 undefined on input l
+ine 376.
+
+
+Package natbib Warning: Citation `cart_pole' on page 2 undefined on input line 
+376.
+
+
+Package natbib Warning: Citation `VAE' on page 2 undefined on input line 378.
+
+
+Package natbib Warning: Citation `beta-VAE' on page 2 undefined on input line 3
+78.
+
+
+Package natbib Warning: Citation `sancaktar2020endtoend' on page 2 undefined on
+ input line 378.
+
+
+Package natbib Warning: Citation `ccatal2020learning' on page 2 undefined on in
+put line 378.
+
+
+Package natbib Warning: Citation `DeepAI' on page 2 undefined on input line 378
+.
+
+
+Package natbib Warning: Citation `6145622' on page 2 undefined on input line 37
 8.
 
 
-Overfull \hbox (133.61696pt too wide) in paragraph at lines 442--452
-\OT1/cmr/m/n/10.95 tional auto-encoders []|   []   [][]|   []
- []
+Package natbib Warning: Citation `Go' on page 2 undefined on input line 378.
 
 
-Overfull \hbox (42.96005pt too wide) in paragraph at lines 442--452
-[]\OT1/cmr/m/n/10.95 2020[]; []Mil-lidge[], []2020[]), and the Monte Carlo tree
- search al-go-rithm []|   []   [][]|   []
- []
+Package natbib Warning: Citation `DeepAIwithMCMC' on page 2 undefined on input 
+line 379.
+
+
+Package natbib Warning: Citation `AITs_tHEORY' on page 2 undefined on input lin
+e 379.
+
+
+Package natbib Warning: Citation `AITS_PRACTICE' on page 2 undefined on input l
+ine 379.
+
+
+Package natbib Warning: Citation `BTAI_BF' on page 2 undefined on input line 37
+9.
+
+
+Package natbib Warning: Citation `BTAI_3MF' on page 2 undefined on input line 3
+79.
+
+
+Package natbib Warning: Citation `DeepRL' on page 2 undefined on input line 381
+.
+
+
+Package natbib Warning: Citation `DDQN' on page 2 undefined on input line 381.
+
+
+Package natbib Warning: Citation `lample2016playing' on page 2 undefined on inp
+ut line 381.
+
+
+Package natbib Warning: Citation `DeepRL' on page 2 undefined on input line 381
+.
+
+
+Package natbib Warning: Citation `DeepRL' on page 2 undefined on input line 385
+.
+
+
+LaTeX Warning: Reference `sec:existing_research' on page 2 undefined on input l
+ine 387.
+
+
+Package natbib Warning: Citation `DeepRL' on page 2 undefined on input line 387
+.
+
+
+Package natbib Warning: Citation `DeepAIwithMCMC' on page 2 undefined on input 
+line 387.
+
+
+Package natbib Warning: Citation `DeepAI' on page 2 undefined on input line 387
+.
+
+
+Package natbib Warning: Citation `rood2020deep' on page 2 undefined on input li
+ne 387.
+
+
+Package natbib Warning: Citation `sancaktar2020endtoend' on page 2 undefined on
+ input line 387.
+
+
+Package natbib Warning: Citation `DAI_HR' on page 2 undefined on input line 387
+.
+
+
+Package natbib Warning: Citation `DAI_HR2' on page 2 undefined on input line 38
+7.
+
+
+Package natbib Warning: Citation `DAI_Kai' on page 2 undefined on input line 38
+7.
+
+
+Package natbib Warning: Citation `DAI_POMDP' on page 2 undefined on input line 
+387.
+
+
+LaTeX Warning: Reference `sec:build_dai' on page 2 undefined on input line 387.
+
+
+
+LaTeX Warning: Reference `sec:results' on page 2 undefined on input line 387.
+
+
+LaTeX Warning: Reference `sec:conclusion' on page 2 undefined on input line 387
+.
 
 [2]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 465.
+Package natbib Warning: Citation `DeepRL' on page 3 undefined on input line 393
+.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 465.
+(hyperref)                removing `math shift' on input line 393.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 465.
+(hyperref)                removing `math shift' on input line 393.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 465.
+(hyperref)                removing `\begingroup' on input line 393.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 465.
+(hyperref)                removing `\let' on input line 393.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\NAT@ctype' on input line 465.
+(hyperref)                removing `\<let>-command' on input line 393.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 465.
+(hyperref)                removing `\NAT@ctype' on input line 393.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 465.
+(hyperref)                removing `\z@' on input line 393.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 465.
+(hyperref)                removing `\let' on input line 393.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 393.
+
+
+Package natbib Warning: Citation `DeepRL' on page 3 undefined on input line 395
+.
+
+
+Package natbib Warning: Citation `sutton1998' on page 3 undefined on input line
+ 395.
+
+
+LaTeX Warning: Reference `fig:DQN' on page 3 undefined on input line 395.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 535.
+Package natbib Warning: Citation `DeepAIwithMCMC' on page 4 undefined on input 
+line 463.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 535.
+(hyperref)                removing `math shift' on input line 463.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 535.
+(hyperref)                removing `subscript' on input line 463.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 535.
+(hyperref)                removing `math shift' on input line 463.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 535.
+(hyperref)                removing `\begingroup' on input line 463.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 535.
+(hyperref)                removing `\let' on input line 463.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\NAT@ctype' on input line 535.
+(hyperref)                removing `\<let>-command' on input line 463.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 535.
+(hyperref)                removing `\NAT@ctype' on input line 463.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 535.
+(hyperref)                removing `\z@' on input line 463.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 535.
+(hyperref)                removing `\let' on input line 463.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 463.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4] [5]
+
+Package natbib Warning: Citation `DeepAIwithMCMC' on page 4 undefined on input 
+line 497.
+
+
+LaTeX Warning: Reference `fig:DAI_MC_agent' on page 4 undefined on input line 4
+97.
+
+
+LaTeX Warning: Reference `fig:fountas_dnn' on page 4 undefined on input line 49
+7.
+
+[4]
+
+Package natbib Warning: Citation `DeepAIwithMCMC' on page 5 undefined on input 
+line 514.
+
+
+LaTeX Warning: Reference `eq:initial_prior_actions' on page 5 undefined on inpu
+t line 518.
+
+
+LaTeX Warning: Reference `eq:initial_prior_actions' on page 5 undefined on inpu
+t line 518.
+
+
+Package natbib Warning: Citation `DeepAIwithMCMC' on page 5 undefined on input 
+line 518.
+
+[5]
 
 LaTeX Font Warning: Font shape `U/stmry/b/n' undefined
-(Font)              using `U/stmry/m/n' instead on input line 629.
+(Font)              using `U/stmry/m/n' instead on input line 528.
 
 
-LaTeX Warning: Float too large for page by 2.88596pt on input line 716.
+LaTeX Warning: Float too large for page by 2.88596pt on input line 615.
 
-[6] [7] [8]
+
+Package natbib Warning: Citation `MCTS' on page 6 undefined on input line 621.
+
+
+LaTeX Warning: Reference `eq:efe_fountas_defin' on page 6 undefined on input li
+ne 627.
+
+
+LaTeX Warning: Reference `eq:backprop' on page 6 undefined on input line 635.
+
+[6] [7]
+
+Package natbib Warning: Citation `DeepAIwithMCMC' on page 8 undefined on input 
+line 641.
+
+
+Package natbib Warning: Citation `DeepAI' on page 8 undefined on input line 641
+.
+
+
+LaTeX Warning: Reference `sec:build_dai' on page 8 undefined on input line 641.
+
+
+
+Package natbib Warning: Citation `koller2009probabilistic' on page 8 undefined 
+on input line 651.
+
+
+LaTeX Warning: Reference `eq:def_vfe_fountas' on page 8 undefined on input line
+ 659.
+
+
+LaTeX Warning: Reference `eq:efe_fountas_defin' on page 8 undefined on input li
+ne 659.
+
+
+LaTeX Warning: Reference `eq:efe_fountas_defin' on page 8 undefined on input li
+ne 659.
+
+
+LaTeX Warning: Reference `eq:def_vfe_fountas' on page 8 undefined on input line
+ 659.
+
+
+LaTeX Warning: Reference `eq:def_vfe_fountas' on page 8 undefined on input line
+ 659.
+
+
+LaTeX Warning: Reference `eq:def_vfe_fountas' on page 8 undefined on input line
+ 659.
+
+
+LaTeX Warning: Reference `eq:efe_fountas_defin' on page 8 undefined on input li
+ne 663.
+
+
+LaTeX Warning: Reference `eq:efe_fountas_defin' on page 8 undefined on input li
+ne 663.
+
+[8]
+
+Package natbib Warning: Citation `DeepAIwithMCMC' on page 9 undefined on input 
+line 673.
+
+
+LaTeX Warning: Reference `eq:efe_rearrangedd' on page 9 undefined on input line
+ 675.
+
+
+Package natbib Warning: Citation `DeepAIwithMCMC' on page 9 undefined on input 
+line 675.
+
 
 Package hyperref Warning: bookmark level for unknown subsubsubsection defaults 
 to 0.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 782.
+(hyperref)                removing `\hbox' on input line 675.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 782.
+(hyperref)                removing `\mathsurround' on input line 675.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 782.
+(hyperref)                removing `\z@' on input line 675.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\unskip' on input line 782.
+(hyperref)                removing `\unskip' on input line 675.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@italiccorr' on input line 782.
+(hyperref)                removing `\@@italiccorr' on input line 675.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 782.
+(hyperref)                removing `\begingroup' on input line 675.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 782.
+(hyperref)                removing `\let' on input line 675.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 782.
+(hyperref)                removing `\<let>-command' on input line 675.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\NAT@ctype' on input line 782.
+(hyperref)                removing `\NAT@ctype' on input line 675.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 782.
+(hyperref)                removing `\z@' on input line 675.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 782.
+(hyperref)                removing `\let' on input line 675.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 782.
+(hyperref)                removing `\new@ifnextchar' on input line 675.
+
+
+Package natbib Warning: Citation `DeepAIwithMCMC' on page 9 undefined on input 
+line 676.
+
+
+LaTeX Warning: Reference `eq:efe_rearrangedd' on page 9 undefined on input line
+ 676.
+
+
+Package natbib Warning: Citation `DeepAIwithMCMC' on page 9 undefined on input 
+line 683.
+
+
+LaTeX Warning: Reference `eq:switching_point' on page 9 undefined on input line
+ 692.
+
+
+LaTeX Warning: Reference `eq:switching_point' on page 9 undefined on input line
+ 692.
+
+
+LaTeX Warning: Reference `eq:efe_fountas_defin' on page 9 undefined on input li
+ne 693.
+
+
+LaTeX Warning: Reference `eq:def_vfe_fountas' on page 9 undefined on input line
+ 693.
+
+
+LaTeX Warning: Reference `eq:efe_rearrangedd' on page 9 undefined on input line
+ 695.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 806.
+(hyperref)                removing `\hbox' on input line 695.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 806.
+(hyperref)                removing `\mathsurround' on input line 695.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 806.
+(hyperref)                removing `\z@' on input line 695.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\unskip' on input line 806.
+(hyperref)                removing `\unskip' on input line 695.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@italiccorr' on input line 806.
+(hyperref)                removing `\@@italiccorr' on input line 695.
+
+
+LaTeX Warning: Reference `eq:efe_rearrangedd' on page 9 undefined on input line
+ 697.
 
 [9]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 818.
+LaTeX Warning: Reference `eq:efe_rearrangedd' on page 10 undefined on input lin
+e 706.
+
+
+Package natbib Warning: Citation `DeepAIwithMCMC' on page 10 undefined on input
+ line 706.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 818.
+(hyperref)                removing `\hbox' on input line 706.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 818.
+(hyperref)                removing `\mathsurround' on input line 706.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\unskip' on input line 818.
+(hyperref)                removing `\z@' on input line 706.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@italiccorr' on input line 818.
+(hyperref)                removing `\unskip' on input line 706.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 818.
+(hyperref)                removing `\@@italiccorr' on input line 706.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 818.
+(hyperref)                removing `\begingroup' on input line 706.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 818.
+(hyperref)                removing `\let' on input line 706.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\NAT@ctype' on input line 818.
+(hyperref)                removing `\<let>-command' on input line 706.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 818.
+(hyperref)                removing `\NAT@ctype' on input line 706.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 818.
+(hyperref)                removing `\z@' on input line 706.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 818.
+(hyperref)                removing `\let' on input line 706.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 846.
+(hyperref)                removing `\new@ifnextchar' on input line 706.
+
+
+LaTeX Warning: Reference `eq:efe_rearrangedd' on page 10 undefined on input lin
+e 708.
+
+
+Package natbib Warning: Citation `DeepAIwithMCMC' on page 10 undefined on input
+ line 730.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 846.
+(hyperref)                removing `\begingroup' on input line 730.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 846.
+(hyperref)                removing `\let' on input line 730.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\NAT@ctype' on input line 846.
+(hyperref)                removing `\<let>-command' on input line 730.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 846.
+(hyperref)                removing `\NAT@ctype' on input line 730.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 846.
+(hyperref)                removing `\z@' on input line 730.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 846.
+(hyperref)                removing `\let' on input line 730.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 730.
+
+
+Package natbib Warning: Citation `DeepAIwithMCMC' on page 10 undefined on input
+ line 732.
+
+
+Package natbib Warning: Citation `DeepAI' on page 10 undefined on input line 75
+1.
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 751.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 751.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 751.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 751.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\begingroup' on input line 751.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\let' on input line 751.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 751.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\NAT@ctype' on input line 751.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 751.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\let' on input line 751.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 751.
+
+
+Package natbib Warning: Citation `DeepAI' on page 10 undefined on input line 75
+3.
+
+
+LaTeX Warning: Reference `fig:beren_dnn' on page 10 undefined on input line 753
+.
+
+
+LaTeX Warning: Reference `fig:DAI_VPG_agent' on page 10 undefined on input line
+ 753.
+
+
+Package natbib Warning: Citation `DeepAI' on page 10 undefined on input line 75
+3.
 
 [10]
 
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 873.
+LaTeX Warning: Reference `eq:efe_beren' on page 11 undefined on input line 769.
+
+
+
+Package natbib Warning: Citation `dacosta2020relationship' on page 11 undefined
+ on input line 769.
+
+
+LaTeX Warning: Reference `eq:efe_beren' on page 11 undefined on input line 773.
+
+
+[11]
+
+LaTeX Warning: Reference `eq:efe_beren' on page 12 undefined on input line 783.
+
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+
+Package natbib Warning: Citation `rood2020deep' on page 13 undefined on input l
+ine 884.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 873.
+(hyperref)                removing `math shift' on input line 884.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 873.
+(hyperref)                removing `subscript' on input line 884.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 873.
+(hyperref)                removing `math shift' on input line 884.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 873.
+(hyperref)                removing `\begingroup' on input line 884.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 873.
+(hyperref)                removing `\let' on input line 884.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 873.
+(hyperref)                removing `\<let>-command' on input line 884.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\NAT@ctype' on input line 873.
+(hyperref)                removing `\NAT@ctype' on input line 884.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 873.
+(hyperref)                removing `\z@' on input line 884.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 873.
+(hyperref)                removing `\let' on input line 884.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 873.
-
-[11] [12]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1071.
+(hyperref)                removing `\new@ifnextchar' on input line 884.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1071.
+Package natbib Warning: Citation `rood2020deep' on page 13 undefined on input l
+ine 886.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1071.
+Package natbib Warning: Citation `rood2020deep' on page 13 undefined on input l
+ine 886.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 1071.
+Package natbib Warning: Citation `rood2020deep' on page 13 undefined on input l
+ine 886.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 1071.
+Package natbib Warning: Citation `sancaktar2020endtoend' on page 13 undefined o
+n input line 888.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 1071.
+Package natbib Warning: Citation `DAI_HR' on page 13 undefined on input line 88
+8.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\NAT@ctype' on input line 1071.
+Package natbib Warning: Citation `DAI_HR2' on page 13 undefined on input line 8
+88.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 1071.
+(hyperref)                removing `math shift' on input line 888.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 1071.
+(hyperref)                removing `subscript' on input line 888.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 1071.
+(hyperref)                removing `math shift' on input line 888.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\begingroup' on input line 888.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\let' on input line 888.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 888.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\NAT@ctype' on input line 888.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 888.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\let' on input line 888.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 888.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 888.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 888.
+
+
+Package natbib Warning: Citation `sancaktar2020endtoend' on page 13 undefined o
+n input line 890.
+
+
+Package natbib Warning: Citation `DAI_HR' on page 13 undefined on input line 89
+0.
+
+
+Package natbib Warning: Citation `DAI_HR2' on page 13 undefined on input line 8
+90.
+
+
+Package natbib Warning: Citation `sancaktar2020endtoend' on page 13 undefined o
+n input line 890.
+
+
+Package natbib Warning: Citation `DAI_HR' on page 13 undefined on input line 89
+0.
+
+
+Package natbib Warning: Citation `DAI_HR2' on page 13 undefined on input line 8
+90.
+
+
+Package natbib Warning: Citation `DAI_Kai' on page 13 undefined on input line 8
+92.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 892.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 892.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 892.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\begingroup' on input line 892.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\let' on input line 892.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 892.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\NAT@ctype' on input line 892.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 892.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\let' on input line 892.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 892.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 892.
+
+
+Package natbib Warning: Citation `DAI_Kai' on page 13 undefined on input line 8
+94.
+
+
+LaTeX Warning: Reference `fig:kai_dnn' on page 13 undefined on input line 894.
+
+
+Package natbib Warning: Citation `DAI_Kai' on page 13 undefined on input line 8
+94.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1075.
+LaTeX Warning: Reference `fig:kai_fa_estimate' on page 14 undefined on input li
+ne 898.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1075.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1075.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 1075.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 1075.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 1075.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\NAT@ctype' on input line 1075.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 1075.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 1075.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 1075.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1075.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1075.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1079.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1079.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1079.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 1079.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 1079.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 1079.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\NAT@ctype' on input line 1079.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 1079.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 1079.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 1079.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1079.
+Package natbib Warning: Citation `DAI_Kai' on page 14 undefined on input line 9
+02.
 
 [14]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1192.
+Package natbib Warning: Citation `DAI_POMDP' on page 16 undefined on input line
+ 1005.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1192.
+(hyperref)                removing `math shift' on input line 1005.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1192.
+(hyperref)                removing `subscript' on input line 1005.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 1192.
+(hyperref)                removing `math shift' on input line 1005.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 1192.
+(hyperref)                removing `\begingroup' on input line 1005.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 1192.
+(hyperref)                removing `\let' on input line 1005.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\NAT@ctype' on input line 1192.
+(hyperref)                removing `\<let>-command' on input line 1005.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 1192.
+(hyperref)                removing `\NAT@ctype' on input line 1005.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 1192.
+(hyperref)                removing `\z@' on input line 1005.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 1192.
+(hyperref)                removing `\let' on input line 1005.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1192.
+(hyperref)                removing `\new@ifnextchar' on input line 1005.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1005.
+
+
+Package natbib Warning: Citation `DAI_POMDP' on page 16 undefined on input line
+ 1007.
 
 [16]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1209.
+Package natbib Warning: Citation `DAI_POMDP' on page 17 undefined on input line
+ 1022.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1209.
+(hyperref)                removing `math shift' on input line 1022.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1209.
+(hyperref)                removing `subscript' on input line 1022.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 1209.
+(hyperref)                removing `math shift' on input line 1022.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 1209.
+(hyperref)                removing `\begingroup' on input line 1022.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 1209.
+(hyperref)                removing `\let' on input line 1022.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\NAT@ctype' on input line 1209.
+(hyperref)                removing `\<let>-command' on input line 1022.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 1209.
+(hyperref)                removing `\NAT@ctype' on input line 1022.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 1209.
+(hyperref)                removing `\z@' on input line 1022.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 1209.
+(hyperref)                removing `\let' on input line 1022.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1209.
+(hyperref)                removing `\new@ifnextchar' on input line 1022.
 
-[17] [18]
-<dSprites_env.png, id=608, 1236.62pt x 342.27875pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1022.
+
+
+Package natbib Warning: Citation `ccatal2020learning' on page 17 undefined on i
+nput line 1024.
+
+
+Package natbib Warning: Citation `schneider2022active' on page 17 undefined on 
+input line 1028.
+
+
+LaTeX Warning: Reference `sec:build_dai' on page 17 undefined on input line 103
+3.
+
+
+Package natbib Warning: Citation `Cortes2012' on page 17 undefined on input lin
+e 1036.
+
+
+Package natbib Warning: Citation `Cristianini2002' on page 17 undefined on inpu
+t line 1036.
+
+
+Package natbib Warning: Citation `Gretton2005' on page 17 undefined on input li
+ne 1036.
+
+
+Package natbib Warning: Citation `Kornblith2019' on page 17 undefined on input 
+line 1036.
+
+
+Package natbib Warning: Citation `Robert1976' on page 17 undefined on input lin
+e 1036.
+
+
+Package natbib Warning: Citation `Bonheme2022' on page 17 undefined on input li
+ne 1036.
+
+
+Package natbib Warning: Citation `Maheswaranathan2019' on page 17 undefined on 
+input line 1050.
+
+
+LaTeX Warning: Reference `ssec:dSprites_env' on page 17 undefined on input line
+ 1056.
+
+
+LaTeX Warning: Reference `ssec:env_agent_iter' on page 17 undefined on input li
+ne 1056.
+
+
+LaTeX Warning: Reference `ssec:VAE' on page 17 undefined on input line 1056.
+
+
+LaTeX Warning: Reference `ssec:HMM' on page 17 undefined on input line 1056.
+
+
+LaTeX Warning: Reference `ssec:CHMM' on page 17 undefined on input line 1056.
+
+
+LaTeX Warning: Reference `ssec:DAI' on page 17 undefined on input line 1056.
+
+[17]
+
+Package natbib Warning: Citation `dsprites17' on page 18 undefined on input lin
+e 1060.
+
+
+Package natbib Warning: Citation `VAE' on page 18 undefined on input line 1060.
+
+
+
+LaTeX Warning: Reference `fig:dSprites_env' on page 18 undefined on input line 
+1060.
+
+<dSprites_env.png, id=157, 1236.62pt x 342.27875pt>
 File: dSprites_env.png Graphic file (type png)
 <use dSprites_env.png>
-Package pdftex.def Info: dSprites_env.png  used on input line 1259.
+Package pdftex.def Info: dSprites_env.png  used on input line 1064.
 (pdftex.def)             Requested size: 494.63924pt x 136.90906pt.
 
+LaTeX Warning: Reference `algo:ap_cycles' on page 18 undefined on input line 10
+72.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19 <./dSprites_env.png>] [20]
+ [18 <./dSprites_env.png>]
+
+LaTeX Warning: Reference `ssec:env_agent_iter' on page 19 undefined on input li
+ne 1115.
+
+
+LaTeX Warning: Reference `fig:VAE' on page 19 undefined on input line 1115.
+
+[19]
+
+LaTeX Warning: Reference `ssec:derive_vfe_in_fountas' on page 20 undefined on i
+nput line 1134.
+
+
+LaTeX Warning: Reference `ssec:env_agent_iter' on page 20 undefined on input li
+ne 1139.
+
+
+LaTeX Warning: Reference `fig:HMM' on page 20 undefined on input line 1139.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21]
+
+LaTeX Warning: Reference `fig:CHMM' on page 20 undefined on input line 1153.
+
+[20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
+ [21]
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Package natbib Warning: Citation `Parr304782' on page 22 undefined on input lin
+e 1186.
+
+[22]
+
+LaTeX Warning: Reference `eq:efe_definition' on page 23 undefined on input line
+ 1190.
 
 
-Underfull \vbox (badness 1418) has occurred while \output is active []
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1198.
 
- [23]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1198.
+
+
+LaTeX Warning: Reference `eq:efe_practice' on page 23 undefined on input line 1
+200.
+
+
+LaTeX Warning: Reference `eq:vd_or_gm' on page 23 undefined on input line 1204.
+
+
+
+Package natbib Warning: Citation `dacosta2020relationship' on page 23 undefined
+ on input line 1209.
+
+
+LaTeX Warning: Reference `eq:prior_pref' on page 23 undefined on input line 121
+8.
+
+[23]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1233.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1233.
+
+
+LaTeX Warning: Reference `ssec:dqn' on page 24 undefined on input line 1245.
+
+
+LaTeX Warning: Reference `fig:DAI' on page 24 undefined on input line 1249.
+
 [24]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1488.
+LaTeX Warning: Reference `ssec:derive_vfe_in_fountas' on page 25 undefined on i
+nput line 1297.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1488.
-
-[25]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1526.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1526.
-
-
-Underfull \vbox (badness 1237) has occurred while \output is active []
-
- [26]
 Underfull \vbox (badness 6741) has occurred while \output is active []
 
- [27]
-<dqn_rewards.png, id=711, 1138.2525pt x 568.1225pt>
+ [25]
+
+LaTeX Warning: Reference `ssec:CHMM' on page 26 undefined on input line 1304.
+
+
+LaTeX Warning: Reference `ssec:efe_other_defe' on page 26 undefined on input li
+ne 1310.
+
+
+LaTeX Warning: Reference `sec:existing_research' on page 26 undefined on input 
+line 1314.
+
+
+LaTeX Warning: Reference `ssec:dqn_results' on page 26 undefined on input line 
+1314.
+
+
+LaTeX Warning: Reference `ssec:vae_results' on page 26 undefined on input line 
+1314.
+
+
+LaTeX Warning: Reference `ssec:hmm_results' on page 26 undefined on input line 
+1314.
+
+
+LaTeX Warning: Reference `ssec:chmm_results' on page 26 undefined on input line
+ 1314.
+
+
+LaTeX Warning: Reference `ssec:dai_results' on page 26 undefined on input line 
+1314.
+
+
+LaTeX Warning: Reference `fig:DQN_rewards' on page 26 undefined on input line 1
+348.
+
+
+LaTeX Warning: Reference `fig:cka-dqn' on page 26 undefined on input line 1348.
+
+
+<dqn_rewards.png, id=221, 1138.2525pt x 568.1225pt>
 File: dqn_rewards.png Graphic file (type png)
 <use dqn_rewards.png>
-Package pdftex.def Info: dqn_rewards.png  used on input line 1686.
+Package pdftex.def Info: dqn_rewards.png  used on input line 1354.
 (pdftex.def)             Requested size: 341.4784pt x 170.43805pt.
-
-[28]
-<cka_figures/CKA_dqn_1_dqn_1.pdf, id=719, 867.24pt x 722.7pt>
+[26]
+<cka_figures/CKA_dqn_1_dqn_1.pdf, id=230, 867.24pt x 722.7pt>
 File: cka_figures/CKA_dqn_1_dqn_1.pdf Graphic file (type pdf)
 <use cka_figures/CKA_dqn_1_dqn_1.pdf>
-Package pdftex.def Info: cka_figures/CKA_dqn_1_dqn_1.pdf  used on input line 16
-97.
+Package pdftex.def Info: cka_figures/CKA_dqn_1_dqn_1.pdf  used on input line 13
+65.
 (pdftex.def)             Requested size: 278.69475pt x 232.25017pt.
- [29 <./dqn_rewards.png> <./cka_figures/CKA_dqn_1_dqn_1.pdf>]
-<vae_vfe.png, id=763, 750.805pt x 540.0175pt>
+
+
+LaTeX Warning: Reference `fig:VAE_vfe' on page 27 undefined on input line 1371.
+
+
+
+LaTeX Warning: Reference `fig:VAE_reconstruction' on page 27 undefined on input
+ line 1371.
+
+
+LaTeX Warning: Reference `sfig:cka-vae-vae' on page 27 undefined on input line 
+1373.
+
+
+Package natbib Warning: Citation `Bonheme2022' on page 27 undefined on input li
+ne 1373.
+
+
+LaTeX Warning: Reference `sfig:cka-vae-dqn' on page 27 undefined on input line 
+1373.
+
+
+Underfull \vbox (badness 2165) has occurred while \output is active []
+
+ [27 <./dqn_rewards.png> <./cka_figures/CKA_dqn_1_dqn_1.pdf>]
+<vae_vfe.png, id=268, 750.805pt x 540.0175pt>
 File: vae_vfe.png Graphic file (type png)
 <use vae_vfe.png>
-Package pdftex.def Info: vae_vfe.png  used on input line 1710.
+Package pdftex.def Info: vae_vfe.png  used on input line 1378.
 (pdftex.def)             Requested size: 300.31668pt x 216.00316pt.
-<vae_reconstruction.png, id=764, 531.9875pt x 399.4925pt>
+<vae_reconstruction.png, id=269, 531.9875pt x 399.4925pt>
 File: vae_reconstruction.png Graphic file (type png)
 <use vae_reconstruction.png>
-Package pdftex.def Info: vae_reconstruction.png  used on input line 1733.
+Package pdftex.def Info: vae_reconstruction.png  used on input line 1393.
 (pdftex.def)             Requested size: 265.9931pt x 199.74576pt.
-<cka_figures/CKA_vae_1_vae_1.pdf, id=765, 867.24pt x 722.7pt>
+<cka_figures/CKA_vae_1_vae_1.pdf, id=270, 867.24pt x 722.7pt>
 File: cka_figures/CKA_vae_1_vae_1.pdf Graphic file (type pdf)
 <use cka_figures/CKA_vae_1_vae_1.pdf>
-Package pdftex.def Info: cka_figures/CKA_vae_1_vae_1.pdf  used on input line 17
-49.
+Package pdftex.def Info: cka_figures/CKA_vae_1_vae_1.pdf  used on input line 14
+09.
 (pdftex.def)             Requested size: 222.9524pt x 185.7913pt.
-<cka_figures/CKA_dqn_1_vae_1.pdf, id=766, 867.24pt x 722.7pt>
+<cka_figures/CKA_dqn_1_vae_1.pdf, id=271, 867.24pt x 722.7pt>
 File: cka_figures/CKA_dqn_1_vae_1.pdf Graphic file (type pdf)
 <use cka_figures/CKA_dqn_1_vae_1.pdf>
-Package pdftex.def Info: cka_figures/CKA_dqn_1_vae_1.pdf  used on input line 17
-54.
+Package pdftex.def Info: cka_figures/CKA_dqn_1_vae_1.pdf  used on input line 14
+14.
 (pdftex.def)             Requested size: 222.9524pt x 185.7913pt.
- [30 <./vae_vfe.png> <./vae_reconstruction.png>]
-<hmm_vfe.png, id=783, 566.115pt x 389.455pt>
+
+
+LaTeX Warning: Reference `fig:HMM_vfe' on page 28 undefined on input line 1424.
+
+
+
+LaTeX Warning: Reference `fig:VAE_vfe' on page 28 undefined on input line 1424.
+
+
+
+LaTeX Warning: Reference `fig:HMM_vfe' on page 28 undefined on input line 1424.
+
+
+
+LaTeX Warning: Reference `fig:HMM_reconstruction' on page 28 undefined on input
+ line 1424.
+
+
+Underfull \vbox (badness 4013) has occurred while \output is active []
+
+ [28 <./vae_vfe.png> <./vae_reconstruction.png>]
+
+LaTeX Warning: Reference `sfig:cka-hmm-hmm' on page 29 undefined on input line 
+1426.
+
+
+LaTeX Warning: Reference `sfig:cka-hmm-vae' on page 29 undefined on input line 
+1426.
+
+
+LaTeX Warning: Reference `sfig:cka-hmm-hmm' on page 29 undefined on input line 
+1426.
+
+
+LaTeX Warning: Reference `sfig:cka-hmm-vae' on page 29 undefined on input line 
+1426.
+
+
+LaTeX Warning: Reference `sfig:cka-hmm-dqn' on page 29 undefined on input line 
+1426.
+
+<hmm_vfe.png, id=280, 566.115pt x 389.455pt>
 File: hmm_vfe.png Graphic file (type png)
 <use hmm_vfe.png>
-Package pdftex.def Info: hmm_vfe.png  used on input line 1771.
+Package pdftex.def Info: hmm_vfe.png  used on input line 1431.
 (pdftex.def)             Requested size: 317.02223pt x 218.0933pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31 <./cka_figures/CKA_vae_1_vae_1.pdf> <./cka_figures/CKA_dqn_1_vae_1.pdf>]
-<hmm_reconstruction.png, id=862, 919.435pt x 689.57625pt>
+ [29 <./cka_figures/CKA_vae_1_vae_1.pdf> <./cka_figures/CKA_dqn_1_vae_1.pdf>]
+<hmm_reconstruction.png, id=357, 919.435pt x 689.57625pt>
 File: hmm_reconstruction.png Graphic file (type png)
 <use hmm_reconstruction.png>
-Package pdftex.def Info: hmm_reconstruction.png  used on input line 1794.
+Package pdftex.def Info: hmm_reconstruction.png  used on input line 1446.
 (pdftex.def)             Requested size: 275.83263pt x 206.87447pt.
-<cka_figures/CKA_hmm_1_hmm_1.pdf, id=863, 867.24pt x 722.7pt>
+<cka_figures/CKA_hmm_1_hmm_1.pdf, id=358, 867.24pt x 722.7pt>
 File: cka_figures/CKA_hmm_1_hmm_1.pdf Graphic file (type pdf)
 <use cka_figures/CKA_hmm_1_hmm_1.pdf>
-Package pdftex.def Info: cka_figures/CKA_hmm_1_hmm_1.pdf  used on input line 18
-10.
+Package pdftex.def Info: cka_figures/CKA_hmm_1_hmm_1.pdf  used on input line 14
+62.
 (pdftex.def)             Requested size: 167.21855pt x 139.34348pt.
-<cka_figures/CKA_hmm_1_vae_1.pdf, id=864, 867.24pt x 722.7pt>
+<cka_figures/CKA_hmm_1_vae_1.pdf, id=359, 867.24pt x 722.7pt>
 File: cka_figures/CKA_hmm_1_vae_1.pdf Graphic file (type pdf)
 <use cka_figures/CKA_hmm_1_vae_1.pdf>
-Package pdftex.def Info: cka_figures/CKA_hmm_1_vae_1.pdf  used on input line 18
-15.
+Package pdftex.def Info: cka_figures/CKA_hmm_1_vae_1.pdf  used on input line 14
+67.
 (pdftex.def)             Requested size: 167.21855pt x 139.34348pt.
-<cka_figures/CKA_dqn_1_hmm_1.pdf, id=865, 867.24pt x 722.7pt>
+<cka_figures/CKA_dqn_1_hmm_1.pdf, id=360, 867.24pt x 722.7pt>
 File: cka_figures/CKA_dqn_1_hmm_1.pdf Graphic file (type pdf)
 <use cka_figures/CKA_dqn_1_hmm_1.pdf>
-Package pdftex.def Info: cka_figures/CKA_dqn_1_hmm_1.pdf  used on input line 18
-20.
+Package pdftex.def Info: cka_figures/CKA_dqn_1_hmm_1.pdf  used on input line 14
+72.
 (pdftex.def)             Requested size: 167.21855pt x 139.34348pt.
- [32 <./hmm_vfe.png> <./hmm_reconstruction.png>]
-<chmm_rewards_eg.png, id=888, 889.3225pt x 628.3475pt>
+
+
+LaTeX Warning: Reference `fig:CHMM_rewards_eg' on page 30 undefined on input li
+ne 1483.
+
+
+LaTeX Warning: Reference `ssec:CHMM' on page 30 undefined on input line 1483.
+
+
+LaTeX Warning: Reference `fig:CHMM_rewards_s' on page 30 undefined on input lin
+e 1483.
+
+
+LaTeX Warning: Reference `fig:CHMM_rewards_eg' on page 30 undefined on input li
+ne 1483.
+
+
+LaTeX Warning: Reference `fig:CHMM_rewards_b' on page 30 undefined on input lin
+e 1483.
+
+
+LaTeX Warning: Reference `fig:CHMM_rewards_eg' on page 30 undefined on input li
+ne 1483.
+
+
+LaTeX Warning: Reference `fig:CHMM_rewards_b' on page 30 undefined on input lin
+e 1483.
+
+[30 <./hmm_vfe.png> <./hmm_reconstruction.png>]
+
+LaTeX Warning: Reference `fig:CHMM_vfe' on page 31 undefined on input line 1485
+.
+
+
+LaTeX Warning: Reference `fig:CHMM_vfe' on page 31 undefined on input line 1485
+.
+
+
+LaTeX Warning: Reference `fig:CHMM_reconstruction' on page 31 undefined on inpu
+t line 1487.
+
+
+LaTeX Warning: Reference `fig:HMM_reconstruction' on page 31 undefined on input
+ line 1487.
+
+
+LaTeX Warning: Reference `fig:HMM_reconstruction' on page 31 undefined on input
+ line 1487.
+
+
+LaTeX Warning: Reference `fig:CHMM_reconstruction' on page 31 undefined on inpu
+t line 1487.
+
+<chmm_rewards_eg.png, id=369, 889.3225pt x 628.3475pt>
 File: chmm_rewards_eg.png Graphic file (type png)
 <use chmm_rewards_eg.png>
-Package pdftex.def Info: chmm_rewards_eg.png  used on input line 1846.
+Package pdftex.def Info: chmm_rewards_eg.png  used on input line 1498.
 (pdftex.def)             Requested size: 266.7988pt x 188.50569pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33 <./cka_figures/CKA_hmm_1_hmm_1.pdf> <./cka_figures/CKA_hmm_1_vae_1.pdf> <.
+ [31 <./cka_figures/CKA_hmm_1_hmm_1.pdf> <./cka_figures/CKA_hmm_1_vae_1.pdf> <.
 /cka_figures/CKA_dqn_1_hmm_1.pdf>]
-<chmm_rewards_s.png, id=1010, 1160.335pt x 665.48625pt>
+<chmm_rewards_s.png, id=489, 1160.335pt x 665.48625pt>
 File: chmm_rewards_s.png Graphic file (type png)
 <use chmm_rewards_s.png>
-Package pdftex.def Info: chmm_rewards_s.png  used on input line 1862.
+Package pdftex.def Info: chmm_rewards_s.png  used on input line 1514.
 (pdftex.def)             Requested size: 348.10318pt x 199.64742pt.
-<chmm_rewards_b.png, id=1011, 1157.32375pt x 681.54625pt>
+<chmm_rewards_b.png, id=490, 1157.32375pt x 681.54625pt>
 File: chmm_rewards_b.png Graphic file (type png)
 <use chmm_rewards_b.png>
-Package pdftex.def Info: chmm_rewards_b.png  used on input line 1870.
+Package pdftex.def Info: chmm_rewards_b.png  used on input line 1522.
 (pdftex.def)             Requested size: 347.1998pt x 204.46545pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34 <./chmm_rewards_eg.png> <./chmm_rewards_s.png>]
-<chmm_vfe_eg.png, id=1018, 1115.16624pt x 636.3775pt>
+ [32 <./chmm_rewards_eg.png> <./chmm_rewards_s.png>]
+<chmm_vfe_eg.png, id=499, 1115.16624pt x 636.3775pt>
 File: chmm_vfe_eg.png Graphic file (type png)
 <use chmm_vfe_eg.png>
-Package pdftex.def Info: chmm_vfe_eg.png  used on input line 1885.
+Package pdftex.def Info: chmm_vfe_eg.png  used on input line 1537.
 (pdftex.def)             Requested size: 390.31404pt x 222.73546pt.
-<chmm_reconstruction.png, id=1019, 558.085pt x 650.43pt>
+<chmm_reconstruction.png, id=500, 558.085pt x 650.43pt>
 File: chmm_reconstruction.png Graphic file (type png)
 <use chmm_reconstruction.png>
-Package pdftex.def Info: chmm_reconstruction.png  used on input line 1927.
+Package pdftex.def Info: chmm_reconstruction.png  used on input line 1571.
 (pdftex.def)             Requested size: 167.42679pt x 195.1305pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35 <./chmm_rewards_b.png> <./chmm_vfe_eg.png>]
-<cka_figures/CKA_dqn_1_chmm_73.pdf, id=1030, 867.24pt x 722.7pt>
+ [33 <./chmm_rewards_b.png> <./chmm_vfe_eg.png>]
+
+LaTeX Warning: Reference `fig:CHMM_rewards_eg' on page 34 undefined on input li
+ne 1589.
+
+
+LaTeX Warning: Reference `fig:cka-dqn-chmm' on page 34 undefined on input line 
+1589.
+
+
+LaTeX Warning: Reference `sfig:cka-chmm-chmm' on page 34 undefined on input lin
+e 1589.
+
+
+LaTeX Warning: Reference `sfig:cka-chmm2-chmm2' on page 34 undefined on input l
+ine 1589.
+
+<cka_figures/CKA_dqn_1_chmm_73.pdf, id=509, 867.24pt x 722.7pt>
 File: cka_figures/CKA_dqn_1_chmm_73.pdf Graphic file (type pdf)
 <use cka_figures/CKA_dqn_1_chmm_73.pdf>
 Package pdftex.def Info: cka_figures/CKA_dqn_1_chmm_73.pdf  used on input line 
-1949.
+1593.
 (pdftex.def)             Requested size: 167.21855pt x 139.34348pt.
-<cka_figures/CKA_dqn_1_chmm_77.pdf, id=1031, 867.24pt x 722.7pt>
+<cka_figures/CKA_dqn_1_chmm_77.pdf, id=510, 867.24pt x 722.7pt>
 File: cka_figures/CKA_dqn_1_chmm_77.pdf Graphic file (type pdf)
 <use cka_figures/CKA_dqn_1_chmm_77.pdf>
 Package pdftex.def Info: cka_figures/CKA_dqn_1_chmm_77.pdf  used on input line 
-1954.
+1598.
 (pdftex.def)             Requested size: 167.21855pt x 139.34348pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36 <./chmm_reconstruction.png>]
-<cka_figures/CKA_chmm_73_chmm_73.pdf, id=1039, 867.24pt x 722.7pt>
+ [34 <./chmm_reconstruction.png>]
+<cka_figures/CKA_chmm_73_chmm_73.pdf, id=518, 867.24pt x 722.7pt>
 File: cka_figures/CKA_chmm_73_chmm_73.pdf Graphic file (type pdf)
 <use cka_figures/CKA_chmm_73_chmm_73.pdf>
 Package pdftex.def Info: cka_figures/CKA_chmm_73_chmm_73.pdf  used on input lin
-e 1966.
+e 1610.
 (pdftex.def)             Requested size: 167.21855pt x 139.34348pt.
-<cka_figures/CKA_chmm_77_chmm_77.pdf, id=1040, 867.24pt x 722.7pt>
+<cka_figures/CKA_chmm_77_chmm_77.pdf, id=519, 867.24pt x 722.7pt>
 File: cka_figures/CKA_chmm_77_chmm_77.pdf Graphic file (type pdf)
 <use cka_figures/CKA_chmm_77_chmm_77.pdf>
 Package pdftex.def Info: cka_figures/CKA_chmm_77_chmm_77.pdf  used on input lin
-e 1971.
+e 1615.
 (pdftex.def)             Requested size: 167.21855pt x 139.34348pt.
-<cka_figures/CKA_chmm_73_chmm_77.pdf, id=1041, 867.24pt x 722.7pt>
+<cka_figures/CKA_chmm_73_chmm_77.pdf, id=520, 867.24pt x 722.7pt>
 File: cka_figures/CKA_chmm_73_chmm_77.pdf Graphic file (type pdf)
 <use cka_figures/CKA_chmm_73_chmm_77.pdf>
 Package pdftex.def Info: cka_figures/CKA_chmm_73_chmm_77.pdf  used on input lin
-e 1976.
+e 1620.
 (pdftex.def)             Requested size: 167.21855pt x 139.34348pt.
-<cka_figures/CKA_chmm_127_chmm_127.pdf, id=1045, 867.24pt x 722.7pt>
+
+
+LaTeX Warning: Reference `fig:CHMM_rewards_b' on page 35 undefined on input lin
+e 1632.
+
+
+LaTeX Warning: Reference `fig:cka-chmm-ba' on page 35 undefined on input line 1
+632.
+
+
+LaTeX Warning: Reference `fig:cka-chmm-trans-ba' on page 35 undefined on input 
+line 1632.
+
+<cka_figures/CKA_chmm_127_chmm_127.pdf, id=521, 867.24pt x 722.7pt>
 File: cka_figures/CKA_chmm_127_chmm_127.pdf Graphic file (type pdf)
 <use cka_figures/CKA_chmm_127_chmm_127.pdf>
 Package pdftex.def Info: cka_figures/CKA_chmm_127_chmm_127.pdf  used on input l
-ine 1994.
+ine 1638.
 (pdftex.def)             Requested size: 167.21855pt x 139.34348pt.
-<cka_figures/CKA_chmm_131_chmm_131.pdf, id=1046, 867.24pt x 722.7pt>
+<cka_figures/CKA_chmm_131_chmm_131.pdf, id=522, 867.24pt x 722.7pt>
 File: cka_figures/CKA_chmm_131_chmm_131.pdf Graphic file (type pdf)
 <use cka_figures/CKA_chmm_131_chmm_131.pdf>
 Package pdftex.def Info: cka_figures/CKA_chmm_131_chmm_131.pdf  used on input l
-ine 1999.
+ine 1643.
 (pdftex.def)             Requested size: 167.21855pt x 139.34348pt.
-<cka_figures/CKA_chmm_127_chmm_131.pdf, id=1047, 867.24pt x 722.7pt>
+<cka_figures/CKA_chmm_127_chmm_131.pdf, id=523, 867.24pt x 722.7pt>
 File: cka_figures/CKA_chmm_127_chmm_131.pdf Graphic file (type pdf)
 <use cka_figures/CKA_chmm_127_chmm_131.pdf>
 Package pdftex.def Info: cka_figures/CKA_chmm_127_chmm_131.pdf  used on input l
-ine 2004.
+ine 1648.
 (pdftex.def)             Requested size: 167.21855pt x 139.34348pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37 <./cka_figures/CKA_dqn_1_chmm_73.pdf> <./cka_figures/CKA_dqn_1_chmm_77.pdf
+ [35 <./cka_figures/CKA_dqn_1_chmm_73.pdf> <./cka_figures/CKA_dqn_1_chmm_77.pdf
 > <./cka_figures/CKA_chmm_73_chmm_73.pdf> <./cka_figures/CKA_chmm_77_chmm_77.pd
 f> <./cka_figures/CKA_chmm_73_chmm_77.pdf>]
-<cka_figures/chmm_127_Transition_variance.pdf, id=1294, 722.7pt x 722.7pt>
+<cka_figures/chmm_127_Transition_variance.pdf, id=769, 722.7pt x 722.7pt>
 File: cka_figures/chmm_127_Transition_variance.pdf Graphic file (type pdf)
 <use cka_figures/chmm_127_Transition_variance.pdf>
 Package pdftex.def Info: cka_figures/chmm_127_Transition_variance.pdf  used on 
-input line 2019.
+input line 1663.
 (pdftex.def)             Requested size: 225.74207pt x 225.74394pt.
-<cka_figures/chmm_131_Transition_variance.pdf, id=1295, 730.64969pt x 722.7pt>
+<cka_figures/chmm_131_Transition_variance.pdf, id=770, 730.64969pt x 722.7pt>
 File: cka_figures/chmm_131_Transition_variance.pdf Graphic file (type pdf)
 <use cka_figures/chmm_131_Transition_variance.pdf>
 Package pdftex.def Info: cka_figures/chmm_131_Transition_variance.pdf  used on 
-input line 2024.
+input line 1668.
 (pdftex.def)             Requested size: 222.9524pt x 220.52794pt.
- [38 <./cka_figures/CKA_chmm_127_chmm_127.pdf> <./cka_figures/CKA_chmm_131_chmm
-_131.pdf> <./cka_figures/CKA_chmm_127_chmm_131.pdf> <./cka_figures/chmm_127_Tra
-nsition_variance.pdf> <./cka_figures/chmm_131_Transition_variance.pdf
+
+
+LaTeX Warning: Reference `fig:CHMM_rewards_s' on page 36 undefined on input lin
+e 1678.
+
+
+LaTeX Warning: Reference `fig:cka-chmm-sm' on page 36 undefined on input line 1
+678.
+
+
+LaTeX Warning: Reference `fig:cka-chmm-trans-sa' on page 36 undefined on input 
+line 1678.
+
+[36 <./cka_figures/CKA_chmm_127_chmm_127.pdf> <./cka_figures/CKA_chmm_131_chmm_
+131.pdf> <./cka_figures/CKA_chmm_127_chmm_131.pdf> <./cka_figures/chmm_127_Tran
+sition_variance.pdf> <./cka_figures/chmm_131_Transition_variance.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./cka_figures/chmm_131_Transition_varia
 nce.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
 e
 >]
-<cka_figures/CKA_chmm_109_chmm_109.pdf, id=1454, 867.24pt x 722.7pt>
+<cka_figures/CKA_chmm_109_chmm_109.pdf, id=926, 867.24pt x 722.7pt>
 File: cka_figures/CKA_chmm_109_chmm_109.pdf Graphic file (type pdf)
 <use cka_figures/CKA_chmm_109_chmm_109.pdf>
 Package pdftex.def Info: cka_figures/CKA_chmm_109_chmm_109.pdf  used on input l
-ine 2040.
+ine 1684.
 (pdftex.def)             Requested size: 167.21855pt x 139.34348pt.
-<cka_figures/CKA_chmm_113_chmm_113.pdf, id=1455, 867.24pt x 722.7pt>
+<cka_figures/CKA_chmm_113_chmm_113.pdf, id=927, 867.24pt x 722.7pt>
 File: cka_figures/CKA_chmm_113_chmm_113.pdf Graphic file (type pdf)
 <use cka_figures/CKA_chmm_113_chmm_113.pdf>
 Package pdftex.def Info: cka_figures/CKA_chmm_113_chmm_113.pdf  used on input l
-ine 2045.
+ine 1689.
 (pdftex.def)             Requested size: 167.21855pt x 139.34348pt.
-<cka_figures/CKA_chmm_109_chmm_113.pdf, id=1456, 867.24pt x 722.7pt>
+<cka_figures/CKA_chmm_109_chmm_113.pdf, id=928, 867.24pt x 722.7pt>
 File: cka_figures/CKA_chmm_109_chmm_113.pdf Graphic file (type pdf)
 <use cka_figures/CKA_chmm_109_chmm_113.pdf>
 Package pdftex.def Info: cka_figures/CKA_chmm_109_chmm_113.pdf  used on input l
-ine 2050.
+ine 1694.
 (pdftex.def)             Requested size: 167.21855pt x 139.34348pt.
-<cka_figures/chmm_109_Transition_variance.pdf, id=1457, 867.24pt x 722.7pt>
+<cka_figures/chmm_109_Transition_variance.pdf, id=929, 867.24pt x 722.7pt>
 File: cka_figures/chmm_109_Transition_variance.pdf Graphic file (type pdf)
 <use cka_figures/chmm_109_Transition_variance.pdf>
 Package pdftex.def Info: cka_figures/chmm_109_Transition_variance.pdf  used on 
-input line 2062.
+input line 1706.
 (pdftex.def)             Requested size: 261.97374pt x 218.3114pt.
-<cka_figures/chmm_113_Transition_variance.pdf, id=1458, 722.7pt x 722.7pt>
+<cka_figures/chmm_113_Transition_variance.pdf, id=930, 722.7pt x 722.7pt>
 File: cka_figures/chmm_113_Transition_variance.pdf Graphic file (type pdf)
 <use cka_figures/chmm_113_Transition_variance.pdf>
 Package pdftex.def Info: cka_figures/chmm_113_Transition_variance.pdf  used on 
-input line 2067.
+input line 1711.
 (pdftex.def)             Requested size: 222.9524pt x 222.95398pt.
+
+
+LaTeX Warning: Reference `fig:actions_from_critic' on page 37 undefined on inpu
+t line 1726.
+
+
+LaTeX Warning: Reference `fig:action_picked_efe' on page 37 undefined on input 
+line 1726.
+
+
+LaTeX Warning: Reference `fig:entropy_action_efe' on page 37 undefined on input
+ line 1726.
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39 <./cka_figures/CKA_chmm_109_chmm_109.pdf> <./cka_figures/CKA_chmm_113_chmm
+ [37 <./cka_figures/CKA_chmm_109_chmm_109.pdf> <./cka_figures/CKA_chmm_113_chmm
 _113.pdf> <./cka_figures/CKA_chmm_109_chmm_113.pdf> <./cka_figures/chmm_109_Tra
 nsition_variance.pdf> <./cka_figures/chmm_113_Transition_variance.pdf
 
@@ -2106,122 +2848,324 @@ pdfTeX warning: /usr/bin/pdflatex (file ./cka_figures/chmm_113_Transition_varia
 nce.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
 e
 >]
-<ActionPicked_efe_3.pdf, id=1628, 416.99791pt x 314.37451pt>
+
+LaTeX Warning: Reference `fig:action_picked_reward' on page 38 undefined on inp
+ut line 1728.
+
+
+LaTeX Warning: Reference `fig:entropy_action_reward' on page 38 undefined on in
+put line 1728.
+
+<ActionPicked_efe_3.pdf, id=1098, 416.99791pt x 314.37451pt>
 File: ActionPicked_efe_3.pdf Graphic file (type pdf)
 <use ActionPicked_efe_3.pdf>
-Package pdftex.def Info: ActionPicked_efe_3.pdf  used on input line 2093.
+Package pdftex.def Info: ActionPicked_efe_3.pdf  used on input line 1738.
 (pdftex.def)             Requested size: 222.9524pt x 168.08556pt.
-<EntropyPriorActions_efe_3.pdf, id=1629, 462.52798pt x 346.89601pt>
+<EntropyPriorActions_efe_3.pdf, id=1099, 462.52798pt x 346.89601pt>
 File: EntropyPriorActions_efe_3.pdf Graphic file (type pdf)
 <use EntropyPriorActions_efe_3.pdf>
-Package pdftex.def Info: EntropyPriorActions_efe_3.pdf  used on input line 2098
+Package pdftex.def Info: EntropyPriorActions_efe_3.pdf  used on input line 1743
 .
 (pdftex.def)             Requested size: 222.9524pt x 167.21747pt.
-<ActionPicked_reward.pdf, id=1630, 462.52798pt x 346.89601pt>
+<ActionPicked_reward.pdf, id=1100, 462.52798pt x 346.89601pt>
 File: ActionPicked_reward.pdf Graphic file (type pdf)
 <use ActionPicked_reward.pdf>
-Package pdftex.def Info: ActionPicked_reward.pdf  used on input line 2103.
+Package pdftex.def Info: ActionPicked_reward.pdf  used on input line 1748.
 (pdftex.def)             Requested size: 222.9524pt x 167.21747pt.
-<EntropyPriorActions_reward.pdf, id=1631, 462.52798pt x 346.89601pt>
+<EntropyPriorActions_reward.pdf, id=1101, 462.52798pt x 346.89601pt>
 File: EntropyPriorActions_reward.pdf Graphic file (type pdf)
 <use EntropyPriorActions_reward.pdf>
-Package pdftex.def Info: EntropyPriorActions_reward.pdf  used on input line 210
-8.
+Package pdftex.def Info: EntropyPriorActions_reward.pdf  used on input line 175
+3.
 (pdftex.def)             Requested size: 222.9524pt x 167.21747pt.
- [40 <./ActionPicked_efe_3.pdf> <./EntropyPriorActions_efe_3.pdf> <./ActionPick
-ed_reward.pdf> <./EntropyPriorActions_reward.pdf>]
-<IG_progressive.png, id=1743, 1003.75pt x 608.2725pt>
-File: IG_progressive.png Graphic file (type png)
-<use IG_progressive.png>
-Package pdftex.def Info: IG_progressive.png  used on input line 2244.
-(pdftex.def)             Requested size: 278.69475pt x 168.88579pt.
- [41 <./IG_progressive.png>]
-<DAI_reconstruction.png, id=1763, 1161.33875pt x 871.255pt>
-File: DAI_reconstruction.png Graphic file (type png)
-<use DAI_reconstruction.png>
-Package pdftex.def Info: DAI_reconstruction.png  used on input line 2297.
-(pdftex.def)             Requested size: 255.49532pt x 191.6767pt.
-<DAI_rewards.png, id=1764, 720.6925pt x 431.6125pt>
-File: DAI_rewards.png Graphic file (type png)
-<use DAI_rewards.png>
-Package pdftex.def Info: DAI_rewards.png  used on input line 2317.
-(pdftex.def)             Requested size: 288.2719pt x 172.64194pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42 <./DAI_reconstruction.png>]
-<DAI_vfe.png, id=1772, 773.89125pt x 616.3025pt>
+ [38]
+
+LaTeX Warning: Reference `fig:IG_progressive' on page 39 undefined on input lin
+e 1765.
+
+<IG_progressive.png, id=1107, 1003.75pt x 608.2725pt>
+File: IG_progressive.png Graphic file (type png)
+<use IG_progressive.png>
+Package pdftex.def Info: IG_progressive.png  used on input line 1777.
+(pdftex.def)             Requested size: 278.69475pt x 168.88579pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39 <./ActionPicked_efe_3.pdf> <./EntropyPriorActions_efe_3.pdf> <./ActionPick
+ed_reward.pdf> <./EntropyPriorActions_reward.pdf>]
+
+LaTeX Warning: Reference `fig:DAI_vfe' on page 40 undefined on input line 1810.
+
+
+
+LaTeX Warning: Reference `fig:DAI_rewards' on page 40 undefined on input line 1
+810.
+
+
+LaTeX Warning: Reference `fig:DAI_reconstruction' on page 40 undefined on input
+ line 1810.
+
+
+LaTeX Warning: Reference `fig:HMM_reconstruction' on page 40 undefined on input
+ line 1812.
+
+
+LaTeX Warning: Reference `fig:CHMM_reconstruction' on page 40 undefined on inpu
+t line 1812.
+
+
+LaTeX Warning: Reference `fig:DAI_reconstruction' on page 40 undefined on input
+ line 1812.
+
+
+LaTeX Warning: Reference `fig:CHMM_reconstruction' on page 40 undefined on inpu
+t line 1812.
+
+
+LaTeX Warning: Reference `fig:HMM_reconstruction' on page 40 undefined on input
+ line 1812.
+
+
+LaTeX Warning: Reference `sfig:cka-dqn-dai' on page 40 undefined on input line 
+1814.
+
+
+LaTeX Warning: Reference `sfig:cka-dqn-chmm' on page 40 undefined on input line
+ 1814.
+
+
+LaTeX Warning: Reference `sfig:cka-chmm-dai' on page 40 undefined on input line
+ 1814.
+
+<DAI_reconstruction.png, id=1216, 1161.33875pt x 871.255pt>
+File: DAI_reconstruction.png Graphic file (type png)
+<use DAI_reconstruction.png>
+Package pdftex.def Info: DAI_reconstruction.png  used on input line 1824.
+(pdftex.def)             Requested size: 255.49532pt x 191.6767pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40 <./IG_progressive.png>]
+<DAI_rewards.png, id=1224, 720.6925pt x 431.6125pt>
+File: DAI_rewards.png Graphic file (type png)
+<use DAI_rewards.png>
+Package pdftex.def Info: DAI_rewards.png  used on input line 1844.
+(pdftex.def)             Requested size: 288.2719pt x 172.64194pt.
+<DAI_vfe.png, id=1225, 773.89125pt x 616.3025pt>
 File: DAI_vfe.png Graphic file (type png)
 <use DAI_vfe.png>
-Package pdftex.def Info: DAI_vfe.png  used on input line 2332.
+Package pdftex.def Info: DAI_vfe.png  used on input line 1859.
 (pdftex.def)             Requested size: 309.55101pt x 246.51663pt.
-<cka_figures/CKA_dqn_1_chmm_109.pdf, id=1773, 867.24pt x 722.7pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41 <./DAI_reconstruction.png> <./DAI_rewards.png>]
+<cka_figures/CKA_dqn_1_chmm_109.pdf, id=1234, 867.24pt x 722.7pt>
 File: cka_figures/CKA_dqn_1_chmm_109.pdf Graphic file (type pdf)
 <use cka_figures/CKA_dqn_1_chmm_109.pdf>
 Package pdftex.def Info: cka_figures/CKA_dqn_1_chmm_109.pdf  used on input line
- 2345.
+ 1872.
 (pdftex.def)             Requested size: 167.21855pt x 139.34348pt.
-<cka_figures/CKA_dqn_1_dai_145.pdf, id=1774, 867.24pt x 722.7pt>
+<cka_figures/CKA_dqn_1_dai_145.pdf, id=1235, 867.24pt x 722.7pt>
 File: cka_figures/CKA_dqn_1_dai_145.pdf Graphic file (type pdf)
 <use cka_figures/CKA_dqn_1_dai_145.pdf>
 Package pdftex.def Info: cka_figures/CKA_dqn_1_dai_145.pdf  used on input line 
-2350.
+1877.
 (pdftex.def)             Requested size: 167.21855pt x 139.34348pt.
-<cka_figures/CKA_chmm_109_dai_145.pdf, id=1775, 867.24pt x 722.7pt>
+<cka_figures/CKA_chmm_109_dai_145.pdf, id=1236, 867.24pt x 722.7pt>
 File: cka_figures/CKA_chmm_109_dai_145.pdf Graphic file (type pdf)
 <use cka_figures/CKA_chmm_109_dai_145.pdf>
 Package pdftex.def Info: cka_figures/CKA_chmm_109_dai_145.pdf  used on input li
-ne 2355.
+ne 1882.
 (pdftex.def)             Requested size: 167.21855pt x 139.34348pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43 <./DAI_rewards.png> <./DAI_vfe.png>] [44 <./cka_figures/CKA_dqn_1_chmm_109
-.pdf> <./cka_figures/CKA_dqn_1_dai_145.pdf> <./cka_figures/CKA_chmm_109_dai_145
-.pdf>]
-[45] (./diff_Challenges.bbl [46] [47] [48])
-Overfull \hbox (9.96715pt too wide) in paragraph at lines 2414--2503
+Package natbib Warning: Citation `DeepAIwithMCMC' on page 42 undefined on input
+ line 1894.
+
+
+Package natbib Warning: Citation `DeepAI' on page 42 undefined on input line 18
+94.
+
+
+Package natbib Warning: Citation `rood2020deep' on page 42 undefined on input l
+ine 1894.
+
+
+Package natbib Warning: Citation `sancaktar2020endtoend' on page 42 undefined o
+n input line 1894.
+
+
+Package natbib Warning: Citation `DAI_Kai' on page 42 undefined on input line 1
+894.
+
+
+Package natbib Warning: Citation `DAI_POMDP' on page 42 undefined on input line
+ 1894.
+
+
+Package natbib Warning: Citation `ccatal2020learning' on page 42 undefined on i
+nput line 1894.
+
+
+Package natbib Warning: Citation `schneider2022active' on page 42 undefined on 
+input line 1894.
+
+
+Package natbib Warning: Citation `DeepAIwithMCMC' on page 42 undefined on input
+ line 1896.
+
+
+Package natbib Warning: Citation `DeepAI' on page 42 undefined on input line 18
+96.
+
+
+Package natbib Warning: Citation `rood2020deep' on page 42 undefined on input l
+ine 1896.
+
+
+Package natbib Warning: Citation `sancaktar2020endtoend' on page 42 undefined o
+n input line 1896.
+
+
+Package natbib Warning: Citation `DAI_Kai' on page 42 undefined on input line 1
+896.
+
+
+Package natbib Warning: Citation `DAI_POMDP' on page 42 undefined on input line
+ 1896.
+
+
+Package natbib Warning: Citation `ccatal2020learning' on page 42 undefined on i
+nput line 1896.
+
+[42 <./DAI_vfe.png> <./cka_figures/CKA_dqn_1_chmm_109.pdf> <./cka_figures/CKA_d
+qn_1_dai_145.pdf> <./cka_figures/CKA_chmm_109_dai_145.pdf>] [43]
+No file Challenges_30_08_2022.bbl.
+
+LaTeX Warning: Reference `fig:encoding_rewards_in_image' on page 44 undefined o
+n input line 1946.
+
+
+Overfull \hbox (9.96715pt too wide) in paragraph at lines 1939--2028
  [][] 
  []
 
 
+LaTeX Warning: Reference `sec:existing_research' on page 44 undefined on input 
+line 2028.
+
+
+LaTeX Warning: Reference `sec:build_dai' on page 44 undefined on input line 202
+8.
+
+
+LaTeX Warning: Reference `sec:existing_research' on page 44 undefined on input 
+line 2028.
+
+
+LaTeX Warning: Reference `sec:build_dai' on page 44 undefined on input line 202
+8.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49]
+ [44]
 Overfull \vbox (12.7881pt too high) has occurred while \output is active []
 
 
-[50] [51]
+[45]
 
-LaTeX Warning: Float too large for page by 3.28105pt on input line 2602.
+LaTeX Warning: Reference `fig:encoding_rewards_in_image' on page 46 undefined o
+n input line 2050.
 
-<dSprites_reward_encoding.png, id=2058, 1140.26pt x 311.1625pt>
+
+LaTeX Warning: Reference `fig:computation_of_extrinsic_value' on page 46 undefi
+ned on input line 2050.
+
+
+LaTeX Warning: Reference `eq:efe_rearranged_fountas' on page 46 undefined on in
+put line 2050.
+
+
+LaTeX Warning: Reference `fig:computation_of_extrinsic_value' on page 46 undefi
+ned on input line 2050.
+
+
+LaTeX Warning: Reference `fig:encoding_rewards_in_image' on page 46 undefined o
+n input line 2052.
+
+[46]
+
+LaTeX Warning: Reference `fig:encoding_rewards_in_image' on page 47 undefined o
+n input line 2058.
+
+
+Package natbib Warning: Citation `DeepAIwithMCMC' on page 47 undefined on input
+ line 2058.
+
+
+LaTeX Warning: Reference `eq:efe_rearranged_fountas' on page 47 undefined on in
+put line 2058.
+
+
+Package natbib Warning: Citation `DeepAIwithMCMC' on page 47 undefined on input
+ line 2125.
+
+
+LaTeX Warning: Reference `fig:encoding_rewards_in_image' on page 47 undefined o
+n input line 2125.
+
+
+Package natbib Warning: Citation `DeepAIwithMCMC' on page 47 undefined on input
+ line 2125.
+
+
+LaTeX Warning: Reference `fig:encoding_rewards_in_image' on page 47 undefined o
+n input line 2125.
+
+
+LaTeX Warning: Float too large for page by 4.52924pt on input line 2127.
+
+<dSprites_reward_encoding.png, id=1421, 1140.26pt x 311.1625pt>
 File: dSprites_reward_encoding.png Graphic file (type png)
 <use dSprites_reward_encoding.png>
-Package pdftex.def Info: dSprites_reward_encoding.png  used on input line 2607.
+Package pdftex.def Info: dSprites_reward_encoding.png  used on input line 2132.
 
 (pdftex.def)             Requested size: 456.09592pt x 124.46278pt.
 
 Package natbib Warning: There were undefined citations.
 
-[52] [53] [54 <./dSprites_reward_encoding.png>] (./diff_Challenges.aux)
+[47] [48] [49 <./dSprites_reward_encoding.png>] (./Challenges_30_08_2022.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `diff_Challenges.out' has not changed.
-(rerunfilecheck)             Checksum: 21B36CB67B1931F7B3F527E1BE8C21A2;8225.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `Challenges_30_08_2022.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Challenges_30_08_2022.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  19104A236920EDA6C291CB7EB5E502CD;8240.
  ) 
 Here is how much of TeX's memory you used:
- 43395 strings out of 478287
- 995374 string characters out of 5849288
- 1513512 words of memory out of 5000000
- 60608 multiletter control sequences out of 15000+600000
- 492779 words of font info for 117 fonts, out of 8000000 for 9000
+ 41660 strings out of 478287
+ 969531 string characters out of 5849288
+ 1447448 words of memory out of 5000000
+ 58958 multiletter control sequences out of 15000+600000
+ 492332 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,26n,90p,3109b,1173s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 85i,26n,90p,2948b,1171s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-di
@@ -2249,14 +3193,12 @@ share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/latxfont/lasy6.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/publ
-ic/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095
-.pfb>
-Output written on diff_Challenges.pdf (54 pages, 1831455 bytes).
+onts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/pub
+lic/cm-super/sfrm0800.pfb>
+Output written on Challenges_30_08_2022.pdf (49 pages, 1742014 bytes).
 PDF statistics:
- 2253 PDF objects out of 2487 (max. 8388607)
- 1214 compressed objects within 13 object streams
- 210 named destinations out of 1000 (max. 500000)
- 545 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1598 PDF objects out of 1728 (max. 8388607)
+ 582 compressed objects within 6 object streams
+ 154 named destinations out of 1000 (max. 500000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 
