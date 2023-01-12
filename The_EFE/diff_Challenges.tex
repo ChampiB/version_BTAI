@@ -1,0 +1,391 @@
+\documentclass[twoside,11pt]{article}
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL ./version_BTAI/Expected_Free_Energy.tex            Sun Nov 27 19:50:54 2022
+%DIF ADD ./presentations/The_EFE/Expected_Free_Energy.tex   Sun Nov 27 20:09:15 2022
+
+% Any additional packages needed should be included after jmlr2e.
+% Note that jmlr2e.sty includes epsfig, amssymb, natbib and graphicx,
+% and defines many common macros, such as 'proof' and 'example'.
+%
+% It also sets the bibliographystyle to plainnat; for more information on
+% natbib citation styles, see the natbib documentation, a copy of which
+% is archived at http://www.jmlr.org/format/natbib.pdf
+
+% Available options for package jmlr2e are:
+%
+%   - abbrvbib : use abbrvnat for the bibliography style
+%   - nohyperref : do not load the hyperref package
+%   - preprint : remove JMLR specific information from the template,
+%         useful for example for posting to preprint servers.
+%
+% Example of using the package with custom options:
+%
+% \usepackage[abbrvbib, preprint]{jmlr2e}
+
+\usepackage{bbm}
+\usepackage{algorithmicx}
+\usepackage{jmlr2e}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{bm}
+\usepackage{tikz}
+\usetikzlibrary{bayesnet}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{stackengine}
+\usepackage{minted}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{stmaryrd}
+\usepackage{pgfplots}
+\usepgfplotslibrary{fillbetween}
+\usetikzlibrary{patterns}
+\usetikzlibrary{shapes.geometric}
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{xstring}
+\usepackage[margin=1cm,bottom=1in]{geometry}
+\usepackage{xfp}
+
+\definecolor{BlueCode}{RGB}{0,0,250}
+\definecolor{GreenCode}{RGB}{0,125,0}
+
+% Caligraphic font
+\let\oldmathcal\mathcal
+\DeclareMathAlphabet{\mathdutchcal}{U}{dutchcal}{m}{n}
+\let\newmathcal\mathcal
+\renewcommand{\mathcal}[1]{%
+  \IfSubStr{ABCDEFGHIJKLMNOPQRSTUVWXYZ}{#1}{\oldmathcal{#1}}{\mathdutchcal{#1}}
+}
+\makeatother
+
+% Definitions of handy macros can go here
+
+\pgfmathdeclarefunction{gauss}{3}{%
+  \pgfmathparse{1/(#3*sqrt(2*pi))*exp(-((#1-#2)^2)/(2*#3^2))}%
+}
+\pgfmathdeclarefunction{sum_gauss}{5}{%
+  \pgfmathparse{1/(3*#3*sqrt(2*pi))*exp(-((#1-#2)^2)/(2*#3^2)) + 2/(3*#5*sqrt(2*pi))*exp(-((#1-#4)^2)/(2*#5^2))}%
+}
+\newcommand{\fracpartial}[2]{\frac{\partial #1}{\partial  #2}}
+\newcommand{\kl}[2]{D_{\mathrm{KL}} \left[ \left. \left. #1 \right|\right| #2 \right] }
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\definecolor{blue-violet}{rgb}{0.54, 0.17, 0.89}
+\definecolor{bluepigment}{rgb}{0.2, 0.2, 0.6}
+\makeatletter
+\newcommand*\bigcdot{\mathpalette\bigcdot@{.5}}
+\newcommand*\bigcdot@[2]{\mathbin{\vcenter{\hbox{\scalebox{#2}{$\m@th#1\bullet$}}}}}
+\makeatother
+\def\delequal{\mathrel{\ensurestackMath{\stackon[1pt]{=}{\scriptstyle\Delta}}}}
+\definecolor{Yellow}{RGB}{211, 176, 15}
+\definecolor{Green}{rgb}{0.01, 0.75, 0.24}
+\colorlet{Red}{red!50!black}
+\colorlet{Blue}{blue!50!black}
+\definecolor{Violet}{rgb}{0.56,0.14,0.56}
+\newcommand{\indep}{\perp \! \! \! \perp}
+\newcommand{\MultiBernoulli}{\mathcal{B}\hspace{-0.02cm}\text{ernoulli}}
+
+\makeatletter
+\newcounter{subsubsubsection}[subsubsection]
+\def\subsubsubsectionmark#1{}
+\def\thesubsubsubsection {\thesubsubsection 
+     .\arabic{subsubsubsection}}
+\def\subsubsubsection{\@startsection
+     {subsubsubsection}{4}{\z@} {-3.25ex plus -1
+     ex minus -.2ex}{1.5ex plus .2ex}{\normalsize\bf}}
+\def\l@subsubsubsection{\@dottedtocline{4}{4.8em}
+     {4.2em}}
+\makeatother
+
+% Heading arguments are {volume}{year}{pages}{date submitted}{date published}{paper id}{author-full-names}
+
+%double spacing
+%\usepackage{setspace}
+%\doublespacing
+
+% set up externalization
+%\usetikzlibrary{external}
+%\tikzset{external/system call={latex \tikzexternalcheckshellescape -halt-on-error
+%-interaction=batchmode -jobname "\image" "\texsource";
+%dvips -o "\image".ps "\image".dvi;
+%ps2eps "\image.ps"}}
+%\tikzexternalize
+
+
+\usepackage{tcolorbox}
+\tcbuselibrary{theorems}
+\newtcbtheorem[number within=section]{myremark}{Remark}%
+{colback=red!5,colframe=red!35!black,fonttitle=\bfseries}{th}
+
+\jmlrheading{1}{2020}{1-48}{4/00}{10/00}{meila00a}{Théophile Champion and Marek Grze\'s and Lisa Bonheme and Howard Bowman}
+
+% Short headings should be running head and authors last names
+
+\ShortHeadings{Expected Free Energy.}{Champion et al.}
+\firstpageno{1}
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+\providecommand{\DIFmodbegin}{} %DIF PREAMBLE
+\providecommand{\DIFmodend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%DIF LISTINGS PREAMBLE %DIF PREAMBLE
+\RequirePackage{listings} %DIF PREAMBLE
+\RequirePackage{color} %DIF PREAMBLE
+\lstdefinelanguage{DIFcode}{ %DIF PREAMBLE
+%DIF DIFCODE_UNDERLINE %DIF PREAMBLE
+  moredelim=[il][\color{red}\sout]{\%DIF\ <\ }, %DIF PREAMBLE
+  moredelim=[il][\color{blue}\uwave]{\%DIF\ >\ } %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstdefinestyle{DIFverbatimstyle}{ %DIF PREAMBLE
+	language=DIFcode, %DIF PREAMBLE
+	basicstyle=\ttfamily, %DIF PREAMBLE
+	columns=fullflexible, %DIF PREAMBLE
+	keepspaces=true %DIF PREAMBLE
+} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim}{\lstset{style=DIFverbatimstyle}}{} %DIF PREAMBLE
+\lstnewenvironment{DIFverbatim*}{\lstset{style=DIFverbatimstyle,showspaces=true}}{} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
+
+\begin{document}
+
+\title{Expected Free Energy}
+
+\author{\name Théophile Champion \email tmac3@kent.ac.uk \\
+       \addr University of Kent, School of Computing\\
+       Canterbury CT2 7NZ, United Kingdom
+%       \AND
+%       \name Marek Grze\'s \email m.grzes@kent.ac.uk \\
+%       \addr University of Kent, School of Computing\\
+%       Canterbury CT2 7NZ, United Kingdom
+%       \AND
+%       \name Howard Bowman \email H.Bowman@kent.ac.uk \\
+%       \addr University of Birmingham, School of Psychology,\\
+%       Birmingham B15 2TT, United Kingdom\\
+%       University of Kent, School of Computing\\
+%       Canterbury CT2 7NZ, United Kingdom\\
+%       University College London, Wellcome Centre for Human Neuroimaging\\
+%       London WC1N 3AR, United Kingdom
+       }
+
+\editor{\textbf{TO BE FILLED}} %TODO
+
+\maketitle
+
+\begin{abstract}% <- trailing '%' for backward compatibility of .sty file
+\DIFdelbegin \DIFdel{Section \ref{sec:EFE} discusses the literature surrounding the definition and justification }\DIFdelend \DIFaddbegin \DIFadd{This document discusses the definition and implementation }\DIFaddend of the expected free energy \DIFdelbegin \DIFdel{, while focusing on the discrete time and state space version of }\DIFdelend \DIFaddbegin \DIFadd{in the context of deep }\DIFaddend active inference. \DIFdelbegin \DIFdel{Then, after discussing the definition and justification of the expected free energy (EFE), }\DIFdelend Section \ref{sec:DAI} discusses one possible definition of the EFE and explains how the EFE can be estimated in the context of deep active inference. Finally, Section \ref{sec:Questions} \DIFdelbegin \DIFdel{summarises the questions }\DIFdelend \DIFaddbegin \DIFadd{asks the question }\DIFaddend for which an answer would be valuable.
+\end{abstract}
+
+\begin{keywords}
+Expected Free Energy, Variational Free Energy
+\end{keywords}
+
+\DIFdelbegin \section{\DIFdel{Expected Free Energy}} %DIFAUXCMD
+\addtocounter{section}{-1}%DIFAUXCMD
+%DIFDELCMD < \label{sec:EFE}
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\subsection{\DIFdel{Definitions}}
+%DIFAUXCMD
+\addtocounter{subsection}{-1}%DIFAUXCMD
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdel{The expected free energy is defined as:
+}\begin{align*}
+\DIFdel{G(\pi) = \sum_{\tau=0}^T G(\pi, \tau)
+}\end{align*}%DIFAUXCMD
+%DIFDELCMD < \\
+%DIFDELCMD < %%%
+\DIFdel{\mbox{%DIFAUXCMD
+\citet{FRISTON2016862} }\hspace{0pt}
+defined the expected free energy of a policy at time step $\tau$ as:
+}
+\begin{align*}
+G(\pi, \tau) = \mathbb{E}_{Q(o_\tau, s_\tau|\pi)}\big[\ln Q(s_\tau|\pi) - \ln P(s_\tau, o_\tau|\tilde{o}, \pi)\big],
+\end{align*}%DIFAUXCMD
+\DIFdel{where $\tilde{o} = (o_1, \hdots, t)$ is the sequence of observations until the current time step $t$.
+}%DIFDELCMD < \\
+%DIFDELCMD < \\
+%DIFDELCMD < \noindent %%%
+\DIFdel{\mbox{%DIFAUXCMD
+\citet{Parr304782} }\hspace{0pt}
+defined the expected free energy of a policy at time step $\tau$ as:}
+\begin{align*}
+G(\pi, \tau) = \mathbb{E}_{Q(o_\tau, s_\tau|\pi)}\big[\ln Q(s_\tau|\pi) - \ln P(s_\tau, o_\tau)\big].
+\end{align*}
+
+\DIFdel{Those two definitions of the expected free energy seems to be different. Indeed, in }
+\DIFdel{, $P$ is a conditional distribution, while in }%DIFDELCMD < \eqref{eq:efe_def_2}%%%
+\DIFdel{, it is a joint distribution, i.e., $P(s_\tau, o_\tau|\tilde{o}, \pi) \neq P(s_\tau, o_\tau)$.
+}%DIFDELCMD < \end{myremark}
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\subsection{\DIFdel{Justifications}}
+%DIFAUXCMD
+\addtocounter{subsection}{-1}%DIFAUXCMD
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\subsubsection{\DIFdel{The expected free energy is the path integral of expected (variational) free energy}}
+%DIFAUXCMD
+\addtocounter{subsubsection}{-1}%DIFAUXCMD
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdel{\mbox{%DIFAUXCMD
+\citet{FRISTON2016862} }\hspace{0pt}%DIFAUXCMD
+claimed the following:
+}%DIFDELCMD < \\
+%DIFDELCMD < 
+
+%DIFDELCMD < \noindent %%%
+\DIFdel{``}\textit{\DIFdel{However, beliefs about policies rest on outcomes in the future, because these beliefs determine action and action determines subsequent outcomes. This means that policies should, a priori, minimise the free energy of beliefs about the future. Eq. (1.e) expresses this formally by making the log probability of a policy proportional to the free energy expected under that policy. The expected free energy of a policy follows from Eq. (4).}}%DIFAUXCMD
+\DIFdel{"
+}%DIFDELCMD < \\
+%DIFDELCMD < \\
+%DIFDELCMD < \noindent %%%
+\DIFdel{where Eq. (1.e) refers to the prior over policy $P(\pi)$, and Eq. (4) refers to the variational free energy. }\textbf{\DIFdel{According to this view the expected free energy is obtained by taking the expectation of the variational free energy. Importantly, in this view, an active inference agent behaves according to the free energy principle because the expected free energy is the path integral of expected (variational) free energy, i.e., by minimising its expected free energy, the agent also minimises its variational free energy.}}
+%DIFAUXCMD
+%DIFDELCMD < \\
+%DIFDELCMD < 
+
+%DIFDELCMD < \begin{myremark}{}{}
+%DIFDELCMD < %%%
+\DIFdel{The variational free enegy is the KL-divergence between the generative model and the variational distribution. However, in the definition of the expected free energy given by }%DIFDELCMD < 
+\DIFdel{, the generative model is conditioned on $\tilde{o}$ and $\pi$. Why is that? Put simply, I do not uderstand the algorithm or proof behind the sentence: ``}\textit{\DIFdel{The expected free energy of a policy follows from Eq. (4).}}%DIFAUXCMD
+\DIFdel{". Why does it follows from Eq. (4)?
+}%DIFDELCMD < \end{myremark}
+%DIFDELCMD < 
+
+%DIFDELCMD < \begin{myremark}{}{}
+%DIFDELCMD < %%%
+\DIFdel{The relationship between the expected and variational free energy is central to active inference. Indeed, if no relationship can be established between the two, then one cannot claim that: ``an active inference agent behaves according to the free energy principle because }%DIFDELCMD < [%%%
+\DIFdel{...}%DIFDELCMD < ] %%%
+\DIFdel{by minimising its expected free energy, the agent also minimises its variational free energy".
+}%DIFDELCMD < \end{myremark}
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\subsubsection{\DIFdel{The precise agent assumption}}
+%DIFAUXCMD
+\addtocounter{subsubsection}{-1}%DIFAUXCMD
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdel{\mbox{%DIFAUXCMD
+\citet{barp2022geometric} }\hspace{0pt}%DIFAUXCMD
+claimed that the expected free energy can be derived from the precise agent assumption, i.e.,
+}%DIFDELCMD < \\
+%DIFDELCMD < \\
+%DIFDELCMD < \noindent %%%
+\textbf{\DIFdel{Definition 5.1}} %DIFAUXCMD
+\DIFdel{(Precise agent). An agent is precise when it evolves deterministically in a (possibly) stochastic environment, i.e., when $P(\pi | s)$ is a Dirac measure for any $s$.
+}%DIFDELCMD < \vspace{0.1cm}
+%DIFDELCMD < \begin{myremark}{}{}
+%DIFDELCMD < %%%
+\DIFdel{A Partially Observable Markov Decision Process (POMDP) is not a precise agent. Since, active inference is based on the POMDP formalism, the proof does not seems to apply to active inference.
+}%DIFDELCMD < \end{myremark}
+%DIFDELCMD < 
+
+%DIFDELCMD < %%%
+\DIFdelend \section{Deep Active Inference} \label{sec:DAI}
+
+\subsection{Definition of the expected free energy}
+
+\DIFdelbegin \DIFdel{Re-starting from }%DIFDELCMD < \eqref{eq:efe_def_2}%%%
+\DIFdel{, }\DIFdelend \DIFaddbegin \DIFadd{Starting from }\DIFaddend the expected free energy \DIFdelbegin \DIFdel{is defined as }\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\citep{Parr304782} }\hspace{0pt}%DIFAUXCMD
+defined as follows}\DIFaddend :
+\begin{align}
+G(\pi) = \sum_{\tau = t+1}^T G_\tau(\pi) = \sum_{\tau = t+1}^T \mathbb{E}_{P(o_\tau|s_\tau)Q(s_\tau | \pi)}\big[\ln Q(s_\tau | \pi) - \ln P(o_\tau, s_\tau)\big],\label{eq:efe_definition}
+\end{align}
+where $P(o_\tau|s_\tau)$ is the likelihood mapping, $Q(s_\tau | \pi)$ is the variational distribution, and in the literature $P(o_\tau, s_\tau)$ is the target distribution encoding the prior preferences of the agent. Re-arranging the above equation leads to:
+\begin{align}
+G_\tau(\pi) &= \mathbb{E}_{P(o_\tau|s_\tau)Q(s_\tau | \pi)}\big[\ln Q(s_\tau | \pi) - \ln P(o_\tau, s_\tau)\big]\nonumber\\
+&= \mathbb{E}_{P(o_\tau|s_\tau)Q(s_\tau | \pi)}\big[\ln Q(s_\tau | \pi) - \ln P(s_\tau|o_\tau)- \ln P(o_\tau)\big]\nonumber\\
+&\approx \mathbb{E}_{P(o_\tau|s_\tau)Q(s_\tau | \pi)}\big[\ln Q(s_\tau | \pi) - \ln Q(s_\tau)- \ln P(o_\tau)\big]\nonumber\\
+&= \underbrace{\kl{Q(s_\tau | \pi)}{Q(s_\tau)}}_{\text{epistemic value}} - \underbrace{\mathbb{E}_{P(o_\tau|s_\tau)Q(s_\tau | \pi)}\big[\ln P(o_\tau)\big]}_{\text{extrinsic value}},\label{eq:efe_practice}
+\end{align}
+
+\subsection{Challenges of estimating the expected free energy}
+
+Now, the question is how to estimate \eqref{eq:efe_practice}, and we focus on the case where $\tau = t + 1$. Note, because $\tau = t+1$, the policy $\pi$ contains only one action $a_t$, i.e., $\pi = a_t$. In the tabular version of active inference, the variational distribution is composed of a factor $Q(s_\tau | \pi)$. \textbf{However, in the deep active inference literature, the variational distribution does not contain such a factor.} Generally, a Monte-Carlo estimate is used as follows:
+\begin{align}
+Q(s_{t+1} | a_t) = \mathbb{E}_{Q_{\phi_s}(s_t)}\big[P_{\theta_s}(s_{t+1}|s_t, a_t)\big] \approx \frac{1}{N} \sum_{i = 1}^N P_{\theta_s}(s_{t+1}|s_t = \hat{s}_t^i, a_t), \label{eq:vd_or_gm}
+\end{align}
+where $\hat{s}_t^i \sim Q_{\phi_s}(s_t)$. In what follows, we use $N=1$ leading to a simplified version of the estimate:
+\begin{align}
+Q(s_{t+1} | a_t) \approx P_{\theta_s}(s_{t+1}|s_t = \hat{s}_t, a_t).
+\end{align}
+Note, in the above equation, $\hat{s}_t^i$ is denoted $\hat{s}_t$ because there is only one sample, i.e., $N=1$. At this point, we have an estimate for $Q(s_{t+1} | a_t)$ and $Q_{\phi_s}(s_t)$ is the variational distribution. The only missing piece is an estimate of the extrinsic value. In the tabular version of active inference, the preferences of the agent can be related to the rewards from the reinforcement learning literature. In this paper, we follow \citep{dacosta2020relationship} and define the prior preferences as:
+\begin{align*}
+P(o_\tau) = \frac{\exp(\psi r_\tau[o_\tau])}{\sum_{o_\tau} \exp(\psi r_\tau[o_\tau])},
+\end{align*}
+where $\psi$ is the precision of the prior preferences, and $r_\tau[o_\tau]$ is the reward obtained when making observation $o_\tau$. Taking the logarithm of the above equation leads to:
+\begin{align}
+\ln P(o_\tau) &= \psi r_\tau[o_\tau] - \ln \sum_{o_\tau} \exp(\psi r_\tau[o_\tau])\nonumber\\
+&= \psi r_\tau[o_\tau] + C, \label{eq:prior_pref}
+\end{align}
+where we used the fact that the summation over all $o_\tau$ is a normalisation term, i.e., a constant. Using \eqref{eq:prior_pref}, we can now create an estimate of the extrinsic value as follows:
+\begin{align*}
+\mathbb{E}_{P_{\theta_o}(o_\tau|s_\tau)Q(s_\tau | a_t)}\big[\ln P(o_\tau)\big] \approx \frac{1}{M} \sum_{i = 1}^M \ln P(o_\tau = \hat{o}_\tau^i) = \frac{1}{M} \sum_{i = 1}^M \psi r_\tau[o_\tau^i] + C,
+\end{align*}
+where $\hat{o}_\tau^i \sim P_{\theta_o}(o_\tau|s_\tau=\hat{s}_\tau^i)$ and $\hat{s}_\tau^i \sim Q(s_\tau | a_t)$. In what follows, we use $M=1$ and discard the constant\footnote{Removing a constant does not influence which policy is the best. Indeed, $\pi^* = \argmax_\pi G(\pi) = \argmax_\pi G(\pi) - C$.}, which leads to a simplified version of the estimate:
+\begin{align*}
+\mathbb{E}_{P_{\theta_o}(o_\tau|s_\tau)Q(s_\tau | a_t)}\big[\ln P(o_\tau)\big] \delequal \psi r_\tau[o_\tau] \delequal \psi r_\tau,
+\end{align*}
+where we simplied the notation by denoting $r_\tau[o_\tau^i]$ as $r_\tau$. To conclude, we have the following estimate for the EFE at time $\tau = t+1$:
+\begin{align}
+G_{t+1}(a_t) &\approx \kl{Q(s_{t+1} | a_t)}{Q_{\phi_s}(s_{t+1})} - \mathbb{E}_{P_{\theta_o}(o_{t+1}|s_{t+1})Q(s_{t+1} | a_t)}\big[\ln P(o_{t+1})\big]\nonumber\\
+&\approx \kl{P_{\theta_s}(s_{t+1}|s_t = \hat{s}_t, a_t)}{Q_{\phi_s}(s_{t+1})} - \psi r_{t+1},\label{eq:efe_estimation_formula}
+\end{align}
+where $\hat{s}_t \sim Q_{\phi_s}(s_t)$, $P_{\theta_s}(s_{t+1}|s_t, a_t)$ is known from the generative model, $Q_{\phi_s}(s_{t+1})$ is known from the variational distribution, the KL-divergence can be estimated using an analytical solution, $\psi$ is a hyperparameter modulating the precision of the prior preferences, and $r_{t+1}$ is the reward obtained at time step $t+1$.
+
+\section{\DIFdelbegin \DIFdel{Questions}\DIFdelend \DIFaddbegin \DIFadd{Question}\DIFaddend } \label{sec:Questions}
+
+\begin{enumerate}
+\item What is the \DIFdelbegin \DIFdel{definition of the expected free energy?
+}%DIFDELCMD < \item %%%
+\item%DIFAUXCMD
+\DIFdel{What is the justification of the expected free energy?
+}%DIFDELCMD < \item %%%
+\item%DIFAUXCMD
+\DIFdel{What is the proper definition of the expected free energy in the context of deep active inference?
+}%DIFDELCMD < \item %%%
+\item%DIFAUXCMD
+\DIFdel{Why are equations }%DIFDELCMD < \eqref{eq:efe_practice} %%%
+\DIFdel{and }%DIFDELCMD < \eqref{eq:efe_estimation_formula} %%%
+\DIFdel{incorrect?
+(last time I presented, I was told that it was not the proper definition)
+}\DIFdelend \DIFaddbegin \DIFadd{cost of this inability to calculate $Q(s_\tau|\pi)$ directly?
+}\DIFaddend \end{enumerate}
+\DIFdelbegin %DIFDELCMD < 
+
+%DIFDELCMD < \noindent %%%
+\DIFdel{A point by point response where the open questions of research are clearly acknowledged would be very valuable.
+}\DIFdelend 
+
+% Acknowledgements should go at the end, before appendices and references
+\acks{TO BE FILLED}
+
+\vskip 0.2in
+\bibliography{references}
+
+\end{document}
